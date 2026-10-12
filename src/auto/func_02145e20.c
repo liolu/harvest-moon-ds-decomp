@@ -1,0 +1,14 @@
+#include "m2c.h"
+
+void func_02145e20(void *arg0) {
+    void *var_r4;
+
+    var_r4 = arg0;
+    if (var_r4 == NULL) {
+        return;
+    }
+    do {
+        M2C_FIELD(var_r4, M2C_UNK (**)(s32), 0)(M2C_FIELD(var_r4, s32 *, 4));
+        var_r4 = M2C_FIELD(var_r4, void **, 8);
+    } while (var_r4 != NULL);
+}

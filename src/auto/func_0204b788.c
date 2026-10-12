@@ -1,0 +1,24 @@
+#include "m2c.h"
+#include "engine.h"
+
+M2C_UNK func_020c9f74(M2C_UNK);
+
+s32 func_0204b788(s32 arg0) {
+    s32 var_r0;
+    s32 var_r2;
+
+    var_r2 = func_020c9f74(M2C_FIELD(arg0, s32 *, 0x1F54) - 1) + 1;
+    var_r0 = 0;
+loop_1:
+    if (M2C_FIELD((arg0 + var_r0), u8 *, 0x1F00) != 0) {
+        var_r2 -= 1;
+        if (var_r2 == 0) {
+            return var_r0;
+        }
+    }
+    var_r0 += 1;
+    if (var_r0 >= 0x54) {
+        return var_r0;
+    }
+    goto loop_1;
+}
