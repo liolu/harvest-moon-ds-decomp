@@ -16,7 +16,7 @@ void func_02030070(s32 arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3, s32 arg4) {
     temp_r7 = func_0214ce28(arg3);
     func_0214ceb8(0x41200000, func_0214c9fc(temp_r7, func_0214ce28(arg4)));
     temp_r0 = func_0214cdb4();
-    var_r3 = 0;
+    var_r3  = 0;
     if (temp_r0 > 0) {
         var_r2 = sp4;
         do {

@@ -8,7 +8,7 @@ void func_020fa9a4(M2C_UNK arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 arg
     s32 var_r6;
     s32 var_r8;
 
-    var_r8 = arg2;
+    var_r8  = arg2;
     temp_r5 = var_r8 + arg4;
     temp_r4 = arg1 + arg3;
     if (var_r8 >= temp_r5) {

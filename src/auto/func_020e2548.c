@@ -7,7 +7,7 @@ s32 func_020e2548(M2C_UNK arg0) {
     s32 var_r3;
 
     temp_r0 = func_020e2608(arg0, 5, 1);
-    var_r3 = 0;
+    var_r3  = 0;
     if (temp_r0 > 0x14B) {
         if (temp_r0 <= 0x297) {
             var_r3 = 1;

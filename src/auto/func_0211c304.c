@@ -9,7 +9,7 @@ void func_0211c304(void *arg0) {
     u32 temp_r0;
 
     temp_r0 = func_020c4eac();
-    var_r4 = -1;
+    var_r4  = -1;
     if (M2C_FIELD(M2C_FIELD(arg0, void **, 0x1E0), s32 *, 0x364) != 0) {
         return;
     }

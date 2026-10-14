@@ -20,7 +20,7 @@ s32 func_0214052c(void) {
         } else {
             var_r2 = temp_r4 | 0x80000000;
         }
-        data_021c7318 = var_r2 | *(u16 *)0x027FFFFA;
+        data_021c7318 = var_r2 | *(u16 *) 0x027FFFFA;
     }
     return data_021c7318;
 }

@@ -29,8 +29,9 @@ void func_02039fd8(void *arg0, s32 arg1, s32 arg2, s32 arg3) {
         var_r3 = 0;
     }
     M2C_FIELD((arg0 + (M2C_FIELD(arg0, s32 *, 0x2FA4) * 4)), s32 *, 0x2B94) = var_r3;
-    temp_r4 = M2C_FIELD(arg0, s32 *, 0x2FA4);
-    M2C_FIELD(arg0, s32 *, 0x2FA4) = (s32) (temp_r4 + 1);
+    temp_r4                                                                 = M2C_FIELD(arg0, s32 *, 0x2FA4);
+    M2C_FIELD(arg0, s32 *, 0x2FA4)                                          = (s32) (temp_r4 + 1);
     func_0203a278(arg0, ((arg1 - 3) * 8) + 0x28, (arg2 * 8) + 8, (temp_r4 * 0x2C) + (s32) (arg0 + 0x2BE4), 2);
-    func_0202c020(arg0 + 0x2B60, (u16) (M2C_FIELD(arg0, u16 *, 0x2B90) + 0x370), arg0 + 0x2588, arg1 + 3, arg2, ((s32 *)&data_021854bc)[(M2C_FIELD(data_021c8c5c, u8 *, 0x8E5C) - 1)], var_r6);
+    func_0202c020(arg0 + 0x2B60, (u16) (M2C_FIELD(arg0, u16 *, 0x2B90) + 0x370), arg0 + 0x2588, arg1 + 3, arg2,
+                  ((s32 *) &data_021854bc)[(M2C_FIELD(data_021c8c5c, u8 *, 0x8E5C) - 1)], var_r6);
 }

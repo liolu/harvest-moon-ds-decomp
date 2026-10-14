@@ -13,8 +13,8 @@ void func_02121700(s32 arg0, s32 arg1, M2C_UNK arg2, M2C_UNK arg3, s32 arg4, s32
         func_02121794(arg0, arg1);
     }
     func_0212f260(arg2, arg3, temp_r4, 1);
-    M2C_FIELD(temp_r4, s32 *, 0) = (s32) (arg4 << 8);
-    M2C_FIELD(temp_r4, s32 *, 4) = (s32) (arg5 << 8);
+    M2C_FIELD(temp_r4, s32 *, 0)  = (s32) (arg4 << 8);
+    M2C_FIELD(temp_r4, s32 *, 4)  = (s32) (arg5 << 8);
     M2C_FIELD(temp_r4, s8 *, 0xC) = 2;
     func_02017a98(temp_r4, 1);
 }

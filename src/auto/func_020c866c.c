@@ -21,7 +21,8 @@ void func_020c866c(void) {
         goto block_12;
     }
 block_12:
-    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x48U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x6EU) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x28U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x40U)) {
+    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x48U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x6EU) &&
+        ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x28U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x40U)) {
         if (M2C_FIELD(&data_021c8cd0, u8 *, 0) & 8) {
             M2C_FIELD(&data_021c8cd0, u16 *, 6) = (u16) (M2C_FIELD(&data_021c8cd0, u16 *, 6) | 0x80);
             return;
@@ -35,7 +36,8 @@ block_12:
         }
         return;
     }
-    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x38U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x50U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
+    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x38U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x50U) &&
+        ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
         if (M2C_FIELD(&data_021c8cd0, u8 *, 0) & 8) {
             M2C_FIELD(&data_021c8cd0, u16 *, 6) = (u16) (M2C_FIELD(&data_021c8cd0, u16 *, 6) | 0x20);
             return;
@@ -49,7 +51,8 @@ block_12:
         }
         return;
     }
-    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x60U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x78U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
+    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x60U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x78U) &&
+        ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
         if (M2C_FIELD(&data_021c8cd0, u8 *, 0) & 8) {
             M2C_FIELD(&data_021c8cd0, u16 *, 6) = (u16) (M2C_FIELD(&data_021c8cd0, u16 *, 6) | 0x10);
             return;
@@ -63,7 +66,8 @@ block_12:
         }
         return;
     }
-    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0xACU) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0xC4U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
+    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0xACU) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0xC4U) &&
+        ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
         if (M2C_FIELD(&data_021c8cd0, u8 *, 0) & 8) {
             M2C_FIELD(&data_021c8cd0, u16 *, 6) = (u16) (M2C_FIELD(&data_021c8cd0, u16 *, 6) | 1);
             return;
@@ -77,7 +81,8 @@ block_12:
         }
         return;
     }
-    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x94U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0xACU) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x20U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x40U)) {
+    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x94U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0xACU) &&
+        ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x20U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x40U)) {
         if (M2C_FIELD(&data_021c8cd0, u8 *, 0) & 8) {
             M2C_FIELD(&data_021c8cd0, u16 *, 6) = (u16) (M2C_FIELD(&data_021c8cd0, u16 *, 6) | 2);
             return;
@@ -109,7 +114,8 @@ block_12:
         goto block_79;
     }
 block_79:
-    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x7CU) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x94U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
+    if (((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) >= 0x7CU) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 0xC) <= 0x94U) &&
+        ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) >= 0x10U) && ((u32) M2C_FIELD(&data_021c8cd0, u16 *, 8) <= 0x30U)) {
         if (M2C_FIELD(&data_021c8cd0, u8 *, 0) & 8) {
             M2C_FIELD(&data_021c8cd0, u16 *, 6) = (u16) (M2C_FIELD(&data_021c8cd0, u16 *, 6) | 0x800);
             return;

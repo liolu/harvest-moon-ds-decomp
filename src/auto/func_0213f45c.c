@@ -1,5 +1,3 @@
 #include "m2c.h"
 
-void func_0213f45c(void) {
-
-}
+void func_0213f45c(void) {}

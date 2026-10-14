@@ -10,7 +10,7 @@ void func_020f5668(void *arg0) {
     var_r4 = arg0 + 4;
     if (var_r5 != NULL) {
         do {
-            if (M2C_FIELD(var_r5, s32 (**)(M2C_UNK *), 4)(var_r5) != 0) {
+            if (M2C_FIELD(var_r5, s32(**)(M2C_UNK *), 4)(var_r5) != 0) {
                 var_r4 = var_r5;
             } else {
                 *var_r4 = M2C_FIELD(var_r5, M2C_UNK **, 0);

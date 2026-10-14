@@ -12,7 +12,7 @@ void func_0214b118(void *arg0, s32 arg1) {
     if (arg1 >= (s32) M2C_FIELD(arg0, u8 *, 4)) {
         return;
     }
-    temp_r0 = func_0214b05c(arg0, arg1);
+    temp_r0                  = func_0214b05c(arg0, arg1);
     M2C_FIELD(arg0, u8 *, 4) = (u8) arg1;
     if (temp_r0 < 0) {
         return;

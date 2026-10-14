@@ -16,7 +16,7 @@ void func_021176b0(void *arg0, s32 arg1, s32 arg2) {
     func_0212dea4(M2C_FIELD(M2C_FIELD(arg0, void **, 0), s16 *, 0), 0x107, 5, arg0 + 4);
     M2C_FIELD(arg0, u8 *, 0x12) = (u8) (M2C_FIELD(arg0, u8 *, 0x12) | 1);
     M2C_FIELD(arg0, s8 *, 0x10) = 2;
-    M2C_FIELD(arg0, s32 *, 4) = arg1;
+    M2C_FIELD(arg0, s32 *, 4)   = arg1;
     if (M2C_FIELD(M2C_FIELD(arg0, void **, 0), s16 *, 0) == 0x189) {
         M2C_FIELD(arg0, s32 *, 8) = (s32) (arg2 + 0x400);
     } else {
@@ -29,6 +29,6 @@ void func_021176b0(void *arg0, s32 arg1, s32 arg2) {
     M2C_FIELD(arg0, s8 *, 0x20) = -1;
     M2C_FIELD(arg0, s8 *, 0x1F) = 0;
     M2C_FIELD(arg0, s8 *, 0x21) = -1;
-    temp_r2 = M2C_FIELD(arg0, void **, 0);
+    temp_r2                     = M2C_FIELD(arg0, void **, 0);
     func_0211d550(M2C_FIELD(arg0, s32 *, 0x54), M2C_FIELD(temp_r2, s16 *, 0), M2C_FIELD(temp_r2, s8 *, 2));
 }

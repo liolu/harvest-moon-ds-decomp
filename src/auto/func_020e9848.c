@@ -18,8 +18,8 @@ void func_020e9848(void *arg0, M2C_UNK arg1) {
         func_0212cc58(&data_022c5374, M2C_FIELD(arg0, s32 *, 4), M2C_FIELD(arg0, u16 *, 0x38));
     }
     M2C_FIELD(arg0, s32 *, 0x20) = 0;
-    M2C_FIELD(arg0, u8 *, 9) = 0U;
-    M2C_FIELD(arg0, u8 *, 8) = 0U;
+    M2C_FIELD(arg0, u8 *, 9)     = 0U;
+    M2C_FIELD(arg0, u8 *, 8)     = 0U;
     func_020e3408(arg0, arg1, 1);
     if (func_02121114(arg1, 0) == 0) {
         return;

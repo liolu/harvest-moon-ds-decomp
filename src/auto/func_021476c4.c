@@ -30,7 +30,7 @@ s32 func_021476c4(void *arg0, s32 *arg1, s32 arg2) {
     func_02140988(M2C_FIELD(arg0, s32 **, 0), 0x60);
     func_021409b0();
 loop_6:
-    M2C_FIELD(arg0, s32 **, 4) = arg1;
+    M2C_FIELD(arg0, s32 **, 4)             = arg1;
     M2C_FIELD(arg0, volatile s32 *, 0x114) = (s32) (M2C_FIELD(arg0, volatile s32 *, 0x114) | 0x20);
     do {
 
@@ -52,7 +52,7 @@ loop_6:
     temp_r1 = *M2C_FIELD(arg0, s32 **, 0);
     if (temp_r1 == 4) {
         temp_r0 = sp0 - 1;
-        sp0 = temp_r0;
+        sp0     = temp_r0;
         if (temp_r0 > 0) {
             goto loop_6;
         }

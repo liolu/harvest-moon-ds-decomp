@@ -20,8 +20,8 @@ void func_0203d174(void *arg0) {
     var_r7 = 0;
     func_020309c4();
     M2C_FIELD(arg0, s32 *, 0xA0F0) = 0;
-    var_r8 = 2;
-    var_r9 = 8;
+    var_r8                         = 2;
+    var_r9                         = 8;
     do {
         if (func_020b6b9c(var_r8) != 0) {
             func_02030bf0(arg0, 0x30, var_r9, func_0203d25c(arg0, var_r8, &spC), 0, 0, spC);

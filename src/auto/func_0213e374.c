@@ -7,7 +7,7 @@ u16 func_0213e374(u16 *arg0) {
     u16 temp_r4;
 
     temp_r4 = *arg0;
-    *arg0 = 0;
+    *arg0   = 0;
     data_022c6d4c |= temp_r4;
     func_0213daf8(temp_r4);
     return temp_r4;

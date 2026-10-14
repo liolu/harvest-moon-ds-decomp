@@ -15,7 +15,7 @@ s32 func_020befcc(s32 arg0, s32 arg1, s32 arg2) {
 loop_1:
     temp_r0 = func_020c5828(var_r6);
     if (arg0 == temp_r0) {
-        temp_r4 = func_020c5828(var_r6 + 1);
+        temp_r4   = func_020c5828(var_r6 + 1);
         temp_r0_2 = func_020c5828(var_r6 + 2);
         if ((arg1 == temp_r4) && (arg2 == temp_r0_2)) {
             func_020c5844(var_r6, (u8) (temp_r0 | 0x80));

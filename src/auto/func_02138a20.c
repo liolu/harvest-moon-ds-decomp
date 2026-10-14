@@ -14,10 +14,10 @@ s32 func_02138a20(void *arg0, s32 arg1) {
     if (temp_r0 == NULL) {
         return 0;
     }
-    M2C_FIELD(temp_r0, s32 *, 0) = arg1;
-    M2C_FIELD(temp_r0, s32 *, 4) = temp_r5;
-    M2C_FIELD(temp_r0, s32 *, 8) = (s32) M2C_FIELD(temp_r4, s32 *, 4);
+    M2C_FIELD(temp_r0, s32 *, 0)     = arg1;
+    M2C_FIELD(temp_r0, s32 *, 4)     = temp_r5;
+    M2C_FIELD(temp_r0, s32 *, 8)     = (s32) M2C_FIELD(temp_r4, s32 *, 4);
     M2C_FIELD(temp_r0, void **, 0xC) = (void *) M2C_FIELD(temp_r4, void **, 8);
-    M2C_FIELD(temp_r4, void **, 8) = temp_r0;
+    M2C_FIELD(temp_r4, void **, 8)   = temp_r0;
     return 1;
 }

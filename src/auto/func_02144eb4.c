@@ -13,8 +13,8 @@ void func_02144eb4(void) {
     }
     data_022c8db0 = 1;
     func_02142d1c();
-    M2C_FIELD(&data_022c8db4, s16 *, 0xC) = 0;
-    M2C_FIELD(&data_022c8db4, s32 *, 0) = 0;
+    M2C_FIELD(&data_022c8db4, s16 *, 0xC)  = 0;
+    M2C_FIELD(&data_022c8db4, s32 *, 0)    = 0;
     M2C_FIELD(&data_022c8db4, s32 *, 0x10) = 0;
     M2C_FIELD(&data_022c8db4, s16 *, 0x32) = 0;
     M2C_FIELD(&data_022c8db4, s16 *, 0x30) = 0;

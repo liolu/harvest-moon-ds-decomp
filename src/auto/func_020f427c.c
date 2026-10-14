@@ -8,7 +8,7 @@ void func_020f427c(void *arg0, s32 *arg1, s32 *arg2) {
 
     temp_r0 = func_020f43b0(M2C_FIELD(arg0, u8 *, 4), M2C_FIELD(arg0, u8 *, 5));
     if (M2C_FIELD(arg0, u8 *, 7) & 1) {
-        *arg1 = M2C_FIELD(temp_r0, s16 *, 8) << 8;
+        *arg1  = M2C_FIELD(temp_r0, s16 *, 8) << 8;
         var_r1 = M2C_FIELD(temp_r0, s16 *, 0xA) << 8;
     } else {
         *arg1 += M2C_FIELD(arg0, s16 *, 8) << 8;

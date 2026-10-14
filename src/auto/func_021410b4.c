@@ -10,7 +10,7 @@ void func_021410b4(void) {
     if (data_022c710c != 0) {
         return;
     }
-    data_022c710c = 1;
+    data_022c710c                       = 1;
     M2C_FIELD(&data_022c7118, s32 *, 0) = 0;
     M2C_FIELD(&data_022c7118, s32 *, 4) = 0;
     func_0213f780(4);

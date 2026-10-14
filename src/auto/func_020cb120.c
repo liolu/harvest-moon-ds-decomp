@@ -9,9 +9,9 @@ void func_020cb120(void *arg0, void *arg1) {
     void *var_r7;
 
     M2C_FIELD(arg0, void **, 4) = arg1;
-    var_r6 = 0;
-    temp_r5 = M2C_FIELD(arg1, s32 *, 4);
-    var_r7 = arg0 + 8;
+    var_r6                      = 0;
+    temp_r5                     = M2C_FIELD(arg1, s32 *, 4);
+    var_r7                      = arg0 + 8;
     do {
         temp_r0 = M2C_FIELD(var_r7, u16 *, 0x2C);
         if ((temp_r0 != 0x19) && (M2C_FIELD(var_r7, u16 *, 0x2E) == temp_r5)) {

@@ -8,7 +8,7 @@ extern s32 data_022c5490;
 extern M2C_UNK data_022c5494;
 
 void func_02138898(void *arg0, s32 arg1, s32 arg2, s32 arg3, u16 arg4) {
-    M2C_FIELD(arg0, s32 *, 0) = arg1;
+    M2C_FIELD(arg0, s32 *, 0)    = arg1;
     M2C_FIELD(arg0, s32 *, 0x18) = arg2;
     M2C_FIELD(arg0, s32 *, 0x1C) = arg3;
     M2C_FIELD(arg0, s32 *, 0x20) = 0;

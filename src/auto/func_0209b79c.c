@@ -29,7 +29,7 @@ void func_0209b79c(void *arg0) {
     func_020a0f78(arg0 + 0x92E, 0x2A6, 5, 8, &data_02190ed4, 0);
     func_020a1068(arg0 + 0x92E, 0x1A1, 6, 6, 7);
     M2C_FIELD(arg0, u16 *, 0x900) = (u16) (M2C_FIELD(arg0, u16 *, 0x900) + 1);
-    temp_r1 = M2C_FIELD(arg0, u16 *, 0x900);
+    temp_r1                       = M2C_FIELD(arg0, u16 *, 0x900);
     if ((u32) temp_r1 >= 0x5AU) {
         M2C_FIELD(arg0, u16 *, 0x902) = 1U;
     } else if ((u32) temp_r1 >= 0x3CU) {

@@ -7,6 +7,6 @@ void func_02139670(void **arg0, s16 arg1) {
     temp_r3 = *arg0;
     if (temp_r3 != NULL) {
         M2C_FIELD(temp_r3, s16 *, 0x34) = 1;
-        M2C_FIELD(*arg0, s16 *, 0x38) = arg1;
+        M2C_FIELD(*arg0, s16 *, 0x38)   = arg1;
     }
 }

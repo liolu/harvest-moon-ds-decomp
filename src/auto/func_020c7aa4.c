@@ -10,8 +10,8 @@ void *func_020c7aa4(void *arg0, M2C_UNK arg1) {
 
     func_020c826c();
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_02192e90;
-    M2C_FIELD(arg0, s32 *, 4) = 0;
-    var_r0 = func_020c8b1c(0x34);
+    M2C_FIELD(arg0, s32 *, 4)      = 0;
+    var_r0                         = func_020c8b1c(0x34);
     if (var_r0 != 0) {
         var_r0 = func_020c79bc(var_r0, arg1);
     }

@@ -27,7 +27,7 @@ s32 func_020b2e18(s16 *arg0) {
     var_r6 = 1;
     var_r7 = 1;
     var_r8 = 1;
-    sp10 = (s32) *arg0;
+    sp10   = (s32) *arg0;
     if (func_020b2f20(&sp10, &data_02192530, &data_02192534) == 0) {
         spC = (s32) *arg0;
         if (func_020b2f20(&spC, &data_02192538, &data_0219253c) == 0) {

@@ -13,9 +13,9 @@ loop_1:
         M2C_FIELD(temp_r2, s16 *, 6) = -1;
         M2C_FIELD(temp_r2, u16 *, 4) = (u16) (M2C_FIELD(temp_r2, u16 *, 4) & ~0x7F0);
         M2C_FIELD(temp_r2, u16 *, 4) = (u16) (M2C_FIELD(temp_r2, u16 *, 4) & ~0x800);
-        M2C_FIELD(temp_r2, u8 *, 0) = (u8) (M2C_FIELD(temp_r2, u8 *, 0) & ~1);
+        M2C_FIELD(temp_r2, u8 *, 0)  = (u8) (M2C_FIELD(temp_r2, u8 *, 0) & ~1);
         M2C_FIELD(temp_r2, u16 *, 4) = (u16) (M2C_FIELD(temp_r2, u16 *, 4) & ~0xC);
-        *arg1 = var_r3;
+        *arg1                        = var_r3;
         return;
     }
     var_r3 += 1;

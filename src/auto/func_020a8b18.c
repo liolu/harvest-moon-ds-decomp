@@ -3,7 +3,8 @@
 extern s32 data_021c8c5c;
 
 s32 func_020a8b18(void *arg0) {
-    if ((u32) ((u32) (M2C_FIELD((((M2C_FIELD(arg0, s32 *, 4) - 0x37) * 0x18) + data_021c8c5c), s32 *, 0x5EAC) << 0x18) >> 0x1B) >= 7U) {
+    if ((u32) ((u32) (M2C_FIELD((((M2C_FIELD(arg0, s32 *, 4) - 0x37) * 0x18) + data_021c8c5c), s32 *, 0x5EAC) << 0x18) >>
+               0x1B) >= 7U) {
         return 0;
     }
     return 2;

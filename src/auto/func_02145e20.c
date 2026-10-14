@@ -8,7 +8,7 @@ void func_02145e20(void *arg0) {
         return;
     }
     do {
-        M2C_FIELD(var_r4, M2C_UNK (**)(s32), 0)(M2C_FIELD(var_r4, s32 *, 4));
+        M2C_FIELD(var_r4, M2C_UNK(**)(s32), 0)(M2C_FIELD(var_r4, s32 *, 4));
         var_r4 = M2C_FIELD(var_r4, void **, 8);
     } while (var_r4 != NULL);
 }

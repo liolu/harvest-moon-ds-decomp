@@ -7,7 +7,7 @@ s32 func_020d1620(void) {
     s32 var_r1;
 
     temp_r0 = func_020d0bdc();
-    var_r1 = -1;
+    var_r1  = -1;
     if (temp_r0 != -1) {
         var_r1 = temp_r0 + 0x37;
     }

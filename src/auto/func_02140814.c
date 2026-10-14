@@ -10,9 +10,9 @@ void func_02140814(void *arg0) {
         return;
     }
     do {
-        temp_r0 = func_0213fcd4(arg0 + 0x88);
+        temp_r0                        = func_0213fcd4(arg0 + 0x88);
         M2C_FIELD(temp_r0, s32 *, 0xC) = 0;
-        M2C_FIELD(temp_r0, s32 *, 8) = 0;
+        M2C_FIELD(temp_r0, s32 *, 8)   = 0;
         func_0214015c();
     } while (M2C_FIELD(arg0, s32 *, 0x88) != 0);
 }

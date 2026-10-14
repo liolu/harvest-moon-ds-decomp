@@ -11,7 +11,7 @@ s32 func_021447b8(void *arg0) {
     s32 var_r0_2;
     s32 var_r5;
 
-    var_r5 = 0;
+    var_r5  = 0;
     temp_r4 = func_02141124();
     if (M2C_FIELD(arg0, volatile s32 *, 0xC) & 1) {
         var_r0 = 1;

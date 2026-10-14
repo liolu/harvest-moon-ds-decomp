@@ -19,7 +19,7 @@ void func_021209ec(void *arg0) {
     if (M2C_FIELD(arg0, u8 *, 0x36A4) == 0) {
         func_020f5dc0(arg0 + 0xC8C);
         func_021293ac();
-        M2C_FIELD(&data_022c3f70, M2C_UNK (**)(void *), 8)(arg0);
+        M2C_FIELD(&data_022c3f70, M2C_UNK(**)(void *), 8)(arg0);
     }
     func_02002174(arg0 + 0x367C);
     func_020ca5b4();

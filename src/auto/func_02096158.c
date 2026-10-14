@@ -12,7 +12,7 @@ void *func_02096158(void *arg0) {
     s32 temp_r5_3;
 
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_02190ce8;
-    temp_r5 = M2C_FIELD(arg0, s32 *, 0x7100);
+    temp_r5                        = M2C_FIELD(arg0, s32 *, 0x7100);
     if (temp_r5 != 0) {
         func_020a20c0(temp_r5);
         func_020c8b34(temp_r5);

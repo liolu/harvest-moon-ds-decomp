@@ -10,7 +10,7 @@ void func_0213915c(void *arg0) {
 
     var_r1 = func_02138668(&data_022c54dc, 0);
     if (var_r1 != NULL) {
-loop_2:
+    loop_2:
         if ((u32) M2C_FIELD(arg0, u8 *, 0x3D) >= (u32) M2C_FIELD(var_r1, u8 *, 0x3D)) {
             var_r1 = func_02138668(&data_022c54dc);
             if (var_r1 != NULL) {

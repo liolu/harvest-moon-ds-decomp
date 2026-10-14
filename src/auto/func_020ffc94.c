@@ -9,6 +9,6 @@ void func_020ffc94(void) {
     func_021416cc(0, data_021c8c5c + 0x5234, 4);
     func_02141708(0, data_021c8c5c + 0x4E6C, 0x3C8);
     M2C_FIELD(&data_022c3ec0, s32 *, 0) = 0;
-    M2C_FIELD(&data_022c3ec0, s8 *, 4) = 0;
-    M2C_FIELD(&data_022c3ec0, s8 *, 5) = 0;
+    M2C_FIELD(&data_022c3ec0, s8 *, 4)  = 0;
+    M2C_FIELD(&data_022c3ec0, s8 *, 5)  = 0;
 }

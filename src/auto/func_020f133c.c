@@ -8,7 +8,7 @@ void func_020f133c(void) {
     void *temp_r3;
 
     temp_r3 = data_021c8c5c + 0x7420;
-    temp_r1 = ((s8 *)&data_0215d634)[M2C_FIELD(data_021c8c5c, s8 *, 0x1A)];
+    temp_r1 = ((s8 *) &data_0215d634)[M2C_FIELD(data_021c8c5c, s8 *, 0x1A)];
     if ((u32) M2C_FIELD(temp_r3, u8 *, 2) > (u32) temp_r1) {
         M2C_FIELD(temp_r3, u8 *, 2) = temp_r1;
     }

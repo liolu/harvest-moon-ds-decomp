@@ -25,7 +25,7 @@ void func_02117934(void *arg0, s32 arg1) {
         } else if ((s32) temp_r1 < 0xB) {
             M2C_FIELD(arg0, volatile s8 *, 0xE) = (s8) (temp_r1 + 1);
         } else {
-            M2C_FIELD(arg0, volatile s8 *, 0xE) = 0;
+            M2C_FIELD(arg0, volatile s8 *, 0xE)  = 0;
             M2C_FIELD(arg0, volatile s8 *, 0x10) = (s8) (M2C_FIELD(arg0, volatile s8 *, 0x10) * -1);
         }
     } else if (arg1 == 0x22) {
@@ -43,7 +43,7 @@ void func_02117934(void *arg0, s32 arg1) {
         } else if ((s32) temp_r1_3 < 8) {
             M2C_FIELD(arg0, volatile s8 *, 0xF) = (s8) (temp_r1_3 + 1);
         } else {
-            M2C_FIELD(arg0, volatile s8 *, 0xF) = 0;
+            M2C_FIELD(arg0, volatile s8 *, 0xF)  = 0;
             M2C_FIELD(arg0, volatile s8 *, 0x11) = (s8) (M2C_FIELD(arg0, volatile s8 *, 0x11) * -1);
         }
     }

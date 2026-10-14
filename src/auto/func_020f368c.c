@@ -10,6 +10,6 @@ void func_020f368c(void *arg0, s16 arg1) {
         M2C_FIELD(arg0, volatile s32 *, 0x10) = (s32) (arg1 << 8);
         return;
     }
-    *temp_r0 = arg1;
+    *temp_r0                              = arg1;
     M2C_FIELD(arg0, volatile s32 *, 0x10) = (s32) (*temp_r0 << 8);
 }

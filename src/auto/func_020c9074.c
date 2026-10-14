@@ -21,7 +21,7 @@ void func_020c9074(void) {
         func_02140988(&data_021c9128, 0x200);
         var_r8 = 0;
         do {
-            func_0214131c(3, (M2C_UNK *)((s8 *)&data_021c9128 + (var_r8 << 5)), (var_r8 << 9) + 0x06894000, 0x20);
+            func_0214131c(3, (M2C_UNK *) ((s8 *) &data_021c9128 + (var_r8 << 5)), (var_r8 << 9) + 0x06894000, 0x20);
             var_r8 += 1;
         } while ((u32) var_r8 < 0x10U);
         M2C_FIELD(&data_021ce528, u8 *, 1) = 0U;
@@ -34,7 +34,7 @@ void func_020c9074(void) {
     func_02140988(&data_021cbd28, 0x200);
     var_r8_2 = 0;
     do {
-        func_0214131c(3, (M2C_UNK *)((s8 *)&data_021cbd28 + (var_r8_2 << 5)), (var_r8_2 << 9) + 0x0689C000, 0x20);
+        func_0214131c(3, (M2C_UNK *) ((s8 *) &data_021cbd28 + (var_r8_2 << 5)), (var_r8_2 << 9) + 0x0689C000, 0x20);
         var_r8_2 += 1;
     } while ((u32) var_r8_2 < 0x10U);
     M2C_FIELD(&data_021ce528, u8 *, 5) = 0U;

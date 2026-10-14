@@ -12,7 +12,7 @@ void func_020ea6b8(void *arg0, M2C_UNK arg1) {
     var_r4 = 0;
     do {
         temp_r0 = func_020ebb4c(arg0, var_r4);
-        M2C_FIELD(*temp_r0, M2C_UNK (**)(void **, M2C_UNK), 0xC)(temp_r0, arg1);
+        M2C_FIELD(*temp_r0, M2C_UNK(**)(void **, M2C_UNK), 0xC)(temp_r0, arg1);
         var_r4 += 1;
     } while (var_r4 < 0x10);
 }

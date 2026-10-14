@@ -12,7 +12,7 @@ void *func_0209f18c(void *arg0) {
     void *temp_r5_3;
 
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_02190de4;
-    temp_r5 = M2C_FIELD(arg0, void **, 0x7100);
+    temp_r5                        = M2C_FIELD(arg0, void **, 0x7100);
     if (temp_r5 != NULL) {
         func_020a20c0(temp_r5);
         func_020c8b34(temp_r5);

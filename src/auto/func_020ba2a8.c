@@ -7,7 +7,7 @@ void func_020ba2a8(u32 arg0) {
     u32 var_r5;
     void *temp_r4;
 
-    var_r5 = arg0;
+    var_r5  = arg0;
     temp_r4 = data_021c8c5c;
     if (var_r5 >= 0x3B9ACA00U) {
         var_r5 = 0x3B9ACA00;

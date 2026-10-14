@@ -10,10 +10,10 @@ void func_020f56bc(void *arg0) {
     if (var_r4 != NULL) {
         do {
             temp_r0 = var_r4;
-            var_r4 = *var_r4;
+            var_r4  = *var_r4;
             func_020c8b34(temp_r0);
         } while (var_r4 != NULL);
     }
     M2C_FIELD(arg0, M2C_UNK **, 4) = NULL;
-    M2C_FIELD(arg0, void **, 0xC) = (void *) (arg0 + 4);
+    M2C_FIELD(arg0, void **, 0xC)  = (void *) (arg0 + 4);
 }

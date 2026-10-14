@@ -25,14 +25,14 @@ void *func_0204c078(void *arg0, M2C_UNK arg1) {
     temp_r4 = arg0 + 0x1E80;
     func_020177e8(temp_r4);
     M2C_FIELD(temp_r4, M2C_UNK **, 0x30) = &data_0217c684;
-    M2C_FIELD(temp_r4, s16 *, 0x34) = 0;
-    M2C_FIELD(temp_r4, s16 *, 0x36) = 0;
-    M2C_FIELD(temp_r4, s16 *, 0x38) = 0;
-    M2C_FIELD(temp_r4, s16 *, 0x3A) = 0;
-    M2C_FIELD(temp_r4, s32 *, 0x3C) = 0;
-    M2C_FIELD(arg0, M2C_UNK **, 0x1E80) = &data_0217c658;
+    M2C_FIELD(temp_r4, s16 *, 0x34)      = 0;
+    M2C_FIELD(temp_r4, s16 *, 0x36)      = 0;
+    M2C_FIELD(temp_r4, s16 *, 0x38)      = 0;
+    M2C_FIELD(temp_r4, s16 *, 0x3A)      = 0;
+    M2C_FIELD(temp_r4, s32 *, 0x3C)      = 0;
+    M2C_FIELD(arg0, M2C_UNK **, 0x1E80)  = &data_0217c658;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x30) = &data_0217c674;
-    M2C_FIELD(arg0, M2C_UNK **, 0x1E80) = &data_0217f26c;
+    M2C_FIELD(arg0, M2C_UNK **, 0x1E80)  = &data_0217f26c;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x30) = &data_0217f288;
     func_02024ba8(arg0 + 0x1E38, 0x17, 8, (u16) (M2C_FIELD(arg0, u16 *, 0x1E00) + M2C_FIELD(arg0, u16 *, 0x1E02)), 4);
     func_02017904(arg0 + 0x1E44, arg0 + 0x1E38, 1);
@@ -47,6 +47,6 @@ void *func_0204c078(void *arg0, M2C_UNK arg1) {
     M2C_FIELD(arg0, s16 *, 0x1EB8) = 0x20;
     M2C_FIELD(arg0, s16 *, 0x1EBA) = 0x18;
     M2C_FIELD(arg0, s32 *, 0x1EC0) = 0;
-    M2C_FIELD(arg0, s8 *, 0x1EC4) = 0;
+    M2C_FIELD(arg0, s8 *, 0x1EC4)  = 0;
     return arg0;
 }

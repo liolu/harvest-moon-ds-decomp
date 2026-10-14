@@ -17,7 +17,7 @@ s32 func_02139264(s32 arg0, void *arg1) {
     }
     func_02138680(temp_r5 + 0xC, temp_r0);
     M2C_FIELD(temp_r0, void **, 0xC) = arg1;
-    M2C_FIELD(arg1, void **, 8) = temp_r0;
+    M2C_FIELD(arg1, void **, 8)      = temp_r0;
     func_0213ab4c(M2C_FIELD(temp_r0, s32 *, 8));
     return M2C_FIELD(temp_r0, s32 *, 8);
 }

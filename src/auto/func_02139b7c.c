@@ -16,7 +16,7 @@ s32 func_02139b7c(void *arg0) {
     }
     func_02145e48(arg0 + 8);
     func_02145e60(arg0 + 0x14);
-    temp_r0 = M2C_FIELD(arg0, s32 *, 0x24) | 2;
+    temp_r0                      = M2C_FIELD(arg0, s32 *, 0x24) | 2;
     M2C_FIELD(arg0, s32 *, 0x24) = temp_r0;
     return temp_r0;
 }

@@ -7,11 +7,11 @@ s32 func_020c28a8(void) {
 
     temp_r0 = func_020c4cc0();
     switch (temp_r0) {                              /* irregular */
-    case 0:
-        return 0x12;
-    case 1:
-        return 0x24;
-    default:
-        return 0x36;
+        case 0:
+            return 0x12;
+        case 1:
+            return 0x24;
+        default:
+            return 0x36;
     }
 }

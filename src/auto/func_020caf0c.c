@@ -8,9 +8,9 @@ void func_020caf0c(s32 arg0, void *arg1) {
     s32 var_r5;
     void *var_r6;
 
-    var_r5 = 0;
+    var_r5  = 0;
     temp_r4 = M2C_FIELD(arg1, s32 *, 4);
-    var_r6 = arg0 + 8;
+    var_r6  = arg0 + 8;
     do {
         if ((M2C_FIELD(var_r6, u16 *, 0x2C) != 0x19) && (M2C_FIELD(var_r6, u16 *, 0x2E) == temp_r4)) {
             func_0212d7e8(&data_022c4ccc, 3, 0, var_r6, 0);

@@ -5,9 +5,9 @@ void func_020cae1c(void *arg0, s32 arg1) {
     void *var_r3;
 
     M2C_FIELD(arg0, s32 *, 0) = arg1;
-    var_r2 = 0;
+    var_r2                    = 0;
     M2C_FIELD(arg0, s32 *, 4) = 0;
-    var_r3 = arg0 + 8;
+    var_r3                    = arg0 + 8;
     do {
         M2C_FIELD(var_r3, s16 *, 0x2C) = 0x19;
         var_r2 += 1;
