@@ -6,14 +6,6980 @@
 #include "engine.h"
 // clang-format on
 
-#ifndef M2C_SELF_AutoloadCallback
-void AutoloadCallback(void);
+#ifndef M2C_SELF_func_02000f98
+void func_02000f98(void *, void *);
 #endif
-#ifndef M2C_SELF_Entry
-void Entry(void);
+#ifndef M2C_SELF_func_02001120
+void func_02001120(void);
+#endif
+#ifndef M2C_SELF_func_02001198
+s32 func_02001198(void *);
+#endif
+#ifndef M2C_SELF_func_020011ac
+s32 func_020011ac(void *);
+#endif
+#ifndef M2C_SELF_func_020011b4
+s32 func_020011b4(void *);
+#endif
+#ifndef M2C_SELF_func_020011bc
+s32 func_020011bc(void *);
+#endif
+#ifndef M2C_SELF_func_020011cc
+s32 func_020011cc(void *);
+#endif
+#ifndef M2C_SELF_func_020011dc
+s32 func_020011dc(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020011e8
+s32 func_020011e8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02001254
+s32 func_02001254(void *);
+#endif
+#ifndef M2C_SELF_func_0200129c
+void *func_0200129c(void *);
+#endif
+#ifndef M2C_SELF_func_020012e0
+void *func_020012e0(void *);
+#endif
+#ifndef M2C_SELF_func_02001310
+void *func_02001310(void *);
+#endif
+#ifndef M2C_SELF_func_02001394
+s32 func_02001394(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02001448
+void func_02001448(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02001464
+void func_02001464(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02001494
+s32 func_02001494(s32);
+#endif
+#ifndef M2C_SELF_func_020014b4
+s32 func_020014b4(s32);
+#endif
+#ifndef M2C_SELF_func_020014dc
+s32 func_020014dc(s32);
+#endif
+#ifndef M2C_SELF_func_02001f10
+s32 func_02001f10(s32);
+#endif
+#ifndef M2C_SELF_func_02001fe8
+s32 func_02001fe8(void *);
+#endif
+#ifndef M2C_SELF_func_020020dc
+s32 func_020020dc(void);
+#endif
+#ifndef M2C_SELF_func_020022b8
+s32 func_020022b8(void);
+#endif
+#ifndef M2C_SELF_func_02003e78
+void func_02003e78(void *);
+#endif
+#ifndef M2C_SELF_func_02003ea0
+s32 func_02003ea0(s32);
+#endif
+#ifndef M2C_SELF_func_02003eb8
+s32 func_02003eb8(void *);
+#endif
+#ifndef M2C_SELF_func_02003ec0
+s32 func_02003ec0(void *);
+#endif
+#ifndef M2C_SELF_func_02003ec8
+s32 func_02003ec8(void *);
+#endif
+#ifndef M2C_SELF_func_02003ed8
+s32 func_02003ed8(void *);
+#endif
+#ifndef M2C_SELF_func_02003ee8
+s32 func_02003ee8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02003ef4
+s32 func_02003ef4(s32);
+#endif
+#ifndef M2C_SELF_func_02003f54
+s32 func_02003f54(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02003f60
+s32 func_02003f60(void *);
+#endif
+#ifndef M2C_SELF_func_02003f68
+s32 func_02003f68(s32);
+#endif
+#ifndef M2C_SELF_func_02003f7c
+s32 func_02003f7c(s32);
+#endif
+#ifndef M2C_SELF_func_02003f98
+s32 func_02003f98(void);
+#endif
+#ifndef M2C_SELF_func_02003fa0
+s32 func_02003fa0(void);
+#endif
+#ifndef M2C_SELF_func_0200450c
+s32 *func_0200450c(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_02004520
+s32 *func_02004520(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_0200453c
+M2C_UNK **func_0200453c(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02004b24
+void func_02004b24(void *);
+#endif
+#ifndef M2C_SELF_func_02004bc4
+void func_02004bc4(s32);
+#endif
+#ifndef M2C_SELF_func_02005238
+s32 func_02005238(u16 *, u16 *, u16 *);
+#endif
+#ifndef M2C_SELF_func_0200525c
+void func_0200525c(void *);
+#endif
+#ifndef M2C_SELF_func_02005278
+void func_02005278(void *);
+#endif
+#ifndef M2C_SELF_func_020052bc
+s32 func_020052bc(s32);
+#endif
+#ifndef M2C_SELF_func_020052dc
+s32 func_020052dc(s32);
+#endif
+#ifndef M2C_SELF_func_020052f4
+M2C_UNK **func_020052f4(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0200531c
+s32 func_0200531c(s32);
+#endif
+#ifndef M2C_SELF_func_02005330
+M2C_UNK **func_02005330(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02005358
+s32 func_02005358(s32);
+#endif
+#ifndef M2C_SELF_func_02005360
+s32 func_02005360(s32);
+#endif
+#ifndef M2C_SELF_func_02005368
+s32 func_02005368(s32);
+#endif
+#ifndef M2C_SELF_func_02005748
+M2C_UNK **func_02005748(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02005768
+s32 func_02005768(s32);
+#endif
+#ifndef M2C_SELF_func_0200577c
+s32 func_0200577c(s32);
+#endif
+#ifndef M2C_SELF_func_0200585c
+void func_0200585c(s32);
+#endif
+#ifndef M2C_SELF_func_020058ec
+M2C_UNK **func_020058ec(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02005914
+s32 func_02005914(void);
+#endif
+#ifndef M2C_SELF_func_02005ec8
+s32 func_02005ec8(s32);
+#endif
+#ifndef M2C_SELF_func_020062f0
+void func_020062f0(void *);
+#endif
+#ifndef M2C_SELF_func_0200633c
+void func_0200633c(void);
+#endif
+#ifndef M2C_SELF_func_02006868
+void func_02006868(s32, s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020068b8
+s32 func_020068b8(s32);
+#endif
+#ifndef M2C_SELF_func_020068cc
+s32 func_020068cc(s32);
+#endif
+#ifndef M2C_SELF_func_0200695c
+s32 func_0200695c(s32);
+#endif
+#ifndef M2C_SELF_func_02006974
+void func_02006974(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02006988
+s32 func_02006988(void);
+#endif
+#ifndef M2C_SELF_func_02006990
+s32 func_02006990(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0200699c
+s32 func_0200699c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020069a8
+s32 func_020069a8(void);
+#endif
+#ifndef M2C_SELF_func_020069b0
+s32 func_020069b0(s32);
+#endif
+#ifndef M2C_SELF_func_020069bc
+s32 func_020069bc(s32);
+#endif
+#ifndef M2C_SELF_func_020069c8
+s32 func_020069c8(s32);
+#endif
+#ifndef M2C_SELF_func_020069d0
+s32 func_020069d0(s32);
+#endif
+#ifndef M2C_SELF_func_020069d8
+void func_020069d8(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02006a58
+s32 func_02006a58(s32);
+#endif
+#ifndef M2C_SELF_func_02006a6c
+s32 func_02006a6c(s32);
+#endif
+#ifndef M2C_SELF_func_02006a84
+s32 func_02006a84(s32);
+#endif
+#ifndef M2C_SELF_func_02006a9c
+s32 func_02006a9c(void *, s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_02006ac4
+void *func_02006ac4(void *);
+#endif
+#ifndef M2C_SELF_func_02006db0
+s32 func_02006db0(s32);
+#endif
+#ifndef M2C_SELF_func_02006dc4
+s32 func_02006dc4(s32);
+#endif
+#ifndef M2C_SELF_func_02006dd8
+s32 func_02006dd8(s32);
+#endif
+#ifndef M2C_SELF_func_02006dec
+void func_02006dec(void *, void *);
+#endif
+#ifndef M2C_SELF_func_02006e1c
+s32 func_02006e1c(s32);
+#endif
+#ifndef M2C_SELF_func_02006f28
+s32 func_02006f28(s32);
+#endif
+#ifndef M2C_SELF_func_02006f3c
+s32 func_02006f3c(s32);
+#endif
+#ifndef M2C_SELF_func_02006f58
+void func_02006f58(void);
+#endif
+#ifndef M2C_SELF_func_02006f64
+void func_02006f64(void);
+#endif
+#ifndef M2C_SELF_func_02006f70
+void func_02006f70(void);
+#endif
+#ifndef M2C_SELF_func_02006f7c
+void func_02006f7c(void);
+#endif
+#ifndef M2C_SELF_func_02006f88
+void func_02006f88(void);
+#endif
+#ifndef M2C_SELF_func_020072ac
+M2C_UNK **func_020072ac(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02007a7c
+void func_02007a7c(s32);
+#endif
+#ifndef M2C_SELF_func_02008890
+void func_02008890(void *, s16);
+#endif
+#ifndef M2C_SELF_func_020088b4
+void func_020088b4(s32);
+#endif
+#ifndef M2C_SELF_func_02008a84
+s32 func_02008a84(s32);
+#endif
+#ifndef M2C_SELF_func_02008a98
+s32 func_02008a98(void);
+#endif
+#ifndef M2C_SELF_func_02008aa0
+s32 func_02008aa0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02008aac
+s32 func_02008aac(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02008ab8
+s32 func_02008ab8(void);
+#endif
+#ifndef M2C_SELF_func_02008ac4
+s32 func_02008ac4(s32);
+#endif
+#ifndef M2C_SELF_func_02008ad0
+s32 func_02008ad0(s32);
+#endif
+#ifndef M2C_SELF_func_02008adc
+s32 func_02008adc(s32);
+#endif
+#ifndef M2C_SELF_func_02008ae4
+s32 func_02008ae4(s32);
+#endif
+#ifndef M2C_SELF_func_02008b34
+s32 func_02008b34(void *);
+#endif
+#ifndef M2C_SELF_func_02008b48
+M2C_UNK **func_02008b48(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02008bb8
+s32 func_02008bb8(void *);
+#endif
+#ifndef M2C_SELF_func_02008bc0
+s32 func_02008bc0(void *);
+#endif
+#ifndef M2C_SELF_func_02008bc8
+s32 func_02008bc8(void *);
+#endif
+#ifndef M2C_SELF_func_02008bd8
+s32 func_02008bd8(void *);
+#endif
+#ifndef M2C_SELF_func_02008be8
+s32 func_02008be8(void *);
+#endif
+#ifndef M2C_SELF_func_02008c38
+s32 func_02008c38(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02008c44
+s32 func_02008c44(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02009afc
+void func_02009afc(void);
+#endif
+#ifndef M2C_SELF_func_02009e84
+s32 func_02009e84(s32);
+#endif
+#ifndef M2C_SELF_func_02009e98
+s32 func_02009e98(s32);
+#endif
+#ifndef M2C_SELF_func_0200bd88
+void func_0200bd88(s32);
+#endif
+#ifndef M2C_SELF_func_0200c098
+void func_0200c098(s32);
+#endif
+#ifndef M2C_SELF_func_0200c814
+s32 func_0200c814(s32);
+#endif
+#ifndef M2C_SELF_func_0200c834
+s32 func_0200c834(s32);
+#endif
+#ifndef M2C_SELF_func_0200d1d8
+void func_0200d1d8(s32);
+#endif
+#ifndef M2C_SELF_func_0200d1e8
+void func_0200d1e8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0200d204
+void func_0200d204(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0200d348
+void func_0200d348(s32);
+#endif
+#ifndef M2C_SELF_func_0200d358
+void func_0200d358(s32);
+#endif
+#ifndef M2C_SELF_func_0200e540
+s32 func_0200e540(s32);
+#endif
+#ifndef M2C_SELF_func_0200e6a0
+u32 *func_0200e6a0(u32 *, u32 *);
+#endif
+#ifndef M2C_SELF_func_0200e6b4
+s32 func_0200e6b4(s32);
+#endif
+#ifndef M2C_SELF_func_0200e6c8
+s32 func_0200e6c8(void);
+#endif
+#ifndef M2C_SELF_func_0200e6d0
+s32 func_0200e6d0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0200e6dc
+s32 func_0200e6dc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0200e6e8
+s32 func_0200e6e8(void);
+#endif
+#ifndef M2C_SELF_func_0200e6f0
+s32 func_0200e6f0(s32);
+#endif
+#ifndef M2C_SELF_func_0200e6f8
+s32 func_0200e6f8(s32);
+#endif
+#ifndef M2C_SELF_func_0200e700
+s32 func_0200e700(s32);
+#endif
+#ifndef M2C_SELF_func_0200e708
+s32 func_0200e708(s32);
+#endif
+#ifndef M2C_SELF_func_0200e710
+void func_0200e710(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0200e720
+void func_0200e720(void *);
+#endif
+#ifndef M2C_SELF_func_0200e81c
+s32 func_0200e81c(s32);
+#endif
+#ifndef M2C_SELF_func_0200e834
+s32 func_0200e834(s32);
+#endif
+#ifndef M2C_SELF_func_0200f518
+void func_0200f518(void *);
+#endif
+#ifndef M2C_SELF_func_02010038
+void func_02010038(void);
+#endif
+#ifndef M2C_SELF_func_020104ac
+void func_020104ac(void *, s16);
+#endif
+#ifndef M2C_SELF_func_020105d0
+s32 func_020105d0(s32);
+#endif
+#ifndef M2C_SELF_func_020105e4
+s32 func_020105e4(void);
+#endif
+#ifndef M2C_SELF_func_020105ec
+s32 func_020105ec(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020105f8
+s32 func_020105f8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02010604
+s32 func_02010604(void);
+#endif
+#ifndef M2C_SELF_func_0201060c
+s32 func_0201060c(s32);
+#endif
+#ifndef M2C_SELF_func_02010618
+s32 func_02010618(s32);
+#endif
+#ifndef M2C_SELF_func_02010624
+s32 func_02010624(s32);
+#endif
+#ifndef M2C_SELF_func_0201062c
+s32 func_0201062c(s32);
+#endif
+#ifndef M2C_SELF_func_02010b40
+s32 func_02010b40(void *);
+#endif
+#ifndef M2C_SELF_func_020122ec
+s32 func_020122ec(s32);
+#endif
+#ifndef M2C_SELF_func_0201230c
+s32 func_0201230c(s32);
+#endif
+#ifndef M2C_SELF_func_0201232c
+s32 func_0201232c(s32);
+#endif
+#ifndef M2C_SELF_func_0201234c
+s32 func_0201234c(s32);
+#endif
+#ifndef M2C_SELF_func_0201236c
+s32 func_0201236c(s32);
+#endif
+#ifndef M2C_SELF_func_0201238c
+s32 func_0201238c(s32);
+#endif
+#ifndef M2C_SELF_func_020123ac
+s32 func_020123ac(s32);
+#endif
+#ifndef M2C_SELF_func_020123cc
+s32 func_020123cc(s32);
+#endif
+#ifndef M2C_SELF_func_020123ec
+s32 func_020123ec(s32);
+#endif
+#ifndef M2C_SELF_func_02012738
+s32 func_02012738(s32);
+#endif
+#ifndef M2C_SELF_func_020160a0
+s32 func_020160a0(s32);
+#endif
+#ifndef M2C_SELF_func_020160b4
+s32 func_020160b4(s32);
+#endif
+#ifndef M2C_SELF_func_020160c8
+s32 func_020160c8(s32);
+#endif
+#ifndef M2C_SELF_func_020160dc
+s32 func_020160dc(s32);
+#endif
+#ifndef M2C_SELF_func_020160f0
+s32 func_020160f0(s32);
+#endif
+#ifndef M2C_SELF_func_02016104
+s32 func_02016104(s32);
+#endif
+#ifndef M2C_SELF_func_02016118
+s32 func_02016118(s32);
+#endif
+#ifndef M2C_SELF_func_0201612c
+s32 func_0201612c(s32);
+#endif
+#ifndef M2C_SELF_func_02016144
+s32 func_02016144(s32);
+#endif
+#ifndef M2C_SELF_func_0201615c
+s32 func_0201615c(void);
+#endif
+#ifndef M2C_SELF_func_02016164
+s32 func_02016164(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016170
+s32 func_02016170(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201617c
+s32 func_0201617c(void);
+#endif
+#ifndef M2C_SELF_func_02016184
+s32 func_02016184(s32);
+#endif
+#ifndef M2C_SELF_func_0201618c
+s32 func_0201618c(s32);
+#endif
+#ifndef M2C_SELF_func_02016194
+s32 func_02016194(s32);
+#endif
+#ifndef M2C_SELF_func_0201619c
+s32 func_0201619c(s32);
+#endif
+#ifndef M2C_SELF_func_020161a4
+void func_020161a4(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020161b4
+s32 func_020161b4(void);
+#endif
+#ifndef M2C_SELF_func_020161bc
+s32 func_020161bc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020161c8
+s32 func_020161c8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020161d4
+s32 func_020161d4(void);
+#endif
+#ifndef M2C_SELF_func_020161dc
+s32 func_020161dc(s32);
+#endif
+#ifndef M2C_SELF_func_020161e4
+s32 func_020161e4(s32);
+#endif
+#ifndef M2C_SELF_func_020161ec
+s32 func_020161ec(s32);
+#endif
+#ifndef M2C_SELF_func_020161f4
+s32 func_020161f4(s32);
+#endif
+#ifndef M2C_SELF_func_020161fc
+void func_020161fc(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0201620c
+s32 func_0201620c(void);
+#endif
+#ifndef M2C_SELF_func_02016214
+s32 func_02016214(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016220
+s32 func_02016220(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201622c
+s32 func_0201622c(void);
+#endif
+#ifndef M2C_SELF_func_02016234
+s32 func_02016234(s32);
+#endif
+#ifndef M2C_SELF_func_0201623c
+s32 func_0201623c(s32);
+#endif
+#ifndef M2C_SELF_func_02016244
+s32 func_02016244(s32);
+#endif
+#ifndef M2C_SELF_func_0201624c
+s32 func_0201624c(s32);
+#endif
+#ifndef M2C_SELF_func_02016254
+void func_02016254(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02016264
+s32 func_02016264(void);
+#endif
+#ifndef M2C_SELF_func_0201626c
+s32 func_0201626c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016278
+s32 func_02016278(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016284
+s32 func_02016284(void);
+#endif
+#ifndef M2C_SELF_func_0201628c
+s32 func_0201628c(s32);
+#endif
+#ifndef M2C_SELF_func_02016294
+s32 func_02016294(s32);
+#endif
+#ifndef M2C_SELF_func_0201629c
+s32 func_0201629c(s32);
+#endif
+#ifndef M2C_SELF_func_020162a4
+s32 func_020162a4(s32);
+#endif
+#ifndef M2C_SELF_func_020162ac
+void func_020162ac(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020162bc
+s32 func_020162bc(void);
+#endif
+#ifndef M2C_SELF_func_020162c4
+s32 func_020162c4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020162d0
+s32 func_020162d0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020162dc
+s32 func_020162dc(void);
+#endif
+#ifndef M2C_SELF_func_020162e4
+s32 func_020162e4(s32);
+#endif
+#ifndef M2C_SELF_func_020162ec
+s32 func_020162ec(s32);
+#endif
+#ifndef M2C_SELF_func_020162f4
+s32 func_020162f4(s32);
+#endif
+#ifndef M2C_SELF_func_020162fc
+s32 func_020162fc(s32);
+#endif
+#ifndef M2C_SELF_func_02016304
+void func_02016304(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02016314
+s32 func_02016314(void);
+#endif
+#ifndef M2C_SELF_func_0201631c
+s32 func_0201631c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016328
+s32 func_02016328(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016334
+s32 func_02016334(void);
+#endif
+#ifndef M2C_SELF_func_0201633c
+s32 func_0201633c(s32);
+#endif
+#ifndef M2C_SELF_func_02016344
+s32 func_02016344(s32);
+#endif
+#ifndef M2C_SELF_func_0201634c
+s32 func_0201634c(s32);
+#endif
+#ifndef M2C_SELF_func_02016354
+s32 func_02016354(s32);
+#endif
+#ifndef M2C_SELF_func_0201635c
+void func_0201635c(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0201636c
+s32 func_0201636c(void);
+#endif
+#ifndef M2C_SELF_func_02016374
+s32 func_02016374(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02016380
+s32 func_02016380(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201638c
+s32 func_0201638c(void);
+#endif
+#ifndef M2C_SELF_func_02016394
+s32 func_02016394(s32);
+#endif
+#ifndef M2C_SELF_func_0201639c
+s32 func_0201639c(s32);
+#endif
+#ifndef M2C_SELF_func_020163a4
+s32 func_020163a4(s32);
+#endif
+#ifndef M2C_SELF_func_020163ac
+s32 func_020163ac(s32);
+#endif
+#ifndef M2C_SELF_func_020163b4
+void func_020163b4(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020163c4
+s32 func_020163c4(void);
+#endif
+#ifndef M2C_SELF_func_020163cc
+s32 func_020163cc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020163d8
+s32 func_020163d8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020163e4
+s32 func_020163e4(void);
+#endif
+#ifndef M2C_SELF_func_020163ec
+s32 func_020163ec(s32);
+#endif
+#ifndef M2C_SELF_func_020163f4
+s32 func_020163f4(s32);
+#endif
+#ifndef M2C_SELF_func_020163fc
+s32 func_020163fc(s32);
+#endif
+#ifndef M2C_SELF_func_02016404
+s32 func_02016404(s32);
+#endif
+#ifndef M2C_SELF_func_0201640c
+void func_0201640c(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0201641c
+s32 func_0201641c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02016428
+s32 func_02016428(void *);
+#endif
+#ifndef M2C_SELF_func_02016430
+s32 func_02016430(void *);
+#endif
+#ifndef M2C_SELF_func_02016440
+s32 func_02016440(void *);
+#endif
+#ifndef M2C_SELF_func_02016450
+s32 func_02016450(void *);
+#endif
+#ifndef M2C_SELF_func_02016458
+s32 func_02016458(void *);
+#endif
+#ifndef M2C_SELF_func_020167e0
+s32 func_020167e0(void *);
+#endif
+#ifndef M2C_SELF_func_020167e8
+void func_020167e8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02016800
+s32 func_02016800(s32);
+#endif
+#ifndef M2C_SELF_func_0201685c
+s32 func_0201685c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0201686c
+s32 func_0201686c(s32);
+#endif
+#ifndef M2C_SELF_func_02016884
+s32 func_02016884(s32);
+#endif
+#ifndef M2C_SELF_func_0201689c
+s32 func_0201689c(s32);
+#endif
+#ifndef M2C_SELF_func_020168b4
+s32 func_020168b4(s32);
+#endif
+#ifndef M2C_SELF_func_020168cc
+s32 func_020168cc(s32);
+#endif
+#ifndef M2C_SELF_func_020168e4
+s32 func_020168e4(s32);
+#endif
+#ifndef M2C_SELF_func_020168fc
+s32 func_020168fc(s32);
+#endif
+#ifndef M2C_SELF_func_02016914
+s32 func_02016914(s32);
+#endif
+#ifndef M2C_SELF_func_02016af4
+s32 func_02016af4(s32);
+#endif
+#ifndef M2C_SELF_func_02016b20
+s32 func_02016b20(s32);
+#endif
+#ifndef M2C_SELF_func_02016b54
+s32 func_02016b54(s32);
+#endif
+#ifndef M2C_SELF_func_02016bc8
+void func_02016bc8(void);
+#endif
+#ifndef M2C_SELF_func_02016bdc
+void func_02016bdc(void);
+#endif
+#ifndef M2C_SELF_func_02016be8
+void func_02016be8(s32);
+#endif
+#ifndef M2C_SELF_func_02016c0c
+void func_02016c0c(void);
+#endif
+#ifndef M2C_SELF_func_02016e2c
+void func_02016e2c(void);
+#endif
+#ifndef M2C_SELF_func_02016e38
+void func_02016e38(void);
+#endif
+#ifndef M2C_SELF_func_02016e4c
+void func_02016e4c(s32);
+#endif
+#ifndef M2C_SELF_func_02016e70
+void func_02016e70(void);
+#endif
+#ifndef M2C_SELF_func_02016fd0
+s32 func_02016fd0(void *);
+#endif
+#ifndef M2C_SELF_func_0201708c
+s32 func_0201708c(s32);
+#endif
+#ifndef M2C_SELF_func_0201737c
+void func_0201737c(s32);
+#endif
+#ifndef M2C_SELF_func_0201738c
+void func_0201738c(s32);
+#endif
+#ifndef M2C_SELF_func_020173ac
+void func_020173ac(s32);
+#endif
+#ifndef M2C_SELF_func_020173d8
+void func_020173d8(s32);
+#endif
+#ifndef M2C_SELF_func_020173e8
+void func_020173e8(void);
+#endif
+#ifndef M2C_SELF_func_0201748c
+void func_0201748c(void *, void *);
+#endif
+#ifndef M2C_SELF_func_020176a8
+void func_020176a8(s32, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02017770
+void func_02017770(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020177b0
+void func_020177b0(void *);
+#endif
+#ifndef M2C_SELF_func_020177c0
+void func_020177c0(void *);
+#endif
+#ifndef M2C_SELF_func_020177e8
+M2C_UNK **func_020177e8(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02017814
+M2C_UNK **func_02017814(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02017840
+void *func_02017840(void *, s16, s8, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201787c
+void *func_0201787c(void *, s16, s8, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02017904
+void func_02017904(s32, void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02017930
+void func_02017930(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02017960
+void func_02017960(void *);
+#endif
+#ifndef M2C_SELF_func_020179b4
+s32 func_020179b4(s32);
+#endif
+#ifndef M2C_SELF_func_020179cc
+s32 func_020179cc(s32);
+#endif
+#ifndef M2C_SELF_func_020179e0
+s32 func_020179e0(s32);
+#endif
+#ifndef M2C_SELF_func_020179f4
+s32 func_020179f4(s32);
+#endif
+#ifndef M2C_SELF_func_02017a0c
+s32 func_02017a0c(s32);
+#endif
+#ifndef M2C_SELF_func_02017a20
+s32 func_02017a20(s32);
+#endif
+#ifndef M2C_SELF_func_02017a38
+void *func_02017a38(void *, s8, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02017ab0
+void *func_02017ab0(void *, s8, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02017b18
+void func_02017b18(s32);
+#endif
+#ifndef M2C_SELF_func_02017b44
+void func_02017b44(void *);
+#endif
+#ifndef M2C_SELF_func_02017ba4
+void func_02017ba4(void *);
+#endif
+#ifndef M2C_SELF_func_02017bc0
+void func_02017bc0(void *);
+#endif
+#ifndef M2C_SELF_func_02017be0
+s32 func_02017be0(s32);
+#endif
+#ifndef M2C_SELF_func_02017bf8
+s32 func_02017bf8(s32);
+#endif
+#ifndef M2C_SELF_func_02017c10
+s32 func_02017c10(s32);
+#endif
+#ifndef M2C_SELF_func_02019980
+void func_02019980(s32);
+#endif
+#ifndef M2C_SELF_func_0201999c
+void func_0201999c(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0201b42c
+s32 func_0201b42c(s32);
+#endif
+#ifndef M2C_SELF_func_0201b440
+s32 func_0201b440(void);
+#endif
+#ifndef M2C_SELF_func_0201b448
+s32 func_0201b448(void);
+#endif
+#ifndef M2C_SELF_func_0201c630
+void func_0201c630(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_0201c93c
+void func_0201c93c(s32);
+#endif
+#ifndef M2C_SELF_func_0201d96c
+void func_0201d96c(void *);
+#endif
+#ifndef M2C_SELF_func_0201db4c
+s32 func_0201db4c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201db58
+s32 func_0201db58(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201e170
+s32 func_0201e170(s32);
+#endif
+#ifndef M2C_SELF_func_0201e190
+s32 func_0201e190(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201ec68
+u16 func_0201ec68(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201ec88
+s32 func_0201ec88(s32);
+#endif
+#ifndef M2C_SELF_func_0201ec9c
+s32 func_0201ec9c(s32);
+#endif
+#ifndef M2C_SELF_func_0201ecb4
+s32 func_0201ecb4(s32);
+#endif
+#ifndef M2C_SELF_func_0201ecc8
+s32 func_0201ecc8(void);
+#endif
+#ifndef M2C_SELF_func_0201ecd0
+s32 func_0201ecd0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201ecdc
+s32 func_0201ecdc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201ece8
+s32 func_0201ece8(void);
+#endif
+#ifndef M2C_SELF_func_0201ecf0
+s32 func_0201ecf0(s32);
+#endif
+#ifndef M2C_SELF_func_0201ecf8
+s32 func_0201ecf8(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed00
+s32 func_0201ed00(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed08
+s32 func_0201ed08(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed10
+s32 func_0201ed10(void);
+#endif
+#ifndef M2C_SELF_func_0201ed18
+s32 func_0201ed18(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0201ed24
+s32 func_0201ed24(void);
+#endif
+#ifndef M2C_SELF_func_0201ed2c
+s32 func_0201ed2c(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed34
+s32 func_0201ed34(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed3c
+s32 func_0201ed3c(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed44
+s32 func_0201ed44(s32);
+#endif
+#ifndef M2C_SELF_func_0201ed4c
+void func_0201ed4c(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0201f228
+s32 func_0201f228(s32);
+#endif
+#ifndef M2C_SELF_func_0201f23c
+s32 func_0201f23c(s32);
+#endif
+#ifndef M2C_SELF_func_0201f254
+s32 func_0201f254(s32);
+#endif
+#ifndef M2C_SELF_func_02020a98
+void func_02020a98(s32);
+#endif
+#ifndef M2C_SELF_func_02021258
+void func_02021258(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020213f0
+s32 func_020213f0(void *);
+#endif
+#ifndef M2C_SELF_func_02021414
+s32 func_02021414(void);
+#endif
+#ifndef M2C_SELF_func_02021588
+s32 func_02021588(void *);
+#endif
+#ifndef M2C_SELF_func_020215bc
+void *func_020215bc(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020216e0
+s32 func_020216e0(s32);
+#endif
+#ifndef M2C_SELF_func_02021704
+void func_02021704(void *);
+#endif
+#ifndef M2C_SELF_func_02021750
+s32 func_02021750(s32);
+#endif
+#ifndef M2C_SELF_func_02021760
+s32 func_02021760(s8 *, s32);
+#endif
+#ifndef M2C_SELF_func_02021f14
+void func_02021f14(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02021f3c
+void *func_02021f3c(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020227c8
+s32 func_020227c8(s32);
+#endif
+#ifndef M2C_SELF_func_020227e8
+s32 func_020227e8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020227f4
+void func_020227f4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02022818
+s32 func_02022818(s32);
+#endif
+#ifndef M2C_SELF_func_02022c74
+void *func_02022c74(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02022d3c
+s32 func_02022d3c(s32);
+#endif
+#ifndef M2C_SELF_func_02022d50
+s32 func_02022d50(s32);
+#endif
+#ifndef M2C_SELF_func_02022d64
+s32 func_02022d64(s32);
+#endif
+#ifndef M2C_SELF_func_02022d7c
+s32 func_02022d7c(s32);
+#endif
+#ifndef M2C_SELF_func_02022d98
+s32 func_02022d98(s32);
+#endif
+#ifndef M2C_SELF_func_02022dac
+s32 func_02022dac(s32);
+#endif
+#ifndef M2C_SELF_func_02022dc4
+s32 func_02022dc4(s32);
+#endif
+#ifndef M2C_SELF_func_02022ddc
+s32 func_02022ddc(s32);
+#endif
+#ifndef M2C_SELF_func_02022df4
+s32 func_02022df4(s32);
+#endif
+#ifndef M2C_SELF_func_02022e08
+s32 func_02022e08(s32);
+#endif
+#ifndef M2C_SELF_func_02022e20
+s32 func_02022e20(void);
+#endif
+#ifndef M2C_SELF_func_02022e28
+s32 func_02022e28(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022e34
+s32 func_02022e34(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022e40
+s32 func_02022e40(void);
+#endif
+#ifndef M2C_SELF_func_02022e48
+s32 func_02022e48(s32);
+#endif
+#ifndef M2C_SELF_func_02022e50
+s32 func_02022e50(s32);
+#endif
+#ifndef M2C_SELF_func_02022e58
+s32 func_02022e58(s32);
+#endif
+#ifndef M2C_SELF_func_02022e60
+s32 func_02022e60(s32);
+#endif
+#ifndef M2C_SELF_func_02022e68
+void func_02022e68(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02022e78
+s32 func_02022e78(void);
+#endif
+#ifndef M2C_SELF_func_02022e80
+s32 func_02022e80(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022e8c
+s32 func_02022e8c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022e98
+s32 func_02022e98(void);
+#endif
+#ifndef M2C_SELF_func_02022ea0
+s32 func_02022ea0(s32);
+#endif
+#ifndef M2C_SELF_func_02022ea8
+s32 func_02022ea8(s32);
+#endif
+#ifndef M2C_SELF_func_02022eb0
+s32 func_02022eb0(s32);
+#endif
+#ifndef M2C_SELF_func_02022eb8
+s32 func_02022eb8(s32);
+#endif
+#ifndef M2C_SELF_func_02022ec0
+s32 func_02022ec0(void);
+#endif
+#ifndef M2C_SELF_func_02022ec8
+s32 func_02022ec8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022ed4
+s32 func_02022ed4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022ee0
+s32 func_02022ee0(void);
+#endif
+#ifndef M2C_SELF_func_02022ee8
+s32 func_02022ee8(s32);
+#endif
+#ifndef M2C_SELF_func_02022ef0
+s32 func_02022ef0(s32);
+#endif
+#ifndef M2C_SELF_func_02022ef8
+s32 func_02022ef8(s32);
+#endif
+#ifndef M2C_SELF_func_02022f00
+s32 func_02022f00(s32);
+#endif
+#ifndef M2C_SELF_func_02022f08
+void func_02022f08(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02022f18
+s32 func_02022f18(void);
+#endif
+#ifndef M2C_SELF_func_02022f20
+s32 func_02022f20(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02022f2c
+s32 func_02022f2c(void);
+#endif
+#ifndef M2C_SELF_func_02022f34
+s32 func_02022f34(s32);
+#endif
+#ifndef M2C_SELF_func_02022f3c
+s32 func_02022f3c(s32);
+#endif
+#ifndef M2C_SELF_func_02022f44
+s32 func_02022f44(s32);
+#endif
+#ifndef M2C_SELF_func_02022f4c
+s32 func_02022f4c(s32);
+#endif
+#ifndef M2C_SELF_func_02022f54
+void func_02022f54(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020231fc
+void func_020231fc(s32);
+#endif
+#ifndef M2C_SELF_func_02023298
+void func_02023298(s32);
+#endif
+#ifndef M2C_SELF_func_020232dc
+void func_020232dc(s32);
+#endif
+#ifndef M2C_SELF_func_02023688
+void *func_02023688(void *);
+#endif
+#ifndef M2C_SELF_func_02023a6c
+void *func_02023a6c(void *);
+#endif
+#ifndef M2C_SELF_func_02023b3c
+s32 func_02023b3c(s32);
+#endif
+#ifndef M2C_SELF_func_02023b50
+s32 func_02023b50(void);
+#endif
+#ifndef M2C_SELF_func_02023bc4
+s32 func_02023bc4(s32);
+#endif
+#ifndef M2C_SELF_func_02023bdc
+s32 func_02023bdc(s32);
+#endif
+#ifndef M2C_SELF_func_02023bf4
+s32 func_02023bf4(s32);
+#endif
+#ifndef M2C_SELF_func_02023c0c
+s32 func_02023c0c(s32);
+#endif
+#ifndef M2C_SELF_func_02023ce0
+s32 func_02023ce0(s32);
+#endif
+#ifndef M2C_SELF_func_02023cf4
+s32 func_02023cf4(s32);
+#endif
+#ifndef M2C_SELF_func_02023d0c
+s32 func_02023d0c(s32);
+#endif
+#ifndef M2C_SELF_func_02023d24
+s32 func_02023d24(s32);
+#endif
+#ifndef M2C_SELF_func_02023f74
+void func_02023f74(s32);
+#endif
+#ifndef M2C_SELF_func_02023f84
+void func_02023f84(s32);
+#endif
+#ifndef M2C_SELF_func_02023f94
+void func_02023f94(s32);
+#endif
+#ifndef M2C_SELF_func_020245f8
+M2C_UNK **func_020245f8(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02024720
+void func_02024720(void *);
+#endif
+#ifndef M2C_SELF_func_02024740
+void func_02024740(void *);
+#endif
+#ifndef M2C_SELF_func_02025048
+void func_02025048(void *);
+#endif
+#ifndef M2C_SELF_func_02025060
+void func_02025060(void *);
+#endif
+#ifndef M2C_SELF_func_02025210
+M2C_UNK **func_02025210(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02025238
+s32 func_02025238(s32);
+#endif
+#ifndef M2C_SELF_func_020256c4
+void *func_020256c4(void *);
+#endif
+#ifndef M2C_SELF_func_0202574c
+void *func_0202574c(void *);
+#endif
+#ifndef M2C_SELF_func_020257dc
+void *func_020257dc(void *);
+#endif
+#ifndef M2C_SELF_func_02025c48
+void func_02025c48(void);
+#endif
+#ifndef M2C_SELF_func_0202632c
+s32 func_0202632c(s32);
+#endif
+#ifndef M2C_SELF_func_02026378
+s32 func_02026378(s32);
+#endif
+#ifndef M2C_SELF_func_02027354
+void func_02027354(s32);
+#endif
+#ifndef M2C_SELF_func_020273c8
+void func_020273c8(void);
+#endif
+#ifndef M2C_SELF_func_0202870c
+u16 func_0202870c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202880c
+s32 func_0202880c(void *, void *);
+#endif
+#ifndef M2C_SELF_func_020288f0
+s32 func_020288f0(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02028910
+s32 func_02028910(s32);
+#endif
+#ifndef M2C_SELF_func_02028924
+s32 func_02028924(s32);
+#endif
+#ifndef M2C_SELF_func_02028e58
+s32 func_02028e58(s32);
+#endif
+#ifndef M2C_SELF_func_020294b4
+void func_020294b4(void);
+#endif
+#ifndef M2C_SELF_func_020294c8
+void func_020294c8(void);
+#endif
+#ifndef M2C_SELF_func_020294d4
+void func_020294d4(s32);
+#endif
+#ifndef M2C_SELF_func_02029514
+void func_02029514(void);
+#endif
+#ifndef M2C_SELF_func_02029520
+s32 func_02029520(s32);
+#endif
+#ifndef M2C_SELF_func_02029534
+s32 func_02029534(void);
+#endif
+#ifndef M2C_SELF_func_0202953c
+s32 func_0202953c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02029548
+s32 func_02029548(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02029554
+s32 func_02029554(void);
+#endif
+#ifndef M2C_SELF_func_0202955c
+s32 func_0202955c(s32);
+#endif
+#ifndef M2C_SELF_func_02029568
+s32 func_02029568(s32);
+#endif
+#ifndef M2C_SELF_func_02029574
+s32 func_02029574(s32);
+#endif
+#ifndef M2C_SELF_func_0202957c
+s32 func_0202957c(s32);
+#endif
+#ifndef M2C_SELF_func_02029584
+void func_02029584(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02029608
+s32 func_02029608(s32);
+#endif
+#ifndef M2C_SELF_func_0202a0a4
+void func_0202a0a4(s32);
+#endif
+#ifndef M2C_SELF_func_0202aa3c
+s32 func_0202aa3c(s32);
+#endif
+#ifndef M2C_SELF_func_0202aa5c
+s32 func_0202aa5c(s32);
+#endif
+#ifndef M2C_SELF_func_0202aa7c
+s32 func_0202aa7c(s32);
+#endif
+#ifndef M2C_SELF_func_0202aac0
+s32 func_0202aac0(s32);
+#endif
+#ifndef M2C_SELF_func_0202bb80
+void func_0202bb80(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202bbc4
+void func_0202bbc4(void);
+#endif
+#ifndef M2C_SELF_func_0202bc50
+s32 func_0202bc50(s32);
+#endif
+#ifndef M2C_SELF_func_0202bc64
+s32 func_0202bc64(s32);
+#endif
+#ifndef M2C_SELF_func_0202bc78
+s32 func_0202bc78(void);
+#endif
+#ifndef M2C_SELF_func_0202bc80
+s32 func_0202bc80(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202bc8c
+s32 func_0202bc8c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202bc98
+s32 func_0202bc98(void);
+#endif
+#ifndef M2C_SELF_func_0202bca0
+s32 func_0202bca0(s32);
+#endif
+#ifndef M2C_SELF_func_0202bca8
+s32 func_0202bca8(s32);
+#endif
+#ifndef M2C_SELF_func_0202bcb0
+s32 func_0202bcb0(s32);
+#endif
+#ifndef M2C_SELF_func_0202bcb8
+s32 func_0202bcb8(s32);
+#endif
+#ifndef M2C_SELF_func_0202bcc0
+void func_0202bcc0(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0202bcd0
+s32 func_0202bcd0(void);
+#endif
+#ifndef M2C_SELF_func_0202bcd8
+s32 func_0202bcd8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202bce4
+s32 func_0202bce4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202bcf0
+s32 func_0202bcf0(void);
+#endif
+#ifndef M2C_SELF_func_0202bcf8
+s32 func_0202bcf8(s32);
+#endif
+#ifndef M2C_SELF_func_0202bd00
+s32 func_0202bd00(s32);
+#endif
+#ifndef M2C_SELF_func_0202bd08
+s32 func_0202bd08(s32);
+#endif
+#ifndef M2C_SELF_func_0202bd10
+s32 func_0202bd10(s32);
+#endif
+#ifndef M2C_SELF_func_0202bd18
+void func_0202bd18(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0202be0c
+s32 func_0202be0c(s32);
+#endif
+#ifndef M2C_SELF_func_0202be24
+s32 func_0202be24(s32);
+#endif
+#ifndef M2C_SELF_func_0202bf3c
+void func_0202bf3c(void *, s16);
+#endif
+#ifndef M2C_SELF_func_0202bf50
+void func_0202bf50(void *, s16);
+#endif
+#ifndef M2C_SELF_func_0202bf64
+void func_0202bf64(void *);
+#endif
+#ifndef M2C_SELF_func_0202bf90
+void func_0202bf90(void *);
+#endif
+#ifndef M2C_SELF_func_0202c450
+s32 func_0202c450(s32);
+#endif
+#ifndef M2C_SELF_func_0202c694
+void func_0202c694(void *, s16, s8);
+#endif
+#ifndef M2C_SELF_func_0202cb00
+s32 func_0202cb00(s32);
+#endif
+#ifndef M2C_SELF_func_0202cb14
+s32 func_0202cb14(void);
+#endif
+#ifndef M2C_SELF_func_0202cb1c
+s32 func_0202cb1c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202cb28
+s32 func_0202cb28(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202cb34
+s32 func_0202cb34(void);
+#endif
+#ifndef M2C_SELF_func_0202cb3c
+s32 func_0202cb3c(s32);
+#endif
+#ifndef M2C_SELF_func_0202cb44
+s32 func_0202cb44(s32);
+#endif
+#ifndef M2C_SELF_func_0202cb4c
+s32 func_0202cb4c(s32);
+#endif
+#ifndef M2C_SELF_func_0202cb54
+s32 func_0202cb54(s32);
+#endif
+#ifndef M2C_SELF_func_0202d578
+void func_0202d578(void *, s16, s16);
+#endif
+#ifndef M2C_SELF_func_0202d584
+void func_0202d584(void *, u32);
+#endif
+#ifndef M2C_SELF_func_0202d5c8
+void func_0202d5c8(void *, s16);
+#endif
+#ifndef M2C_SELF_func_0202dc4c
+void func_0202dc4c(void *);
+#endif
+#ifndef M2C_SELF_func_0202dc68
+void func_0202dc68(void *, s32, s32, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0202dcc0
+void func_0202dcc0(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202dfa0
+void func_0202dfa0(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202e2bc
+void func_0202e2bc(void *, s32, s32, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_0202e5f8
+s32 func_0202e5f8(s32);
+#endif
+#ifndef M2C_SELF_func_0202e6b4
+void func_0202e6b4(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202e958
+void func_0202e958(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202eba8
+void func_0202eba8(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202ef30
+void func_0202ef30(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202f244
+s32 func_0202f244(s32);
+#endif
+#ifndef M2C_SELF_func_0202f258
+s32 func_0202f258(void);
+#endif
+#ifndef M2C_SELF_func_0202f260
+s32 func_0202f260(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202f26c
+s32 func_0202f26c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0202f278
+s32 func_0202f278(void);
+#endif
+#ifndef M2C_SELF_func_0202f280
+s32 func_0202f280(s32);
+#endif
+#ifndef M2C_SELF_func_0202f288
+s32 func_0202f288(s32);
+#endif
+#ifndef M2C_SELF_func_0202f290
+s32 func_0202f290(s32);
+#endif
+#ifndef M2C_SELF_func_0202f298
+s32 func_0202f298(s32);
+#endif
+#ifndef M2C_SELF_func_0202f2a0
+s32 func_0202f2a0(s32);
+#endif
+#ifndef M2C_SELF_func_0202f2b4
+void *func_0202f2b4(void *);
+#endif
+#ifndef M2C_SELF_func_0202fcf0
+void func_0202fcf0(s32);
+#endif
+#ifndef M2C_SELF_func_0202fde0
+void func_0202fde0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202fe04
+void func_0202fe04(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202ff2c
+void func_0202ff2c(void *, s32, s32, void *, s32);
+#endif
+#ifndef M2C_SELF_func_02030040
+s32 func_02030040(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02030070
+void func_02030070(s32, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02030188
+s32 func_02030188(s32);
+#endif
+#ifndef M2C_SELF_func_02030948
+void func_02030948(s32);
+#endif
+#ifndef M2C_SELF_func_020309c4
+void func_020309c4(void *);
+#endif
+#ifndef M2C_SELF_func_02030a50
+void func_02030a50(void *, s32, s32, void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02030ac8
+void func_02030ac8(void *, s32, s32, void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02030b50
+void func_02030b50(void *, s32, s32, void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02030dec
+s32 func_02030dec(s32);
+#endif
+#ifndef M2C_SELF_func_02030e00
+s32 func_02030e00(s32);
+#endif
+#ifndef M2C_SELF_func_02030e4c
+s32 func_02030e4c(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02030ff4
+void func_02030ff4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020315d0
+s32 func_020315d0(s32);
+#endif
+#ifndef M2C_SELF_func_020315e4
+s32 func_020315e4(s32);
+#endif
+#ifndef M2C_SELF_func_02031834
+s32 func_02031834(s32);
+#endif
+#ifndef M2C_SELF_func_0203185c
+s32 func_0203185c(s32);
+#endif
+#ifndef M2C_SELF_func_02031e74
+void func_02031e74(void *);
+#endif
+#ifndef M2C_SELF_func_020326b4
+void *func_020326b4(void *);
+#endif
+#ifndef M2C_SELF_func_02032720
+void *func_02032720(void *);
+#endif
+#ifndef M2C_SELF_func_02032794
+void *func_02032794(void *, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020328cc
+void func_020328cc(void *);
+#endif
+#ifndef M2C_SELF_func_02032bb4
+void func_02032bb4(void *);
+#endif
+#ifndef M2C_SELF_func_02032cf4
+void func_02032cf4(void *);
+#endif
+#ifndef M2C_SELF_func_02032ec8
+void *func_02032ec8(void *);
+#endif
+#ifndef M2C_SELF_func_02032efc
+void *func_02032efc(void *);
+#endif
+#ifndef M2C_SELF_func_02032f38
+M2C_UNK **func_02032f38(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02032f6c
+s32 func_02032f6c(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02032f90
+void func_02032f90(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02033000
+void func_02033000(s32);
+#endif
+#ifndef M2C_SELF_func_02033048
+void func_02033048(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020334ec
+s32 func_020334ec(s32);
+#endif
+#ifndef M2C_SELF_func_02033500
+s32 func_02033500(s32);
+#endif
+#ifndef M2C_SELF_func_0203353c
+M2C_UNK **func_0203353c(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203372c
+void func_0203372c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02033d18
+s32 func_02033d18(void);
+#endif
+#ifndef M2C_SELF_func_02033d20
+s32 func_02033d20(void);
+#endif
+#ifndef M2C_SELF_func_02033d28
+s32 func_02033d28(s32);
+#endif
+#ifndef M2C_SELF_func_02033e78
+s32 func_02033e78(void);
+#endif
+#ifndef M2C_SELF_func_02033f60
+s32 func_02033f60(s32);
+#endif
+#ifndef M2C_SELF_func_02033f74
+s32 func_02033f74(s32);
+#endif
+#ifndef M2C_SELF_func_020341f4
+void func_020341f4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02034630
+void func_02034630(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02034770
+s32 func_02034770(s32);
+#endif
+#ifndef M2C_SELF_func_02034780
+s32 func_02034780(s32);
+#endif
+#ifndef M2C_SELF_func_02034794
+s32 func_02034794(s32);
+#endif
+#ifndef M2C_SELF_func_02035668
+void func_02035668(s32);
+#endif
+#ifndef M2C_SELF_func_02035738
+void func_02035738(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02035b10
+s32 func_02035b10(void *, s32, void *);
+#endif
+#ifndef M2C_SELF_func_02035bb8
+s32 func_02035bb8(s32);
+#endif
+#ifndef M2C_SELF_func_02035bf0
+s32 func_02035bf0(s32);
+#endif
+#ifndef M2C_SELF_func_02035c40
+u16 func_02035c40(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02035d40
+s32 func_02035d40(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02035d48
+s32 func_02035d48(s32);
+#endif
+#ifndef M2C_SELF_func_02035d5c
+void *func_02035d5c(void *);
+#endif
+#ifndef M2C_SELF_func_02035dac
+void *func_02035dac(void *);
+#endif
+#ifndef M2C_SELF_func_02035e04
+void *func_02035e04(void *, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02035f58
+s32 func_02035f58(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02036010
+void func_02036010(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02036298
+void func_02036298(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02036700
+s32 func_02036700(void);
+#endif
+#ifndef M2C_SELF_func_02036828
+s32 func_02036828(s32);
+#endif
+#ifndef M2C_SELF_func_0203683c
+s32 func_0203683c(s32);
+#endif
+#ifndef M2C_SELF_func_02036a58
+s32 func_02036a58(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02036a7c
+void func_02036a7c(void *);
+#endif
+#ifndef M2C_SELF_func_02036cc0
+void func_02036cc0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02037b28
+s32 func_02037b28(void);
+#endif
+#ifndef M2C_SELF_func_02037bbc
+s32 func_02037bbc(s32);
+#endif
+#ifndef M2C_SELF_func_02037bd0
+s32 func_02037bd0(s32);
+#endif
+#ifndef M2C_SELF_func_02037bec
+M2C_UNK **func_02037bec(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02037c20
+s32 func_02037c20(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02037dd0
+void func_02037dd0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020382b4
+s32 func_020382b4(s32);
+#endif
+#ifndef M2C_SELF_func_020382c8
+s32 func_020382c8(s32);
+#endif
+#ifndef M2C_SELF_func_0203868c
+void func_0203868c(s32);
+#endif
+#ifndef M2C_SELF_func_020386ac
+s32 func_020386ac(void *);
+#endif
+#ifndef M2C_SELF_func_02038740
+void func_02038740(s32);
+#endif
+#ifndef M2C_SELF_func_02038ab4
+void func_02038ab4(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02039fd8
+void func_02039fd8(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0203a278
+void func_0203a278(void *, s32, s32, void *, s32);
+#endif
+#ifndef M2C_SELF_func_0203a30c
+void func_0203a30c(void *, s32, s32, void *, s32);
+#endif
+#ifndef M2C_SELF_func_0203a388
+void func_0203a388(void *, s32, s32, void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0203a414
+void func_0203a414(s32, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0203a4b4
+M2C_UNK **func_0203a4b4(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203a4e8
+s32 func_0203a4e8(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203a578
+void func_0203a578(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203a744
+void func_0203a744(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203a75c
+void func_0203a75c(void *);
+#endif
+#ifndef M2C_SELF_func_0203b30c
+s32 func_0203b30c(s32);
+#endif
+#ifndef M2C_SELF_func_0203b320
+s32 func_0203b320(s32);
+#endif
+#ifndef M2C_SELF_func_0203b33c
+void *func_0203b33c(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203b390
+s32 func_0203b390(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203b474
+void func_0203b474(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203b6c0
+void func_0203b6c0(void *);
+#endif
+#ifndef M2C_SELF_func_0203c1fc
+s32 func_0203c1fc(s32);
+#endif
+#ifndef M2C_SELF_func_0203c210
+s32 func_0203c210(s32);
+#endif
+#ifndef M2C_SELF_func_0203c22c
+M2C_UNK **func_0203c22c(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203c260
+s32 func_0203c260(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203c284
+void func_0203c284(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203c450
+void func_0203c450(void);
+#endif
+#ifndef M2C_SELF_func_0203ca84
+s32 func_0203ca84(s32);
+#endif
+#ifndef M2C_SELF_func_0203ca98
+s32 func_0203ca98(s32);
+#endif
+#ifndef M2C_SELF_func_0203cae4
+s32 func_0203cae4(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203cb74
+void func_0203cb74(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203cce4
+void func_0203cce4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203cefc
+s32 func_0203cefc(s32);
+#endif
+#ifndef M2C_SELF_func_0203cf10
+s32 func_0203cf10(s32);
+#endif
+#ifndef M2C_SELF_func_0203cf5c
+s32 func_0203cf5c(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203cfec
+void func_0203cfec(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203d15c
+void func_0203d15c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203d174
+void func_0203d174(void *);
+#endif
+#ifndef M2C_SELF_func_0203d25c
+s32 func_0203d25c(s32, s32, s32 *);
+#endif
+#ifndef M2C_SELF_func_0203d3e4
+s32 func_0203d3e4(s32);
+#endif
+#ifndef M2C_SELF_func_0203d3f8
+s32 func_0203d3f8(s32);
+#endif
+#ifndef M2C_SELF_func_0203d414
+M2C_UNK **func_0203d414(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203d448
+s32 func_0203d448(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203d4d8
+void func_0203d4d8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203d648
+void func_0203d648(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203dcc0
+s32 func_0203dcc0(s32);
+#endif
+#ifndef M2C_SELF_func_0203dcd4
+s32 func_0203dcd4(s32);
+#endif
+#ifndef M2C_SELF_func_0203dcf0
+M2C_UNK **func_0203dcf0(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203dd24
+s32 func_0203dd24(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203e088
+void func_0203e088(M2C_UNK, s32, s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0203e130
+s32 func_0203e130(s32);
+#endif
+#ifndef M2C_SELF_func_0203e144
+s32 func_0203e144(s32);
+#endif
+#ifndef M2C_SELF_func_0203e198
+s32 func_0203e198(M2C_UNK, void *);
+#endif
+#ifndef M2C_SELF_func_0203e254
+void func_0203e254(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0203e2c4
+void func_0203e2c4(s32);
+#endif
+#ifndef M2C_SELF_func_0203f9e4
+void func_0203f9e4(s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0203fb3c
+s32 func_0203fb3c(s32);
+#endif
+#ifndef M2C_SELF_func_0203fb50
+s32 func_0203fb50(s32);
+#endif
+#ifndef M2C_SELF_func_0203fcf0
+s32 func_0203fcf0(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0203fe9c
+void func_0203fe9c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020400b8
+s32 func_020400b8(s32);
+#endif
+#ifndef M2C_SELF_func_020400c8
+s32 func_020400c8(s32);
+#endif
+#ifndef M2C_SELF_func_020400dc
+s32 func_020400dc(s32);
+#endif
+#ifndef M2C_SELF_func_020400f8
+void *func_020400f8(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020401ec
+void func_020401ec(void *);
+#endif
+#ifndef M2C_SELF_func_020402ac
+s32 func_020402ac(s32, void *);
+#endif
+#ifndef M2C_SELF_func_0204034c
+void func_0204034c(void *);
+#endif
+#ifndef M2C_SELF_func_020405fc
+void func_020405fc(void);
+#endif
+#ifndef M2C_SELF_func_02040810
+s32 func_02040810(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0204083c
+s32 func_0204083c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020408ac
+s32 func_020408ac(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0204091c
+void *func_0204091c(void *);
+#endif
+#ifndef M2C_SELF_func_02040950
+void *func_02040950(void *);
+#endif
+#ifndef M2C_SELF_func_0204098c
+M2C_UNK **func_0204098c(M2C_UNK **, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020409c0
+s32 func_020409c0(s32, void *);
+#endif
+#ifndef M2C_SELF_func_020409e4
+void func_020409e4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02040a54
+void func_02040a54(s32);
+#endif
+#ifndef M2C_SELF_func_02040a9c
+void func_02040a9c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02041140
+s32 func_02041140(s32);
+#endif
+#ifndef M2C_SELF_func_02041154
+s32 func_02041154(s32);
+#endif
+#ifndef M2C_SELF_func_02041170
+void *func_02041170(void *, s32, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020413c0
+void func_020413c0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02041814
+s32 func_02041814(s32);
+#endif
+#ifndef M2C_SELF_func_02041828
+s32 func_02041828(s32);
+#endif
+#ifndef M2C_SELF_func_02042700
+void *func_02042700(void *);
+#endif
+#ifndef M2C_SELF_func_02042768
+void *func_02042768(void *);
+#endif
+#ifndef M2C_SELF_func_02043800
+void *func_02043800(void *);
+#endif
+#ifndef M2C_SELF_func_02043868
+void *func_02043868(void *);
+#endif
+#ifndef M2C_SELF_func_020438d8
+void *func_020438d8(void *);
+#endif
+#ifndef M2C_SELF_func_02044108
+void func_02044108(s32);
+#endif
+#ifndef M2C_SELF_func_02044e68
+s32 func_02044e68(s32);
+#endif
+#ifndef M2C_SELF_func_02044ef8
+u16 func_02044ef8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02044ff8
+s32 func_02044ff8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02045358
+s32 func_02045358(s32);
+#endif
+#ifndef M2C_SELF_func_0204536c
+s32 func_0204536c(s32);
+#endif
+#ifndef M2C_SELF_func_02045380
+M2C_UNK **func_02045380(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02045870
+s32 func_02045870(s32);
+#endif
+#ifndef M2C_SELF_func_02045884
+s32 func_02045884(s32);
+#endif
+#ifndef M2C_SELF_func_02045b34
+s32 func_02045b34(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02045d40
+void func_02045d40(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02045ee8
+void func_02045ee8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02045f20
+s32 func_02045f20(s32);
+#endif
+#ifndef M2C_SELF_func_02045f34
+s32 func_02045f34(s32);
+#endif
+#ifndef M2C_SELF_func_02046844
+s32 func_02046844(void *, s32, void *);
+#endif
+#ifndef M2C_SELF_func_02046c7c
+void *func_02046c7c(void *);
+#endif
+#ifndef M2C_SELF_func_02046ce4
+void *func_02046ce4(void *);
+#endif
+#ifndef M2C_SELF_func_0204997c
+void *func_0204997c(void *);
+#endif
+#ifndef M2C_SELF_func_020499e4
+void *func_020499e4(void *);
+#endif
+#ifndef M2C_SELF_func_02049d80
+void func_02049d80(void);
+#endif
+#ifndef M2C_SELF_func_02049d8c
+void func_02049d8c(void);
+#endif
+#ifndef M2C_SELF_func_0204a55c
+void *func_0204a55c(void *);
+#endif
+#ifndef M2C_SELF_func_0204a5dc
+void *func_0204a5dc(void *);
+#endif
+#ifndef M2C_SELF_func_0204a7bc
+void func_0204a7bc(void);
+#endif
+#ifndef M2C_SELF_func_0204a7c8
+void func_0204a7c8(void);
+#endif
+#ifndef M2C_SELF_func_0204ae90
+void *func_0204ae90(void *);
+#endif
+#ifndef M2C_SELF_func_0204aef8
+void *func_0204aef8(void *);
+#endif
+#ifndef M2C_SELF_func_0204b4f4
+void func_0204b4f4(void);
+#endif
+#ifndef M2C_SELF_func_0204b500
+void func_0204b500(void);
+#endif
+#ifndef M2C_SELF_func_0204b50c
+void func_0204b50c(void);
+#endif
+#ifndef M2C_SELF_func_0204b5b0
+void func_0204b5b0(s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0204b5dc
+void func_0204b5dc(s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0204b6f4
+void func_0204b6f4(s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0204b714
+void func_0204b714(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0204b788
+s32 func_0204b788(s32);
+#endif
+#ifndef M2C_SELF_func_0204bbe0
+void *func_0204bbe0(void *);
+#endif
+#ifndef M2C_SELF_func_0204bc30
+void *func_0204bc30(void *);
+#endif
+#ifndef M2C_SELF_func_0204c028
+void func_0204c028(void);
+#endif
+#ifndef M2C_SELF_func_0204c034
+void func_0204c034(void);
+#endif
+#ifndef M2C_SELF_func_0204c040
+void func_0204c040(void);
+#endif
+#ifndef M2C_SELF_func_0204c078
+void *func_0204c078(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0204c218
+void *func_0204c218(void *);
+#endif
+#ifndef M2C_SELF_func_0204c264
+void *func_0204c264(void *);
+#endif
+#ifndef M2C_SELF_func_0204c5f0
+void func_0204c5f0(void);
+#endif
+#ifndef M2C_SELF_func_0204cc94
+s32 func_0204cc94(s32);
+#endif
+#ifndef M2C_SELF_func_0204d238
+void func_0204d238(s32);
+#endif
+#ifndef M2C_SELF_func_0204d480
+void *func_0204d480(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0204d560
+void *func_0204d560(void *);
+#endif
+#ifndef M2C_SELF_func_0204d5b0
+void *func_0204d5b0(void *);
+#endif
+#ifndef M2C_SELF_func_0204d714
+void func_0204d714(void);
+#endif
+#ifndef M2C_SELF_func_0204d720
+void func_0204d720(void);
+#endif
+#ifndef M2C_SELF_func_0204e180
+s32 func_0204e180(s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0204e45c
+void *func_0204e45c(void *);
+#endif
+#ifndef M2C_SELF_func_0204e4c4
+void *func_0204e4c4(void *);
+#endif
+#ifndef M2C_SELF_func_0204ebf8
+void func_0204ebf8(void);
+#endif
+#ifndef M2C_SELF_func_0204ec04
+void func_0204ec04(void);
+#endif
+#ifndef M2C_SELF_func_0204efa8
+void *func_0204efa8(void *);
+#endif
+#ifndef M2C_SELF_func_0204eff4
+void *func_0204eff4(void *);
+#endif
+#ifndef M2C_SELF_func_0204f160
+void func_0204f160(void);
+#endif
+#ifndef M2C_SELF_func_0204fb20
+void func_0204fb20(s32);
+#endif
+#ifndef M2C_SELF_func_02050850
+void func_02050850(s32);
+#endif
+#ifndef M2C_SELF_func_02050acc
+void *func_02050acc(void *);
+#endif
+#ifndef M2C_SELF_func_02050b1c
+void *func_02050b1c(void *);
+#endif
+#ifndef M2C_SELF_func_02050f14
+void func_02050f14(void);
+#endif
+#ifndef M2C_SELF_func_02050f20
+void func_02050f20(void);
+#endif
+#ifndef M2C_SELF_func_02050f88
+s32 func_02050f88(s32);
+#endif
+#ifndef M2C_SELF_func_020511ac
+void *func_020511ac(void *, void *, s32);
+#endif
+#ifndef M2C_SELF_func_02051340
+s32 func_02051340(s32);
+#endif
+#ifndef M2C_SELF_func_02051418
+void func_02051418(void);
+#endif
+#ifndef M2C_SELF_func_02051bf4
+void func_02051bf4(s32);
+#endif
+#ifndef M2C_SELF_func_02051c9c
+void func_02051c9c(void *);
+#endif
+#ifndef M2C_SELF_func_02051cc4
+void func_02051cc4(void);
+#endif
+#ifndef M2C_SELF_func_02052104
+void *func_02052104(void *);
+#endif
+#ifndef M2C_SELF_func_0205267c
+void func_0205267c(s32);
+#endif
+#ifndef M2C_SELF_func_020526cc
+void func_020526cc(void);
+#endif
+#ifndef M2C_SELF_func_02052818
+s32 func_02052818(s32);
+#endif
+#ifndef M2C_SELF_func_0205282c
+s32 func_0205282c(s32);
+#endif
+#ifndef M2C_SELF_func_02052848
+void func_02052848(M2C_UNK, void *, M2C_UNK, M2C_UNK, s16, s16, s8, u8);
+#endif
+#ifndef M2C_SELF_func_02055ba8
+void func_02055ba8(s32);
+#endif
+#ifndef M2C_SELF_func_020591d4
+void func_020591d4(s8 *, s8 *);
+#endif
+#ifndef M2C_SELF_func_0205af40
+void func_0205af40(s32);
+#endif
+#ifndef M2C_SELF_func_0205d610
+void func_0205d610(s32);
+#endif
+#ifndef M2C_SELF_func_0205efc8
+void func_0205efc8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0205f3f8
+void func_0205f3f8(s32);
+#endif
+#ifndef M2C_SELF_func_02062734
+void func_02062734(s32);
+#endif
+#ifndef M2C_SELF_func_02062de8
+void func_02062de8(void *, s32, s32, s8);
+#endif
+#ifndef M2C_SELF_func_02062fb8
+void func_02062fb8(void *);
+#endif
+#ifndef M2C_SELF_func_0206410c
+s32 func_0206410c(s32);
+#endif
+#ifndef M2C_SELF_func_020641a8
+void *func_020641a8(void *);
+#endif
+#ifndef M2C_SELF_func_020649ec
+void func_020649ec(void *);
+#endif
+#ifndef M2C_SELF_func_02064ac4
+s32 func_02064ac4(s32);
+#endif
+#ifndef M2C_SELF_func_02064b40
+void *func_02064b40(void *);
+#endif
+#ifndef M2C_SELF_func_02065414
+void func_02065414(void *);
+#endif
+#ifndef M2C_SELF_func_02065950
+void func_02065950(s32);
+#endif
+#ifndef M2C_SELF_func_02065960
+void func_02065960(s32);
+#endif
+#ifndef M2C_SELF_func_02065970
+void func_02065970(void);
+#endif
+#ifndef M2C_SELF_func_02065984
+void func_02065984(s32);
+#endif
+#ifndef M2C_SELF_func_020659b0
+void func_020659b0(s32);
+#endif
+#ifndef M2C_SELF_func_02065a4c
+void func_02065a4c(s32, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02065aa8
+void func_02065aa8(void);
+#endif
+#ifndef M2C_SELF_func_0206a1f4
+s32 func_0206a1f4(void);
+#endif
+#ifndef M2C_SELF_func_0206a2ac
+void func_0206a2ac(s32);
+#endif
+#ifndef M2C_SELF_func_0206c790
+void func_0206c790(s32);
+#endif
+#ifndef M2C_SELF_func_0206c7c4
+void func_0206c7c4(s32);
+#endif
+#ifndef M2C_SELF_func_0206d750
+void func_0206d750(s32);
+#endif
+#ifndef M2C_SELF_func_0206d784
+void func_0206d784(s32);
+#endif
+#ifndef M2C_SELF_func_0206f764
+void func_0206f764(s32);
+#endif
+#ifndef M2C_SELF_func_0206f788
+void func_0206f788(s32);
+#endif
+#ifndef M2C_SELF_func_0206f81c
+void func_0206f81c(void *);
+#endif
+#ifndef M2C_SELF_func_02072a04
+void func_02072a04(void);
+#endif
+#ifndef M2C_SELF_func_02072a70
+void func_02072a70(void);
+#endif
+#ifndef M2C_SELF_func_02073424
+void func_02073424(s32, s32, s32, s32, s8);
+#endif
+#ifndef M2C_SELF_func_02073890
+void func_02073890(void *, s8, s8, s8, u8);
+#endif
+#ifndef M2C_SELF_func_02073e84
+void func_02073e84(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02076dbc
+s32 func_02076dbc(s32);
+#endif
+#ifndef M2C_SELF_func_02076dd0
+s32 func_02076dd0(s32);
+#endif
+#ifndef M2C_SELF_func_02076de4
+s32 func_02076de4(s32);
+#endif
+#ifndef M2C_SELF_func_02077130
+s32 func_02077130(s32, u32);
+#endif
+#ifndef M2C_SELF_func_02077150
+s32 func_02077150(s32, u32);
+#endif
+#ifndef M2C_SELF_func_02078c64
+void func_02078c64(s32);
+#endif
+#ifndef M2C_SELF_func_02078c98
+void func_02078c98(s32);
+#endif
+#ifndef M2C_SELF_func_0207b0dc
+void func_0207b0dc(void);
+#endif
+#ifndef M2C_SELF_func_0207b280
+void func_0207b280(s32);
+#endif
+#ifndef M2C_SELF_func_0207baec
+s32 func_0207baec(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0207bb80
+u16 func_0207bb80(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c55c
+void func_0207c55c(void *);
+#endif
+#ifndef M2C_SELF_func_0207c58c
+s32 func_0207c58c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c59c
+s32 func_0207c59c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c5ac
+s32 func_0207c5ac(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c5bc
+s32 func_0207c5bc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c5cc
+s32 func_0207c5cc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c5dc
+s32 func_0207c5dc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c5ec
+s32 func_0207c5ec(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c5fc
+s32 func_0207c5fc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c60c
+s32 func_0207c60c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c61c
+s32 func_0207c61c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c62c
+s32 func_0207c62c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0207c63c
+s32 func_0207c63c(s32);
+#endif
+#ifndef M2C_SELF_func_0207c650
+s32 func_0207c650(s32);
+#endif
+#ifndef M2C_SELF_func_0207d04c
+void func_0207d04c(s32);
+#endif
+#ifndef M2C_SELF_func_0207d080
+void func_0207d080(s32);
+#endif
+#ifndef M2C_SELF_func_0207d148
+void func_0207d148(void *, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0207e31c
+void func_0207e31c(s32);
+#endif
+#ifndef M2C_SELF_func_0207e34c
+void func_0207e34c(s32);
+#endif
+#ifndef M2C_SELF_func_0207faa4
+void func_0207faa4(s32);
+#endif
+#ifndef M2C_SELF_func_0207fad8
+void func_0207fad8(s32);
+#endif
+#ifndef M2C_SELF_func_02081038
+void func_02081038(s32);
+#endif
+#ifndef M2C_SELF_func_0208106c
+void func_0208106c(s32);
+#endif
+#ifndef M2C_SELF_func_0208228c
+void func_0208228c(s32);
+#endif
+#ifndef M2C_SELF_func_020822c0
+void func_020822c0(s32);
+#endif
+#ifndef M2C_SELF_func_02083ef4
+void func_02083ef4(s32);
+#endif
+#ifndef M2C_SELF_func_02083f28
+void func_02083f28(s32);
+#endif
+#ifndef M2C_SELF_func_02085050
+s32 func_02085050(s32);
+#endif
+#ifndef M2C_SELF_func_02085dfc
+void func_02085dfc(void);
+#endif
+#ifndef M2C_SELF_func_02085e08
+void func_02085e08(void);
+#endif
+#ifndef M2C_SELF_func_02085e7c
+s32 func_02085e7c(s32);
+#endif
+#ifndef M2C_SELF_func_02085e90
+s32 func_02085e90(void);
+#endif
+#ifndef M2C_SELF_func_02085e98
+s32 func_02085e98(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02085ea4
+s32 func_02085ea4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02085eb0
+s32 func_02085eb0(void);
+#endif
+#ifndef M2C_SELF_func_02085eb8
+s32 func_02085eb8(s32);
+#endif
+#ifndef M2C_SELF_func_02085ec4
+s32 func_02085ec4(s32);
+#endif
+#ifndef M2C_SELF_func_02085ed0
+s32 func_02085ed0(s32);
+#endif
+#ifndef M2C_SELF_func_02085ed8
+s32 func_02085ed8(s32);
+#endif
+#ifndef M2C_SELF_func_02085ee0
+void func_02085ee0(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_02085f64
+s32 func_02085f64(s32);
+#endif
+#ifndef M2C_SELF_func_02087908
+void func_02087908(s32);
+#endif
+#ifndef M2C_SELF_func_0208793c
+void func_0208793c(s32);
+#endif
+#ifndef M2C_SELF_func_0208910c
+void func_0208910c(s32);
+#endif
+#ifndef M2C_SELF_func_02089140
+void func_02089140(s32);
+#endif
+#ifndef M2C_SELF_func_0208a66c
+void func_0208a66c(s32);
+#endif
+#ifndef M2C_SELF_func_0208a6a0
+void func_0208a6a0(s32);
+#endif
+#ifndef M2C_SELF_func_0208b364
+void func_0208b364(s32);
+#endif
+#ifndef M2C_SELF_func_0208b398
+void func_0208b398(s32);
+#endif
+#ifndef M2C_SELF_func_0208b460
+void func_0208b460(void *, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0208c1f4
+void func_0208c1f4(s32);
+#endif
+#ifndef M2C_SELF_func_0208c228
+void func_0208c228(s32);
+#endif
+#ifndef M2C_SELF_func_0208d1ac
+s32 func_0208d1ac(s32);
+#endif
+#ifndef M2C_SELF_func_0208d1cc
+s32 func_0208d1cc(s32);
+#endif
+#ifndef M2C_SELF_func_0208da10
+s32 func_0208da10(s32);
+#endif
+#ifndef M2C_SELF_func_0208da30
+s32 func_0208da30(s32);
+#endif
+#ifndef M2C_SELF_func_0208dcc4
+s32 func_0208dcc4(void);
+#endif
+#ifndef M2C_SELF_func_0208dccc
+s32 func_0208dccc(void);
+#endif
+#ifndef M2C_SELF_func_0208e2e0
+s32 func_0208e2e0(s32);
+#endif
+#ifndef M2C_SELF_func_0208e300
+s32 func_0208e300(s32);
+#endif
+#ifndef M2C_SELF_func_0208eb30
+s32 func_0208eb30(s32);
+#endif
+#ifndef M2C_SELF_func_0208eb50
+s32 func_0208eb50(s32);
+#endif
+#ifndef M2C_SELF_func_0208ed88
+s32 func_0208ed88(void);
+#endif
+#ifndef M2C_SELF_func_0208ed90
+s32 func_0208ed90(void);
+#endif
+#ifndef M2C_SELF_func_0208ed98
+s32 func_0208ed98(void);
+#endif
+#ifndef M2C_SELF_func_0208eda0
+s32 func_0208eda0(void);
+#endif
+#ifndef M2C_SELF_func_0208ee14
+void *func_0208ee14(void *);
+#endif
+#ifndef M2C_SELF_func_0208ee70
+void *func_0208ee70(void *);
+#endif
+#ifndef M2C_SELF_func_02090c60
+void func_02090c60(void *);
+#endif
+#ifndef M2C_SELF_func_02090cc0
+void *func_02090cc0(void *);
+#endif
+#ifndef M2C_SELF_func_02090d3c
+void *func_02090d3c(void *);
+#endif
+#ifndef M2C_SELF_func_02091960
+void func_02091960(s32);
+#endif
+#ifndef M2C_SELF_func_020919d8
+void func_020919d8(void *);
+#endif
+#ifndef M2C_SELF_func_02094794
+void func_02094794(void *);
+#endif
+#ifndef M2C_SELF_func_0209481c
+void *func_0209481c(void *);
+#endif
+#ifndef M2C_SELF_func_02094878
+void *func_02094878(void *);
+#endif
+#ifndef M2C_SELF_func_02095168
+void func_02095168(s32);
+#endif
+#ifndef M2C_SELF_func_02096158
+void *func_02096158(void *);
+#endif
+#ifndef M2C_SELF_func_020961d4
+void *func_020961d4(void *);
+#endif
+#ifndef M2C_SELF_func_02096d58
+void func_02096d58(s32);
+#endif
+#ifndef M2C_SELF_func_02096dac
+void func_02096dac(void *);
+#endif
+#ifndef M2C_SELF_func_0209877c
+s32 func_0209877c(s32);
+#endif
+#ifndef M2C_SELF_func_02098ab0
+void *func_02098ab0(void *);
+#endif
+#ifndef M2C_SELF_func_02098b0c
+void *func_02098b0c(void *);
+#endif
+#ifndef M2C_SELF_func_02099228
+u8 func_02099228(void *);
+#endif
+#ifndef M2C_SELF_func_0209a4d4
+void func_0209a4d4(void *);
+#endif
+#ifndef M2C_SELF_func_0209a54c
+void *func_0209a54c(void *);
+#endif
+#ifndef M2C_SELF_func_0209a5c8
+void *func_0209a5c8(void *);
+#endif
+#ifndef M2C_SELF_func_0209aed8
+u8 func_0209aed8(void *);
+#endif
+#ifndef M2C_SELF_func_0209b634
+void func_0209b634(s32);
+#endif
+#ifndef M2C_SELF_func_0209b79c
+void func_0209b79c(void *);
+#endif
+#ifndef M2C_SELF_func_0209d9b8
+void func_0209d9b8(void *);
+#endif
+#ifndef M2C_SELF_func_0209da40
+void *func_0209da40(void *);
+#endif
+#ifndef M2C_SELF_func_0209da9c
+void *func_0209da9c(void *);
+#endif
+#ifndef M2C_SELF_func_0209e414
+u8 func_0209e414(void *);
+#endif
+#ifndef M2C_SELF_func_0209e890
+void func_0209e890(s32);
+#endif
+#ifndef M2C_SELF_func_0209f110
+void *func_0209f110(void *);
+#endif
+#ifndef M2C_SELF_func_0209f18c
+void *func_0209f18c(void *);
+#endif
+#ifndef M2C_SELF_func_0209fad0
+u8 func_0209fad0(void *);
+#endif
+#ifndef M2C_SELF_func_020a0610
+void func_020a0610(s32);
+#endif
+#ifndef M2C_SELF_func_020a0754
+void func_020a0754(void *);
+#endif
+#ifndef M2C_SELF_func_020a1d24
+void func_020a1d24(s32);
+#endif
+#ifndef M2C_SELF_func_020a20c4
+void func_020a20c4(s32);
+#endif
+#ifndef M2C_SELF_func_020a23c4
+void func_020a23c4(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020a23e4
+void func_020a23e4(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020a3148
+void func_020a3148(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020a3168
+s32 func_020a3168(s32);
+#endif
+#ifndef M2C_SELF_func_020a3180
+s32 func_020a3180(s32);
+#endif
+#ifndef M2C_SELF_func_020a3198
+s32 func_020a3198(s32);
+#endif
+#ifndef M2C_SELF_func_020a31b0
+s32 func_020a31b0(s32);
+#endif
+#ifndef M2C_SELF_func_020a33d4
+s32 func_020a33d4(s32);
+#endif
+#ifndef M2C_SELF_func_020a3404
+s32 func_020a3404(s32);
+#endif
+#ifndef M2C_SELF_func_020a3434
+void func_020a3434(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020a346c
+void func_020a346c(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020a391c
+s32 func_020a391c(s32);
+#endif
+#ifndef M2C_SELF_func_020a3938
+void func_020a3938(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020a3964
+void func_020a3964(s32, u32);
+#endif
+#ifndef M2C_SELF_func_020a84b0
+s32 func_020a84b0(s32);
+#endif
+#ifndef M2C_SELF_func_020a85c0
+void func_020a85c0(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020a85e8
+void func_020a85e8(s32, s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020a887c
+void func_020a887c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020a8a28
+u32 func_020a8a28(void *);
+#endif
+#ifndef M2C_SELF_func_020a8b18
+s32 func_020a8b18(void *);
+#endif
+#ifndef M2C_SELF_func_020a8ba4
+u32 func_020a8ba4(void *);
+#endif
+#ifndef M2C_SELF_func_020a8c10
+u32 func_020a8c10(void *);
+#endif
+#ifndef M2C_SELF_func_020a8c98
+u32 func_020a8c98(void *);
+#endif
+#ifndef M2C_SELF_func_020a8d20
+s32 func_020a8d20(void *);
+#endif
+#ifndef M2C_SELF_func_020a8e18
+u32 func_020a8e18(void *);
+#endif
+#ifndef M2C_SELF_func_020a8e88
+s32 func_020a8e88(void *);
+#endif
+#ifndef M2C_SELF_func_020a8ec0
+s32 func_020a8ec0(void *);
+#endif
+#ifndef M2C_SELF_func_020a9194
+s32 func_020a9194(void *);
+#endif
+#ifndef M2C_SELF_func_020a92e8
+s32 func_020a92e8(void *);
+#endif
+#ifndef M2C_SELF_func_020a9320
+s32 func_020a9320(void *);
+#endif
+#ifndef M2C_SELF_func_020a93e0
+s32 func_020a93e0(void *);
+#endif
+#ifndef M2C_SELF_func_020a952c
+u32 func_020a952c(void *);
+#endif
+#ifndef M2C_SELF_func_020a9968
+u16 func_020a9968(void *);
+#endif
+#ifndef M2C_SELF_func_020a9990
+void func_020a9990(void *, s16);
+#endif
+#ifndef M2C_SELF_func_020a99b8
+s32 func_020a99b8(void *);
+#endif
+#ifndef M2C_SELF_func_020a9a24
+s32 func_020a9a24(void *);
+#endif
+#ifndef M2C_SELF_func_020a9a9c
+s32 func_020a9a9c(void *);
+#endif
+#ifndef M2C_SELF_func_020a9b14
+s32 func_020a9b14(void *);
+#endif
+#ifndef M2C_SELF_func_020a9b8c
+s32 func_020a9b8c(void *);
+#endif
+#ifndef M2C_SELF_func_020a9c04
+s32 func_020a9c04(void *);
+#endif
+#ifndef M2C_SELF_func_020a9c7c
+u32 func_020a9c7c(void *);
+#endif
+#ifndef M2C_SELF_func_020a9d00
+u32 func_020a9d00(void *);
+#endif
+#ifndef M2C_SELF_func_020a9d84
+u32 func_020a9d84(void *);
+#endif
+#ifndef M2C_SELF_func_020a9e04
+u32 func_020a9e04(void *);
+#endif
+#ifndef M2C_SELF_func_020a9e78
+u32 func_020a9e78(void *);
+#endif
+#ifndef M2C_SELF_func_020a9f84
+u32 func_020a9f84(void *);
+#endif
+#ifndef M2C_SELF_func_020a9ff4
+u32 func_020a9ff4(void *);
+#endif
+#ifndef M2C_SELF_func_020aa220
+s32 func_020aa220(s32);
+#endif
+#ifndef M2C_SELF_func_020aa238
+s32 func_020aa238(s32);
+#endif
+#ifndef M2C_SELF_func_020aa250
+s32 func_020aa250(s32);
+#endif
+#ifndef M2C_SELF_func_020aa268
+s32 func_020aa268(s32);
+#endif
+#ifndef M2C_SELF_func_020aa280
+s32 func_020aa280(s32);
+#endif
+#ifndef M2C_SELF_func_020aa298
+s32 func_020aa298(s32);
+#endif
+#ifndef M2C_SELF_func_020aa2b0
+s32 func_020aa2b0(s32);
+#endif
+#ifndef M2C_SELF_func_020aa2c8
+s32 func_020aa2c8(s32);
+#endif
+#ifndef M2C_SELF_func_020aa2e0
+s32 func_020aa2e0(s32);
+#endif
+#ifndef M2C_SELF_func_020aa2f4
+s32 func_020aa2f4(void);
+#endif
+#ifndef M2C_SELF_func_020aa2fc
+s32 func_020aa2fc(void);
+#endif
+#ifndef M2C_SELF_func_020aa304
+s32 func_020aa304(void);
+#endif
+#ifndef M2C_SELF_func_020aa328
+s32 func_020aa328(void);
+#endif
+#ifndef M2C_SELF_func_020aa330
+s32 func_020aa330(void);
+#endif
+#ifndef M2C_SELF_func_020aa338
+s32 func_020aa338(void);
+#endif
+#ifndef M2C_SELF_func_020aa340
+s32 func_020aa340(void);
+#endif
+#ifndef M2C_SELF_func_020aa348
+s32 func_020aa348(void);
+#endif
+#ifndef M2C_SELF_func_020aa350
+s32 func_020aa350(void);
+#endif
+#ifndef M2C_SELF_func_020aa358
+s32 func_020aa358(void);
+#endif
+#ifndef M2C_SELF_func_020aa360
+s32 func_020aa360(void);
+#endif
+#ifndef M2C_SELF_func_020aa368
+s32 func_020aa368(void);
+#endif
+#ifndef M2C_SELF_func_020aa370
+s32 func_020aa370(void);
+#endif
+#ifndef M2C_SELF_func_020aa37c
+s32 func_020aa37c(void);
+#endif
+#ifndef M2C_SELF_func_020aa39c
+s32 func_020aa39c(void);
+#endif
+#ifndef M2C_SELF_func_020aa3cc
+s32 func_020aa3cc(void);
+#endif
+#ifndef M2C_SELF_func_020aa3d4
+s32 func_020aa3d4(void);
+#endif
+#ifndef M2C_SELF_func_020aa3dc
+s32 func_020aa3dc(void);
+#endif
+#ifndef M2C_SELF_func_020aa3e4
+s32 func_020aa3e4(void);
+#endif
+#ifndef M2C_SELF_func_020aa3ec
+s32 func_020aa3ec(void);
+#endif
+#ifndef M2C_SELF_func_020aa3f4
+s32 func_020aa3f4(void);
+#endif
+#ifndef M2C_SELF_func_020aa400
+s32 func_020aa400(void);
+#endif
+#ifndef M2C_SELF_func_020aa408
+s32 func_020aa408(void);
+#endif
+#ifndef M2C_SELF_func_020aa418
+s32 func_020aa418(void);
+#endif
+#ifndef M2C_SELF_func_020aa43c
+s32 func_020aa43c(void);
+#endif
+#ifndef M2C_SELF_func_020aa444
+s32 func_020aa444(void);
+#endif
+#ifndef M2C_SELF_func_020aa450
+s32 func_020aa450(void);
+#endif
+#ifndef M2C_SELF_func_020aa458
+s32 func_020aa458(void);
+#endif
+#ifndef M2C_SELF_func_020aa464
+s32 func_020aa464(void);
+#endif
+#ifndef M2C_SELF_func_020aa470
+s32 func_020aa470(void);
+#endif
+#ifndef M2C_SELF_func_020aa47c
+s32 func_020aa47c(void);
+#endif
+#ifndef M2C_SELF_func_020aa488
+s32 func_020aa488(void);
+#endif
+#ifndef M2C_SELF_func_020aa594
+s32 func_020aa594(s32);
+#endif
+#ifndef M2C_SELF_func_020aa5ac
+u8 func_020aa5ac(void *);
+#endif
+#ifndef M2C_SELF_func_020aa610
+u8 func_020aa610(void *);
+#endif
+#ifndef M2C_SELF_func_020aa674
+s32 func_020aa674(void *);
+#endif
+#ifndef M2C_SELF_func_020aa740
+s32 func_020aa740(void *);
+#endif
+#ifndef M2C_SELF_func_020aa778
+s32 func_020aa778(void *);
+#endif
+#ifndef M2C_SELF_func_020aa7b0
+u32 func_020aa7b0(void *);
+#endif
+#ifndef M2C_SELF_func_020aa820
+s32 func_020aa820(void *);
+#endif
+#ifndef M2C_SELF_func_020aa8c8
+s32 func_020aa8c8(void *);
+#endif
+#ifndef M2C_SELF_func_020aa8fc
+s32 func_020aa8fc(void *);
+#endif
+#ifndef M2C_SELF_func_020aa930
+s32 func_020aa930(void *);
+#endif
+#ifndef M2C_SELF_func_020aa9a0
+s32 func_020aa9a0(void);
+#endif
+#ifndef M2C_SELF_func_020aa9cc
+s32 func_020aa9cc(s32);
+#endif
+#ifndef M2C_SELF_func_020aa9e8
+s32 func_020aa9e8(s32);
+#endif
+#ifndef M2C_SELF_func_020aa9fc
+s32 func_020aa9fc(s32);
+#endif
+#ifndef M2C_SELF_func_020aaa18
+s32 func_020aaa18(s32);
+#endif
+#ifndef M2C_SELF_func_020aaa38
+s32 func_020aaa38(void);
+#endif
+#ifndef M2C_SELF_func_020aaa40
+s32 func_020aaa40(void);
+#endif
+#ifndef M2C_SELF_func_020aaa48
+s32 func_020aaa48(void);
+#endif
+#ifndef M2C_SELF_func_020aaa54
+s32 func_020aaa54(s32);
+#endif
+#ifndef M2C_SELF_func_020aae1c
+void func_020aae1c(void);
+#endif
+#ifndef M2C_SELF_func_020ab17c
+s32 func_020ab17c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ab188
+s32 func_020ab188(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ab194
+s32 func_020ab194(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ab1a0
+void func_020ab1a0(s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ab1d4
+s32 func_020ab1d4(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020ab304
+s32 *func_020ab304(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020ab318
+s32 *func_020ab318(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020ab490
+s32 func_020ab490(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ab49c
+s32 func_020ab49c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ab4a8
+s32 func_020ab4a8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ab578
+void func_020ab578(void);
+#endif
+#ifndef M2C_SELF_func_020ab58c
+void func_020ab58c(void);
+#endif
+#ifndef M2C_SELF_func_020ab6c0
+s32 func_020ab6c0(void);
+#endif
+#ifndef M2C_SELF_func_020ab78c
+void func_020ab78c(void);
+#endif
+#ifndef M2C_SELF_func_020ab7a0
+s32 func_020ab7a0(void);
+#endif
+#ifndef M2C_SELF_func_020ac4d0
+u8 *func_020ac4d0(u8 *, u8 *);
+#endif
+#ifndef M2C_SELF_func_020ac4e4
+u8 *func_020ac4e4(u8 *, u8 *);
+#endif
+#ifndef M2C_SELF_func_020ac66c
+void func_020ac66c(void);
+#endif
+#ifndef M2C_SELF_func_020ac678
+s32 func_020ac678(void);
+#endif
+#ifndef M2C_SELF_func_020acfbc
+s32 func_020acfbc(s32);
+#endif
+#ifndef M2C_SELF_func_020acfd0
+s32 func_020acfd0(s32);
+#endif
+#ifndef M2C_SELF_func_020acfe4
+s32 func_020acfe4(s32);
+#endif
+#ifndef M2C_SELF_func_020ad008
+s32 func_020ad008(s32);
+#endif
+#ifndef M2C_SELF_func_020ad01c
+s32 func_020ad01c(s32);
+#endif
+#ifndef M2C_SELF_func_020ad030
+s32 func_020ad030(s32);
+#endif
+#ifndef M2C_SELF_func_020ad044
+s32 func_020ad044(s32);
+#endif
+#ifndef M2C_SELF_func_020ad0b0
+s32 func_020ad0b0(s32);
+#endif
+#ifndef M2C_SELF_func_020ad14c
+s32 func_020ad14c(s32);
+#endif
+#ifndef M2C_SELF_func_020aed24
+s32 func_020aed24(s32);
+#endif
+#ifndef M2C_SELF_func_020aed2c
+s32 func_020aed2c(s32);
+#endif
+#ifndef M2C_SELF_func_020aed34
+s32 func_020aed34(s32);
+#endif
+#ifndef M2C_SELF_func_020aed3c
+s32 func_020aed3c(s32);
+#endif
+#ifndef M2C_SELF_func_020aed44
+s32 func_020aed44(s32);
+#endif
+#ifndef M2C_SELF_func_020aed4c
+s32 func_020aed4c(s32);
+#endif
+#ifndef M2C_SELF_func_020aed54
+s32 func_020aed54(s32);
+#endif
+#ifndef M2C_SELF_func_020aed5c
+s32 func_020aed5c(s32);
+#endif
+#ifndef M2C_SELF_func_020aed64
+s32 func_020aed64(s32);
+#endif
+#ifndef M2C_SELF_func_020aed6c
+s32 func_020aed6c(s32);
+#endif
+#ifndef M2C_SELF_func_020aed80
+s32 func_020aed80(s32);
+#endif
+#ifndef M2C_SELF_func_020aed94
+s32 func_020aed94(s32);
+#endif
+#ifndef M2C_SELF_func_020aeda8
+s32 func_020aeda8(s32);
+#endif
+#ifndef M2C_SELF_func_020aedbc
+s32 func_020aedbc(s32);
+#endif
+#ifndef M2C_SELF_func_020aedd0
+s32 func_020aedd0(s32);
+#endif
+#ifndef M2C_SELF_func_020aede4
+s32 func_020aede4(s32);
+#endif
+#ifndef M2C_SELF_func_020aedf8
+s32 func_020aedf8(s32);
+#endif
+#ifndef M2C_SELF_func_020aee0c
+s32 func_020aee0c(s32);
+#endif
+#ifndef M2C_SELF_func_020aee20
+s32 func_020aee20(s32);
+#endif
+#ifndef M2C_SELF_func_020aee34
+s32 func_020aee34(s32);
+#endif
+#ifndef M2C_SELF_func_020aee48
+s32 func_020aee48(s32);
+#endif
+#ifndef M2C_SELF_func_020aee5c
+s32 func_020aee5c(s32);
+#endif
+#ifndef M2C_SELF_func_020aee70
+s32 func_020aee70(s32);
+#endif
+#ifndef M2C_SELF_func_020aee84
+s32 func_020aee84(s32);
+#endif
+#ifndef M2C_SELF_func_020aee98
+s32 func_020aee98(s32);
+#endif
+#ifndef M2C_SELF_func_020aeeb4
+s32 func_020aeeb4(s32);
+#endif
+#ifndef M2C_SELF_func_020aeecc
+s32 func_020aeecc(void);
+#endif
+#ifndef M2C_SELF_func_020aeed4
+s32 func_020aeed4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020aeee0
+s32 func_020aeee0(void);
+#endif
+#ifndef M2C_SELF_func_020aeee8
+s32 func_020aeee8(s32);
+#endif
+#ifndef M2C_SELF_func_020aeef0
+s32 func_020aeef0(s32);
+#endif
+#ifndef M2C_SELF_func_020aeef8
+s32 func_020aeef8(s32);
+#endif
+#ifndef M2C_SELF_func_020aef00
+s32 func_020aef00(s32);
+#endif
+#ifndef M2C_SELF_func_020aef08
+void func_020aef08(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020aef18
+s32 func_020aef18(void);
+#endif
+#ifndef M2C_SELF_func_020aef20
+s32 func_020aef20(void);
+#endif
+#ifndef M2C_SELF_func_020aef28
+s32 func_020aef28(s32);
+#endif
+#ifndef M2C_SELF_func_020aef30
+s32 func_020aef30(void);
+#endif
+#ifndef M2C_SELF_func_020aef38
+s32 func_020aef38(void);
+#endif
+#ifndef M2C_SELF_func_020aef40
+s32 func_020aef40(s32);
+#endif
+#ifndef M2C_SELF_func_020aef48
+s32 func_020aef48(void);
+#endif
+#ifndef M2C_SELF_func_020aef50
+s32 func_020aef50(void);
+#endif
+#ifndef M2C_SELF_func_020aef58
+s32 func_020aef58(s32);
+#endif
+#ifndef M2C_SELF_func_020aef60
+s32 func_020aef60(void);
+#endif
+#ifndef M2C_SELF_func_020aef68
+s32 func_020aef68(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020aef74
+s32 func_020aef74(void);
+#endif
+#ifndef M2C_SELF_func_020aef7c
+s32 func_020aef7c(s32);
+#endif
+#ifndef M2C_SELF_func_020aef84
+s32 func_020aef84(s32);
+#endif
+#ifndef M2C_SELF_func_020aef8c
+s32 func_020aef8c(s32);
+#endif
+#ifndef M2C_SELF_func_020aef94
+s32 func_020aef94(s32);
+#endif
+#ifndef M2C_SELF_func_020aef9c
+void func_020aef9c(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020aefac
+s32 func_020aefac(void);
+#endif
+#ifndef M2C_SELF_func_020aefb4
+s32 func_020aefb4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020aefc0
+s32 func_020aefc0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020aefcc
+s32 func_020aefcc(void);
+#endif
+#ifndef M2C_SELF_func_020aefd4
+s32 func_020aefd4(s32);
+#endif
+#ifndef M2C_SELF_func_020aefdc
+s32 func_020aefdc(s32);
+#endif
+#ifndef M2C_SELF_func_020aefe4
+s32 func_020aefe4(s32);
+#endif
+#ifndef M2C_SELF_func_020aefec
+s32 func_020aefec(s32);
+#endif
+#ifndef M2C_SELF_func_020aeff4
+void func_020aeff4(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020af004
+s32 func_020af004(void);
+#endif
+#ifndef M2C_SELF_func_020af00c
+s32 func_020af00c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020af018
+s32 func_020af018(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020af024
+s32 func_020af024(void);
+#endif
+#ifndef M2C_SELF_func_020af02c
+s32 func_020af02c(s32);
+#endif
+#ifndef M2C_SELF_func_020af038
+s32 func_020af038(s32);
+#endif
+#ifndef M2C_SELF_func_020af044
+s32 func_020af044(s32);
+#endif
+#ifndef M2C_SELF_func_020af04c
+s32 func_020af04c(s32);
+#endif
+#ifndef M2C_SELF_func_020af054
+void func_020af054(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020af064
+s32 func_020af064(void);
+#endif
+#ifndef M2C_SELF_func_020af06c
+s32 func_020af06c(s32);
+#endif
+#ifndef M2C_SELF_func_020af074
+s32 func_020af074(void);
+#endif
+#ifndef M2C_SELF_func_020af07c
+s32 func_020af07c(void);
+#endif
+#ifndef M2C_SELF_func_020af084
+s32 func_020af084(void);
+#endif
+#ifndef M2C_SELF_func_020af08c
+s32 func_020af08c(s32);
+#endif
+#ifndef M2C_SELF_func_020af094
+s32 func_020af094(void);
+#endif
+#ifndef M2C_SELF_func_020af09c
+s32 func_020af09c(void);
+#endif
+#ifndef M2C_SELF_func_020af0a4
+s32 func_020af0a4(void);
+#endif
+#ifndef M2C_SELF_func_020af0ac
+s32 func_020af0ac(s32);
+#endif
+#ifndef M2C_SELF_func_020af0b4
+s32 func_020af0b4(void);
+#endif
+#ifndef M2C_SELF_func_020af0bc
+s32 func_020af0bc(void);
+#endif
+#ifndef M2C_SELF_func_020af0c4
+s32 func_020af0c4(void);
+#endif
+#ifndef M2C_SELF_func_020af0d0
+s32 func_020af0d0(s32);
+#endif
+#ifndef M2C_SELF_func_020af0d8
+s32 func_020af0d8(void);
+#endif
+#ifndef M2C_SELF_func_020af0e4
+s32 func_020af0e4(void);
+#endif
+#ifndef M2C_SELF_func_020af0ec
+s32 func_020af0ec(void);
+#endif
+#ifndef M2C_SELF_func_020af0f4
+s32 func_020af0f4(s32);
+#endif
+#ifndef M2C_SELF_func_020af0fc
+s32 func_020af0fc(void);
+#endif
+#ifndef M2C_SELF_func_020af104
+s32 func_020af104(void);
+#endif
+#ifndef M2C_SELF_func_020af10c
+s32 func_020af10c(void);
+#endif
+#ifndef M2C_SELF_func_020af114
+s32 func_020af114(s32);
+#endif
+#ifndef M2C_SELF_func_020af11c
+s32 func_020af11c(void);
+#endif
+#ifndef M2C_SELF_func_020af124
+s32 func_020af124(void);
+#endif
+#ifndef M2C_SELF_func_020af12c
+s32 func_020af12c(void);
+#endif
+#ifndef M2C_SELF_func_020af134
+s32 func_020af134(s32);
+#endif
+#ifndef M2C_SELF_func_020af13c
+s32 func_020af13c(void);
+#endif
+#ifndef M2C_SELF_func_020af144
+s32 func_020af144(void);
+#endif
+#ifndef M2C_SELF_func_020af14c
+s32 func_020af14c(void);
+#endif
+#ifndef M2C_SELF_func_020af154
+s32 func_020af154(s32);
+#endif
+#ifndef M2C_SELF_func_020af15c
+s32 func_020af15c(void);
+#endif
+#ifndef M2C_SELF_func_020af164
+s32 func_020af164(void);
+#endif
+#ifndef M2C_SELF_func_020af16c
+s32 func_020af16c(void);
+#endif
+#ifndef M2C_SELF_func_020af174
+s32 func_020af174(s32);
+#endif
+#ifndef M2C_SELF_func_020af17c
+s32 func_020af17c(void);
+#endif
+#ifndef M2C_SELF_func_020af184
+s32 func_020af184(void);
+#endif
+#ifndef M2C_SELF_func_020af1a0
+void func_020af1a0(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020af1c0
+s32 func_020af1c0(s32);
+#endif
+#ifndef M2C_SELF_func_020af1d4
+s32 func_020af1d4(s32);
+#endif
+#ifndef M2C_SELF_func_020af1dc
+s32 func_020af1dc(s32);
+#endif
+#ifndef M2C_SELF_func_020af1e4
+s32 func_020af1e4(s32);
+#endif
+#ifndef M2C_SELF_func_020af1ec
+s32 func_020af1ec(s32);
+#endif
+#ifndef M2C_SELF_func_020af1f4
+s32 func_020af1f4(s32);
+#endif
+#ifndef M2C_SELF_func_020af1fc
+s32 func_020af1fc(s32);
+#endif
+#ifndef M2C_SELF_func_020af204
+s32 func_020af204(s32);
+#endif
+#ifndef M2C_SELF_func_020af20c
+s32 func_020af20c(s32);
+#endif
+#ifndef M2C_SELF_func_020af214
+s32 func_020af214(s32);
+#endif
+#ifndef M2C_SELF_func_020af220
+s32 func_020af220(s32);
+#endif
+#ifndef M2C_SELF_func_020af238
+s32 func_020af238(s32);
+#endif
+#ifndef M2C_SELF_func_020af250
+s32 func_020af250(s32);
+#endif
+#ifndef M2C_SELF_func_020af268
+s32 func_020af268(s32);
+#endif
+#ifndef M2C_SELF_func_020af294
+s32 func_020af294(s32);
+#endif
+#ifndef M2C_SELF_func_020af2a8
+s32 func_020af2a8(s32);
+#endif
+#ifndef M2C_SELF_func_020b0174
+s32 func_020b0174(void);
+#endif
+#ifndef M2C_SELF_func_020b018c
+void func_020b018c(s32);
+#endif
+#ifndef M2C_SELF_func_020b01d0
+s32 func_020b01d0(void);
+#endif
+#ifndef M2C_SELF_func_020b0280
+void func_020b0280(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020b02b8
+s16 func_020b02b8(s32);
+#endif
+#ifndef M2C_SELF_func_020b0440
+void func_020b0440(void);
+#endif
+#ifndef M2C_SELF_func_020b0ba4
+s32 func_020b0ba4(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b0d0c
+void func_020b0d0c(s32);
+#endif
+#ifndef M2C_SELF_func_020b1528
+u32 func_020b1528(s32);
+#endif
+#ifndef M2C_SELF_func_020b15d4
+s32 func_020b15d4(s32);
+#endif
+#ifndef M2C_SELF_func_020b1620
+void func_020b1620(s32, s32 *);
+#endif
+#ifndef M2C_SELF_func_020b1a34
+void func_020b1a34(s32, s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020b1ab8
+void func_020b1ab8(s32, s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020b25d0
+s8 func_020b25d0(s32);
+#endif
+#ifndef M2C_SELF_func_020b289c
+s32 func_020b289c(s16 *);
+#endif
+#ifndef M2C_SELF_func_020b28b4
+s32 func_020b28b4(void *, void *);
+#endif
+#ifndef M2C_SELF_func_020b2b08
+s32 func_020b2b08(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020b2dc8
+s32 func_020b2dc8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020b2e10
+s32 func_020b2e10(void);
+#endif
+#ifndef M2C_SELF_func_020b2e18
+s32 func_020b2e18(s16 *);
+#endif
+#ifndef M2C_SELF_func_020b3480
+s32 func_020b3480(s16 *);
+#endif
+#ifndef M2C_SELF_func_020b5190
+s32 func_020b5190(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020b51f4
+void func_020b51f4(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020b52a0
+s32 func_020b52a0(s32);
+#endif
+#ifndef M2C_SELF_func_020b6a50
+void *func_020b6a50(void *);
+#endif
+#ifndef M2C_SELF_func_020b6b58
+s32 func_020b6b58(s32);
+#endif
+#ifndef M2C_SELF_func_020b9784
+void func_020b9784(void);
+#endif
+#ifndef M2C_SELF_func_020b97b4
+void func_020b97b4(void);
+#endif
+#ifndef M2C_SELF_func_020b97e4
+s32 func_020b97e4(s32);
+#endif
+#ifndef M2C_SELF_func_020b9800
+void func_020b9800(s32);
+#endif
+#ifndef M2C_SELF_func_020b9850
+void func_020b9850(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020b9858
+void func_020b9858(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b9868
+u8 func_020b9868(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b9890
+u16 func_020b9890(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b98b8
+s32 func_020b98b8(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b98f0
+s32 func_020b98f0(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b9928
+s32 func_020b9928(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b9960
+u32 func_020b9960(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b9990
+s32 func_020b9990(s32 *);
+#endif
+#ifndef M2C_SELF_func_020b9be0
+s32 func_020b9be0(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020b9d8c
+u32 func_020b9d8c(void);
+#endif
+#ifndef M2C_SELF_func_020b9dd0
+u16 func_020b9dd0(void);
+#endif
+#ifndef M2C_SELF_func_020b9e2c
+u16 func_020b9e2c(void);
+#endif
+#ifndef M2C_SELF_func_020b9e9c
+u16 func_020b9e9c(void);
+#endif
+#ifndef M2C_SELF_func_020b9fa0
+u32 func_020b9fa0(void);
+#endif
+#ifndef M2C_SELF_func_020b9fc0
+s32 func_020b9fc0(void);
+#endif
+#ifndef M2C_SELF_func_020b9ff0
+s32 func_020b9ff0(s32);
+#endif
+#ifndef M2C_SELF_func_020ba114
+void func_020ba114(u8 *);
+#endif
+#ifndef M2C_SELF_func_020ba12c
+u8 func_020ba12c(void);
+#endif
+#ifndef M2C_SELF_func_020ba140
+u8 func_020ba140(void);
+#endif
+#ifndef M2C_SELF_func_020ba154
+void func_020ba154(s8);
+#endif
+#ifndef M2C_SELF_func_020ba168
+u8 func_020ba168(void);
+#endif
+#ifndef M2C_SELF_func_020ba17c
+u8 func_020ba17c(void);
+#endif
+#ifndef M2C_SELF_func_020ba190
+s32 func_020ba190(void);
+#endif
+#ifndef M2C_SELF_func_020ba1a4
+s32 func_020ba1a4(void);
+#endif
+#ifndef M2C_SELF_func_020ba2a8
+void func_020ba2a8(u32);
+#endif
+#ifndef M2C_SELF_func_020ba308
+void func_020ba308(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ba324
+s32 func_020ba324(void);
+#endif
+#ifndef M2C_SELF_func_020ba338
+s32 func_020ba338(void);
+#endif
+#ifndef M2C_SELF_func_020ba34c
+s32 func_020ba34c(void);
+#endif
+#ifndef M2C_SELF_func_020ba360
+s32 func_020ba360(void);
+#endif
+#ifndef M2C_SELF_func_020ba40c
+s32 func_020ba40c(void);
+#endif
+#ifndef M2C_SELF_func_020ba5cc
+void func_020ba5cc(void);
+#endif
+#ifndef M2C_SELF_func_020ba5ec
+void func_020ba5ec(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ba608
+void func_020ba608(s32);
+#endif
+#ifndef M2C_SELF_func_020bbd64
+void func_020bbd64(M2C_UNK, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020bcb74
+void func_020bcb74(s32);
+#endif
+#ifndef M2C_SELF_func_020bd73c
+void func_020bd73c(u8 *, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020be260
+s32 func_020be260(void);
+#endif
+#ifndef M2C_SELF_func_020be620
+s32 func_020be620(void);
+#endif
+#ifndef M2C_SELF_func_020bea40
+s32 func_020bea40(void);
+#endif
+#ifndef M2C_SELF_func_020bec70
+s32 func_020bec70(M2C_UNK, s32, s32, s32 *);
+#endif
+#ifndef M2C_SELF_func_020bed1c
+s32 func_020bed1c(M2C_UNK, s32, s32, s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020befcc
+s32 func_020befcc(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020bf270
+s32 func_020bf270(s32);
+#endif
+#ifndef M2C_SELF_func_020bf2fc
+s32 func_020bf2fc(s32);
+#endif
+#ifndef M2C_SELF_func_020bfd18
+s32 func_020bfd18(void);
+#endif
+#ifndef M2C_SELF_func_020bfd30
+s32 func_020bfd30(void *);
+#endif
+#ifndef M2C_SELF_func_020c0d24
+s32 func_020c0d24(void);
+#endif
+#ifndef M2C_SELF_func_020c0e98
+s32 func_020c0e98(s32);
+#endif
+#ifndef M2C_SELF_func_020c27a8
+void func_020c27a8(void);
+#endif
+#ifndef M2C_SELF_func_020c2868
+void *func_020c2868(void *);
+#endif
+#ifndef M2C_SELF_func_020c28a8
+s32 func_020c28a8(void);
+#endif
+#ifndef M2C_SELF_func_020c2910
+M2C_UNK **func_020c2910(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020c2940
+M2C_UNK **func_020c2940(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020c2970
+M2C_UNK **func_020c2970(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020c29a4
+M2C_UNK **func_020c29a4(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020c3158
+s32 func_020c3158(s32);
+#endif
+#ifndef M2C_SELF_func_020c325c
+s32 func_020c325c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c332c
+void func_020c332c(void);
+#endif
+#ifndef M2C_SELF_func_020c3338
+s32 func_020c3338(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c3634
+s32 func_020c3634(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c368c
+s32 func_020c368c(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c36e4
+s32 func_020c36e4(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c373c
+s32 func_020c373c(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c3794
+s32 func_020c3794(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c3e44
+s32 func_020c3e44(s32);
+#endif
+#ifndef M2C_SELF_func_020c3e58
+s32 func_020c3e58(s32);
+#endif
+#ifndef M2C_SELF_func_020c3e6c
+s32 func_020c3e6c(s32);
+#endif
+#ifndef M2C_SELF_func_020c3e80
+s32 func_020c3e80(s32);
+#endif
+#ifndef M2C_SELF_func_020c3e94
+s32 func_020c3e94(s32);
+#endif
+#ifndef M2C_SELF_func_020c3f6c
+void func_020c3f6c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020c4044
+void func_020c4044(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020c405c
+s32 func_020c405c(s32);
+#endif
+#ifndef M2C_SELF_func_020c4070
+s32 func_020c4070(s32);
+#endif
+#ifndef M2C_SELF_func_020c4084
+void func_020c4084(void);
+#endif
+#ifndef M2C_SELF_func_020c4090
+s32 func_020c4090(s32);
+#endif
+#ifndef M2C_SELF_func_020c40ac
+void func_020c40ac(void);
+#endif
+#ifndef M2C_SELF_func_020c40b8
+s32 func_020c40b8(s32);
+#endif
+#ifndef M2C_SELF_func_020c40dc
+void func_020c40dc(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c40fc
+void func_020c40fc(void);
+#endif
+#ifndef M2C_SELF_func_020c4118
+void func_020c4118(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c4134
+void func_020c4134(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c4154
+void func_020c4154(void);
+#endif
+#ifndef M2C_SELF_func_020c4170
+void func_020c4170(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c418c
+void func_020c418c(void);
+#endif
+#ifndef M2C_SELF_func_020c4540
+void func_020c4540(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c4738
+M2C_UNK *func_020c4738(void);
+#endif
+#ifndef M2C_SELF_func_020c4744
+M2C_UNK *func_020c4744(void);
+#endif
+#ifndef M2C_SELF_func_020c4750
+M2C_UNK *func_020c4750(void);
+#endif
+#ifndef M2C_SELF_func_020c4964
+s32 func_020c4964(s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c4a98
+s32 func_020c4a98(void);
+#endif
+#ifndef M2C_SELF_func_020c4ae8
+s32 func_020c4ae8(void);
+#endif
+#ifndef M2C_SELF_func_020c4b00
+s32 func_020c4b00(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c4b38
+s32 func_020c4b38(void);
+#endif
+#ifndef M2C_SELF_func_020c4b50
+void *func_020c4b50(void *, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c4bb8
+s32 func_020c4bb8(void);
+#endif
+#ifndef M2C_SELF_func_020c4bcc
+void func_020c4bcc(void **, s32);
+#endif
+#ifndef M2C_SELF_func_020c4c80
+u32 func_020c4c80(u32);
+#endif
+#ifndef M2C_SELF_func_020c4c9c
+s32 func_020c4c9c(s32);
+#endif
+#ifndef M2C_SELF_func_020c4cac
+s32 func_020c4cac(s32);
+#endif
+#ifndef M2C_SELF_func_020c4cc0
+u32 func_020c4cc0(void);
+#endif
+#ifndef M2C_SELF_func_020c4d38
+s32 func_020c4d38(s32 *, s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020c4d58
+u32 func_020c4d58(void);
+#endif
+#ifndef M2C_SELF_func_020c4d78
+void func_020c4d78(s32);
+#endif
+#ifndef M2C_SELF_func_020c4d94
+void func_020c4d94(s16);
+#endif
+#ifndef M2C_SELF_func_020c4de4
+u16 func_020c4de4(u16 *, u16 *, u16 *);
+#endif
+#ifndef M2C_SELF_func_020c4e08
+u32 func_020c4e08(void);
+#endif
+#ifndef M2C_SELF_func_020c4e28
+void func_020c4e28(s32);
+#endif
+#ifndef M2C_SELF_func_020c4e44
+void func_020c4e44(s16);
+#endif
+#ifndef M2C_SELF_func_020c4e94
+u8 func_020c4e94(void);
+#endif
+#ifndef M2C_SELF_func_020c4eac
+s32 func_020c4eac(void);
+#endif
+#ifndef M2C_SELF_func_020c4f58
+void func_020c4f58(s32);
+#endif
+#ifndef M2C_SELF_func_020c4f9c
+u32 func_020c4f9c(u32 *, u32 *, u32 *);
+#endif
+#ifndef M2C_SELF_func_020c4fc0
+u16 func_020c4fc0(s32);
+#endif
+#ifndef M2C_SELF_func_020c4fdc
+void func_020c4fdc(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c5008
+void func_020c5008(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c5368
+void func_020c5368(void);
+#endif
+#ifndef M2C_SELF_func_020c53f4
+void func_020c53f4(void);
+#endif
+#ifndef M2C_SELF_func_020c5794
+s32 func_020c5794(s32);
+#endif
+#ifndef M2C_SELF_func_020c5828
+u8 func_020c5828(s32);
+#endif
+#ifndef M2C_SELF_func_020c5844
+void func_020c5844(s32, s8);
+#endif
+#ifndef M2C_SELF_func_020c58c8
+u16 func_020c58c8(s32);
+#endif
+#ifndef M2C_SELF_func_020c5928
+s32 func_020c5928(s32);
+#endif
+#ifndef M2C_SELF_func_020c5944
+void func_020c5944(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c5a4c
+u32 func_020c5a4c(u32);
+#endif
+#ifndef M2C_SELF_func_020c5d38
+s16 func_020c5d38(void);
+#endif
+#ifndef M2C_SELF_func_020c5d4c
+s16 func_020c5d4c(void);
+#endif
+#ifndef M2C_SELF_func_020c5d60
+void func_020c5d60(s16);
+#endif
+#ifndef M2C_SELF_func_020c5d74
+void func_020c5d74(s16);
+#endif
+#ifndef M2C_SELF_func_020c6288
+s32 func_020c6288(void);
+#endif
+#ifndef M2C_SELF_func_020c62a8
+void func_020c62a8(void);
+#endif
+#ifndef M2C_SELF_func_020c7680
+void func_020c7680(void);
+#endif
+#ifndef M2C_SELF_func_020c76b4
+void func_020c76b4(void);
+#endif
+#ifndef M2C_SELF_func_020c7704
+s32 func_020c7704(void *);
+#endif
+#ifndef M2C_SELF_func_020c7724
+void func_020c7724(s32);
+#endif
+#ifndef M2C_SELF_func_020c7734
+s32 func_020c7734(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c7770
+s32 func_020c7770(s32, void *);
+#endif
+#ifndef M2C_SELF_func_020c77ac
+s32 func_020c77ac(s32);
+#endif
+#ifndef M2C_SELF_func_020c77ec
+s32 func_020c77ec(void *);
+#endif
+#ifndef M2C_SELF_func_020c7850
+void func_020c7850(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c7864
+s32 func_020c7864(s32);
+#endif
+#ifndef M2C_SELF_func_020c7aa4
+void *func_020c7aa4(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c7bc0
+s32 func_020c7bc0(void *);
+#endif
+#ifndef M2C_SELF_func_020c7bcc
+s32 func_020c7bcc(void *);
+#endif
+#ifndef M2C_SELF_func_020c7bd8
+void func_020c7bd8(void *);
+#endif
+#ifndef M2C_SELF_func_020c7be8
+s32 func_020c7be8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c7c14
+void func_020c7c14(void *);
+#endif
+#ifndef M2C_SELF_func_020c7c24
+s32 func_020c7c24(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c7c80
+s32 func_020c7c80(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c7f68
+s32 *func_020c7f68(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020c7f7c
+s32 func_020c7f7c(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c8258
+s32 *func_020c8258(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020c826c
+void func_020c826c(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020c82a0
+s32 func_020c82a0(s32);
+#endif
+#ifndef M2C_SELF_func_020c82b4
+s32 func_020c82b4(s32);
+#endif
+#ifndef M2C_SELF_func_020c8320
+s32 func_020c8320(s32);
+#endif
+#ifndef M2C_SELF_func_020c8344
+void func_020c8344(void);
+#endif
+#ifndef M2C_SELF_func_020c8374
+void func_020c8374(void);
+#endif
+#ifndef M2C_SELF_func_020c863c
+void func_020c863c(void);
+#endif
+#ifndef M2C_SELF_func_020c866c
+void func_020c866c(void);
+#endif
+#ifndef M2C_SELF_func_020c8ae0
+void func_020c8ae0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c8b1c
+void func_020c8b1c(void);
+#endif
+#ifndef M2C_SELF_func_020c8b28
+void func_020c8b28(void);
+#endif
+#ifndef M2C_SELF_func_020c8b34
+void func_020c8b34(void);
+#endif
+#ifndef M2C_SELF_func_020c8b40
+void func_020c8b40(void);
+#endif
+#ifndef M2C_SELF_func_020c8b4c
+void func_020c8b4c(void);
+#endif
+#ifndef M2C_SELF_func_020c8d08
+void func_020c8d08(M2C_UNK, s32, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c8d94
+void func_020c8d94(M2C_UNK, s32, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c8e20
+void func_020c8e20(M2C_UNK, u32, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c8ec4
+void func_020c8ec4(M2C_UNK, s32, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020c8f50
+void func_020c8f50(void);
+#endif
+#ifndef M2C_SELF_func_020c8fe0
+void func_020c8fe0(void);
+#endif
+#ifndef M2C_SELF_func_020c9074
+void func_020c9074(void);
+#endif
+#ifndef M2C_SELF_func_020c9170
+void func_020c9170(void);
+#endif
+#ifndef M2C_SELF_func_020c9224
+M2C_UNK *func_020c9224(s32);
+#endif
+#ifndef M2C_SELF_func_020c923c
+M2C_UNK *func_020c923c(s32);
+#endif
+#ifndef M2C_SELF_func_020c9254
+M2C_UNK *func_020c9254(s32);
+#endif
+#ifndef M2C_SELF_func_020c926c
+M2C_UNK *func_020c926c(s32);
+#endif
+#ifndef M2C_SELF_func_020c9284
+void func_020c9284(s32);
+#endif
+#ifndef M2C_SELF_func_020c92a4
+void func_020c92a4(s32);
+#endif
+#ifndef M2C_SELF_func_020c92c4
+void func_020c92c4(s32);
+#endif
+#ifndef M2C_SELF_func_020c92e4
+void func_020c92e4(s32);
+#endif
+#ifndef M2C_SELF_func_020c9304
+M2C_UNK *func_020c9304(s32);
+#endif
+#ifndef M2C_SELF_func_020c931c
+M2C_UNK *func_020c931c(s32);
+#endif
+#ifndef M2C_SELF_func_020c9334
+M2C_UNK *func_020c9334(s32);
+#endif
+#ifndef M2C_SELF_func_020c934c
+M2C_UNK *func_020c934c(s32);
+#endif
+#ifndef M2C_SELF_func_020c94f0
+void func_020c94f0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c9530
+void func_020c9530(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020c96f4
+void func_020c96f4(s32);
+#endif
+#ifndef M2C_SELF_func_020c9970
+void func_020c9970(s8, s8);
+#endif
+#ifndef M2C_SELF_func_020c9ea8
+void func_020c9ea8(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020c9f18
+u16 func_020c9f18(void);
+#endif
+#ifndef M2C_SELF_func_020c9f4c
+void func_020c9f4c(s32);
+#endif
+#ifndef M2C_SELF_func_020c9f5c
+s32 func_020c9f5c(void);
+#endif
+#ifndef M2C_SELF_func_020c9fd8
+void func_020c9fd8(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020c9fec
+s32 func_020c9fec(u32);
+#endif
+#ifndef M2C_SELF_func_020ca00c
+void func_020ca00c(void);
+#endif
+#ifndef M2C_SELF_func_020ca040
+void func_020ca040(void);
+#endif
+#ifndef M2C_SELF_func_020ca0c8
+void func_020ca0c8(void);
+#endif
+#ifndef M2C_SELF_func_020ca0d4
+s32 func_020ca0d4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ca0f8
+s32 func_020ca0f8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ca11c
+s32 func_020ca11c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ca164
+void func_020ca164(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020ca1a0
+void func_020ca1a0(void);
+#endif
+#ifndef M2C_SELF_func_020ca1ac
+void func_020ca1ac(void);
+#endif
+#ifndef M2C_SELF_func_020ca1cc
+void func_020ca1cc(void);
+#endif
+#ifndef M2C_SELF_func_020ca1f4
+void func_020ca1f4(s32);
+#endif
+#ifndef M2C_SELF_func_020ca22c
+void func_020ca22c(void);
+#endif
+#ifndef M2C_SELF_func_020ca238
+void func_020ca238(void);
+#endif
+#ifndef M2C_SELF_func_020ca254
+void func_020ca254(void);
+#endif
+#ifndef M2C_SELF_func_020ca2ec
+void func_020ca2ec(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ca314
+void func_020ca314(s32);
+#endif
+#ifndef M2C_SELF_func_020ca324
+void func_020ca324(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ca344
+s32 func_020ca344(void);
+#endif
+#ifndef M2C_SELF_func_020ca354
+s32 func_020ca354(void);
+#endif
+#ifndef M2C_SELF_func_020ca398
+s32 func_020ca398(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ca3c0
+s32 func_020ca3c0(s16);
+#endif
+#ifndef M2C_SELF_func_020ca3e8
+s32 func_020ca3e8(s32);
+#endif
+#ifndef M2C_SELF_func_020cac34
+s32 func_020cac34(void *, u32);
+#endif
+#ifndef M2C_SELF_func_020cac4c
+s32 func_020cac4c(s32);
+#endif
+#ifndef M2C_SELF_func_020cacf4
+s32 func_020cacf4(s32);
+#endif
+#ifndef M2C_SELF_func_020cae00
+s32 func_020cae00(void *);
+#endif
+#ifndef M2C_SELF_func_020cae14
+s32 func_020cae14(void *);
+#endif
+#ifndef M2C_SELF_func_020cae1c
+void func_020cae1c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020cae50
+s32 func_020cae50(void *);
+#endif
+#ifndef M2C_SELF_func_020caf0c
+void func_020caf0c(s32, void *);
+#endif
+#ifndef M2C_SELF_func_020cb120
+void func_020cb120(void *, void *);
+#endif
+#ifndef M2C_SELF_func_020cb1ac
+void func_020cb1ac(s8, s8);
+#endif
+#ifndef M2C_SELF_func_020cb220
+s32 func_020cb220(void);
+#endif
+#ifndef M2C_SELF_func_020ccaf4
+s32 func_020ccaf4(void);
+#endif
+#ifndef M2C_SELF_func_020ccb04
+s32 func_020ccb04(void);
+#endif
+#ifndef M2C_SELF_func_020ccb14
+s16 func_020ccb14(void);
+#endif
+#ifndef M2C_SELF_func_020ccb24
+s16 func_020ccb24(void);
+#endif
+#ifndef M2C_SELF_func_020ccb34
+s8 func_020ccb34(void);
+#endif
+#ifndef M2C_SELF_func_020ccb44
+void func_020ccb44(void);
+#endif
+#ifndef M2C_SELF_func_020ccb58
+s8 func_020ccb58(s32);
+#endif
+#ifndef M2C_SELF_func_020d08f8
+void *func_020d08f8(void *);
+#endif
+#ifndef M2C_SELF_func_020d094c
+void *func_020d094c(void *);
+#endif
+#ifndef M2C_SELF_func_020d0974
+void *func_020d0974(void *);
+#endif
+#ifndef M2C_SELF_func_020d09a4
+void func_020d09a4(void *);
+#endif
+#ifndef M2C_SELF_func_020d09b8
+void func_020d09b8(void);
+#endif
+#ifndef M2C_SELF_func_020d09c4
+void func_020d09c4(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d0a08
+void func_020d0a08(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d0a50
+void func_020d0a50(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d0a6c
+void func_020d0a6c(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d0ab8
+void func_020d0ab8(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d0ba0
+void func_020d0ba0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d1170
+void func_020d1170(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d1300
+s32 func_020d1300(void);
+#endif
+#ifndef M2C_SELF_func_020d13c4
+s32 func_020d13c4(void);
+#endif
+#ifndef M2C_SELF_func_020d1488
+s32 func_020d1488(void);
+#endif
+#ifndef M2C_SELF_func_020d154c
+s32 func_020d154c(void);
+#endif
+#ifndef M2C_SELF_func_020d1620
+s32 func_020d1620(void);
+#endif
+#ifndef M2C_SELF_func_020d163c
+s32 func_020d163c(M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020d1928
+void func_020d1928(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d1b34
+s32 func_020d1b34(void);
+#endif
+#ifndef M2C_SELF_func_020d1b78
+void func_020d1b78(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d1bb0
+s32 func_020d1bb0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d205c
+void func_020d205c(M2C_UNK, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d26dc
+void func_020d26dc(void *);
+#endif
+#ifndef M2C_SELF_func_020d284c
+void func_020d284c(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d2bec
+void func_020d2bec(void *);
+#endif
+#ifndef M2C_SELF_func_020d2bf8
+void func_020d2bf8(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d2c38
+void func_020d2c38(void *);
+#endif
+#ifndef M2C_SELF_func_020d2df4
+s32 func_020d2df4(void *);
+#endif
+#ifndef M2C_SELF_func_020d343c
+s32 func_020d343c(s32);
+#endif
+#ifndef M2C_SELF_func_020d34a0
+void func_020d34a0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d34c8
+s32 func_020d34c8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020d34d8
+s32 func_020d34d8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020d34e8
+s32 func_020d34e8(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d4850
+u32 func_020d4850(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d48c8
+u32 func_020d48c8(void *);
+#endif
+#ifndef M2C_SELF_func_020d5ae4
+void func_020d5ae4(void *);
+#endif
+#ifndef M2C_SELF_func_020d5c00
+s32 func_020d5c00(void);
+#endif
+#ifndef M2C_SELF_func_020d80b4
+u32 func_020d80b4(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020d92e8
+void func_020d92e8(void *);
+#endif
+#ifndef M2C_SELF_func_020d930c
+s32 func_020d930c(void);
+#endif
+#ifndef M2C_SELF_func_020db860
+u32 func_020db860(void *);
+#endif
+#ifndef M2C_SELF_func_020dc750
+void func_020dc750(void *);
+#endif
+#ifndef M2C_SELF_func_020dc774
+s32 func_020dc774(void);
+#endif
+#ifndef M2C_SELF_func_020dc77c
+s32 func_020dc77c(void);
+#endif
+#ifndef M2C_SELF_func_020dc784
+s32 func_020dc784(void);
+#endif
+#ifndef M2C_SELF_func_020dcd50
+void func_020dcd50(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020df694
+void func_020df694(void *);
+#endif
+#ifndef M2C_SELF_func_020df6b8
+s32 func_020df6b8(void);
+#endif
+#ifndef M2C_SELF_func_020df6c0
+s32 func_020df6c0(void);
+#endif
+#ifndef M2C_SELF_func_020df6c8
+s32 func_020df6c8(void);
+#endif
+#ifndef M2C_SELF_func_020dfd38
+void func_020dfd38(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020e0250
+s32 func_020e0250(s32);
+#endif
+#ifndef M2C_SELF_func_020e026c
+s32 func_020e026c(s32);
+#endif
+#ifndef M2C_SELF_func_020e0280
+s32 func_020e0280(s32);
+#endif
+#ifndef M2C_SELF_func_020e029c
+s32 func_020e029c(s32);
+#endif
+#ifndef M2C_SELF_func_020e02b0
+s32 func_020e02b0(s32);
+#endif
+#ifndef M2C_SELF_func_020e02cc
+s32 func_020e02cc(s32);
+#endif
+#ifndef M2C_SELF_func_020e02e0
+s32 func_020e02e0(s32);
+#endif
+#ifndef M2C_SELF_func_020e02fc
+s32 func_020e02fc(s32);
+#endif
+#ifndef M2C_SELF_func_020e0310
+s32 func_020e0310(s32);
+#endif
+#ifndef M2C_SELF_func_020e032c
+s32 func_020e032c(s32);
+#endif
+#ifndef M2C_SELF_func_020e0340
+s32 func_020e0340(s32);
+#endif
+#ifndef M2C_SELF_func_020e03c8
+u8 func_020e03c8(void *);
+#endif
+#ifndef M2C_SELF_func_020e03d0
+void func_020e03d0(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e03d8
+void func_020e03d8(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e041c
+u8 func_020e041c(void *);
+#endif
+#ifndef M2C_SELF_func_020e0424
+void func_020e0424(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e042c
+void func_020e042c(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e047c
+u8 func_020e047c(void *);
+#endif
+#ifndef M2C_SELF_func_020e0484
+void func_020e0484(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e04d4
+u8 func_020e04d4(void *);
+#endif
+#ifndef M2C_SELF_func_020e04dc
+void func_020e04dc(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e124c
+void func_020e124c(void *);
+#endif
+#ifndef M2C_SELF_func_020e1c30
+void func_020e1c30(s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020e22c4
+void func_020e22c4(void *);
+#endif
+#ifndef M2C_SELF_func_020e24b8
+s32 func_020e24b8(void *);
+#endif
+#ifndef M2C_SELF_func_020e2548
+s32 func_020e2548(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020e2ca0
+s32 func_020e2ca0(void *);
+#endif
+#ifndef M2C_SELF_func_020e2cb8
+s32 func_020e2cb8(void *);
+#endif
+#ifndef M2C_SELF_func_020e2cd0
+s16 func_020e2cd0(void *);
+#endif
+#ifndef M2C_SELF_func_020e2d10
+s32 func_020e2d10(void *);
+#endif
+#ifndef M2C_SELF_func_020e3150
+M2C_UNK **func_020e3150(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020e3170
+s32 func_020e3170(s32);
+#endif
+#ifndef M2C_SELF_func_020e3184
+s32 func_020e3184(s32);
+#endif
+#ifndef M2C_SELF_func_020e31a0
+void func_020e31a0(void *);
+#endif
+#ifndef M2C_SELF_func_020e484c
+s32 func_020e484c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020e4c24
+u32 func_020e4c24(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020e4f88
+s32 func_020e4f88(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020e5008
+void func_020e5008(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020e5068
+void func_020e5068(void *);
+#endif
+#ifndef M2C_SELF_func_020e530c
+u8 func_020e530c(void *);
+#endif
+#ifndef M2C_SELF_func_020e5344
+void func_020e5344(void *);
+#endif
+#ifndef M2C_SELF_func_020e9700
+s32 func_020e9700(void);
+#endif
+#ifndef M2C_SELF_func_020e9848
+void func_020e9848(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020e9bf8
+void func_020e9bf8(void *);
+#endif
+#ifndef M2C_SELF_func_020e9c04
+void func_020e9c04(void *);
+#endif
+#ifndef M2C_SELF_func_020e9f90
+s32 func_020e9f90(s32);
+#endif
+#ifndef M2C_SELF_func_020e9fa4
+s32 func_020e9fa4(s32);
+#endif
+#ifndef M2C_SELF_func_020ea13c
+void func_020ea13c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ea2a0
+void func_020ea2a0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ea424
+u32 func_020ea424(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ea464
+void *func_020ea464(void *);
+#endif
+#ifndef M2C_SELF_func_020ea488
+s32 *func_020ea488(s32 *);
+#endif
+#ifndef M2C_SELF_func_020ea4a4
+void func_020ea4a4(void);
+#endif
+#ifndef M2C_SELF_func_020ea4b0
+void func_020ea4b0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ea6b8
+void func_020ea6b8(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ea700
+void func_020ea700(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020eb8c0
+void func_020eb8c0(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020eb908
+void func_020eb908(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020eb9c0
+void func_020eb9c0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020eb9dc
+s32 func_020eb9dc(void);
+#endif
+#ifndef M2C_SELF_func_020eba84
+void func_020eba84(void *);
+#endif
+#ifndef M2C_SELF_func_020eba90
+void func_020eba90(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020ebaa4
+s32 func_020ebaa4(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020ebab8
+s32 func_020ebab8(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020ebacc
+s32 func_020ebacc(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ebb4c
+s32 func_020ebb4c(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020ebb5c
+void func_020ebb5c(s32 *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020ebc48
+s32 func_020ebc48(s32);
+#endif
+#ifndef M2C_SELF_func_020ebcbc
+void func_020ebcbc(void *);
+#endif
+#ifndef M2C_SELF_func_020ebcd8
+void func_020ebcd8(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ecd00
+void func_020ecd00(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ed178
+void func_020ed178(void *);
+#endif
+#ifndef M2C_SELF_func_020ed70c
+s32 func_020ed70c(s32);
+#endif
+#ifndef M2C_SELF_func_020ed728
+s32 func_020ed728(s32);
+#endif
+#ifndef M2C_SELF_func_020ed73c
+s8 func_020ed73c(void *);
+#endif
+#ifndef M2C_SELF_func_020ed744
+s32 func_020ed744(s32);
+#endif
+#ifndef M2C_SELF_func_020ed760
+s32 func_020ed760(s32);
+#endif
+#ifndef M2C_SELF_func_020ed794
+s32 func_020ed794(void);
+#endif
+#ifndef M2C_SELF_func_020ed79c
+s32 func_020ed79c(s32);
+#endif
+#ifndef M2C_SELF_func_020eda9c
+void func_020eda9c(void);
+#endif
+#ifndef M2C_SELF_func_020edfc8
+void func_020edfc8(void);
+#endif
+#ifndef M2C_SELF_func_020ee128
+void func_020ee128(void);
+#endif
+#ifndef M2C_SELF_func_020ee1f8
+void func_020ee1f8(void);
+#endif
+#ifndef M2C_SELF_func_020f0e8c
+void func_020f0e8c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f133c
+void func_020f133c(void);
+#endif
+#ifndef M2C_SELF_func_020f14cc
+void func_020f14cc(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_020f14dc
+void func_020f14dc(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f1504
+void func_020f1504(void *, s8, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f1564
+s32 func_020f1564(void *);
+#endif
+#ifndef M2C_SELF_func_020f15cc
+void func_020f15cc(void *);
+#endif
+#ifndef M2C_SELF_func_020f15dc
+void func_020f15dc(void *);
+#endif
+#ifndef M2C_SELF_func_020f1620
+void func_020f1620(s32);
+#endif
+#ifndef M2C_SELF_func_020f1630
+void func_020f1630(s32);
+#endif
+#ifndef M2C_SELF_func_020f2ac0
+u8 func_020f2ac0(void *);
+#endif
+#ifndef M2C_SELF_func_020f2ad0
+s32 func_020f2ad0(s32);
+#endif
+#ifndef M2C_SELF_func_020f2ae4
+void func_020f2ae4(void *);
+#endif
+#ifndef M2C_SELF_func_020f2b7c
+void func_020f2b7c(void *);
+#endif
+#ifndef M2C_SELF_func_020f2c50
+void func_020f2c50(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f2d50
+s32 func_020f2d50(void *, void *);
+#endif
+#ifndef M2C_SELF_func_020f2e80
+void func_020f2e80(void);
+#endif
+#ifndef M2C_SELF_func_020f2f1c
+void func_020f2f1c(s8 *, s8);
+#endif
+#ifndef M2C_SELF_func_020f35b0
+void func_020f35b0(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f35f8
+s32 func_020f35f8(s32);
+#endif
+#ifndef M2C_SELF_func_020f3610
+s32 func_020f3610(void *);
+#endif
+#ifndef M2C_SELF_func_020f3630
+s32 func_020f3630(void *);
+#endif
+#ifndef M2C_SELF_func_020f3650
+void func_020f3650(void *);
+#endif
+#ifndef M2C_SELF_func_020f365c
+void func_020f365c(void *);
+#endif
+#ifndef M2C_SELF_func_020f368c
+void func_020f368c(void *, s16);
+#endif
+#ifndef M2C_SELF_func_020f36c4
+void func_020f36c4(void *, s16);
+#endif
+#ifndef M2C_SELF_func_020f36fc
+void func_020f36fc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f3728
+void func_020f3728(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f3754
+void func_020f3754(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f37cc
+void func_020f37cc(void *, s16, s16, s8);
+#endif
+#ifndef M2C_SELF_func_020f3830
+void func_020f3830(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f386c
+void func_020f386c(void *, s32, s32, s8);
+#endif
+#ifndef M2C_SELF_func_020f38b4
+void func_020f38b4(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f38f4
+void func_020f38f4(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f3930
+void func_020f3930(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f396c
+void func_020f396c(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f39a8
+void func_020f39a8(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f3a94
+void func_020f3a94(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f3b20
+void func_020f3b20(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f3c14
+void func_020f3c14(void *, s8);
+#endif
+#ifndef M2C_SELF_func_020f3c1c
+void func_020f3c1c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f3c38
+void func_020f3c38(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f3c58
+void func_020f3c58(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f3c68
+void func_020f3c68(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f3c7c
+void func_020f3c7c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f3c84
+void func_020f3c84(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f3fe0
+void *func_020f3fe0(void *);
+#endif
+#ifndef M2C_SELF_func_020f41a0
+void func_020f41a0(void *);
+#endif
+#ifndef M2C_SELF_func_020f4210
+s32 func_020f4210(s32);
+#endif
+#ifndef M2C_SELF_func_020f422c
+s32 func_020f422c(s32);
+#endif
+#ifndef M2C_SELF_func_020f4240
+void func_020f4240(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f4250
+void func_020f4250(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f427c
+void func_020f427c(void *, s32 *, s32 *);
+#endif
+#ifndef M2C_SELF_func_020f43f4
+void func_020f43f4(s32, s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020f4468
+void func_020f4468(s32, s32, u8, u8);
+#endif
+#ifndef M2C_SELF_func_020f44ac
+void func_020f44ac(s8, s8, s8, s8);
+#endif
+#ifndef M2C_SELF_func_020f4660
+void func_020f4660(s8, s32, s32, s8, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f4724
+void func_020f4724(s32);
+#endif
+#ifndef M2C_SELF_func_020f53d8
+void func_020f53d8(void *);
+#endif
+#ifndef M2C_SELF_func_020f53f8
+M2C_UNK **func_020f53f8(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020f5418
+M2C_UNK **func_020f5418(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_020f564c
+void func_020f564c(void *, s32, M2C_UNK *);
+#endif
+#ifndef M2C_SELF_func_020f5668
+void func_020f5668(void *);
+#endif
+#ifndef M2C_SELF_func_020f56bc
+void func_020f56bc(void *);
+#endif
+#ifndef M2C_SELF_func_020f5bbc
+void func_020f5bbc(void *);
+#endif
+#ifndef M2C_SELF_func_020f5bf0
+void func_020f5bf0(void *);
+#endif
+#ifndef M2C_SELF_func_020f69dc
+s32 func_020f69dc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f79cc
+void func_020f79cc(void *, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f7a08
+void func_020f7a08(void *);
+#endif
+#ifndef M2C_SELF_func_020f7a7c
+s32 func_020f7a7c(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020f7bd0
+s32 func_020f7bd0(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020f7cf0
+void func_020f7cf0(s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020fa9a4
+void func_020fa9a4(M2C_UNK, s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_020faa08
+void func_020faa08(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020faa20
+void func_020faa20(void *);
+#endif
+#ifndef M2C_SELF_func_020faa5c
+void func_020faa5c(void *);
+#endif
+#ifndef M2C_SELF_func_020faac8
+u32 func_020faac8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020fab20
+s32 func_020fab20(s32, s32, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020fab44
+void func_020fab44(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020fab70
+void func_020fab70(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_020faba4
+void func_020faba4(void *, void *);
+#endif
+#ifndef M2C_SELF_func_020fb03c
+void func_020fb03c(void *);
+#endif
+#ifndef M2C_SELF_func_020fb0a0
+void func_020fb0a0(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020fb144
+void func_020fb144(void *);
+#endif
+#ifndef M2C_SELF_func_020fb250
+void func_020fb250(void *);
+#endif
+#ifndef M2C_SELF_func_020fb424
+void func_020fb424(void *, u32, s32, s32, u8);
+#endif
+#ifndef M2C_SELF_func_020fb600
+void func_020fb600(void *);
+#endif
+#ifndef M2C_SELF_func_020fb624
+void func_020fb624(void);
+#endif
+#ifndef M2C_SELF_func_020fb630
+void func_020fb630(void);
+#endif
+#ifndef M2C_SELF_func_020fb644
+void func_020fb644(s32);
+#endif
+#ifndef M2C_SELF_func_020fb6b8
+s32 func_020fb6b8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020fbe1c
+s32 func_020fbe1c(s32);
+#endif
+#ifndef M2C_SELF_func_020fbe70
+s32 func_020fbe70(s32);
+#endif
+#ifndef M2C_SELF_func_020fc9d8
+void func_020fc9d8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020fcccc
+s32 func_020fcccc(s32);
+#endif
+#ifndef M2C_SELF_func_020fcce0
+s32 func_020fcce0(s32);
+#endif
+#ifndef M2C_SELF_func_020fccfc
+void func_020fccfc(void *, s32);
+#endif
+#ifndef M2C_SELF_func_020ff6dc
+void func_020ff6dc(s32);
+#endif
+#ifndef M2C_SELF_func_020ffb50
+void func_020ffb50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_020ffc34
+s32 func_020ffc34(void *);
+#endif
+#ifndef M2C_SELF_func_020ffc94
+void func_020ffc94(void);
+#endif
+#ifndef M2C_SELF_func_02100a8c
+u8 func_02100a8c(void);
+#endif
+#ifndef M2C_SELF_func_02100aa4
+u16 func_02100aa4(void);
+#endif
+#ifndef M2C_SELF_func_02100abc
+void func_02100abc(s8);
+#endif
+#ifndef M2C_SELF_func_02100ad4
+void func_02100ad4(s16);
+#endif
+#ifndef M2C_SELF_func_02101378
+void func_02101378(void);
+#endif
+#ifndef M2C_SELF_func_021014c0
+void func_021014c0(void);
+#endif
+#ifndef M2C_SELF_func_02101504
+void func_02101504(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021015f4
+s32 func_021015f4(s32);
+#endif
+#ifndef M2C_SELF_func_02101608
+s32 func_02101608(s32);
+#endif
+#ifndef M2C_SELF_func_0210161c
+s32 func_0210161c(s32);
+#endif
+#ifndef M2C_SELF_func_02101630
+s32 func_02101630(s32);
+#endif
+#ifndef M2C_SELF_func_021016e0
+void func_021016e0(s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02101718
+void func_02101718(s32);
+#endif
+#ifndef M2C_SELF_func_021017d0
+void func_021017d0(void *);
+#endif
+#ifndef M2C_SELF_func_0210186c
+void func_0210186c(void *);
+#endif
+#ifndef M2C_SELF_func_02101880
+s32 func_02101880(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02101cd4
+void func_02101cd4(s32);
+#endif
+#ifndef M2C_SELF_func_021035e8
+void func_021035e8(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02103cf0
+void func_02103cf0(s32);
+#endif
+#ifndef M2C_SELF_func_02103df4
+void func_02103df4(void *);
+#endif
+#ifndef M2C_SELF_func_02105e88
+void func_02105e88(void *);
+#endif
+#ifndef M2C_SELF_func_02105ee8
+void func_02105ee8(void *);
+#endif
+#ifndef M2C_SELF_func_02105fd4
+void func_02105fd4(s32);
+#endif
+#ifndef M2C_SELF_func_021060c8
+void func_021060c8(void *);
+#endif
+#ifndef M2C_SELF_func_02107314
+void func_02107314(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021079a0
+s32 func_021079a0(s32);
+#endif
+#ifndef M2C_SELF_func_021079bc
+s32 func_021079bc(s32);
+#endif
+#ifndef M2C_SELF_func_021079d8
+s32 func_021079d8(s32);
+#endif
+#ifndef M2C_SELF_func_02107ef0
+void func_02107ef0(void *);
+#endif
+#ifndef M2C_SELF_func_0210f70c
+void func_0210f70c(void *, void *);
+#endif
+#ifndef M2C_SELF_func_0210f758
+s32 func_0210f758(s32);
+#endif
+#ifndef M2C_SELF_func_0210f764
+s32 func_0210f764(void);
+#endif
+#ifndef M2C_SELF_func_0210f774
+void func_0210f774(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0210f788
+s32 func_0210f788(s32);
+#endif
+#ifndef M2C_SELF_func_0210f790
+s8 func_0210f790(void *);
+#endif
+#ifndef M2C_SELF_func_0210f798
+s8 func_0210f798(void *);
+#endif
+#ifndef M2C_SELF_func_0210f7a0
+void func_0210f7a0(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0210f7b0
+void func_0210f7b0(void **);
+#endif
+#ifndef M2C_SELF_func_0210fe88
+void func_0210fe88(s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02111c58
+void func_02111c58(void *);
+#endif
+#ifndef M2C_SELF_func_02111c74
+u8 func_02111c74(void *, u8);
+#endif
+#ifndef M2C_SELF_func_02111c9c
+void func_02111c9c(M2C_UNK, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02111cbc
+void func_02111cbc(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02111de4
+void func_02111de4(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02112718
+s32 func_02112718(void *);
+#endif
+#ifndef M2C_SELF_func_02112964
+s32 func_02112964(void *, M2C_UNK, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02113ca4
+void func_02113ca4(void *);
+#endif
+#ifndef M2C_SELF_func_02114c24
+void func_02114c24(void *);
+#endif
+#ifndef M2C_SELF_func_02114c44
+void func_02114c44(void *);
+#endif
+#ifndef M2C_SELF_func_02115ac4
+s32 func_02115ac4(void *);
+#endif
+#ifndef M2C_SELF_func_021176b0
+void func_021176b0(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02117860
+void func_02117860(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0211788c
+void func_0211788c(void *);
+#endif
+#ifndef M2C_SELF_func_021178c4
+void func_021178c4(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02117934
+void func_02117934(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02117cd8
+void func_02117cd8(void *, void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02117d10
+void func_02117d10(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02117da0
+s32 func_02117da0(void *, u32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02117f48
+s32 func_02117f48(void);
+#endif
+#ifndef M2C_SELF_func_021182d0
+void func_021182d0(void *);
+#endif
+#ifndef M2C_SELF_func_0211831c
+void func_0211831c(void *);
+#endif
+#ifndef M2C_SELF_func_021188c8
+void func_021188c8(void *);
+#endif
+#ifndef M2C_SELF_func_02118910
+void func_02118910(void *);
+#endif
+#ifndef M2C_SELF_func_02118968
+void func_02118968(void *);
+#endif
+#ifndef M2C_SELF_func_02118c88
+void func_02118c88(void *);
+#endif
+#ifndef M2C_SELF_func_0211b808
+void func_0211b808(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0211c304
+void func_0211c304(void *);
+#endif
+#ifndef M2C_SELF_func_0211cf08
+s32 func_0211cf08(void *);
+#endif
+#ifndef M2C_SELF_func_0211d514
+void func_0211d514(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0211d550
+void func_0211d550(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0211d5a0
+void func_0211d5a0(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0211d610
+void func_0211d610(void *);
+#endif
+#ifndef M2C_SELF_func_0211d74c
+void func_0211d74c(void);
+#endif
+#ifndef M2C_SELF_func_0211f15c
+s32 func_0211f15c(void);
+#endif
+#ifndef M2C_SELF_func_0211f20c
+s32 func_0211f20c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0211f28c
+s32 func_0211f28c(s32);
+#endif
+#ifndef M2C_SELF_func_0211f57c
+s32 func_0211f57c(void);
+#endif
+#ifndef M2C_SELF_func_0211f678
+void func_0211f678(s32);
+#endif
+#ifndef M2C_SELF_func_0211fe78
+s32 func_0211fe78(s32);
+#endif
+#ifndef M2C_SELF_func_0211fea4
+void func_0211fea4(void *);
+#endif
+#ifndef M2C_SELF_func_0211fed8
+void *func_0211fed8(void *);
+#endif
+#ifndef M2C_SELF_func_0211ffa4
+void *func_0211ffa4(void *);
+#endif
+#ifndef M2C_SELF_func_021209ec
+void func_021209ec(void *);
+#endif
+#ifndef M2C_SELF_func_02120ab8
+void func_02120ab8(s32);
+#endif
+#ifndef M2C_SELF_func_0212118c
+s32 func_0212118c(s32);
+#endif
+#ifndef M2C_SELF_func_02121198
+s32 func_02121198(s32);
+#endif
+#ifndef M2C_SELF_func_02121618
+s32 func_02121618(s32);
+#endif
+#ifndef M2C_SELF_func_0212162c
+s32 func_0212162c(s32);
+#endif
+#ifndef M2C_SELF_func_0212165c
+void func_0212165c(s32);
+#endif
+#ifndef M2C_SELF_func_02121674
+void func_02121674(s32);
+#endif
+#ifndef M2C_SELF_func_021216d8
+void func_021216d8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02121700
+void func_02121700(s32, s32, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02121780
+s32 func_02121780(void *);
+#endif
+#ifndef M2C_SELF_func_02121794
+void func_02121794(s32, s32);
+#endif
+#ifndef M2C_SELF_func_021277f8
+s32 func_021277f8(s32);
+#endif
+#ifndef M2C_SELF_func_0212799c
+s32 func_0212799c(s32);
+#endif
+#ifndef M2C_SELF_func_021279b0
+s32 func_021279b0(s32);
+#endif
+#ifndef M2C_SELF_func_021279cc
+void func_021279cc(void *);
+#endif
+#ifndef M2C_SELF_func_021279f8
+void func_021279f8(void *);
+#endif
+#ifndef M2C_SELF_func_021283e0
+void func_021283e0(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212882c
+void func_0212882c(void *);
+#endif
+#ifndef M2C_SELF_func_02128848
+void func_02128848(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02128868
+void func_02128868(void *);
+#endif
+#ifndef M2C_SELF_func_02128874
+s32 func_02128874(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02128db8
+void func_02128db8(void *);
+#endif
+#ifndef M2C_SELF_func_021290d0
+s32 func_021290d0(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02129130
+s32 func_02129130(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021291e8
+s32 func_021291e8(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02129204
+void func_02129204(void);
+#endif
+#ifndef M2C_SELF_func_02129458
+void func_02129458(void);
+#endif
+#ifndef M2C_SELF_func_02129a3c
+void func_02129a3c(void);
+#endif
+#ifndef M2C_SELF_func_02129e70
+s32 func_02129e70(s32);
+#endif
+#ifndef M2C_SELF_func_0212a1ac
+void func_0212a1ac(s32);
+#endif
+#ifndef M2C_SELF_func_0212a1e4
+void func_0212a1e4(void);
+#endif
+#ifndef M2C_SELF_func_0212a3b8
+void func_0212a3b8(void);
+#endif
+#ifndef M2C_SELF_func_0212a3e0
+void func_0212a3e0(void);
+#endif
+#ifndef M2C_SELF_func_0212a8bc
+void *func_0212a8bc(void *);
+#endif
+#ifndef M2C_SELF_func_0212a8e0
+s32 *func_0212a8e0(s32 *);
+#endif
+#ifndef M2C_SELF_func_0212a8fc
+void func_0212a8fc(void);
+#endif
+#ifndef M2C_SELF_func_0212a908
+void func_0212a908(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212a954
+void func_0212a954(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212a99c
+void func_0212a99c(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b164
+void func_0212b164(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b1a0
+void func_0212b1a0(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b1dc
+void func_0212b1dc(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b224
+void func_0212b224(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b278
+void func_0212b278(void *);
+#endif
+#ifndef M2C_SELF_func_0212b284
+void func_0212b284(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b2f4
+s32 func_0212b2f4(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_0212b308
+s32 func_0212b308(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_0212b31c
+s32 func_0212b31c(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212b39c
+s32 func_0212b39c(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_0212b3ac
+void func_0212b3ac(s32 *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212b4a0
+s32 func_0212b4a0(s32);
+#endif
+#ifndef M2C_SELF_func_0212cb4c
+s32 func_0212cb4c(s32);
+#endif
+#ifndef M2C_SELF_func_0212cb68
+s32 func_0212cb68(s32);
+#endif
+#ifndef M2C_SELF_func_0212cb7c
+s32 func_0212cb7c(s32);
+#endif
+#ifndef M2C_SELF_func_0212cb98
+s32 func_0212cb98(s32);
+#endif
+#ifndef M2C_SELF_func_0212cbc4
+s32 func_0212cbc4(s32);
+#endif
+#ifndef M2C_SELF_func_0212cd08
+s32 func_0212cd08(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_0212cdf0
+void func_0212cdf0(M2C_UNK, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212ce68
+s32 func_0212ce68(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212cf44
+M2C_UNK **func_0212cf44(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0212cf64
+M2C_UNK **func_0212cf64(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0212cf84
+M2C_UNK **func_0212cf84(M2C_UNK **);
+#endif
+#ifndef M2C_SELF_func_0212cfac
+void func_0212cfac(s32);
+#endif
+#ifndef M2C_SELF_func_0212d030
+void func_0212d030(void *);
+#endif
+#ifndef M2C_SELF_func_0212d628
+s32 func_0212d628(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212d65c
+void func_0212d65c(s32, void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212d724
+void func_0212d724(void *, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212d770
+void func_0212d770(void *, s32, s32, s8);
+#endif
+#ifndef M2C_SELF_func_0212d790
+void func_0212d790(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212de6c
+void func_0212de6c(M2C_UNK, M2C_UNK, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212df10
+void func_0212df10(s32, s32, u32, void *);
+#endif
+#ifndef M2C_SELF_func_0212df34
+void func_0212df34(M2C_UNK, M2C_UNK, s32, u32, u8);
+#endif
+#ifndef M2C_SELF_func_0212e2bc
+void func_0212e2bc(s32, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212e9f4
+void func_0212e9f4(void *, void *);
+#endif
+#ifndef M2C_SELF_func_0212ea84
+void func_0212ea84(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212ecb4
+void func_0212ecb4(void *, M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212ed34
+void func_0212ed34(M2C_UNK, void *);
+#endif
+#ifndef M2C_SELF_func_0212ed6c
+void func_0212ed6c(M2C_UNK, M2C_UNK, void *);
+#endif
+#ifndef M2C_SELF_func_0212ee94
+void func_0212ee94(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212eee8
+void func_0212eee8(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212ef6c
+void func_0212ef6c(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212efbc
+void func_0212efbc(s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0212f030
+void func_0212f030(M2C_UNK, void *);
+#endif
+#ifndef M2C_SELF_func_0212f0f4
+void func_0212f0f4(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212f8cc
+void func_0212f8cc(void);
+#endif
+#ifndef M2C_SELF_func_0212f964
+void func_0212f964(s32);
+#endif
+#ifndef M2C_SELF_func_0212f9a8
+void func_0212f9a8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212f9cc
+void func_0212f9cc(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0212fa40
+void func_0212fa40(void *);
+#endif
+#ifndef M2C_SELF_func_0212fe00
+void *func_0212fe00(void *);
+#endif
+#ifndef M2C_SELF_func_0212fe50
+s32 func_0212fe50(s32);
+#endif
+#ifndef M2C_SELF_func_0212fe64
+s32 func_0212fe64(s32);
+#endif
+#ifndef M2C_SELF_func_0212fe80
+s32 func_0212fe80(s32);
+#endif
+#ifndef M2C_SELF_func_0212ffc8
+s32 func_0212ffc8(void);
+#endif
+#ifndef M2C_SELF_func_0212ffe0
+s32 func_0212ffe0(void);
+#endif
+#ifndef M2C_SELF_func_02130050
+void func_02130050(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02133c68
+void func_02133c68(void *);
+#endif
+#ifndef M2C_SELF_func_02133c94
+s32 func_02133c94(s32);
+#endif
+#ifndef M2C_SELF_func_02133e90
+s32 func_02133e90(void *);
+#endif
+#ifndef M2C_SELF_func_02133f18
+s32 func_02133f18(void *);
+#endif
+#ifndef M2C_SELF_func_02133f20
+void func_02133f20(void *);
+#endif
+#ifndef M2C_SELF_func_02134a9c
+s32 func_02134a9c(s32);
+#endif
+#ifndef M2C_SELF_func_02135958
+void *func_02135958(void *);
+#endif
+#ifndef M2C_SELF_func_02135984
+void *func_02135984(void *);
+#endif
+#ifndef M2C_SELF_func_02135a20
+void *func_02135a20(void *);
+#endif
+#ifndef M2C_SELF_func_02136164
+void func_02136164(void);
+#endif
+#ifndef M2C_SELF_func_02137f6c
+void func_02137f6c(s32, s32, s32, s32, u8, s32);
+#endif
+#ifndef M2C_SELF_func_02138600
+void *func_02138600(void *);
+#endif
+#ifndef M2C_SELF_func_02138654
+void *func_02138654(void *, void *);
+#endif
+#ifndef M2C_SELF_func_02138668
+s32 func_02138668(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02138680
+void func_02138680(void *, void *);
+#endif
+#ifndef M2C_SELF_func_021387d0
+void func_021387d0(void *, void *);
+#endif
+#ifndef M2C_SELF_func_02138838
+void func_02138838(void *, void *);
+#endif
+#ifndef M2C_SELF_func_02138864
+void func_02138864(void *, s16);
+#endif
+#ifndef M2C_SELF_func_0213887c
+void func_0213887c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02138898
+void func_02138898(void *, s32, s32, s32, u16);
+#endif
+#ifndef M2C_SELF_func_02138928
+void *func_02138928(void *);
+#endif
+#ifndef M2C_SELF_func_02138a20
+s32 func_02138a20(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02138a78
+s32 func_02138a78(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02138b00
+void func_02138b00(void);
+#endif
+#ifndef M2C_SELF_func_02138b0c
+void *func_02138b0c(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02138c9c
+void *func_02138c9c(void *, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02138cec
+void func_02138cec(void);
+#endif
+#ifndef M2C_SELF_func_02138cf8
+void func_02138cf8(void);
+#endif
+#ifndef M2C_SELF_func_02138d34
+void func_02138d34(void);
+#endif
+#ifndef M2C_SELF_func_02138d40
+void func_02138d40(void);
+#endif
+#ifndef M2C_SELF_func_02138d74
+void func_02138d74(void);
+#endif
+#ifndef M2C_SELF_func_02138e1c
+void func_02138e1c(void);
+#endif
+#ifndef M2C_SELF_func_02138e48
+void func_02138e48(s32);
+#endif
+#ifndef M2C_SELF_func_02138e68
+s32 func_02138e68(void);
+#endif
+#ifndef M2C_SELF_func_02138eac
+void func_02138eac(s32);
+#endif
+#ifndef M2C_SELF_func_02138ec8
+void func_02138ec8(s32);
+#endif
+#ifndef M2C_SELF_func_02138f00
+s32 func_02138f00(s32);
+#endif
+#ifndef M2C_SELF_func_02138f54
+void func_02138f54(void *, s8);
+#endif
+#ifndef M2C_SELF_func_02138fb8
+void func_02138fb8(void *);
+#endif
+#ifndef M2C_SELF_func_02139014
+void func_02139014(void *);
+#endif
+#ifndef M2C_SELF_func_02139120
+void func_02139120(void *);
+#endif
+#ifndef M2C_SELF_func_0213915c
+void func_0213915c(void *);
+#endif
+#ifndef M2C_SELF_func_021391bc
+void func_021391bc(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02139218
+void func_02139218(void *);
+#endif
+#ifndef M2C_SELF_func_02139264
+s32 func_02139264(s32, void *);
+#endif
+#ifndef M2C_SELF_func_021392c0
+void func_021392c0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213937c
+void func_0213937c(void);
+#endif
+#ifndef M2C_SELF_func_02139388
+s32 func_02139388(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_021395b8
+void func_021395b8(void);
+#endif
+#ifndef M2C_SELF_func_02139670
+void func_02139670(void **, s16);
+#endif
+#ifndef M2C_SELF_func_0213968c
+void func_0213968c(void **);
+#endif
+#ifndef M2C_SELF_func_021396bc
+void func_021396bc(void **);
+#endif
+#ifndef M2C_SELF_func_021396ec
+void func_021396ec(void **, s8);
+#endif
+#ifndef M2C_SELF_func_021396fc
+void func_021396fc(s32 **);
+#endif
+#ifndef M2C_SELF_func_02139714
+void func_02139714(s32 *);
+#endif
+#ifndef M2C_SELF_func_02139764
+void func_02139764(s32 *);
+#endif
+#ifndef M2C_SELF_func_02139774
+s32 func_02139774(s32, s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_02139814
+void func_02139814(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213982c
+void func_0213982c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213984c
+s32 func_0213984c(void *);
+#endif
+#ifndef M2C_SELF_func_021398c4
+void func_021398c4(void *);
+#endif
+#ifndef M2C_SELF_func_021399d0
+void func_021399d0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021399e0
+void func_021399e0(void *);
+#endif
+#ifndef M2C_SELF_func_02139a14
+void func_02139a14(void *);
+#endif
+#ifndef M2C_SELF_func_02139a94
+void func_02139a94(void *, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02139ad8
+void func_02139ad8(void *, int);
+#endif
+#ifndef M2C_SELF_func_02139b4c
+void func_02139b4c(void *);
+#endif
+#ifndef M2C_SELF_func_02139b7c
+s32 func_02139b7c(void *);
+#endif
+#ifndef M2C_SELF_func_02139da8
+void func_02139da8(void *);
+#endif
+#ifndef M2C_SELF_func_02139e3c
+void func_02139e3c(void *);
+#endif
+#ifndef M2C_SELF_func_02139f60
+void func_02139f60(void);
+#endif
+#ifndef M2C_SELF_func_02139fc0
+void func_02139fc0(void);
+#endif
+#ifndef M2C_SELF_func_0213a0bc
+void func_0213a0bc(void);
+#endif
+#ifndef M2C_SELF_func_0213a16c
+void func_0213a16c(void);
+#endif
+#ifndef M2C_SELF_func_0213a18c
+void func_0213a18c(s32, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0213a198
+void func_0213a198(s32, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0213a1a4
+void func_0213a1a4(s32, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0213a1b0
+void func_0213a1b0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213a1cc
+s32 func_0213a1cc(u32);
+#endif
+#ifndef M2C_SELF_func_0213a214
+s32 func_0213a214(u32, M2C_UNK, u32, s32);
+#endif
+#ifndef M2C_SELF_func_0213a298
+s32 func_0213a298(u32);
+#endif
+#ifndef M2C_SELF_func_0213a2c0
+s32 func_0213a2c0(u32);
+#endif
+#ifndef M2C_SELF_func_0213a608
+s32 func_0213a608(void);
+#endif
+#ifndef M2C_SELF_func_0213a618
+s32 func_0213a618(s32);
+#endif
+#ifndef M2C_SELF_func_0213a8d4
+void func_0213a8d4(void);
+#endif
+#ifndef M2C_SELF_func_0213a8f8
+s32 func_0213a8f8(s32 *);
+#endif
+#ifndef M2C_SELF_func_0213a948
+s32 func_0213a948(s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_0213a988
+void func_0213a988(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213aa84
+s32 func_0213aa84(void *);
+#endif
+#ifndef M2C_SELF_func_0213aadc
+void *func_0213aadc(s32 *, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213ac0c
+void func_0213ac0c(s32 *);
+#endif
+#ifndef M2C_SELF_func_0213ac28
+u32 func_0213ac28(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213ae88
+void func_0213ae88(s32, s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213aedc
+void func_0213aedc(M2C_UNK, s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213af00
+void func_0213af00(s32, s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213af3c
+void func_0213af3c(s32, s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213af78
+void func_0213af78(s32, s32, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213b14c
+s32 func_0213b14c(M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213b1c8
+s32 func_0213b1c8(M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213b244
+s32 func_0213b244(M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213b2c0
+s32 func_0213b2c0(M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213b33c
+s32 func_0213b33c(M2C_UNK, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213b3f0
+s32 func_0213b3f0(s32, s32, M2C_UNK, M2C_UNK, s32 *);
+#endif
+#ifndef M2C_SELF_func_0213b5f8
+s32 func_0213b5f8(s32, s32, M2C_UNK, M2C_UNK, s32 *);
+#endif
+#ifndef M2C_SELF_func_0213b668
+s32 func_0213b668(s32, s32, M2C_UNK, M2C_UNK, s32 *);
+#endif
+#ifndef M2C_SELF_func_0213b854
+s32 func_0213b854(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213b88c
+s32 func_0213b88c(void);
+#endif
+#ifndef M2C_SELF_func_0213b9bc
+s32 func_0213b9bc(M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_0213bb2c
+s32 func_0213bb2c(void *, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213bb50
+s32 func_0213bb50(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213bb80
+void func_0213bb80(s32);
+#endif
+#ifndef M2C_SELF_func_0213bb90
+void func_0213bb90(void *, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_0213bbcc
+void func_0213bbcc(s32);
+#endif
+#ifndef M2C_SELF_func_0213bc5c
+void func_0213bc5c(void *, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213c82c
+void func_0213c82c(s32, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0213c8d8
+void func_0213c8d8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213c910
+void *func_0213c910(void);
+#endif
+#ifndef M2C_SELF_func_0213c95c
+void *func_0213c95c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213c9b0
+void func_0213c9b0(void *, void *);
+#endif
+#ifndef M2C_SELF_func_0213ca24
+void func_0213ca24(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0213ca9c
+void func_0213ca9c(void *);
+#endif
+#ifndef M2C_SELF_func_0213cb24
+void func_0213cb24(void *);
+#endif
+#ifndef M2C_SELF_func_0213cb98
+void func_0213cb98(void *);
+#endif
+#ifndef M2C_SELF_func_0213cc3c
+void func_0213cc3c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213cf40
+void func_0213cf40(void *);
+#endif
+#ifndef M2C_SELF_func_0213d13c
+void func_0213d13c(void **);
+#endif
+#ifndef M2C_SELF_func_0213d154
+void func_0213d154(s32 *);
+#endif
+#ifndef M2C_SELF_func_0213d1ac
+void func_0213d1ac(s32 *);
+#endif
+#ifndef M2C_SELF_func_0213d1d8
+s32 func_0213d1d8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213d208
+void func_0213d208(void **);
+#endif
+#ifndef M2C_SELF_func_0213d220
+s32 func_0213d220(M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213d468
+s32 func_0213d468(void *);
+#endif
+#ifndef M2C_SELF_func_0213d480
+void func_0213d480(void *);
+#endif
+#ifndef M2C_SELF_func_0213d498
+s32 func_0213d498(s32);
+#endif
+#ifndef M2C_SELF_func_0213d4d4
+void func_0213d4d4(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213d504
+void func_0213d504(void *);
+#endif
+#ifndef M2C_SELF_func_0213d548
+void func_0213d548(void);
+#endif
+#ifndef M2C_SELF_func_0213d558
+s32 func_0213d558(s32);
+#endif
+#ifndef M2C_SELF_func_0213d58c
+s32 func_0213d58c(void);
+#endif
+#ifndef M2C_SELF_func_0213d5c4
+s32 func_0213d5c4(void);
+#endif
+#ifndef M2C_SELF_func_0213d5f0
+void func_0213d5f0(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213d618
+u16 func_0213d618(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213d90c
+void func_0213d90c(s32);
+#endif
+#ifndef M2C_SELF_func_0213da54
+void func_0213da54(s32);
+#endif
+#ifndef M2C_SELF_func_0213da70
+void func_0213da70(s16 *, s32);
+#endif
+#ifndef M2C_SELF_func_0213da98
+void func_0213da98(void);
+#endif
+#ifndef M2C_SELF_func_0213daf8
+void func_0213daf8(u32);
+#endif
+#ifndef M2C_SELF_func_0213dbb0
+void func_0213dbb0(s32);
+#endif
+#ifndef M2C_SELF_func_0213de40
+void func_0213de40(s32);
+#endif
+#ifndef M2C_SELF_func_0213df90
+void func_0213df90(s32);
+#endif
+#ifndef M2C_SELF_func_0213e090
+void func_0213e090(s32);
+#endif
+#ifndef M2C_SELF_func_0213e13c
+void func_0213e13c(s32);
+#endif
+#ifndef M2C_SELF_func_0213e15c
+void func_0213e15c(s32);
+#endif
+#ifndef M2C_SELF_func_0213e204
+void func_0213e204(s32);
+#endif
+#ifndef M2C_SELF_func_0213e274
+void func_0213e274(s32);
+#endif
+#ifndef M2C_SELF_func_0213e2f4
+void func_0213e2f4(s32);
+#endif
+#ifndef M2C_SELF_func_0213e374
+u16 func_0213e374(u16 *);
+#endif
+#ifndef M2C_SELF_func_0213e3a8
+void func_0213e3a8(void);
+#endif
+#ifndef M2C_SELF_func_0213e3cc
+void func_0213e3cc(void);
+#endif
+#ifndef M2C_SELF_func_0213e3f0
+void func_0213e3f0(void);
+#endif
+#ifndef M2C_SELF_func_0213e418
+void func_0213e418(void);
+#endif
+#ifndef M2C_SELF_func_0213e440
+void *func_0213e440(void);
+#endif
+#ifndef M2C_SELF_func_0213e474
+s32 func_0213e474(void);
+#endif
+#ifndef M2C_SELF_func_0213e4c8
+s32 func_0213e4c8(void);
+#endif
+#ifndef M2C_SELF_func_0213e4e8
+void *func_0213e4e8(void);
+#endif
+#ifndef M2C_SELF_func_0213e56c
+void *func_0213e56c(void);
+#endif
+#ifndef M2C_SELF_func_0213e5e0
+void *func_0213e5e0(void);
+#endif
+#ifndef M2C_SELF_func_0213e664
+void *func_0213e664(void);
+#endif
+#ifndef M2C_SELF_func_0213e6d8
+void *func_0213e6d8(void);
+#endif
+#ifndef M2C_SELF_func_0213e70c
+s32 func_0213e70c(void);
+#endif
+#ifndef M2C_SELF_func_0213e760
+s32 func_0213e760(void);
+#endif
+#ifndef M2C_SELF_func_0213e780
+void *func_0213e780(void);
+#endif
+#ifndef M2C_SELF_func_0213e7d0
+void *func_0213e7d0(void);
+#endif
+#ifndef M2C_SELF_func_0213e810
+void *func_0213e810(void);
+#endif
+#ifndef M2C_SELF_func_0213e868
+void *func_0213e868(void);
+#endif
+#ifndef M2C_SELF_func_0213e8b0
+void func_0213e8b0(s32 *, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213e8cc
+void func_0213e8cc(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213e8f4
+void func_0213e8f4(void *, s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213e93c
+void func_0213e93c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0213e980
+void func_0213e980(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213e9d4
+void func_0213e9d4(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0213eadc
+void func_0213eadc(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213eb3c
+void func_0213eb3c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213eb9c
+void func_0213eb9c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ebfc
+void func_0213ebfc(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ec5c
+void func_0213ec5c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ecbc
+void func_0213ecbc(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ed1c
+void func_0213ed1c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ed7c
+void func_0213ed7c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213eddc
+void func_0213eddc(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ee3c
+void func_0213ee3c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ee9c
+void func_0213ee9c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213eefc
+void func_0213eefc(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213ef5c
+void func_0213ef5c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213efbc
+void func_0213efbc(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213f01c
+void func_0213f01c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213f07c
+void func_0213f07c(M2C_UNK, s32, u32);
+#endif
+#ifndef M2C_SELF_func_0213f1ec
+void func_0213f1ec(void);
+#endif
+#ifndef M2C_SELF_func_0213f234
+void func_0213f234(void);
+#endif
+#ifndef M2C_SELF_func_0213f2e8
+void func_0213f2e8(void);
+#endif
+#ifndef M2C_SELF_func_0213f32c
+void func_0213f32c(void);
+#endif
+#ifndef M2C_SELF_func_0213f3a8
+void func_0213f3a8(void);
+#endif
+#ifndef M2C_SELF_func_0213f4e8
+void func_0213f4e8(void);
+#endif
+#ifndef M2C_SELF_func_0213f4f8
+void func_0213f4f8(void);
+#endif
+#ifndef M2C_SELF_func_0213f508
+void func_0213f508(void);
+#endif
+#ifndef M2C_SELF_func_0213f518
+void func_0213f518(void);
+#endif
+#ifndef M2C_SELF_func_0213f528
+void func_0213f528(void);
+#endif
+#ifndef M2C_SELF_func_0213f538
+void func_0213f538(void);
+#endif
+#ifndef M2C_SELF_func_0213f548
+void func_0213f548(void);
+#endif
+#ifndef M2C_SELF_func_0213f558
+void func_0213f558(void);
+#endif
+#ifndef M2C_SELF_func_0213f568
+void func_0213f568(void);
+#endif
+#ifndef M2C_SELF_func_0213f928
+void func_0213f928(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213f9ac
+void func_0213f9ac(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213fa28
+void func_0213fa28(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213fa48
+void func_0213fa48(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213fa74
+void func_0213fa74(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213fa94
+void func_0213fa94(void);
+#endif
+#ifndef M2C_SELF_func_0213faac
+void func_0213faac(void);
+#endif
+#ifndef M2C_SELF_func_0213fac4
+void func_0213fac4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213fae0
+void func_0213fae0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0213fafc
+void func_0213fafc(void);
+#endif
+#ifndef M2C_SELF_func_0213fb14
+void func_0213fb14(void);
+#endif
+#ifndef M2C_SELF_func_0213fb2c
+u16 func_0213fb2c(void *);
+#endif
+#ifndef M2C_SELF_func_0213fbbc
+s32 func_0213fbbc(void);
+#endif
+#ifndef M2C_SELF_func_0213fbd4
+void func_0213fbd4(void *, void *);
+#endif
+#ifndef M2C_SELF_func_0213fc4c
+void *func_0213fc4c(void *);
+#endif
+#ifndef M2C_SELF_func_0213fc80
+void *func_0213fc80(void *, void *);
+#endif
+#ifndef M2C_SELF_func_0213fcd4
+void *func_0213fcd4(void *);
+#endif
+#ifndef M2C_SELF_func_0213fffc
+void func_0213fffc(void);
+#endif
+#ifndef M2C_SELF_func_0214001c
+void func_0214001c(void *, s32);
+#endif
+#ifndef M2C_SELF_func_021400b0
+void func_021400b0(void);
+#endif
+#ifndef M2C_SELF_func_0214010c
+void func_0214010c(s32);
+#endif
+#ifndef M2C_SELF_func_0214015c
+void func_0214015c(void *);
+#endif
+#ifndef M2C_SELF_func_021401c4
+void func_021401c4(void *);
+#endif
+#ifndef M2C_SELF_func_021403b0
+void func_021403b0(void *);
+#endif
+#ifndef M2C_SELF_func_021403c0
+u32 func_021403c0(void);
+#endif
+#ifndef M2C_SELF_func_021403f4
+u32 func_021403f4(void);
+#endif
+#ifndef M2C_SELF_func_02140428
+void func_02140428(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02140524
+s32 func_02140524(void);
+#endif
+#ifndef M2C_SELF_func_0214052c
+s32 func_0214052c(void);
+#endif
+#ifndef M2C_SELF_func_02140678
+int func_02140678(char *, void **, int);
+#endif
+#ifndef M2C_SELF_func_0214071c
+void func_0214071c(void *);
+#endif
+#ifndef M2C_SELF_func_02140734
+void func_02140734(void *);
+#endif
+#ifndef M2C_SELF_func_02140814
+void func_02140814(void *);
+#endif
+#ifndef M2C_SELF_func_021408c4
+void func_021408c4(void *, void *);
+#endif
+#ifndef M2C_SELF_func_021408e8
+void func_021408e8(void *, void *);
+#endif
+#ifndef M2C_SELF_func_021409b0
+void func_021409b0(void);
+#endif
+#ifndef M2C_SELF_func_021409dc
+void func_021409dc(void);
+#endif
+#ifndef M2C_SELF_func_02140a20
+void func_02140a20(void);
+#endif
+#ifndef M2C_SELF_func_02140b24
+void func_02140b24(void);
+#endif
+#ifndef M2C_SELF_func_02140b90
+s32 func_02140b90(s32);
+#endif
+#ifndef M2C_SELF_func_02140ba4
+s32 func_02140ba4(s32);
+#endif
+#ifndef M2C_SELF_func_02140d44
+void func_02140d44(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02140d58
+void func_02140d58(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02140da0
+void func_02140da0(void);
+#endif
+#ifndef M2C_SELF_func_02140fac
+void func_02140fac(s32);
+#endif
+#ifndef M2C_SELF_func_02140fc8
+void func_02140fc8(void);
+#endif
+#ifndef M2C_SELF_func_021410b4
+void func_021410b4(void);
+#endif
+#ifndef M2C_SELF_func_021411b4
+void func_021411b4(void);
+#endif
+#ifndef M2C_SELF_func_02141208
+void func_02141208(s32, s32);
+#endif
+#ifndef M2C_SELF_func_0214123c
+void func_0214123c(void);
+#endif
+#ifndef M2C_SELF_func_02141270
+void func_02141270(void);
+#endif
+#ifndef M2C_SELF_func_0214128c
+void func_0214128c(s8);
+#endif
+#ifndef M2C_SELF_func_02141578
+void func_02141578(u32);
+#endif
+#ifndef M2C_SELF_func_021415f4
+void func_021415f4(u32, u32);
+#endif
+#ifndef M2C_SELF_func_02141678
+void func_02141678(s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141ba4
+void func_02141ba4(void);
+#endif
+#ifndef M2C_SELF_func_02141bbc
+void func_02141bbc(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141bdc
+void func_02141bdc(M2C_UNK, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02141c04
+void func_02141c04(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141c24
+void func_02141c24(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141c3c
+void func_02141c3c(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141c54
+void func_02141c54(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141c70
+void func_02141c70(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141c98
+void func_02141c98(M2C_UNK, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02141cc0
+void func_02141cc0(u32, u32, u32, u32);
+#endif
+#ifndef M2C_SELF_func_02141d24
+void func_02141d24(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02141d64
+void func_02141d64(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141d84
+void func_02141d84(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141da4
+void func_02141da4(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141dcc
+void func_02141dcc(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141dec
+void func_02141dec(s32, s32, const void *, s32, s32, s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141e38
+void func_02141e38(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141e58
+void func_02141e58(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141e78
+void func_02141e78(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141e98
+void func_02141e98(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02141eb8
+void func_02141eb8(M2C_UNK, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02141ee0
+void func_02141ee0(M2C_UNK, M2C_UNK, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_02141f08
+void func_02141f08(s32, M2C_UNK, M2C_UNK, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141f30
+void func_02141f30(s32, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02141f74
+void func_02141f74(void);
+#endif
+#ifndef M2C_SELF_func_02141fac
+void func_02141fac(void);
+#endif
+#ifndef M2C_SELF_func_02141fc0
+void func_02141fc0(void);
+#endif
+#ifndef M2C_SELF_func_0214220c
+s32 func_0214220c(s32);
+#endif
+#ifndef M2C_SELF_func_02142460
+void func_02142460(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021424cc
+s32 func_021424cc(void);
+#endif
+#ifndef M2C_SELF_func_02142504
+s32 func_02142504(s32);
+#endif
+#ifndef M2C_SELF_func_02142554
+s32 func_02142554(void);
+#endif
+#ifndef M2C_SELF_func_02142590
+s32 func_02142590(void);
+#endif
+#ifndef M2C_SELF_func_021425cc
+s32 func_021425cc(void);
+#endif
+#ifndef M2C_SELF_func_021425e8
+void func_021425e8(s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0214260c
+void func_0214260c(void);
+#endif
+#ifndef M2C_SELF_func_0214266c
+void func_0214266c(void);
+#endif
+#ifndef M2C_SELF_func_02142694
+s32 func_02142694(void);
+#endif
+#ifndef M2C_SELF_func_02142724
+void func_02142724(void);
+#endif
+#ifndef M2C_SELF_func_02142754
+void func_02142754(s32);
+#endif
+#ifndef M2C_SELF_func_021427a4
+void func_021427a4(s32);
+#endif
+#ifndef M2C_SELF_func_021427e8
+s32 func_021427e8(void);
+#endif
+#ifndef M2C_SELF_func_02142814
+s32 func_02142814(void);
+#endif
+#ifndef M2C_SELF_func_0214283c
+void func_0214283c(void *);
+#endif
+#ifndef M2C_SELF_func_021428b8
+u16 func_021428b8(s32);
+#endif
+#ifndef M2C_SELF_func_02142928
+void func_02142928(void *, s32, void *);
+#endif
+#ifndef M2C_SELF_func_021429f4
+void func_021429f4(void *);
+#endif
+#ifndef M2C_SELF_func_02142a8c
+void func_02142a8c(void *);
+#endif
+#ifndef M2C_SELF_func_02142ca4
+s32 func_02142ca4(void *);
+#endif
+#ifndef M2C_SELF_func_02142cac
+void func_02142cac(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02142ce0
+const void *func_02142ce0(void *, s32);
+#endif
+#ifndef M2C_SELF_func_02142d1c
+void func_02142d1c(void);
+#endif
+#ifndef M2C_SELF_func_02143230
+int func_02143230(const char *, const char *, u32);
+#endif
+#ifndef M2C_SELF_func_02143338
+void func_02143338(void *, s16);
+#endif
+#ifndef M2C_SELF_func_02143b60
+s32 func_02143b60(void *);
+#endif
+#ifndef M2C_SELF_func_02143b88
+s32 func_02143b88(void);
+#endif
+#ifndef M2C_SELF_func_02143b90
+u32 func_02143b90(const char *, s32);
+#endif
+#ifndef M2C_SELF_func_02143be8
+s32 func_02143be8(void *, M2C_UNK, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02143c04
+s32 func_02143c04(void *, M2C_UNK, s32, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02143c24
+s32 func_02143c24(s32, M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02143e50
+void func_02143e50(void *);
+#endif
+#ifndef M2C_SELF_func_02143ee4
+s32 func_02143ee4(void *);
+#endif
+#ifndef M2C_SELF_func_021440cc
+void func_021440cc(void *);
+#endif
+#ifndef M2C_SELF_func_021440f8
+void *func_021440f8(const char *, s32);
+#endif
+#ifndef M2C_SELF_func_02144138
+s32 func_02144138(void *, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02144264
+u32 func_02144264(void *, void *, u32);
+#endif
+#ifndef M2C_SELF_func_02144388
+void func_02144388(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0214442c
+void func_0214442c(s32);
+#endif
+#ifndef M2C_SELF_func_02144454
+void func_02144454(void *);
+#endif
+#ifndef M2C_SELF_func_0214463c
+s32 func_0214463c(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0214467c
+s32 func_0214467c(void *, s32, s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_0214477c
+s32 func_0214477c(void *);
+#endif
+#ifndef M2C_SELF_func_021447b8
+s32 func_021447b8(void *);
+#endif
+#ifndef M2C_SELF_func_02144878
+void func_02144878(s32);
+#endif
+#ifndef M2C_SELF_func_021448c0
+void func_021448c0(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0214493c
+void func_0214493c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02144994
+s32 func_02144994(void);
+#endif
+#ifndef M2C_SELF_func_0214499c
+s32 func_0214499c(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02144a08
+s32 func_02144a08(void);
+#endif
+#ifndef M2C_SELF_func_02144a10
+s32 func_02144a10(void);
+#endif
+#ifndef M2C_SELF_func_02144b74
+void func_02144b74(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02144b94
+void func_02144b94(void *);
+#endif
+#ifndef M2C_SELF_func_02144be8
+void func_02144be8(void *);
+#endif
+#ifndef M2C_SELF_func_02144eb4
+void func_02144eb4(void);
+#endif
+#ifndef M2C_SELF_func_02145184
+u16 func_02145184(void);
+#endif
+#ifndef M2C_SELF_func_021454a0
+void func_021454a0(s32);
+#endif
+#ifndef M2C_SELF_func_021454b8
+s32 func_021454b8(s32);
+#endif
+#ifndef M2C_SELF_func_021454cc
+s32 func_021454cc(void);
+#endif
+#ifndef M2C_SELF_func_02145520
+void func_02145520(s32, s32 *);
+#endif
+#ifndef M2C_SELF_func_0214584c
+s32 func_0214584c(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145874
+s32 func_02145874(s32);
+#endif
+#ifndef M2C_SELF_func_021458c8
+s32 func_021458c8(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0214596c
+s32 func_0214596c(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145994
+void func_02145994(M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021459ac
+s32 func_021459ac(void);
+#endif
+#ifndef M2C_SELF_func_021459d4
+u32 func_021459d4(void *, void *);
+#endif
+#ifndef M2C_SELF_func_02145a30
+void func_02145a30(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145d5c
+s32 func_02145d5c(void);
+#endif
+#ifndef M2C_SELF_func_02145d78
+void func_02145d78(void **, void *);
+#endif
+#ifndef M2C_SELF_func_02145d8c
+void func_02145d8c(void **, void *);
+#endif
+#ifndef M2C_SELF_func_02145dd8
+void func_02145dd8(void *, void *);
+#endif
+#ifndef M2C_SELF_func_02145e20
+void func_02145e20(void *);
+#endif
+#ifndef M2C_SELF_func_02145e48
+void func_02145e48(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145e60
+void func_02145e60(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145e78
+void func_02145e78(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145e90
+void func_02145e90(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02145f1c
+s32 func_02145f1c(s32, s32, s32);
+#endif
+#ifndef M2C_SELF_func_02145f8c
+s32 func_02145f8c(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02146514
+s32 func_02146514(u32);
+#endif
+#ifndef M2C_SELF_func_02146584
+void func_02146584(s32);
+#endif
+#ifndef M2C_SELF_func_021465b0
+void func_021465b0(void);
+#endif
+#ifndef M2C_SELF_func_021465c0
+void func_021465c0(void);
+#endif
+#ifndef M2C_SELF_func_021465d0
+s32 func_021465d0(s32);
+#endif
+#ifndef M2C_SELF_func_021466f0
+void func_021466f0(u16, u32);
+#endif
+#ifndef M2C_SELF_func_02146774
+void func_02146774(u16, u32);
+#endif
+#ifndef M2C_SELF_func_02146904
+s32 func_02146904(void);
+#endif
+#ifndef M2C_SELF_func_02146914
+void func_02146914(void);
+#endif
+#ifndef M2C_SELF_func_0214692c
+void func_0214692c(s32);
+#endif
+#ifndef M2C_SELF_func_02146988
+s32 func_02146988(void);
+#endif
+#ifndef M2C_SELF_func_021469a4
+void func_021469a4(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021469c0
+void func_021469c0(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021469dc
+void func_021469dc(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_021469ec
+void func_021469ec(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02146e38
+s32 func_02146e38(void);
+#endif
+#ifndef M2C_SELF_func_02147010
+void func_02147010(u32, u32);
+#endif
+#ifndef M2C_SELF_func_02147620
+void func_02147620(void);
+#endif
+#ifndef M2C_SELF_func_0214762c
+M2C_UNK *func_0214762c(void);
+#endif
+#ifndef M2C_SELF_func_0214766c
+void func_0214766c(void *);
+#endif
+#ifndef M2C_SELF_func_021476c4
+s32 func_021476c4(void *, s32 *, s32);
+#endif
+#ifndef M2C_SELF_func_02147818
+void func_02147818(void);
+#endif
+#ifndef M2C_SELF_func_02147844
+void func_02147844(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02147894
+s32 func_02147894(void);
+#endif
+#ifndef M2C_SELF_func_021478a4
+void func_021478a4(void);
+#endif
+#ifndef M2C_SELF_func_021478d8
+void func_021478d8(u32);
+#endif
+#ifndef M2C_SELF_func_021479bc
+s32 func_021479bc(void);
+#endif
+#ifndef M2C_SELF_func_021479e4
+s32 func_021479e4(void);
+#endif
+#ifndef M2C_SELF_func_02147a0c
+u32 func_02147a0c(void);
+#endif
+#ifndef M2C_SELF_func_02147a24
+s32 func_02147a24(void);
+#endif
+#ifndef M2C_SELF_func_02147a6c
+s32 func_02147a6c(void);
+#endif
+#ifndef M2C_SELF_func_02147c0c
+void func_02147c0c(void *);
+#endif
+#ifndef M2C_SELF_func_02147c54
+void func_02147c54(void *);
+#endif
+#ifndef M2C_SELF_func_02147ce4
+void func_02147ce4(s32, void *);
+#endif
+#ifndef M2C_SELF_func_02147eec
+s32 func_02147eec(void);
+#endif
+#ifndef M2C_SELF_func_02147efc
+void func_02147efc(s32);
+#endif
+#ifndef M2C_SELF_func_02147f0c
+void func_02147f0c(void);
+#endif
+#ifndef M2C_SELF_func_02147f30
+void func_02147f30(void);
+#endif
+#ifndef M2C_SELF_func_02148168
+void func_02148168(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02148194
+void func_02148194(s32, s32);
+#endif
+#ifndef M2C_SELF_func_021481d8
+void func_021481d8(void);
+#endif
+#ifndef M2C_SELF_func_021481ec
+void func_021481ec(void);
+#endif
+#ifndef M2C_SELF_func_02148210
+void func_02148210(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_02148384
+int func_02148384(void);
+#endif
+#ifndef M2C_SELF_func_021483ec
+s32 func_021483ec(s32);
+#endif
+#ifndef M2C_SELF_func_021483f8
+s32 func_021483f8(s32);
+#endif
+#ifndef M2C_SELF_func_02148408
+void func_02148408(void *);
+#endif
+#ifndef M2C_SELF_func_02148438
+int func_02148438(void *, void *);
+#endif
+#ifndef M2C_SELF_func_021484c0
+int func_021484c0(void *);
+#endif
+#ifndef M2C_SELF_func_021485a8
+s32 func_021485a8(s16 *, u8 *, s32);
+#endif
+#ifndef M2C_SELF_func_021485e0
+s32 func_021485e0(s8 *, s8);
+#endif
+#ifndef M2C_SELF_func_021485f4
+void func_021485f4(s32, s32);
+#endif
+#ifndef M2C_SELF_func_02148610
+int func_02148610(char *, void *, unsigned int);
+#endif
+#ifndef M2C_SELF_func_02148688
+void *func_02148688(void *, const void *, int);
+#endif
+#ifndef M2C_SELF_func_021486f4
+s32 func_021486f4(s32);
+#endif
+#ifndef M2C_SELF_func_02148708
+void *func_02148708(const void *, int, int);
+#endif
+#ifndef M2C_SELF_func_02148734
+int func_02148734(const void *, const void *, int);
+#endif
+#ifndef M2C_SELF_func_02148774
+void func_02148774(void *, int, unsigned int);
+#endif
+#ifndef M2C_SELF_func_021497bc
+void func_021497bc(void *, int);
+#endif
+#ifndef M2C_SELF_func_0214a868
+s32 func_0214a868(void *, M2C_UNK, s32);
+#endif
+#ifndef M2C_SELF_func_0214a914
+void func_0214a914(M2C_UNK, M2C_UNK, M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0214aa88
+s32 func_0214aa88(s8 *);
+#endif
+#ifndef M2C_SELF_func_0214aaa4
+char *func_0214aaa4(char *, const char *);
+#endif
+#ifndef M2C_SELF_func_0214abbc
+int func_0214abbc(char *, char *);
+#endif
+#ifndef M2C_SELF_func_0214acd0
+char *func_0214acd0(const char *, int);
+#endif
+#ifndef M2C_SELF_func_0214ad54
+double func_0214ad54(double, int *);
+#endif
+#ifndef M2C_SELF_func_0214b05c
+int func_0214b05c(void *, int);
+#endif
+#ifndef M2C_SELF_func_0214b118
+void func_0214b118(void *, s32);
+#endif
+#ifndef M2C_SELF_func_0214b224
+void func_0214b224(void *, void *, void *);
+#endif
+#ifndef M2C_SELF_func_0214b3a8
+void func_0214b3a8(void *, const char *, short);
+#endif
+#ifndef M2C_SELF_func_0214b948
+void func_0214b948(void *, double, void *);
+#endif
+#ifndef M2C_SELF_func_0214b9f0
+int func_0214b9f0(unsigned long long);
+#endif
+#ifndef M2C_SELF_func_0214ba98
+int func_0214ba98(double);
+#endif
+#ifndef M2C_SELF_func_0214c7f8
+s32 func_0214c7f8(void);
+#endif
+#ifndef M2C_SELF_func_0214d9d4
+s32 func_0214d9d4(void);
+#endif
+#ifndef M2C_SELF_func_0214d9dc
+unsigned char *func_0214d9dc(unsigned char *, int *);
+#endif
+#ifndef M2C_SELF_func_0214da68
+unsigned char *func_0214da68(unsigned char *, int *);
+#endif
+#ifndef M2C_SELF_func_0214daf4
+void *func_0214daf4(void *, int, unsigned int);
+#endif
+#ifndef M2C_SELF_func_0214db58
+void func_0214db58(int, void *);
+#endif
+#ifndef M2C_SELF_func_0214dc60
+u8 func_0214dc60(void *);
+#endif
+#ifndef M2C_SELF_func_0214ee10
+void func_0214ee10(void *);
+#endif
+#ifndef M2C_SELF_func_0214ee64
+void func_0214ee64(void);
+#endif
+#ifndef M2C_SELF_func_0214f010
+void func_0214f010(void);
+#endif
+#ifndef M2C_SELF_func_0214f01c
+void func_0214f01c(void);
+#endif
+#ifndef M2C_SELF_func_0214f028
+void func_0214f028(void);
+#endif
+#ifndef M2C_SELF_func_0214f040
+void func_0214f040(s32, s32, void *);
+#endif
+#ifndef M2C_SELF_func_0214f210
+void *func_0214f210(char *);
+#endif
+#ifndef M2C_SELF_func_0214f32c
+void func_0214f32c(u8 *);
+#endif
+#ifndef M2C_SELF_func_0214f3d8
+void func_0214f3d8(void);
 #endif
 #ifndef M2C_SELF___FindExceptionTable
-M2C_UNK __FindExceptionTable(M2C_UNK);
+void __FindExceptionTable(M2C_UNK);
 #endif
 #ifndef M2C_SELF___sinit_0214f3e4
 void __sinit_0214f3e4(void);
@@ -45,21 +7011,6 @@ void func_01ff8270(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02000928
 void func_02000928(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02000940
-void func_02000940(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020009fc
-void func_020009fc(void);
-#endif
-#ifndef M2C_SELF_func_02000a88
-void func_02000a88(void);
-#endif
-#ifndef M2C_SELF_func_02000b70
-void func_02000b70(void);
-#endif
-#ifndef M2C_SELF_func_02000b74
-void func_02000b74(void);
-#endif
 #ifndef M2C_SELF_func_02000dd4
 void func_02000dd4(M2C_UNK);
 #endif
@@ -78,44 +7029,14 @@ M2C_UNK func_02000eac(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02000f74
 void func_02000f74(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02000f98
-void func_02000f98(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02000fac
 M2C_UNK func_02000fac(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02001060
 void func_02001060(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02001120
-void func_02001120(void);
-#endif
 #ifndef M2C_SELF_func_0200113c
 void func_0200113c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02001198
-void func_02001198(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011ac
-void func_020011ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011b4
-void func_020011b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011bc
-void func_020011bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011cc
-void func_020011cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011dc
-void func_020011dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011e8
-void func_020011e8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020011f4
-void func_020011f4(void);
 #endif
 #ifndef M2C_SELF_func_020011f8
 void func_020011f8(void);
@@ -123,20 +7044,8 @@ void func_020011f8(void);
 #ifndef M2C_SELF_func_0200120c
 void func_0200120c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02001254
-void func_02001254(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200125c
 void func_0200125c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200129c
-M2C_UNK func_0200129c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020012e0
-void func_020012e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02001310
-void func_02001310(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02001348
 void func_02001348(M2C_UNK);
@@ -147,50 +7056,17 @@ void func_02001360(M2C_UNK);
 #ifndef M2C_SELF_func_02001378
 void func_02001378(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02001390
-void func_02001390(void);
-#endif
-#ifndef M2C_SELF_func_02001394
-void func_02001394(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020013bc
 void func_020013bc(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02001428
-M2C_UNK func_02001428(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02001444
-void func_02001444(void);
-#endif
-#ifndef M2C_SELF_func_02001448
-void func_02001448(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02001464
-void func_02001464(M2C_UNK);
+void func_02001428(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02001480
 void func_02001480(void);
 #endif
-#ifndef M2C_SELF_func_02001494
-void func_02001494(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020014a8
-void func_020014a8(void);
-#endif
-#ifndef M2C_SELF_func_020014ac
-void func_020014ac(void);
-#endif
-#ifndef M2C_SELF_func_020014b0
-void func_020014b0(void);
-#endif
-#ifndef M2C_SELF_func_020014b4
-void func_020014b4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020014c8
 void func_020014c8(void);
-#endif
-#ifndef M2C_SELF_func_020014dc
-void func_020014dc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02001500
 void func_02001500(M2C_UNK);
@@ -222,23 +7098,11 @@ void func_02001d20(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02001eb4
 void func_02001eb4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02001f0c
-void func_02001f0c(void);
-#endif
-#ifndef M2C_SELF_func_02001f10
-void func_02001f10(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02001f24
 void func_02001f24(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02001fa8
 void func_02001fa8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02001fe8
-void func_02001fe8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02001ffc
-void func_02001ffc(void);
 #endif
 #ifndef M2C_SELF_func_02002000
 void func_02002000(M2C_UNK);
@@ -249,44 +7113,23 @@ void func_02002054(M2C_UNK);
 #ifndef M2C_SELF_func_020020b0
 M2C_UNK func_020020b0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020020dc
-void func_020020dc(void);
-#endif
 #ifndef M2C_SELF_func_020020e4
 void func_020020e4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02002128
-void func_02002128(void);
 #endif
 #ifndef M2C_SELF_func_0200212c
 void func_0200212c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02002170
-void func_02002170(void);
-#endif
 #ifndef M2C_SELF_func_02002174
 void func_02002174(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02002198
-void func_02002198(void);
 #endif
 #ifndef M2C_SELF_func_0200219c
 void func_0200219c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020021f4
-void func_020021f4(void);
-#endif
 #ifndef M2C_SELF_func_020021f8
 void func_020021f8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02002224
-void func_02002224(void);
-#endif
 #ifndef M2C_SELF_func_02002228
 M2C_UNK func_02002228(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020022b8
-void func_020022b8(void);
 #endif
 #ifndef M2C_SELF_func_020022c0
 void func_020022c0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -297,80 +7140,14 @@ void func_02002340(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02003e54
 void func_02003e54(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02003e78
-void func_02003e78(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003ea0
-void func_02003ea0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003eb4
-void func_02003eb4(void);
-#endif
-#ifndef M2C_SELF_func_02003eb8
-void func_02003eb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003ec0
-void func_02003ec0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003ec8
-void func_02003ec8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003ed8
-void func_02003ed8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003ee8
-void func_02003ee8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003ef4
-void func_02003ef4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003f08
-void func_02003f08(void);
-#endif
 #ifndef M2C_SELF_func_02003f0c
 void func_02003f0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003f54
-void func_02003f54(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003f60
-void func_02003f60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003f68
-void func_02003f68(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003f7c
-void func_02003f7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02003f98
-void func_02003f98(void);
-#endif
-#ifndef M2C_SELF_func_02003fa0
-void func_02003fa0(void);
 #endif
 #ifndef M2C_SELF_func_02003fa8
 M2C_UNK func_02003fa8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200402c
 void func_0200402c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200450c
-M2C_UNK func_0200450c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02004520
-M2C_UNK func_02004520(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02004534
-void func_02004534(void);
-#endif
-#ifndef M2C_SELF_func_02004538
-void func_02004538(void);
-#endif
-#ifndef M2C_SELF_func_0200453c
-void func_0200453c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200455c
-void func_0200455c(void);
 #endif
 #ifndef M2C_SELF_func_02004560
 void func_02004560(M2C_UNK);
@@ -387,71 +7164,14 @@ void func_020048f0(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02004b0c
 void func_02004b0c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02004b24
-void func_02004b24(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02004b6c
 void func_02004b6c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02004bc0
-void func_02004bc0(void);
-#endif
-#ifndef M2C_SELF_func_02004bc4
-void func_02004bc4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02004be0
 void func_02004be0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02004c60
 void func_02004c60(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005238
-M2C_UNK func_02005238(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005258
-void func_02005258(void);
-#endif
-#ifndef M2C_SELF_func_0200525c
-void func_0200525c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005278
-void func_02005278(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020052bc
-void func_020052bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020052d0
-void func_020052d0(void);
-#endif
-#ifndef M2C_SELF_func_020052d4
-void func_020052d4(void);
-#endif
-#ifndef M2C_SELF_func_020052d8
-void func_020052d8(void);
-#endif
-#ifndef M2C_SELF_func_020052dc
-void func_020052dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020052f0
-void func_020052f0(void);
-#endif
-#ifndef M2C_SELF_func_020052f4
-void func_020052f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200531c
-void func_0200531c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005330
-void func_02005330(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005358
-void func_02005358(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005360
-void func_02005360(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005368
-void func_02005368(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200537c
 void func_0200537c(M2C_UNK);
@@ -462,35 +7182,14 @@ void func_0200538c(M2C_UNK);
 #ifndef M2C_SELF_func_0200539c
 void func_0200539c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02005748
-void func_02005748(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005768
-void func_02005768(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200577c
-void func_0200577c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02005798
 void func_02005798(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200585c
-void func_0200585c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02005884
 void func_02005884(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020058ec
-void func_020058ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005914
-void func_02005914(void);
-#endif
 #ifndef M2C_SELF_func_0200591c
 void func_0200591c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02005ec8
-void func_02005ec8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02005ee8
 void func_02005ee8(M2C_UNK);
@@ -500,15 +7199,6 @@ void func_02005f78(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02006010
 void func_02006010(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020062ec
-void func_020062ec(void);
-#endif
-#ifndef M2C_SELF_func_020062f0
-void func_020062f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200633c
-void func_0200633c(void);
 #endif
 #ifndef M2C_SELF_func_02006348
 void func_02006348(M2C_UNK);
@@ -522,56 +7212,8 @@ void func_020065f4(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0200672c
 void func_0200672c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02006868
-void func_02006868(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020068b8
-void func_020068b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020068cc
-void func_020068cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020068e0
-void func_020068e0(void);
-#endif
 #ifndef M2C_SELF_func_020068e4
 void func_020068e4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200695c
-void func_0200695c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006970
-void func_02006970(void);
-#endif
-#ifndef M2C_SELF_func_02006974
-void func_02006974(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006988
-void func_02006988(void);
-#endif
-#ifndef M2C_SELF_func_02006990
-void func_02006990(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200699c
-void func_0200699c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020069a8
-void func_020069a8(void);
-#endif
-#ifndef M2C_SELF_func_020069b0
-void func_020069b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020069bc
-void func_020069bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020069c8
-void func_020069c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020069d0
-void func_020069d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020069d8
-void func_020069d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020069e8
 void func_020069e8(M2C_UNK);
@@ -588,59 +7230,14 @@ void func_02006a30(M2C_UNK);
 #ifndef M2C_SELF_func_02006a44
 void func_02006a44(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02006a58
-void func_02006a58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006a6c
-void func_02006a6c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006a80
-void func_02006a80(void);
-#endif
-#ifndef M2C_SELF_func_02006a84
-void func_02006a84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006a98
-void func_02006a98(void);
-#endif
-#ifndef M2C_SELF_func_02006a9c
-void func_02006a9c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006ac4
-void func_02006ac4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02006aec
 void func_02006aec(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02006cf4
 M2C_UNK func_02006cf4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02006d14
-void func_02006d14(void);
-#endif
 #ifndef M2C_SELF_func_02006d18
 void func_02006d18(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006da8
-void func_02006da8(void);
-#endif
-#ifndef M2C_SELF_func_02006dac
-void func_02006dac(void);
-#endif
-#ifndef M2C_SELF_func_02006db0
-void func_02006db0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006dc4
-void func_02006dc4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006dd8
-void func_02006dd8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006dec
-void func_02006dec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006e1c
-void func_02006e1c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02006e30
 void func_02006e30(M2C_UNK);
@@ -651,35 +7248,8 @@ void func_02006e40(M2C_UNK);
 #ifndef M2C_SELF_func_02006e50
 void func_02006e50(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02006f28
-void func_02006f28(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006f3c
-void func_02006f3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02006f58
-void func_02006f58(void);
-#endif
-#ifndef M2C_SELF_func_02006f64
-void func_02006f64(void);
-#endif
-#ifndef M2C_SELF_func_02006f70
-void func_02006f70(void);
-#endif
-#ifndef M2C_SELF_func_02006f7c
-void func_02006f7c(void);
-#endif
-#ifndef M2C_SELF_func_02006f88
-void func_02006f88(void);
-#endif
 #ifndef M2C_SELF_func_02006f94
 void func_02006f94(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020072a8
-void func_020072a8(void);
-#endif
-#ifndef M2C_SELF_func_020072ac
-void func_020072ac(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020072cc
 void func_020072cc(M2C_UNK);
@@ -692,9 +7262,6 @@ void func_02007484(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02007a14
 void func_02007a14(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02007a7c
-void func_02007a7c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02007a98
 void func_02007a98(M2C_UNK, M2C_UNK);
@@ -729,92 +7296,23 @@ void func_020086d0(M2C_UNK);
 #ifndef M2C_SELF_func_020087a8
 void func_020087a8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02008890
-void func_02008890(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020088b4
-void func_020088b4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02008904
 void func_02008904(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020089d0
 void func_020089d0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02008a84
-void func_02008a84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008a98
-void func_02008a98(void);
-#endif
-#ifndef M2C_SELF_func_02008aa0
-void func_02008aa0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008aac
-void func_02008aac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008ab8
-void func_02008ab8(void);
-#endif
-#ifndef M2C_SELF_func_02008ac4
-void func_02008ac4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008ad0
-void func_02008ad0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008adc
-void func_02008adc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008ae4
-void func_02008ae4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02008aec
 void func_02008aec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008b34
-void func_02008b34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008b48
-void func_02008b48(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02008b70
 void func_02008b70(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02008bb8
-void func_02008bb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008bc0
-void func_02008bc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008bc8
-void func_02008bc8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008bd8
-void func_02008bd8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008be8
-void func_02008be8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02008bf0
 void func_02008bf0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02008c38
-void func_02008c38(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008c44
-void func_02008c44(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02008c50
 void func_02008c50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020095a8
-void func_020095a8(void);
-#endif
-#ifndef M2C_SELF_func_020095ac
-void func_020095ac(void);
-#endif
-#ifndef M2C_SELF_func_020095b0
-void func_020095b0(void);
 #endif
 #ifndef M2C_SELF_func_020095b4
 void func_020095b4(M2C_UNK);
@@ -828,14 +7326,8 @@ void func_020097dc(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0200999c
 void func_0200999c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02009afc
-void func_02009afc(void);
-#endif
 #ifndef M2C_SELF_func_02009b08
 void func_02009b08(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02009b7c
-void func_02009b7c(void);
 #endif
 #ifndef M2C_SELF_func_02009b80
 void func_02009b80(M2C_UNK, M2C_UNK);
@@ -848,18 +7340,6 @@ void func_02009d0c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02009d78
 M2C_UNK func_02009d78(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02009e7c
-void func_02009e7c(void);
-#endif
-#ifndef M2C_SELF_func_02009e80
-void func_02009e80(void);
-#endif
-#ifndef M2C_SELF_func_02009e84
-void func_02009e84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02009e98
-void func_02009e98(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02009eac
 void func_02009eac(M2C_UNK, M2C_UNK);
@@ -876,23 +7356,11 @@ void func_0200a414(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0200bbd8
 void func_0200bbd8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200bd88
-void func_0200bd88(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200bda8
 M2C_UNK func_0200bda8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200c098
-void func_0200c098(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200c0a8
 void func_0200c0a8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200c814
-void func_0200c814(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200c834
-void func_0200c834(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200c854
 void func_0200c854(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -906,23 +7374,8 @@ void func_0200d070(M2C_UNK);
 #ifndef M2C_SELF_func_0200d128
 void func_0200d128(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200d1d8
-M2C_UNK func_0200d1d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200d1e8
-void func_0200d1e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200d204
-void func_0200d204(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200d220
 void func_0200d220(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200d348
-void func_0200d348(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200d358
-void func_0200d358(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200d368
 void func_0200d368(M2C_UNK, M2C_UNK);
@@ -932,9 +7385,6 @@ void func_0200d4c4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200d644
 void func_0200d644(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200dabc
-void func_0200dabc(void);
 #endif
 #ifndef M2C_SELF_func_0200dac0
 M2C_UNK func_0200dac0(M2C_UNK);
@@ -948,50 +7398,11 @@ void func_0200e260(M2C_UNK);
 #ifndef M2C_SELF_func_0200e44c
 void func_0200e44c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200e540
-void func_0200e540(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200e554
 void func_0200e554(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200e5a0
 void func_0200e5a0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e6a0
-M2C_UNK func_0200e6a0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e6b4
-void func_0200e6b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e6c8
-void func_0200e6c8(void);
-#endif
-#ifndef M2C_SELF_func_0200e6d0
-void func_0200e6d0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e6dc
-void func_0200e6dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e6e8
-void func_0200e6e8(void);
-#endif
-#ifndef M2C_SELF_func_0200e6f0
-void func_0200e6f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e6f8
-void func_0200e6f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e700
-void func_0200e700(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e708
-void func_0200e708(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e710
-void func_0200e710(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e720
-void func_0200e720(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200e73c
 void func_0200e73c(M2C_UNK);
@@ -1023,15 +7434,6 @@ void func_0200e7ec(M2C_UNK);
 #ifndef M2C_SELF_func_0200e804
 void func_0200e804(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200e81c
-void func_0200e81c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200e830
-void func_0200e830(void);
-#endif
-#ifndef M2C_SELF_func_0200e834
-void func_0200e834(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200e848
 void func_0200e848(M2C_UNK, M2C_UNK);
 #endif
@@ -1050,9 +7452,6 @@ void func_0200ec60(M2C_UNK);
 #ifndef M2C_SELF_func_0200ec70
 void func_0200ec70(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200eec4
-void func_0200eec4(void);
-#endif
 #ifndef M2C_SELF_func_0200eec8
 void func_0200eec8(M2C_UNK);
 #endif
@@ -1064,9 +7463,6 @@ void func_0200f168(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200f4c4
 void func_0200f4c4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200f518
-void func_0200f518(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0200f560
 void func_0200f560(M2C_UNK);
@@ -1083,9 +7479,6 @@ void func_0200fb7c(M2C_UNK);
 #ifndef M2C_SELF_func_0200fe4c
 void func_0200fe4c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02010038
-void func_02010038(void);
-#endif
 #ifndef M2C_SELF_func_02010064
 void func_02010064(M2C_UNK, M2C_UNK);
 #endif
@@ -1101,41 +7494,11 @@ void func_020102dc(M2C_UNK);
 #ifndef M2C_SELF_func_020103bc
 void func_020103bc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020104ac
-void func_020104ac(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020104d0
 void func_020104d0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02010540
 void func_02010540(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020105d0
-void func_020105d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020105e4
-void func_020105e4(void);
-#endif
-#ifndef M2C_SELF_func_020105ec
-void func_020105ec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020105f8
-void func_020105f8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02010604
-void func_02010604(void);
-#endif
-#ifndef M2C_SELF_func_0201060c
-void func_0201060c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02010618
-void func_02010618(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02010624
-void func_02010624(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201062c
-void func_0201062c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02010634
 void func_02010634(M2C_UNK);
@@ -1143,44 +7506,11 @@ void func_02010634(M2C_UNK);
 #ifndef M2C_SELF_func_02010af8
 void func_02010af8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02010b40
-void func_02010b40(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02010b54
 void func_02010b54(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201193c
 void func_0201193c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020122ec
-void func_020122ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201230c
-void func_0201230c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201232c
-void func_0201232c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201234c
-void func_0201234c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201236c
-void func_0201236c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201238c
-void func_0201238c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020123ac
-void func_020123ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020123cc
-void func_020123cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020123ec
-void func_020123ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02012738
-void func_02012738(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02012a8c
 void func_02012a8c(M2C_UNK, M2C_UNK);
@@ -1193,273 +7523,6 @@ void func_02015cd0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02015d2c
 void func_02015d2c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020160a0
-void func_020160a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020160b4
-void func_020160b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020160c8
-void func_020160c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020160dc
-void func_020160dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020160f0
-void func_020160f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016104
-void func_02016104(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016118
-void func_02016118(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201612c
-void func_0201612c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016140
-void func_02016140(void);
-#endif
-#ifndef M2C_SELF_func_02016144
-void func_02016144(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016158
-void func_02016158(void);
-#endif
-#ifndef M2C_SELF_func_0201615c
-void func_0201615c(void);
-#endif
-#ifndef M2C_SELF_func_02016164
-void func_02016164(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016170
-void func_02016170(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201617c
-void func_0201617c(void);
-#endif
-#ifndef M2C_SELF_func_02016184
-void func_02016184(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201618c
-void func_0201618c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016194
-void func_02016194(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201619c
-void func_0201619c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161a4
-void func_020161a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161b4
-void func_020161b4(void);
-#endif
-#ifndef M2C_SELF_func_020161bc
-void func_020161bc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161c8
-void func_020161c8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161d4
-void func_020161d4(void);
-#endif
-#ifndef M2C_SELF_func_020161dc
-void func_020161dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161e4
-void func_020161e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161ec
-void func_020161ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161f4
-void func_020161f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020161fc
-void func_020161fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201620c
-void func_0201620c(void);
-#endif
-#ifndef M2C_SELF_func_02016214
-void func_02016214(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016220
-void func_02016220(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201622c
-void func_0201622c(void);
-#endif
-#ifndef M2C_SELF_func_02016234
-void func_02016234(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201623c
-void func_0201623c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016244
-void func_02016244(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201624c
-void func_0201624c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016254
-void func_02016254(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016264
-void func_02016264(void);
-#endif
-#ifndef M2C_SELF_func_0201626c
-void func_0201626c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016278
-void func_02016278(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016284
-void func_02016284(void);
-#endif
-#ifndef M2C_SELF_func_0201628c
-void func_0201628c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016294
-void func_02016294(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201629c
-void func_0201629c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162a4
-void func_020162a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162ac
-void func_020162ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162bc
-void func_020162bc(void);
-#endif
-#ifndef M2C_SELF_func_020162c4
-void func_020162c4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162d0
-void func_020162d0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162dc
-void func_020162dc(void);
-#endif
-#ifndef M2C_SELF_func_020162e4
-void func_020162e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162ec
-void func_020162ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162f4
-void func_020162f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020162fc
-void func_020162fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016304
-void func_02016304(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016314
-void func_02016314(void);
-#endif
-#ifndef M2C_SELF_func_0201631c
-void func_0201631c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016328
-void func_02016328(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016334
-void func_02016334(void);
-#endif
-#ifndef M2C_SELF_func_0201633c
-void func_0201633c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016344
-void func_02016344(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201634c
-void func_0201634c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016354
-void func_02016354(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201635c
-void func_0201635c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201636c
-void func_0201636c(void);
-#endif
-#ifndef M2C_SELF_func_02016374
-void func_02016374(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016380
-void func_02016380(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201638c
-void func_0201638c(void);
-#endif
-#ifndef M2C_SELF_func_02016394
-void func_02016394(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201639c
-void func_0201639c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163a4
-void func_020163a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163ac
-void func_020163ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163b4
-void func_020163b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163c4
-void func_020163c4(void);
-#endif
-#ifndef M2C_SELF_func_020163cc
-void func_020163cc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163d8
-void func_020163d8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163e4
-void func_020163e4(void);
-#endif
-#ifndef M2C_SELF_func_020163ec
-void func_020163ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163f4
-void func_020163f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020163fc
-void func_020163fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016404
-void func_02016404(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201640c
-void func_0201640c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201641c
-void func_0201641c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016428
-void func_02016428(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016430
-void func_02016430(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016440
-void func_02016440(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016450
-void func_02016450(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016458
-void func_02016458(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02016460
 void func_02016460(M2C_UNK);
@@ -1581,68 +7644,8 @@ void func_020167b8(M2C_UNK);
 #ifndef M2C_SELF_func_020167cc
 void func_020167cc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020167e0
-void func_020167e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020167e8
-void func_020167e8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016800
-void func_02016800(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02016814
 void func_02016814(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201685c
-void func_0201685c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016868
-void func_02016868(void);
-#endif
-#ifndef M2C_SELF_func_0201686c
-void func_0201686c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016880
-void func_02016880(void);
-#endif
-#ifndef M2C_SELF_func_02016884
-void func_02016884(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016898
-void func_02016898(void);
-#endif
-#ifndef M2C_SELF_func_0201689c
-void func_0201689c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020168b0
-void func_020168b0(void);
-#endif
-#ifndef M2C_SELF_func_020168b4
-void func_020168b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020168c8
-void func_020168c8(void);
-#endif
-#ifndef M2C_SELF_func_020168cc
-void func_020168cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020168e0
-void func_020168e0(void);
-#endif
-#ifndef M2C_SELF_func_020168e4
-void func_020168e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020168f8
-void func_020168f8(void);
-#endif
-#ifndef M2C_SELF_func_020168fc
-void func_020168fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016910
-void func_02016910(void);
-#endif
-#ifndef M2C_SELF_func_02016914
-void func_02016914(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02016928
 void func_02016928(M2C_UNK);
@@ -1695,29 +7698,8 @@ void func_02016a18(M2C_UNK);
 #ifndef M2C_SELF_func_02016a28
 void func_02016a28(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02016af4
-void func_02016af4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016b20
-void func_02016b20(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016b54
-void func_02016b54(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02016b80
 M2C_UNK func_02016b80(void);
-#endif
-#ifndef M2C_SELF_func_02016bc8
-void func_02016bc8(void);
-#endif
-#ifndef M2C_SELF_func_02016bdc
-void func_02016bdc(void);
-#endif
-#ifndef M2C_SELF_func_02016be8
-void func_02016be8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016c0c
-void func_02016c0c(void);
 #endif
 #ifndef M2C_SELF_func_02016c18
 void func_02016c18(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -1734,35 +7716,14 @@ void func_02016d98(M2C_UNK);
 #ifndef M2C_SELF_func_02016de4
 M2C_UNK func_02016de4(void);
 #endif
-#ifndef M2C_SELF_func_02016e2c
-void func_02016e2c(void);
-#endif
-#ifndef M2C_SELF_func_02016e38
-void func_02016e38(void);
-#endif
-#ifndef M2C_SELF_func_02016e4c
-void func_02016e4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02016e70
-void func_02016e70(void);
-#endif
 #ifndef M2C_SELF_func_02016e7c
 void func_02016e7c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02016fac
 M2C_UNK func_02016fac(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02016fcc
-void func_02016fcc(void);
-#endif
-#ifndef M2C_SELF_func_02016fd0
-M2C_UNK func_02016fd0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02016ffc
 M2C_UNK func_02016ffc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201708c
-void func_0201708c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020170a0
 void func_020170a0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -1776,29 +7737,11 @@ void func_0201724c(M2C_UNK);
 #ifndef M2C_SELF_func_020172e8
 void func_020172e8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0201737c
-M2C_UNK func_0201737c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201738c
-void func_0201738c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020173ac
-void func_020173ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020173d8
-void func_020173d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020173e8
-void func_020173e8(void);
-#endif
 #ifndef M2C_SELF_func_020173f4
 void func_020173f4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02017440
 void func_02017440(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201748c
-void func_0201748c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020174a8
 void func_020174a8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -1806,44 +7749,11 @@ void func_020174a8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02017598
 void func_02017598(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020176a8
-void func_020176a8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0201771c
 M2C_UNK func_0201771c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02017770
-void func_02017770(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020177b0
-void func_020177b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020177c0
-void func_020177c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020177e8
-void func_020177e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017814
-void func_02017814(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017840
-void func_02017840(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201787c
-void func_0201787c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020178b8
 void func_020178b8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017904
-void func_02017904(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017930
-void func_02017930(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017960
-void func_02017960(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02017978
 void func_02017978(M2C_UNK);
@@ -1851,83 +7761,11 @@ void func_02017978(M2C_UNK);
 #ifndef M2C_SELF_func_02017994
 void func_02017994(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020179b0
-void func_020179b0(void);
-#endif
-#ifndef M2C_SELF_func_020179b4
-void func_020179b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020179c8
-void func_020179c8(void);
-#endif
-#ifndef M2C_SELF_func_020179cc
-void func_020179cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020179e0
-void func_020179e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020179f4
-void func_020179f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017a08
-void func_02017a08(void);
-#endif
-#ifndef M2C_SELF_func_02017a0c
-void func_02017a0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017a20
-void func_02017a20(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017a34
-void func_02017a34(void);
-#endif
-#ifndef M2C_SELF_func_02017a38
-void func_02017a38(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02017a98
 void func_02017a98(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02017ab0
-void func_02017ab0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017b18
-void func_02017b18(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017b44
-void func_02017b44(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02017b60
 void func_02017b60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017ba0
-void func_02017ba0(void);
-#endif
-#ifndef M2C_SELF_func_02017ba4
-void func_02017ba4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017bc0
-void func_02017bc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017bdc
-void func_02017bdc(void);
-#endif
-#ifndef M2C_SELF_func_02017be0
-void func_02017be0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017bf4
-void func_02017bf4(void);
-#endif
-#ifndef M2C_SELF_func_02017bf8
-void func_02017bf8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017c0c
-void func_02017c0c(void);
-#endif
-#ifndef M2C_SELF_func_02017c10
-void func_02017c10(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02017c24
-void func_02017c24(void);
 #endif
 #ifndef M2C_SELF_func_02017c28
 void func_02017c28(M2C_UNK);
@@ -1968,29 +7806,11 @@ void func_02018674(M2C_UNK);
 #ifndef M2C_SELF_func_020198e8
 void func_020198e8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02019980
-void func_02019980(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201999c
-void func_0201999c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020199d4
 void func_020199d4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02019ac8
 void func_02019ac8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201aad8
-void func_0201aad8(void);
-#endif
-#ifndef M2C_SELF_func_0201aadc
-void func_0201aadc(void);
-#endif
-#ifndef M2C_SELF_func_0201aae0
-void func_0201aae0(void);
-#endif
-#ifndef M2C_SELF_func_0201aae4
-void func_0201aae4(void);
 #endif
 #ifndef M2C_SELF_func_0201aae8
 void func_0201aae8(M2C_UNK);
@@ -2010,32 +7830,17 @@ M2C_UNK func_0201b3ec(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0201b40c
 M2C_UNK func_0201b40c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0201b42c
-void func_0201b42c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201b440
-void func_0201b440(void);
-#endif
-#ifndef M2C_SELF_func_0201b448
-void func_0201b448(void);
-#endif
 #ifndef M2C_SELF_func_0201b450
 void func_0201b450(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201b9ec
 void func_0201b9ec(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0201c630
-void func_0201c630(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0201c644
 void func_0201c644(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201c7dc
 void func_0201c7dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201c93c
-void func_0201c93c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201ca2c
 void func_0201ca2c(M2C_UNK);
@@ -2067,17 +7872,8 @@ void func_0201d5ec(M2C_UNK);
 #ifndef M2C_SELF_func_0201d7ac
 void func_0201d7ac(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0201d96c
-void func_0201d96c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0201d99c
 void func_0201d99c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201db4c
-void func_0201db4c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201db58
-void func_0201db58(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201db64
 void func_0201db64(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2093,12 +7889,6 @@ M2C_UNK func_0201def4(void);
 #endif
 #ifndef M2C_SELF_func_0201dfd8
 void func_0201dfd8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201e170
-void func_0201e170(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201e190
-void func_0201e190(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201e19c
 void func_0201e19c(M2C_UNK);
@@ -2130,77 +7920,11 @@ M2C_UNK func_0201ebbc(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0201ec40
 M2C_UNK func_0201ec40(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0201ec68
-M2C_UNK func_0201ec68(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ec88
-void func_0201ec88(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ec9c
-void func_0201ec9c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ecb0
-void func_0201ecb0(void);
-#endif
-#ifndef M2C_SELF_func_0201ecb4
-void func_0201ecb4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ecc8
-void func_0201ecc8(void);
-#endif
-#ifndef M2C_SELF_func_0201ecd0
-void func_0201ecd0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ecdc
-void func_0201ecdc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ece8
-void func_0201ece8(void);
-#endif
-#ifndef M2C_SELF_func_0201ecf0
-void func_0201ecf0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ecf8
-void func_0201ecf8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed00
-void func_0201ed00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed08
-void func_0201ed08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed10
-void func_0201ed10(void);
-#endif
-#ifndef M2C_SELF_func_0201ed18
-void func_0201ed18(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed24
-void func_0201ed24(void);
-#endif
-#ifndef M2C_SELF_func_0201ed2c
-void func_0201ed2c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed34
-void func_0201ed34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed3c
-void func_0201ed3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed44
-void func_0201ed44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed4c
-void func_0201ed4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201ed5c
-void func_0201ed5c(void);
-#endif
 #ifndef M2C_SELF_func_0201ed60
 M2C_UNK func_0201ed60(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201edfc
-M2C_UNK func_0201edfc(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_0201edfc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201eee8
 M2C_UNK func_0201eee8(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2209,7 +7933,7 @@ M2C_UNK func_0201eee8(M2C_UNK, M2C_UNK, M2C_UNK);
 M2C_UNK func_0201ef8c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201f028
-M2C_UNK func_0201f028(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_0201f028(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201f114
 M2C_UNK func_0201f114(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2228,18 +7952,6 @@ void func_0201f200(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201f214
 void func_0201f214(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201f228
-void func_0201f228(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201f23c
-void func_0201f23c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0201f250
-void func_0201f250(void);
-#endif
-#ifndef M2C_SELF_func_0201f254
-void func_0201f254(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0201f268
 void func_0201f268(M2C_UNK);
@@ -2268,9 +7980,6 @@ void func_02020284(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02020a50
 void func_02020a50(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02020a98
-void func_02020a98(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02020ab4
 void func_02020ab4(M2C_UNK, M2C_UNK);
 #endif
@@ -2292,44 +8001,23 @@ void func_02021148(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020211d0
 void func_020211d0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02021258
-void func_02021258(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02021280
 void func_02021280(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020213d0
 void func_020213d0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020213ec
-void func_020213ec(void);
-#endif
-#ifndef M2C_SELF_func_020213f0
-M2C_UNK func_020213f0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020213f8
 M2C_UNK func_020213f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02021414
-void func_02021414(void);
 #endif
 #ifndef M2C_SELF_func_0202141c
 void func_0202141c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02021438
-void func_02021438(void);
-#endif
 #ifndef M2C_SELF_func_0202143c
 void func_0202143c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020214b4
-void func_020214b4(void);
-#endif
 #ifndef M2C_SELF_func_020214b8
 void func_020214b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020214d4
-void func_020214d4(void);
 #endif
 #ifndef M2C_SELF_func_020214d8
 void func_020214d8(M2C_UNK);
@@ -2337,32 +8025,11 @@ void func_020214d8(M2C_UNK);
 #ifndef M2C_SELF_func_02021530
 void func_02021530(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02021588
-M2C_UNK func_02021588(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020215bc
-void func_020215bc(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020215f8
 void func_020215f8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020216e0
-void func_020216e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02021700
-void func_02021700(void);
-#endif
-#ifndef M2C_SELF_func_02021704
-void func_02021704(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02021720
-M2C_UNK func_02021720(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02021750
-M2C_UNK func_02021750(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02021760
-M2C_UNK func_02021760(M2C_UNK, M2C_UNK);
+void func_02021720(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02021a18
 M2C_UNK func_02021a18(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2373,14 +8040,8 @@ void func_02021df8(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02021e50
 void func_02021e50(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02021f14
-M2C_UNK func_02021f14(void);
-#endif
 #ifndef M2C_SELF_func_02021f24
 void func_02021f24(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02021f3c
-void func_02021f3c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02022064
 void func_02022064(M2C_UNK);
@@ -2394,18 +8055,6 @@ M2C_UNK func_02022540(M2C_UNK);
 #ifndef M2C_SELF_func_02022684
 M2C_UNK func_02022684(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020227c8
-void func_020227c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020227e8
-void func_020227e8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020227f4
-void func_020227f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022818
-void func_02022818(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02022838
 void func_02022838(M2C_UNK);
 #endif
@@ -2415,167 +8064,8 @@ void func_02022898(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02022a34
 void func_02022a34(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02022c74
-void func_02022c74(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022cfc
-void func_02022cfc(void);
-#endif
 #ifndef M2C_SELF_func_02022d00
 void func_02022d00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022d3c
-void func_02022d3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022d50
-void func_02022d50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022d64
-void func_02022d64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022d78
-void func_02022d78(void);
-#endif
-#ifndef M2C_SELF_func_02022d7c
-void func_02022d7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022d90
-void func_02022d90(void);
-#endif
-#ifndef M2C_SELF_func_02022d94
-void func_02022d94(void);
-#endif
-#ifndef M2C_SELF_func_02022d98
-void func_02022d98(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022dac
-void func_02022dac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022dc0
-void func_02022dc0(void);
-#endif
-#ifndef M2C_SELF_func_02022dc4
-void func_02022dc4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022dd8
-void func_02022dd8(void);
-#endif
-#ifndef M2C_SELF_func_02022ddc
-void func_02022ddc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022df0
-void func_02022df0(void);
-#endif
-#ifndef M2C_SELF_func_02022df4
-void func_02022df4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e08
-void func_02022e08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e1c
-void func_02022e1c(void);
-#endif
-#ifndef M2C_SELF_func_02022e20
-void func_02022e20(void);
-#endif
-#ifndef M2C_SELF_func_02022e28
-void func_02022e28(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e34
-void func_02022e34(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e40
-void func_02022e40(void);
-#endif
-#ifndef M2C_SELF_func_02022e48
-void func_02022e48(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e50
-void func_02022e50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e58
-void func_02022e58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e60
-void func_02022e60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e68
-void func_02022e68(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e78
-void func_02022e78(void);
-#endif
-#ifndef M2C_SELF_func_02022e80
-void func_02022e80(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e8c
-void func_02022e8c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022e98
-void func_02022e98(void);
-#endif
-#ifndef M2C_SELF_func_02022ea0
-void func_02022ea0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022ea8
-void func_02022ea8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022eb0
-void func_02022eb0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022eb8
-void func_02022eb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022ec0
-void func_02022ec0(void);
-#endif
-#ifndef M2C_SELF_func_02022ec8
-void func_02022ec8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022ed4
-void func_02022ed4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022ee0
-void func_02022ee0(void);
-#endif
-#ifndef M2C_SELF_func_02022ee8
-void func_02022ee8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022ef0
-void func_02022ef0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022ef8
-void func_02022ef8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f00
-void func_02022f00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f08
-void func_02022f08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f18
-void func_02022f18(void);
-#endif
-#ifndef M2C_SELF_func_02022f20
-void func_02022f20(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f2c
-void func_02022f2c(void);
-#endif
-#ifndef M2C_SELF_func_02022f34
-void func_02022f34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f3c
-void func_02022f3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f44
-void func_02022f44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f4c
-void func_02022f4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02022f54
-void func_02022f54(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02022f64
 void func_02022f64(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2628,17 +8118,8 @@ void func_020231d4(M2C_UNK);
 #ifndef M2C_SELF_func_020231e8
 void func_020231e8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020231fc
-void func_020231fc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02023240
 void func_02023240(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023298
-void func_02023298(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020232dc
-void func_020232dc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02023320
 void func_02023320(M2C_UNK);
@@ -2649,9 +8130,6 @@ void func_02023370(M2C_UNK);
 #ifndef M2C_SELF_func_020233dc
 void func_020233dc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02023688
-void func_02023688(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02023758
 void func_02023758(M2C_UNK);
 #endif
@@ -2661,74 +8139,17 @@ void func_020237a8(M2C_UNK);
 #ifndef M2C_SELF_func_020237f8
 void func_020237f8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02023a6c
-void func_02023a6c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023b3c
-void func_02023b3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023b50
-void func_02023b50(void);
-#endif
 #ifndef M2C_SELF_func_02023b58
 void func_02023b58(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02023b88
 void func_02023b88(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02023bc0
-void func_02023bc0(void);
-#endif
-#ifndef M2C_SELF_func_02023bc4
-void func_02023bc4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023bd8
-void func_02023bd8(void);
-#endif
-#ifndef M2C_SELF_func_02023bdc
-void func_02023bdc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023bf0
-void func_02023bf0(void);
-#endif
-#ifndef M2C_SELF_func_02023bf4
-void func_02023bf4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023c08
-void func_02023c08(void);
-#endif
-#ifndef M2C_SELF_func_02023c0c
-void func_02023c0c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02023c20
 void func_02023c20(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02023c7c
 void func_02023c7c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023cd8
-void func_02023cd8(void);
-#endif
-#ifndef M2C_SELF_func_02023cdc
-void func_02023cdc(void);
-#endif
-#ifndef M2C_SELF_func_02023ce0
-void func_02023ce0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023cf4
-void func_02023cf4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023d08
-void func_02023d08(void);
-#endif
-#ifndef M2C_SELF_func_02023d0c
-void func_02023d0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023d20
-void func_02023d20(void);
-#endif
-#ifndef M2C_SELF_func_02023d24
-void func_02023d24(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02023d38
 void func_02023d38(M2C_UNK);
@@ -2754,15 +8175,6 @@ void func_02023d98(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02023ef8
 void func_02023ef8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02023f74
-void func_02023f74(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023f84
-void func_02023f84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02023f94
-void func_02023f94(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02023fa4
 void func_02023fa4(M2C_UNK);
 #endif
@@ -2781,17 +8193,8 @@ void func_02024370(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020244b0
 void func_020244b0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020245f8
-void func_020245f8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02024618
 void func_02024618(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02024720
-void func_02024720(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02024740
-void func_02024740(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202475c
 void func_0202475c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2808,38 +8211,14 @@ void func_02024d84(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02024efc
 void func_02024efc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02025048
-void func_02025048(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02025060
-void func_02025060(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202507c
 void func_0202507c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020251fc
 M2C_UNK func_020251fc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02025210
-void func_02025210(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02025238
-void func_02025238(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202524c
-void func_0202524c(void);
-#endif
 #ifndef M2C_SELF_func_02025250
 void func_02025250(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020256c4
-void func_020256c4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202574c
-void func_0202574c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020257dc
-void func_020257dc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02025864
 M2C_UNK func_02025864(M2C_UNK, M2C_UNK);
@@ -2847,26 +8226,11 @@ M2C_UNK func_02025864(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02025b70
 void func_02025b70(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02025c48
-void func_02025c48(void);
-#endif
 #ifndef M2C_SELF_func_02025c54
 void func_02025c54(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02025cc0
 void func_02025cc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02026324
-void func_02026324(void);
-#endif
-#ifndef M2C_SELF_func_02026328
-void func_02026328(void);
-#endif
-#ifndef M2C_SELF_func_0202632c
-void func_0202632c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02026378
-void func_02026378(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020263cc
 void func_020263cc(M2C_UNK);
@@ -2882,12 +8246,6 @@ void func_02026b88(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020271e8
 void func_020271e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02027354
-void func_02027354(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020273c8
-void func_020273c8(void);
 #endif
 #ifndef M2C_SELF_func_020273d4
 void func_020273d4(M2C_UNK);
@@ -2937,14 +8295,8 @@ M2C_UNK func_020286c0(M2C_UNK);
 #ifndef M2C_SELF_func_020286e8
 M2C_UNK func_020286e8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202870c
-M2C_UNK func_0202870c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02028728
 M2C_UNK func_02028728(void);
-#endif
-#ifndef M2C_SELF_func_0202880c
-void func_0202880c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02028848
 M2C_UNK func_02028848(M2C_UNK, M2C_UNK);
@@ -2952,20 +8304,8 @@ M2C_UNK func_02028848(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020288d0
 M2C_UNK func_020288d0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020288f0
-M2C_UNK func_020288f0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02028910
-void func_02028910(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02028924
-void func_02028924(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02028938
 void func_02028938(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02028e58
-void func_02028e58(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02028e78
 void func_02028e78(M2C_UNK);
@@ -2975,48 +8315,6 @@ void func_02028fa0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020290d0
 void func_020290d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020294b4
-void func_020294b4(void);
-#endif
-#ifndef M2C_SELF_func_020294c8
-void func_020294c8(void);
-#endif
-#ifndef M2C_SELF_func_020294d4
-void func_020294d4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029514
-void func_02029514(void);
-#endif
-#ifndef M2C_SELF_func_02029520
-void func_02029520(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029534
-void func_02029534(void);
-#endif
-#ifndef M2C_SELF_func_0202953c
-void func_0202953c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029548
-void func_02029548(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029554
-void func_02029554(void);
-#endif
-#ifndef M2C_SELF_func_0202955c
-void func_0202955c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029568
-void func_02029568(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029574
-void func_02029574(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202957c
-void func_0202957c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029584
-void func_02029584(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02029594
 void func_02029594(M2C_UNK);
@@ -3032,12 +8330,6 @@ void func_020295dc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020295f0
 void func_020295f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02029604
-void func_02029604(void);
-#endif
-#ifndef M2C_SELF_func_02029608
-void func_02029608(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202961c
 void func_0202961c(M2C_UNK);
@@ -3057,32 +8349,14 @@ void func_02029fc8(M2C_UNK);
 #ifndef M2C_SELF_func_0202a054
 void func_0202a054(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202a0a4
-void func_0202a0a4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202a0bc
 void func_0202a0bc(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202a21c
 void func_0202a21c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202a474
-void func_0202a474(void);
-#endif
 #ifndef M2C_SELF_func_0202a478
 void func_0202a478(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202aa3c
-void func_0202aa3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202aa5c
-void func_0202aa5c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202aa7c
-void func_0202aa7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202aac0
-void func_0202aac0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202ab0c
 void func_0202ab0c(M2C_UNK, M2C_UNK);
@@ -3090,74 +8364,8 @@ void func_0202ab0c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0202b9f8
 void func_0202b9f8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202bb80
-void func_0202bb80(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bbc4
-void func_0202bbc4(void);
-#endif
 #ifndef M2C_SELF_func_0202bbd0
 void func_0202bbd0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bc50
-void func_0202bc50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bc64
-void func_0202bc64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bc78
-void func_0202bc78(void);
-#endif
-#ifndef M2C_SELF_func_0202bc80
-void func_0202bc80(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bc8c
-void func_0202bc8c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bc98
-void func_0202bc98(void);
-#endif
-#ifndef M2C_SELF_func_0202bca0
-void func_0202bca0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bca8
-void func_0202bca8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bcb0
-void func_0202bcb0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bcb8
-void func_0202bcb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bcc0
-void func_0202bcc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bcd0
-void func_0202bcd0(void);
-#endif
-#ifndef M2C_SELF_func_0202bcd8
-void func_0202bcd8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bce4
-void func_0202bce4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bcf0
-void func_0202bcf0(void);
-#endif
-#ifndef M2C_SELF_func_0202bcf8
-void func_0202bcf8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bd00
-void func_0202bd00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bd08
-void func_0202bd08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bd10
-void func_0202bd10(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bd18
-void func_0202bd18(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202bd28
 void func_0202bd28(M2C_UNK);
@@ -3189,18 +8397,6 @@ void func_0202bde0(M2C_UNK);
 #ifndef M2C_SELF_func_0202bdf4
 void func_0202bdf4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202be08
-void func_0202be08(void);
-#endif
-#ifndef M2C_SELF_func_0202be0c
-void func_0202be0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202be20
-void func_0202be20(void);
-#endif
-#ifndef M2C_SELF_func_0202be24
-void func_0202be24(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202be38
 void func_0202be38(M2C_UNK);
 #endif
@@ -3215,18 +8411,6 @@ void func_0202be68(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202be78
 void func_0202be78(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bf3c
-void func_0202bf3c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bf50
-void func_0202bf50(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bf64
-void func_0202bf64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202bf90
-void func_0202bf90(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202bfbc
 M2C_UNK func_0202bfbc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3243,47 +8427,14 @@ void func_0202c13c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0202c20c
 void func_0202c20c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202c450
-void func_0202c450(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202c464
 void func_0202c464(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202c694
-void func_0202c694(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202c6a0
 void func_0202c6a0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202c830
 void func_0202c830(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb00
-void func_0202cb00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb14
-void func_0202cb14(void);
-#endif
-#ifndef M2C_SELF_func_0202cb1c
-void func_0202cb1c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb28
-void func_0202cb28(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb34
-void func_0202cb34(void);
-#endif
-#ifndef M2C_SELF_func_0202cb3c
-void func_0202cb3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb44
-void func_0202cb44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb4c
-void func_0202cb4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202cb54
-void func_0202cb54(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202cb5c
 void func_0202cb5c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3302,15 +8453,6 @@ void func_0202cf70(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202d034
 void func_0202d034(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202d578
-void func_0202d578(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202d584
-void func_0202d584(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202d5c8
-void func_0202d5c8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202d5f0
 void func_0202d5f0(M2C_UNK, M2C_UNK);
@@ -3339,20 +8481,8 @@ void func_0202dbbc(M2C_UNK);
 #ifndef M2C_SELF_func_0202dc24
 void func_0202dc24(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202dc4c
-void func_0202dc4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202dc68
-void func_0202dc68(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202dcc0
-void func_0202dcc0(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202dd34
 void func_0202dd34(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202dfa0
-void func_0202dfa0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202e014
 void func_0202e014(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3360,14 +8490,8 @@ void func_0202e014(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0202e280
 void func_0202e280(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202e2bc
-void func_0202e2bc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202e2e4
 void func_0202e2e4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202e5f8
-void func_0202e5f8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202e60c
 void func_0202e60c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3375,62 +8499,17 @@ void func_0202e60c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0202e668
 M2C_UNK func_0202e668(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202e6b4
-void func_0202e6b4(void);
-#endif
 #ifndef M2C_SELF_func_0202e6c4
 void func_0202e6c4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202e958
-void func_0202e958(void);
 #endif
 #ifndef M2C_SELF_func_0202e968
 void func_0202e968(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202eba8
-void func_0202eba8(void);
-#endif
 #ifndef M2C_SELF_func_0202ebb8
 void func_0202ebb8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202ef30
-void func_0202ef30(void);
-#endif
 #ifndef M2C_SELF_func_0202ef40
 void func_0202ef40(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f244
-void func_0202f244(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f258
-void func_0202f258(void);
-#endif
-#ifndef M2C_SELF_func_0202f260
-void func_0202f260(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f26c
-void func_0202f26c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f278
-void func_0202f278(void);
-#endif
-#ifndef M2C_SELF_func_0202f280
-void func_0202f280(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f288
-void func_0202f288(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f290
-void func_0202f290(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f298
-void func_0202f298(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f2a0
-void func_0202f2a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202f2b4
-void func_0202f2b4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202f31c
 void func_0202f31c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3450,53 +8529,20 @@ M2C_UNK func_0202faac(M2C_UNK);
 #ifndef M2C_SELF_func_0202fbc0
 void func_0202fbc0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202fce4
-void func_0202fce4(void);
-#endif
-#ifndef M2C_SELF_func_0202fce8
-void func_0202fce8(void);
-#endif
-#ifndef M2C_SELF_func_0202fcec
-void func_0202fcec(void);
-#endif
-#ifndef M2C_SELF_func_0202fcf0
-void func_0202fcf0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202fd0c
 void func_0202fd0c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202fd78
 void func_0202fd78(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0202fde0
-void func_0202fde0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202fe04
-void func_0202fe04(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0202fe64
 void func_0202fe64(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202ff2c
-void func_0202ff2c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202ffa8
 void func_0202ffa8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02030040
-M2C_UNK func_02030040(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030070
-void func_02030070(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02030110
 void func_02030110(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030184
-void func_02030184(void);
-#endif
-#ifndef M2C_SELF_func_02030188
-void func_02030188(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203019c
 void func_0203019c(M2C_UNK);
@@ -3516,47 +8562,20 @@ void func_02030780(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0203086c
 void func_0203086c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02030948
-void func_02030948(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020309c4
-void func_020309c4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030a50
-void func_02030a50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030ac8
-void func_02030ac8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030b50
-void func_02030b50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02030bf0
 void func_02030bf0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02030c3c
 void func_02030c3c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02030dec
-void func_02030dec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030e00
-void func_02030e00(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02030e1c
 void func_02030e1c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02030e4c
-void func_02030e4c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02030e70
 void func_02030e70(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02030edc
 void func_02030edc(void);
-#endif
-#ifndef M2C_SELF_func_02030ff4
-void func_02030ff4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203100c
 void func_0203100c(M2C_UNK);
@@ -3570,29 +8589,14 @@ void func_02031158(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020313e8
 void func_020313e8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020315d0
-void func_020315d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020315e4
-void func_020315e4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02031600
 void func_02031600(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02031834
-void func_02031834(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203185c
-void func_0203185c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020318b0
 void func_020318b0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02031d0c
 void func_02031d0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02031e74
-void func_02031e74(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02031fb4
 void func_02031fb4(void);
@@ -3618,53 +8622,14 @@ void func_02032610(M2C_UNK);
 #ifndef M2C_SELF_func_02032660
 void func_02032660(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020326b4
-void func_020326b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032720
-void func_02032720(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032794
-void func_02032794(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020328cc
-void func_020328cc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02032988
 void func_02032988(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02032aec
 void func_02032aec(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02032bb4
-void func_02032bb4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032cf4
-void func_02032cf4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02032dc4
 void func_02032dc4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032ec8
-void func_02032ec8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032efc
-void func_02032efc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032f38
-void func_02032f38(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032f6c
-void func_02032f6c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02032f90
-void func_02032f90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02033000
-void func_02033000(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02033048
-void func_02033048(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02033060
 void func_02033060(M2C_UNK);
@@ -3672,17 +8637,8 @@ void func_02033060(M2C_UNK);
 #ifndef M2C_SELF_func_020334c4
 M2C_UNK func_020334c4(void);
 #endif
-#ifndef M2C_SELF_func_020334ec
-void func_020334ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02033500
-void func_02033500(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203351c
 M2C_UNK func_0203351c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203353c
-void func_0203353c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02033570
 void func_02033570(M2C_UNK);
@@ -3690,35 +8646,14 @@ void func_02033570(M2C_UNK);
 #ifndef M2C_SELF_func_02033610
 void func_02033610(void);
 #endif
-#ifndef M2C_SELF_func_0203372c
-void func_0203372c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02033754
 void func_02033754(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02033d18
-void func_02033d18(void);
-#endif
-#ifndef M2C_SELF_func_02033d20
-void func_02033d20(void);
-#endif
-#ifndef M2C_SELF_func_02033d28
-void func_02033d28(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02033de0
 void func_02033de0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02033e78
-void func_02033e78(void);
-#endif
 #ifndef M2C_SELF_func_02033e80
 void func_02033e80(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02033f60
-void func_02033f60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02033f74
-void func_02033f74(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02033f90
 void func_02033f90(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3735,32 +8670,14 @@ void func_0203410c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02034180
 void func_02034180(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020341f4
-void func_020341f4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020342d8
 void func_020342d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02034630
-void func_02034630(void);
 #endif
 #ifndef M2C_SELF_func_02034644
 void func_02034644(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02034770
-M2C_UNK func_02034770(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02034780
-void func_02034780(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02034794
-void func_02034794(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020347b0
 void func_020347b0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02034aa4
-void func_02034aa4(void);
 #endif
 #ifndef M2C_SELF_func_02034aa8
 void func_02034aa8(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3774,14 +8691,8 @@ void func_020352a4(M2C_UNK);
 #ifndef M2C_SELF_func_02035520
 void func_02035520(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02035668
-void func_02035668(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020356d4
 void func_020356d4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035738
-void func_02035738(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02035778
 void func_02035778(M2C_UNK);
@@ -3795,62 +8706,23 @@ M2C_UNK func_02035958(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02035a10
 void func_02035a10(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02035b10
-void func_02035b10(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035bb8
-M2C_UNK func_02035bb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035bf0
-M2C_UNK func_02035bf0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02035c1c
 M2C_UNK func_02035c1c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035c40
-M2C_UNK func_02035c40(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02035c5c
 M2C_UNK func_02035c5c(void);
 #endif
-#ifndef M2C_SELF_func_02035d40
-M2C_UNK func_02035d40(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035d48
-void func_02035d48(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035d5c
-void func_02035d5c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035dac
-void func_02035dac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035e04
-void func_02035e04(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02035e44
 void func_02035e44(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02035f58
-void func_02035f58(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02035f7c
 void func_02035f7c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02036010
-void func_02036010(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020360d4
 void func_020360d4(void);
 #endif
-#ifndef M2C_SELF_func_02036298
-void func_02036298(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020362b0
 void func_020362b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02036700
-void func_02036700(void);
 #endif
 #ifndef M2C_SELF_func_02036708
 M2C_UNK func_02036708(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3858,35 +8730,17 @@ M2C_UNK func_02036708(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0203679c
 M2C_UNK func_0203679c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02036828
-void func_02036828(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203683c
-void func_0203683c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02036858
 void func_02036858(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020368d4
 void func_020368d4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02036a58
-void func_02036a58(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02036a7c
-void func_02036a7c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02036afc
 void func_02036afc(void);
 #endif
-#ifndef M2C_SELF_func_02036cc0
-void func_02036cc0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02036cd8
 void func_02036cd8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02037b28
-void func_02037b28(void);
 #endif
 #ifndef M2C_SELF_func_02037b30
 void func_02037b30(M2C_UNK, M2C_UNK);
@@ -3894,35 +8748,14 @@ void func_02037b30(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02037b44
 M2C_UNK func_02037b44(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02037bbc
-void func_02037bbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02037bd0
-void func_02037bd0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02037bec
-void func_02037bec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02037c20
-void func_02037c20(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02037c44
 void func_02037c44(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02037cb4
 void func_02037cb4(void);
 #endif
-#ifndef M2C_SELF_func_02037dd0
-void func_02037dd0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02037de8
 void func_02037de8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020382b4
-void func_020382b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020382c8
-void func_020382c8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020382e4
 void func_020382e4(M2C_UNK);
@@ -3932,15 +8765,6 @@ void func_020384dc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020385b0
 void func_020385b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203868c
-void func_0203868c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020386ac
-void func_020386ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02038740
-void func_02038740(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203875c
 void func_0203875c(M2C_UNK, M2C_UNK);
@@ -3953,9 +8777,6 @@ void func_02038818(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02038990
 void func_02038990(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02038ab4
-void func_02038ab4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02038b78
 M2C_UNK func_02038b78(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3984,44 +8805,14 @@ void func_02039d58(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02039e9c
 void func_02039e9c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02039fd8
-void func_02039fd8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203a0ec
 void func_0203a0ec(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a278
-void func_0203a278(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a30c
-void func_0203a30c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a388
-void func_0203a388(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a414
-void func_0203a414(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a4b4
-void func_0203a4b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a4e8
-void func_0203a4e8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203a50c
 void func_0203a50c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203a578
-void func_0203a578(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203a5cc
 void func_0203a5cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a744
-void func_0203a744(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203a75c
-void func_0203a75c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203a788
 void func_0203a788(M2C_UNK);
@@ -4029,32 +8820,14 @@ void func_0203a788(M2C_UNK);
 #ifndef M2C_SELF_func_0203adc0
 void func_0203adc0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203b30c
-void func_0203b30c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203b320
-void func_0203b320(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203b33c
-void func_0203b33c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203b390
-void func_0203b390(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203b3b4
 void func_0203b3b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203b474
-void func_0203b474(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203b4c8
 void func_0203b4c8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203b640
 void func_0203b640(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203b6c0
-void func_0203b6c0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203b71c
 void func_0203b71c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -4074,131 +8847,47 @@ void func_0203c044(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0203c1bc
 M2C_UNK func_0203c1bc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203c1fc
-void func_0203c1fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203c210
-void func_0203c210(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203c22c
-void func_0203c22c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203c260
-void func_0203c260(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203c284
-void func_0203c284(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203c2d8
 void func_0203c2d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203c450
-void func_0203c450(void);
 #endif
 #ifndef M2C_SELF_func_0203c45c
 void func_0203c45c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203ca84
-void func_0203ca84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203ca98
-void func_0203ca98(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203cab4
 void func_0203cab4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203cae4
-void func_0203cae4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203cb08
 void func_0203cb08(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203cb74
-void func_0203cb74(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203cbc8
 void func_0203cbc8(void);
-#endif
-#ifndef M2C_SELF_func_0203cce4
-void func_0203cce4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203ccfc
 void func_0203ccfc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203cefc
-void func_0203cefc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203cf10
-void func_0203cf10(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203cf2c
 void func_0203cf2c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203cf5c
-void func_0203cf5c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203cf80
 void func_0203cf80(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203cfec
-void func_0203cfec(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203d040
 void func_0203d040(void);
 #endif
-#ifndef M2C_SELF_func_0203d15c
-void func_0203d15c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203d174
-void func_0203d174(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203d25c
-M2C_UNK func_0203d25c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203d28c
-M2C_UNK func_0203d28c(void);
-#endif
-#ifndef M2C_SELF_func_0203d3e4
-void func_0203d3e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203d3f8
-void func_0203d3f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203d414
-void func_0203d414(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203d448
-void func_0203d448(M2C_UNK, M2C_UNK);
+void func_0203d28c(void);
 #endif
 #ifndef M2C_SELF_func_0203d46c
 void func_0203d46c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203d4d8
-void func_0203d4d8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203d52c
 void func_0203d52c(void);
-#endif
-#ifndef M2C_SELF_func_0203d648
-void func_0203d648(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203d660
 void func_0203d660(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203d9e4
 void func_0203d9e4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203dcc0
-void func_0203dcc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203dcd4
-void func_0203dcd4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203dcf0
-void func_0203dcf0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203dd24
-void func_0203dd24(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203dd48
 void func_0203dd48(void);
@@ -4209,29 +8898,11 @@ void func_0203de64(M2C_UNK);
 #ifndef M2C_SELF_func_0203dee4
 void func_0203dee4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203e088
-void func_0203e088(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203e130
-void func_0203e130(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203e144
-void func_0203e144(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203e160
 void func_0203e160(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203e198
-void func_0203e198(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203e1c0
 void func_0203e1c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203e254
-void func_0203e254(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203e2c4
-void func_0203e2c4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203e30c
 void func_0203e30c(M2C_UNK);
@@ -4242,20 +8913,11 @@ void func_0203e3bc(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0203f608
 void func_0203f608(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203f9e4
-void func_0203f9e4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203fac8
 void func_0203fac8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203fb00
 M2C_UNK func_0203fb00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203fb3c
-void func_0203fb3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0203fb50
-void func_0203fb50(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203fb6c
 void func_0203fb6c(M2C_UNK);
@@ -4263,17 +8925,11 @@ void func_0203fb6c(M2C_UNK);
 #ifndef M2C_SELF_func_0203fb9c
 void func_0203fb9c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0203fcf0
-void func_0203fcf0(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0203fd14
 void func_0203fd14(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203fd80
 void func_0203fd80(void);
-#endif
-#ifndef M2C_SELF_func_0203fe9c
-void func_0203fe9c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0203febc
 void func_0203febc(M2C_UNK);
@@ -4281,92 +8937,26 @@ void func_0203febc(M2C_UNK);
 #ifndef M2C_SELF_func_0203fee8
 void func_0203fee8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020400b8
-M2C_UNK func_020400b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020400c8
-void func_020400c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020400dc
-void func_020400dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020400f8
-void func_020400f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020401ec
-void func_020401ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020402ac
-void func_020402ac(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020402d0
 void func_020402d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204034c
-void func_0204034c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02040398
 void func_02040398(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020405fc
-void func_020405fc(void);
-#endif
 #ifndef M2C_SELF_func_02040608
 void func_02040608(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02040810
-M2C_UNK func_02040810(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204083c
-M2C_UNK func_0204083c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204087c
 M2C_UNK func_0204087c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020408ac
-M2C_UNK func_020408ac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204091c
-void func_0204091c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02040950
-void func_02040950(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204098c
-void func_0204098c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020409c0
-void func_020409c0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020409e4
-void func_020409e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02040a54
-void func_02040a54(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02040a9c
-void func_02040a9c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02040ab4
 void func_02040ab4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02041140
-void func_02041140(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02041154
-void func_02041154(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02041170
-void func_02041170(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020411b8
 void func_020411b8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204134c
 void func_0204134c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020413c0
-void func_020413c0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020414a4
 void func_020414a4(M2C_UNK);
@@ -4376,12 +8966,6 @@ M2C_UNK func_0204175c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020417b4
 M2C_UNK func_020417b4(void);
-#endif
-#ifndef M2C_SELF_func_02041814
-void func_02041814(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02041828
-void func_02041828(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02041844
 void func_02041844(M2C_UNK);
@@ -4395,41 +8979,17 @@ void func_02041f78(M2C_UNK);
 #ifndef M2C_SELF_func_02042598
 void func_02042598(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02042700
-void func_02042700(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02042768
-void func_02042768(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020427d8
 void func_020427d8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02042fe8
-void func_02042fe8(void);
-#endif
-#ifndef M2C_SELF_func_02042fec
-void func_02042fec(void);
-#endif
 #ifndef M2C_SELF_func_02042ff0
 void func_02042ff0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02043800
-void func_02043800(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02043868
-void func_02043868(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020438d8
-void func_020438d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02043940
 void func_02043940(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02043fe4
 void func_02043fe4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02044108
-void func_02044108(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204417c
 void func_0204417c(M2C_UNK, M2C_UNK);
@@ -4461,9 +9021,6 @@ void func_02044a90(void);
 #ifndef M2C_SELF_func_02044cd0
 void func_02044cd0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02044e68
-void func_02044e68(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02044e7c
 M2C_UNK func_02044e7c(M2C_UNK);
 #endif
@@ -4473,14 +9030,8 @@ M2C_UNK func_02044eac(M2C_UNK);
 #ifndef M2C_SELF_func_02044ed4
 M2C_UNK func_02044ed4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02044ef8
-M2C_UNK func_02044ef8(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02044f14
 M2C_UNK func_02044f14(void);
-#endif
-#ifndef M2C_SELF_func_02044ff8
-M2C_UNK func_02044ff8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02045018
 M2C_UNK func_02045018(M2C_UNK);
@@ -4491,50 +9042,17 @@ void func_02045128(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0204521c
 void func_0204521c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02045354
-void func_02045354(void);
-#endif
-#ifndef M2C_SELF_func_02045358
-void func_02045358(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204536c
-void func_0204536c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02045380
-void func_02045380(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020453b0
 void func_020453b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02045870
-void func_02045870(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02045884
-void func_02045884(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020458a0
 void func_020458a0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02045b34
-void func_02045b34(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02045b54
 void func_02045b54(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02045d40
-void func_02045d40(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02045d78
 void func_02045d78(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02045ee8
-void func_02045ee8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02045f20
-void func_02045f20(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02045f34
-void func_02045f34(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02045f50
 void func_02045f50(M2C_UNK);
@@ -4542,20 +9060,11 @@ void func_02045f50(M2C_UNK);
 #ifndef M2C_SELF_func_0204618c
 void func_0204618c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02046844
-void func_02046844(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020468d8
 void func_020468d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02046ac0
 void func_02046ac0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02046c7c
-void func_02046c7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02046ce4
-void func_02046ce4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02046d54
 void func_02046d54(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -4596,23 +9105,11 @@ void func_020497b4(M2C_UNK);
 #ifndef M2C_SELF_func_02049828
 void func_02049828(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204997c
-void func_0204997c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020499e4
-void func_020499e4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02049a54
 void func_02049a54(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02049d4c
 void func_02049d4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02049d80
-void func_02049d80(void);
-#endif
-#ifndef M2C_SELF_func_02049d8c
-void func_02049d8c(void);
 #endif
 #ifndef M2C_SELF_func_02049d98
 void func_02049d98(M2C_UNK);
@@ -4620,23 +9117,11 @@ void func_02049d98(M2C_UNK);
 #ifndef M2C_SELF_func_02049e1c
 void func_02049e1c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204a55c
-void func_0204a55c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204a5dc
-void func_0204a5dc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204a664
 void func_0204a664(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204a774
 void func_0204a774(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204a7bc
-void func_0204a7bc(void);
-#endif
-#ifndef M2C_SELF_func_0204a7c8
-void func_0204a7c8(void);
 #endif
 #ifndef M2C_SELF_func_0204a7d4
 void func_0204a7d4(M2C_UNK);
@@ -4650,50 +9135,20 @@ void func_0204ab98(M2C_UNK);
 #ifndef M2C_SELF_func_0204ac1c
 void func_0204ac1c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204ae90
-void func_0204ae90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204aef8
-void func_0204aef8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204af68
 void func_0204af68(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204b4b0
 void func_0204b4b0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204b4f4
-void func_0204b4f4(void);
-#endif
-#ifndef M2C_SELF_func_0204b500
-void func_0204b500(void);
-#endif
-#ifndef M2C_SELF_func_0204b50c
-void func_0204b50c(void);
-#endif
 #ifndef M2C_SELF_func_0204b52c
 void func_0204b52c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204b5b0
-void func_0204b5b0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204b5dc
-void func_0204b5dc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204b604
 void func_0204b604(void);
 #endif
-#ifndef M2C_SELF_func_0204b6f4
-void func_0204b6f4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204b714
-M2C_UNK func_0204b714(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204b734
 void func_0204b734(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204b788
-M2C_UNK func_0204b788(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204b7d4
 M2C_UNK func_0204b7d4(M2C_UNK);
@@ -4704,35 +9159,11 @@ void func_0204b824(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0204b8c8
 void func_0204b8c8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204bbe0
-void func_0204bbe0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204bc30
-void func_0204bc30(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204bc88
 void func_0204bc88(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204c004
 void func_0204c004(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204c028
-void func_0204c028(void);
-#endif
-#ifndef M2C_SELF_func_0204c034
-void func_0204c034(void);
-#endif
-#ifndef M2C_SELF_func_0204c040
-void func_0204c040(void);
-#endif
-#ifndef M2C_SELF_func_0204c078
-void func_0204c078(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204c218
-void func_0204c218(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204c264
-void func_0204c264(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204c2b8
 void func_0204c2b8(M2C_UNK, M2C_UNK);
@@ -4740,20 +9171,11 @@ void func_0204c2b8(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0204c5bc
 void func_0204c5bc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204c5f0
-void func_0204c5f0(void);
-#endif
 #ifndef M2C_SELF_func_0204c5fc
 void func_0204c5fc(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204c664
 void func_0204c664(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204cc90
-void func_0204cc90(void);
-#endif
-#ifndef M2C_SELF_func_0204cc94
-void func_0204cc94(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204ccac
 void func_0204ccac(M2C_UNK);
@@ -4767,9 +9189,6 @@ void func_0204cedc(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0204d1e4
 void func_0204d1e4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204d238
-void func_0204d238(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204d254
 void func_0204d254(M2C_UNK, M2C_UNK);
 #endif
@@ -4782,26 +9201,11 @@ void func_0204d37c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0204d410
 void func_0204d410(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204d480
-void func_0204d480(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204d560
-void func_0204d560(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204d5b0
-void func_0204d5b0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204d608
 void func_0204d608(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204d6f0
 void func_0204d6f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204d714
-void func_0204d714(void);
-#endif
-#ifndef M2C_SELF_func_0204d720
-void func_0204d720(void);
 #endif
 #ifndef M2C_SELF_func_0204d72c
 void func_0204d72c(void);
@@ -4812,17 +9216,8 @@ void func_0204db88(M2C_UNK);
 #ifndef M2C_SELF_func_0204e100
 void func_0204e100(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204e180
-M2C_UNK func_0204e180(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204e1c4
 void func_0204e1c4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204e45c
-void func_0204e45c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204e4c4
-void func_0204e4c4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204e534
 void func_0204e534(M2C_UNK);
@@ -4830,32 +9225,17 @@ void func_0204e534(M2C_UNK);
 #ifndef M2C_SELF_func_0204eaf4
 void func_0204eaf4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204ebf8
-void func_0204ebf8(void);
-#endif
-#ifndef M2C_SELF_func_0204ec04
-void func_0204ec04(void);
-#endif
 #ifndef M2C_SELF_func_0204ec10
 void func_0204ec10(void);
 #endif
 #ifndef M2C_SELF_func_0204ecd4
 void func_0204ecd4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0204efa8
-void func_0204efa8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204eff4
-void func_0204eff4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0204f048
 void func_0204f048(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204f11c
 void func_0204f11c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204f160
-void func_0204f160(void);
 #endif
 #ifndef M2C_SELF_func_0204f16c
 void func_0204f16c(M2C_UNK, M2C_UNK);
@@ -4874,9 +9254,6 @@ void func_0204f91c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204faf0
 void func_0204faf0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0204fb20
-void func_0204fb20(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0204fb3c
 void func_0204fb3c(M2C_UNK, M2C_UNK);
@@ -4899,9 +9276,6 @@ void func_0205064c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02050820
 void func_02050820(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02050850
-void func_02050850(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0205086c
 void func_0205086c(M2C_UNK, M2C_UNK);
 #endif
@@ -4911,29 +9285,14 @@ void func_020508d4(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02050964
 void func_02050964(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02050acc
-void func_02050acc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02050b1c
-void func_02050b1c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02050b74
 void func_02050b74(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02050ef0
 void func_02050ef0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02050f14
-void func_02050f14(void);
-#endif
-#ifndef M2C_SELF_func_02050f20
-void func_02050f20(void);
-#endif
 #ifndef M2C_SELF_func_02050f2c
 void func_02050f2c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02050f88
-M2C_UNK func_02050f88(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02050fd4
 void func_02050fd4(M2C_UNK);
@@ -4944,17 +9303,11 @@ void func_02051054(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02051120
 void func_02051120(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020511ac
-void func_020511ac(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02051280
 void func_02051280(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020512dc
 void func_020512dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02051340
-void func_02051340(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02051354
 void func_02051354(M2C_UNK);
@@ -4967,9 +9320,6 @@ void func_020513c8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020513ec
 void func_020513ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02051418
-void func_02051418(void);
 #endif
 #ifndef M2C_SELF_func_02051424
 void func_02051424(M2C_UNK, M2C_UNK);
@@ -4995,23 +9345,11 @@ M2C_UNK func_02051a7c(M2C_UNK);
 #ifndef M2C_SELF_func_02051b9c
 void func_02051b9c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02051bf4
-void func_02051bf4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02051c04
 void func_02051c04(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02051c9c
-void func_02051c9c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02051cc4
-void func_02051cc4(void);
-#endif
 #ifndef M2C_SELF_func_02051cd0
 void func_02051cd0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02052104
-void func_02052104(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205216c
 void func_0205216c(M2C_UNK);
@@ -5022,26 +9360,11 @@ void func_02052200(M2C_UNK);
 #ifndef M2C_SELF_func_0205229c
 void func_0205229c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0205267c
-void func_0205267c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020526cc
-void func_020526cc(void);
-#endif
 #ifndef M2C_SELF_func_020526d8
 void func_020526d8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02052774
 void func_02052774(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02052818
-void func_02052818(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0205282c
-void func_0205282c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02052848
-void func_02052848(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020528a4
 void func_020528a4(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -5064,9 +9387,6 @@ void func_02054808(M2C_UNK);
 #ifndef M2C_SELF_func_0205483c
 void func_0205483c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02055ba8
-void func_02055ba8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02055bc4
 void func_02055bc4(M2C_UNK, M2C_UNK);
 #endif
@@ -5078,9 +9398,6 @@ void func_02055cf4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02056144
 void func_02056144(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020591d4
-void func_020591d4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020591e8
 void func_020591e8(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -5103,9 +9420,6 @@ void func_0205a9c0(M2C_UNK);
 #ifndef M2C_SELF_func_0205af04
 void func_0205af04(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0205af40
-void func_0205af40(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0205afec
 void func_0205afec(M2C_UNK);
 #endif
@@ -5114,9 +9428,6 @@ void func_0205c1bc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205c1f0
 void func_0205c1f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0205d610
-void func_0205d610(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205d62c
 void func_0205d62c(M2C_UNK, M2C_UNK);
@@ -5145,17 +9456,11 @@ void func_0205ec28(M2C_UNK);
 #ifndef M2C_SELF_func_0205edf4
 void func_0205edf4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0205efc8
-void func_0205efc8(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0205f11c
 void func_0205f11c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205f3c0
 void func_0205f3c0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0205f3f8
-void func_0205f3f8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0205f450
 void func_0205f450(M2C_UNK);
@@ -5169,9 +9474,6 @@ void func_02060b9c(M2C_UNK);
 #ifndef M2C_SELF_func_02060c28
 void func_02060c28(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02062734
-void func_02062734(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02062750
 void func_02062750(M2C_UNK, M2C_UNK);
 #endif
@@ -5181,14 +9483,8 @@ void func_020627cc(M2C_UNK);
 #ifndef M2C_SELF_func_02062de4
 void func_02062de4(void);
 #endif
-#ifndef M2C_SELF_func_02062de8
-void func_02062de8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02062e68
 void func_02062e68(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02062fb8
-void func_02062fb8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02063074
 void func_02063074(M2C_UNK, M2C_UNK);
@@ -5198,12 +9494,6 @@ void func_02063458(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206372c
 void func_0206372c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206410c
-void func_0206410c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020641a8
-void func_020641a8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206422c
 void func_0206422c(M2C_UNK);
@@ -5217,23 +9507,11 @@ void func_02064858(M2C_UNK);
 #ifndef M2C_SELF_func_02064920
 void func_02064920(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020649ec
-void func_020649ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02064ac4
-void func_02064ac4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02064b40
-void func_02064b40(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02064ba4
 void func_02064ba4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02064e08
 void func_02064e08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02065414
-void func_02065414(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020654fc
 void func_020654fc(M2C_UNK, M2C_UNK);
@@ -5250,29 +9528,8 @@ void func_02065820(M2C_UNK);
 #ifndef M2C_SELF_func_020658bc
 void func_020658bc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02065950
-M2C_UNK func_02065950(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02065960
-void func_02065960(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02065970
-void func_02065970(void);
-#endif
-#ifndef M2C_SELF_func_02065984
-void func_02065984(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020659b0
-void func_020659b0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020659c0
 void func_020659c0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02065a4c
-void func_02065a4c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02065aa8
-void func_02065aa8(void);
 #endif
 #ifndef M2C_SELF_func_02065ac8
 void func_02065ac8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -5286,17 +9543,11 @@ void func_0206605c(M2C_UNK);
 #ifndef M2C_SELF_func_02066188
 void func_02066188(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0206a1f4
-void func_0206a1f4(void);
-#endif
 #ifndef M2C_SELF_func_0206a1fc
 void func_0206a1fc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206a264
 void func_0206a264(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206a2ac
-void func_0206a2ac(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206a2c8
 void func_0206a2c8(M2C_UNK, M2C_UNK);
@@ -5319,12 +9570,6 @@ void func_0206badc(M2C_UNK);
 #ifndef M2C_SELF_func_0206bb8c
 void func_0206bb8c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0206c790
-void func_0206c790(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206c7c4
-void func_0206c7c4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0206c7e0
 void func_0206c7e0(M2C_UNK, M2C_UNK);
 #endif
@@ -5339,12 +9584,6 @@ void func_0206d3d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206d488
 void func_0206d488(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206d750
-void func_0206d750(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206d784
-void func_0206d784(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206d7a0
 void func_0206d7a0(M2C_UNK, M2C_UNK);
@@ -5361,17 +9600,8 @@ void func_0206e1ec(M2C_UNK);
 #ifndef M2C_SELF_func_0206e298
 void func_0206e298(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0206f764
-void func_0206f764(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206f788
-void func_0206f788(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0206f7a4
 void func_0206f7a4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0206f81c
-void func_0206f81c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0206f844
 void func_0206f844(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -5385,14 +9615,8 @@ void func_020700b8(M2C_UNK);
 #ifndef M2C_SELF_func_020701cc
 void func_020701cc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02072a04
-void func_02072a04(void);
-#endif
 #ifndef M2C_SELF_func_02072a10
 void func_02072a10(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02072a70
-void func_02072a70(void);
 #endif
 #ifndef M2C_SELF_func_02072a7c
 void func_02072a7c(M2C_UNK, M2C_UNK);
@@ -5403,17 +9627,11 @@ M2C_UNK func_02072af4(M2C_UNK);
 #ifndef M2C_SELF_func_02072b28
 void func_02072b28(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02073424
-void func_02073424(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020734b4
 M2C_UNK func_020734b4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02073860
 void func_02073860(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02073890
-void func_02073890(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020738a8
 void func_020738a8(M2C_UNK, M2C_UNK);
@@ -5423,9 +9641,6 @@ M2C_UNK func_020738d8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02073d84
 void func_02073d84(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02073e84
-void func_02073e84(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02073f30
 void func_02073f30(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -5439,23 +9654,8 @@ M2C_UNK func_02075f84(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02076614
 void func_02076614(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02076dbc
-void func_02076dbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02076dd0
-void func_02076dd0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02076de4
-void func_02076de4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02076df8
 M2C_UNK func_02076df8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02077130
-M2C_UNK func_02077130(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02077150
-M2C_UNK func_02077150(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02077170
 M2C_UNK func_02077170(M2C_UNK, M2C_UNK);
@@ -5472,12 +9672,6 @@ void func_02078530(M2C_UNK);
 #ifndef M2C_SELF_func_020785fc
 void func_020785fc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02078c64
-void func_02078c64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02078c98
-void func_02078c98(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02078cb4
 void func_02078cb4(M2C_UNK, M2C_UNK);
 #endif
@@ -5489,12 +9683,6 @@ void func_02079154(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020794c8
 void func_020794c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207a114
-void func_0207a114(void);
-#endif
-#ifndef M2C_SELF_func_0207a118
-void func_0207a118(void);
 #endif
 #ifndef M2C_SELF_func_0207a11c
 void func_0207a11c(M2C_UNK);
@@ -5508,14 +9696,8 @@ void func_0207a374(M2C_UNK);
 #ifndef M2C_SELF_func_0207a3e8
 void func_0207a3e8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0207b0dc
-void func_0207b0dc(void);
-#endif
 #ifndef M2C_SELF_func_0207b0e8
 void func_0207b0e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207b280
-void func_0207b280(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207b300
 void func_0207b300(M2C_UNK, M2C_UNK);
@@ -5544,9 +9726,6 @@ void func_0207b91c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0207ba28
 void func_0207ba28(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0207baec
-M2C_UNK func_0207baec(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0207bb04
 M2C_UNK func_0207bb04(M2C_UNK);
 #endif
@@ -5555,9 +9734,6 @@ M2C_UNK func_0207bb34(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207bb5c
 M2C_UNK func_0207bb5c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207bb80
-M2C_UNK func_0207bb80(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207bb9c
 M2C_UNK func_0207bb9c(void);
@@ -5574,48 +9750,6 @@ void func_0207c390(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0207c474
 void func_0207c474(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0207c55c
-void func_0207c55c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c58c
-void func_0207c58c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c59c
-void func_0207c59c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c5ac
-void func_0207c5ac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c5bc
-void func_0207c5bc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c5cc
-void func_0207c5cc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c5dc
-void func_0207c5dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c5ec
-void func_0207c5ec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c5fc
-void func_0207c5fc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c60c
-void func_0207c60c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c61c
-void func_0207c61c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c62c
-void func_0207c62c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c63c
-void func_0207c63c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207c650
-void func_0207c650(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0207c664
 void func_0207c664(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -5628,17 +9762,8 @@ void func_0207cbd0(M2C_UNK);
 #ifndef M2C_SELF_func_0207cc7c
 void func_0207cc7c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0207d04c
-void func_0207d04c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207d080
-void func_0207d080(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0207d09c
 void func_0207d09c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207d148
-void func_0207d148(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207d71c
 void func_0207d71c(M2C_UNK);
@@ -5651,12 +9776,6 @@ void func_0207ddc4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207de88
 void func_0207de88(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207e31c
-void func_0207e31c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207e34c
-void func_0207e34c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0207e364
 void func_0207e364(M2C_UNK, M2C_UNK);
@@ -5676,12 +9795,6 @@ void func_0207f3e4(M2C_UNK);
 #ifndef M2C_SELF_func_0207f4b0
 void func_0207f4b0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0207faa4
-void func_0207faa4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0207fad8
-void func_0207fad8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0207faf4
 void func_0207faf4(M2C_UNK, M2C_UNK);
 #endif
@@ -5699,12 +9812,6 @@ void func_02080ae8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02080bb4
 void func_02080bb4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02081038
-void func_02081038(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208106c
-void func_0208106c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02081088
 void func_02081088(M2C_UNK, M2C_UNK);
@@ -5724,12 +9831,6 @@ void func_02081ac4(M2C_UNK);
 #ifndef M2C_SELF_func_02081b90
 void func_02081b90(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208228c
-void func_0208228c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020822c0
-void func_020822c0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020822dc
 void func_020822dc(M2C_UNK, M2C_UNK);
 #endif
@@ -5748,12 +9849,6 @@ void func_02083a20(M2C_UNK);
 #ifndef M2C_SELF_func_02083b08
 void func_02083b08(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02083ef4
-void func_02083ef4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02083f28
-void func_02083f28(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02083f44
 void func_02083f44(M2C_UNK, M2C_UNK);
 #endif
@@ -5762,9 +9857,6 @@ void func_02083ff4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02084a10
 void func_02084a10(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085050
-void func_02085050(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02085070
 void func_02085070(M2C_UNK);
@@ -5775,44 +9867,8 @@ void func_02085154(M2C_UNK);
 #ifndef M2C_SELF_func_02085240
 void func_02085240(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02085dfc
-void func_02085dfc(void);
-#endif
-#ifndef M2C_SELF_func_02085e08
-void func_02085e08(void);
-#endif
 #ifndef M2C_SELF_func_02085e14
 void func_02085e14(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085e7c
-void func_02085e7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085e90
-void func_02085e90(void);
-#endif
-#ifndef M2C_SELF_func_02085e98
-void func_02085e98(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085ea4
-void func_02085ea4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085eb0
-void func_02085eb0(void);
-#endif
-#ifndef M2C_SELF_func_02085eb8
-void func_02085eb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085ec4
-void func_02085ec4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085ed0
-void func_02085ed0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085ed8
-void func_02085ed8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085ee0
-void func_02085ee0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02085ef0
 void func_02085ef0(M2C_UNK);
@@ -5828,12 +9884,6 @@ void func_02085f38(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02085f4c
 void func_02085f4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02085f60
-void func_02085f60(void);
-#endif
-#ifndef M2C_SELF_func_02085f64
-void func_02085f64(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02085f78
 void func_02085f78(M2C_UNK);
@@ -5853,12 +9903,6 @@ void func_02086518(M2C_UNK);
 #ifndef M2C_SELF_func_020865c8
 void func_020865c8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02087908
-void func_02087908(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208793c
-void func_0208793c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02087958
 void func_02087958(M2C_UNK, M2C_UNK);
 #endif
@@ -5876,12 +9920,6 @@ void func_02088ac4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02088b90
 void func_02088b90(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208910c
-void func_0208910c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02089140
-void func_02089140(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0208915c
 void func_0208915c(M2C_UNK, M2C_UNK);
@@ -5901,12 +9939,6 @@ void func_0208a088(M2C_UNK);
 #ifndef M2C_SELF_func_0208a14c
 void func_0208a14c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208a66c
-void func_0208a66c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208a6a0
-void func_0208a6a0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0208a6bc
 void func_0208a6bc(M2C_UNK, M2C_UNK);
 #endif
@@ -5925,17 +9957,8 @@ void func_0208af24(M2C_UNK);
 #ifndef M2C_SELF_func_0208aff0
 void func_0208aff0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208b364
-void func_0208b364(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208b398
-void func_0208b398(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0208b3b4
 void func_0208b3b4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208b460
-void func_0208b460(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0208b578
 void func_0208b578(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -5949,12 +9972,6 @@ void func_0208bbd0(M2C_UNK);
 #ifndef M2C_SELF_func_0208bc80
 void func_0208bc80(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208c1f4
-void func_0208c1f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208c228
-void func_0208c228(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0208c244
 void func_0208c244(M2C_UNK, M2C_UNK);
 #endif
@@ -5963,12 +9980,6 @@ void func_0208c2f0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0208cb6c
 void func_0208cb6c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208d1ac
-void func_0208d1ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208d1cc
-void func_0208d1cc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0208d1f4
 void func_0208d1f4(M2C_UNK, M2C_UNK);
@@ -5982,12 +9993,6 @@ void func_0208d23c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0208d404
 void func_0208d404(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208da10
-void func_0208da10(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208da30
-void func_0208da30(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0208da58
 void func_0208da58(M2C_UNK, M2C_UNK);
 #endif
@@ -5997,20 +10002,8 @@ void func_0208da8c(M2C_UNK);
 #ifndef M2C_SELF_func_0208daa0
 void func_0208daa0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208dcc4
-void func_0208dcc4(void);
-#endif
-#ifndef M2C_SELF_func_0208dccc
-void func_0208dccc(void);
-#endif
 #ifndef M2C_SELF_func_0208dcd4
 void func_0208dcd4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208e2e0
-void func_0208e2e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208e300
-void func_0208e300(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0208e328
 void func_0208e328(M2C_UNK, M2C_UNK);
@@ -6024,12 +10017,6 @@ void func_0208e370(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0208e4f0
 void func_0208e4f0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208eb30
-void func_0208eb30(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208eb50
-void func_0208eb50(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0208eb78
 void func_0208eb78(M2C_UNK, M2C_UNK);
 #endif
@@ -6039,26 +10026,8 @@ void func_0208ebac(M2C_UNK);
 #ifndef M2C_SELF_func_0208ebc0
 void func_0208ebc0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0208ed88
-void func_0208ed88(void);
-#endif
-#ifndef M2C_SELF_func_0208ed90
-void func_0208ed90(void);
-#endif
-#ifndef M2C_SELF_func_0208ed98
-void func_0208ed98(void);
-#endif
-#ifndef M2C_SELF_func_0208eda0
-void func_0208eda0(void);
-#endif
 #ifndef M2C_SELF_func_0208eda8
 M2C_UNK func_0208eda8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208ee14
-void func_0208ee14(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0208ee70
-void func_0208ee70(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0208eed4
 void func_0208eed4(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -6075,12 +10044,6 @@ void func_0208f9a8(M2C_UNK);
 #ifndef M2C_SELF_func_0208fb7c
 void func_0208fb7c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020904e8
-void func_020904e8(void);
-#endif
-#ifndef M2C_SELF_func_020904ec
-void func_020904ec(void);
-#endif
 #ifndef M2C_SELF_func_020904f0
 void func_020904f0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -6090,26 +10053,11 @@ void func_02090990(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02090aa0
 void func_02090aa0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02090c60
-M2C_UNK func_02090c60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02090cc0
-void func_02090cc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02090d3c
-void func_02090d3c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02090dc0
 void func_02090dc0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020911a8
 void func_020911a8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02091960
-void func_02091960(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020919d8
-void func_020919d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02091c74
 void func_02091c74(M2C_UNK);
@@ -6129,23 +10077,11 @@ void func_02092e80(M2C_UNK);
 #ifndef M2C_SELF_func_02094370
 void func_02094370(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02094794
-M2C_UNK func_02094794(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209481c
-void func_0209481c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02094878
-void func_02094878(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020948dc
 void func_020948dc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02094cb8
 void func_02094cb8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02095168
-void func_02095168(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020951bc
 void func_020951bc(M2C_UNK);
@@ -6165,23 +10101,11 @@ void func_02095eec(M2C_UNK);
 #ifndef M2C_SELF_func_020960cc
 M2C_UNK func_020960cc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02096158
-void func_02096158(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020961d4
-void func_020961d4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02096258
 void func_02096258(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020965f8
 void func_020965f8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02096d58
-void func_02096d58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02096dac
-void func_02096dac(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209704c
 void func_0209704c(M2C_UNK, M2C_UNK);
@@ -6198,12 +10122,6 @@ void func_0209817c(M2C_UNK);
 #ifndef M2C_SELF_func_020984f0
 void func_020984f0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02098778
-void func_02098778(void);
-#endif
-#ifndef M2C_SELF_func_0209877c
-void func_0209877c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02098790
 void func_02098790(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -6213,17 +10131,8 @@ void func_02098874(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02098a44
 void func_02098a44(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02098ab0
-void func_02098ab0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02098b0c
-void func_02098b0c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02098b70
 void func_02098b70(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02099228
-void func_02099228(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02099234
 void func_02099234(M2C_UNK);
@@ -6246,32 +10155,14 @@ void func_0209a204(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0209a314
 void func_0209a314(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0209a4d4
-void func_0209a4d4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209a54c
-void func_0209a54c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209a5c8
-void func_0209a5c8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0209a64c
 void func_0209a64c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209aed8
-void func_0209aed8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209aee4
 void func_0209aee4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0209b634
-void func_0209b634(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0209b6ec
 void func_0209b6ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209b79c
-void func_0209b79c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209ba74
 void func_0209ba74(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -6288,26 +10179,11 @@ void func_0209c0a4(M2C_UNK);
 #ifndef M2C_SELF_func_0209d594
 void func_0209d594(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0209d9b8
-void func_0209d9b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209da40
-void func_0209da40(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209da9c
-void func_0209da9c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0209db00
 void func_0209db00(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0209e414
-void func_0209e414(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0209e420
 void func_0209e420(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209e890
-void func_0209e890(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209e924
 void func_0209e924(M2C_UNK);
@@ -6327,29 +10203,14 @@ void func_0209eeac(M2C_UNK);
 #ifndef M2C_SELF_func_0209f084
 void func_0209f084(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0209f110
-void func_0209f110(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209f18c
-void func_0209f18c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0209f210
 void func_0209f210(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0209fad0
-void func_0209fad0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0209fadc
 void func_0209fadc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a0610
-void func_020a0610(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a06a4
 void func_020a06a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a0754
-void func_020a0754(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a0a24
 void func_020a0a24(M2C_UNK, M2C_UNK);
@@ -6359,9 +10220,6 @@ void func_020a0ad4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a0be4
 void func_020a0be4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a0e6c
-void func_020a0e6c(void);
 #endif
 #ifndef M2C_SELF_func_020a0e70
 void func_020a0e70(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -6390,9 +10248,6 @@ void func_020a1764(M2C_UNK);
 #ifndef M2C_SELF_func_020a1794
 void func_020a1794(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a1844
-void func_020a1844(void);
-#endif
 #ifndef M2C_SELF_func_020a1848
 void func_020a1848(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -6401,9 +10256,6 @@ void func_020a1908(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a19f4
 void func_020a19f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a1aa4
-void func_020a1aa4(void);
 #endif
 #ifndef M2C_SELF_func_020a1aa8
 void func_020a1aa8(M2C_UNK);
@@ -6414,12 +10266,6 @@ void func_020a1b54(M2C_UNK);
 #ifndef M2C_SELF_func_020a1c78
 void func_020a1c78(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a1d20
-void func_020a1d20(void);
-#endif
-#ifndef M2C_SELF_func_020a1d24
-void func_020a1d24(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a1d40
 void func_020a1d40(M2C_UNK);
 #endif
@@ -6428,12 +10274,6 @@ void func_020a1e4c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a2018
 void func_020a2018(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a20c0
-void func_020a20c0(void);
-#endif
-#ifndef M2C_SELF_func_020a20c4
-void func_020a20c4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a20e0
 void func_020a20e0(M2C_UNK);
@@ -6450,9 +10290,6 @@ void func_020a22ec(M2C_UNK);
 #ifndef M2C_SELF_func_020a2318
 void func_020a2318(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a234c
-void func_020a234c(void);
-#endif
 #ifndef M2C_SELF_func_020a2350
 void func_020a2350(M2C_UNK);
 #endif
@@ -6462,12 +10299,6 @@ void func_020a236c(M2C_UNK);
 #ifndef M2C_SELF_func_020a2398
 void func_020a2398(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a23c4
-void func_020a23c4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a23e4
-void func_020a23e4(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a2490
 void func_020a2490(void);
 #endif
@@ -6476,30 +10307,6 @@ void func_020a297c(void);
 #endif
 #ifndef M2C_SELF_func_020a2fb4
 M2C_UNK func_020a2fb4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3148
-void func_020a3148(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3168
-void func_020a3168(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a317c
-void func_020a317c(void);
-#endif
-#ifndef M2C_SELF_func_020a3180
-void func_020a3180(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3194
-void func_020a3194(void);
-#endif
-#ifndef M2C_SELF_func_020a3198
-void func_020a3198(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a31ac
-void func_020a31ac(void);
-#endif
-#ifndef M2C_SELF_func_020a31b0
-void func_020a31b0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a31c4
 M2C_UNK func_020a31c4(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -6511,7 +10318,7 @@ M2C_UNK func_020a31e4(M2C_UNK);
 M2C_UNK func_020a3280(void);
 #endif
 #ifndef M2C_SELF_func_020a32d0
-M2C_UNK func_020a32d0(void);
+void func_020a32d0(void);
 #endif
 #ifndef M2C_SELF_func_020a3324
 void func_020a3324(M2C_UNK);
@@ -6521,18 +10328,6 @@ M2C_UNK func_020a339c(void);
 #endif
 #ifndef M2C_SELF_func_020a33b8
 M2C_UNK func_020a33b8(void);
-#endif
-#ifndef M2C_SELF_func_020a33d4
-M2C_UNK func_020a33d4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3404
-M2C_UNK func_020a3404(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3434
-void func_020a3434(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a346c
-void func_020a346c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a34a8
 void func_020a34a8(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -6551,15 +10346,6 @@ void func_020a3848(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a3870
 void func_020a3870(void);
-#endif
-#ifndef M2C_SELF_func_020a391c
-M2C_UNK func_020a391c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3938
-void func_020a3938(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a3964
-void func_020a3964(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a3990
 M2C_UNK func_020a3990(M2C_UNK);
@@ -6612,9 +10398,6 @@ void func_020a8368(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020a8454
 M2C_UNK func_020a8454(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a84b0
-M2C_UNK func_020a84b0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a84f0
 M2C_UNK func_020a84f0(M2C_UNK);
 #endif
@@ -6623,12 +10406,6 @@ M2C_UNK func_020a8528(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a855c
 M2C_UNK func_020a855c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a85c0
-void func_020a85c0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a85e8
-void func_020a85e8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a8618
 void func_020a8618(void);
@@ -6645,9 +10422,6 @@ M2C_UNK func_020a86d4(M2C_UNK);
 #ifndef M2C_SELF_func_020a8830
 M2C_UNK func_020a8830(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a887c
-void func_020a887c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a88b8
 void func_020a88b8(M2C_UNK, M2C_UNK);
 #endif
@@ -6657,44 +10431,23 @@ void func_020a89c4(M2C_UNK);
 #ifndef M2C_SELF_func_020a89f0
 void func_020a89f0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a8a24
-void func_020a8a24(void);
-#endif
-#ifndef M2C_SELF_func_020a8a28
-M2C_UNK func_020a8a28(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a8a58
 void func_020a8a58(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a8abc
 void func_020a8abc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a8b18
-void func_020a8b18(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a8b54
 void func_020a8b54(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a8ba4
-void func_020a8ba4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a8bd4
 void func_020a8bd4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a8c10
-void func_020a8c10(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a8c40
 void func_020a8c40(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a8c98
-void func_020a8c98(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a8cc8
 void func_020a8cc8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a8d20
-void func_020a8d20(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a8d58
 void func_020a8d58(M2C_UNK, M2C_UNK);
@@ -6705,23 +10458,11 @@ void func_020a8d98(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020a8dd0
 void func_020a8dd0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a8e18
-void func_020a8e18(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a8e48
 void func_020a8e48(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a8e88
-void func_020a8e88(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a8ec0
-void func_020a8ec0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a8efc
 void func_020a8efc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9194
-void func_020a9194(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a91cc
 void func_020a91cc(M2C_UNK, M2C_UNK);
@@ -6735,20 +10476,11 @@ void func_020a9258(M2C_UNK);
 #ifndef M2C_SELF_func_020a92a0
 void func_020a92a0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a92e8
-void func_020a92e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9320
-void func_020a9320(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9358
 void func_020a9358(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a939c
 void func_020a939c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a93e0
-void func_020a93e0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a941c
 void func_020a941c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -6758,9 +10490,6 @@ void func_020a9454(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a94bc
 void func_020a94bc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a952c
-void func_020a952c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a955c
 void func_020a955c(M2C_UNK, M2C_UNK);
@@ -6777,74 +10506,35 @@ void func_020a9828(M2C_UNK);
 #ifndef M2C_SELF_func_020a98c8
 void func_020a98c8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9968
-void func_020a9968(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9990
-void func_020a9990(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a99b8
-void func_020a99b8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a99ec
 void func_020a99ec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9a24
-void func_020a9a24(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a9a5c
 void func_020a9a5c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9a9c
-void func_020a9a9c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9ad4
 void func_020a9ad4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9b14
-void func_020a9b14(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a9b4c
 void func_020a9b4c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9b8c
-void func_020a9b8c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9bc4
 void func_020a9bc4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9c04
-void func_020a9c04(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a9c3c
 void func_020a9c3c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9c7c
-void func_020a9c7c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9cac
 void func_020a9cac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9d00
-void func_020a9d00(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a9d30
 void func_020a9d30(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9d84
-void func_020a9d84(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9db4
 void func_020a9db4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9e04
-void func_020a9e04(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9e34
 void func_020a9e34(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9e78
-void func_020a9e78(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020a9ea8
 void func_020a9ea8(M2C_UNK, M2C_UNK);
@@ -6852,14 +10542,8 @@ void func_020a9ea8(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020a9ee8
 void func_020a9ee8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020a9f84
-void func_020a9f84(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020a9fb4
 void func_020a9fb4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020a9ff4
-void func_020a9ff4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020aa024
 void func_020aa024(M2C_UNK, M2C_UNK);
@@ -6870,242 +10554,11 @@ M2C_UNK func_020aa064(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020aa12c
 void func_020aa12c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aa220
-void func_020aa220(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa234
-void func_020aa234(void);
-#endif
-#ifndef M2C_SELF_func_020aa238
-void func_020aa238(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa24c
-void func_020aa24c(void);
-#endif
-#ifndef M2C_SELF_func_020aa250
-void func_020aa250(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa264
-void func_020aa264(void);
-#endif
-#ifndef M2C_SELF_func_020aa268
-void func_020aa268(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa27c
-void func_020aa27c(void);
-#endif
-#ifndef M2C_SELF_func_020aa280
-void func_020aa280(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa294
-void func_020aa294(void);
-#endif
-#ifndef M2C_SELF_func_020aa298
-void func_020aa298(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa2ac
-void func_020aa2ac(void);
-#endif
-#ifndef M2C_SELF_func_020aa2b0
-void func_020aa2b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa2c4
-void func_020aa2c4(void);
-#endif
-#ifndef M2C_SELF_func_020aa2c8
-void func_020aa2c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa2dc
-void func_020aa2dc(void);
-#endif
-#ifndef M2C_SELF_func_020aa2e0
-void func_020aa2e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa2f4
-void func_020aa2f4(void);
-#endif
-#ifndef M2C_SELF_func_020aa2fc
-void func_020aa2fc(void);
-#endif
-#ifndef M2C_SELF_func_020aa304
-void func_020aa304(void);
-#endif
 #ifndef M2C_SELF_func_020aa30c
 void func_020aa30c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aa328
-void func_020aa328(void);
-#endif
-#ifndef M2C_SELF_func_020aa330
-void func_020aa330(void);
-#endif
-#ifndef M2C_SELF_func_020aa338
-void func_020aa338(void);
-#endif
-#ifndef M2C_SELF_func_020aa340
-void func_020aa340(void);
-#endif
-#ifndef M2C_SELF_func_020aa348
-void func_020aa348(void);
-#endif
-#ifndef M2C_SELF_func_020aa350
-void func_020aa350(void);
-#endif
-#ifndef M2C_SELF_func_020aa358
-void func_020aa358(void);
-#endif
-#ifndef M2C_SELF_func_020aa360
-void func_020aa360(void);
-#endif
-#ifndef M2C_SELF_func_020aa368
-void func_020aa368(void);
-#endif
-#ifndef M2C_SELF_func_020aa370
-void func_020aa370(void);
-#endif
-#ifndef M2C_SELF_func_020aa378
-void func_020aa378(void);
-#endif
-#ifndef M2C_SELF_func_020aa37c
-void func_020aa37c(void);
-#endif
-#ifndef M2C_SELF_func_020aa384
-void func_020aa384(void);
-#endif
-#ifndef M2C_SELF_func_020aa388
-void func_020aa388(void);
-#endif
-#ifndef M2C_SELF_func_020aa38c
-void func_020aa38c(void);
-#endif
-#ifndef M2C_SELF_func_020aa390
-void func_020aa390(void);
-#endif
-#ifndef M2C_SELF_func_020aa394
-void func_020aa394(void);
-#endif
-#ifndef M2C_SELF_func_020aa398
-void func_020aa398(void);
-#endif
-#ifndef M2C_SELF_func_020aa39c
-void func_020aa39c(void);
-#endif
-#ifndef M2C_SELF_func_020aa3a4
-void func_020aa3a4(void);
-#endif
-#ifndef M2C_SELF_func_020aa3a8
-void func_020aa3a8(void);
-#endif
-#ifndef M2C_SELF_func_020aa3ac
-void func_020aa3ac(void);
-#endif
-#ifndef M2C_SELF_func_020aa3b0
-void func_020aa3b0(void);
-#endif
-#ifndef M2C_SELF_func_020aa3b4
-void func_020aa3b4(void);
-#endif
-#ifndef M2C_SELF_func_020aa3b8
-void func_020aa3b8(void);
-#endif
-#ifndef M2C_SELF_func_020aa3bc
-void func_020aa3bc(void);
-#endif
-#ifndef M2C_SELF_func_020aa3c0
-void func_020aa3c0(void);
-#endif
-#ifndef M2C_SELF_func_020aa3c4
-void func_020aa3c4(void);
-#endif
-#ifndef M2C_SELF_func_020aa3c8
-void func_020aa3c8(void);
-#endif
-#ifndef M2C_SELF_func_020aa3cc
-void func_020aa3cc(void);
-#endif
-#ifndef M2C_SELF_func_020aa3d4
-void func_020aa3d4(void);
-#endif
-#ifndef M2C_SELF_func_020aa3dc
-void func_020aa3dc(void);
-#endif
-#ifndef M2C_SELF_func_020aa3e4
-void func_020aa3e4(void);
-#endif
-#ifndef M2C_SELF_func_020aa3ec
-void func_020aa3ec(void);
-#endif
-#ifndef M2C_SELF_func_020aa3f4
-void func_020aa3f4(void);
-#endif
-#ifndef M2C_SELF_func_020aa3fc
-void func_020aa3fc(void);
-#endif
-#ifndef M2C_SELF_func_020aa400
-void func_020aa400(void);
-#endif
-#ifndef M2C_SELF_func_020aa408
-void func_020aa408(void);
-#endif
-#ifndef M2C_SELF_func_020aa410
-void func_020aa410(void);
-#endif
-#ifndef M2C_SELF_func_020aa414
-void func_020aa414(void);
-#endif
-#ifndef M2C_SELF_func_020aa418
-void func_020aa418(void);
-#endif
-#ifndef M2C_SELF_func_020aa420
-void func_020aa420(void);
-#endif
 #ifndef M2C_SELF_func_020aa424
 void func_020aa424(void);
-#endif
-#ifndef M2C_SELF_func_020aa43c
-void func_020aa43c(void);
-#endif
-#ifndef M2C_SELF_func_020aa444
-void func_020aa444(void);
-#endif
-#ifndef M2C_SELF_func_020aa44c
-void func_020aa44c(void);
-#endif
-#ifndef M2C_SELF_func_020aa450
-void func_020aa450(void);
-#endif
-#ifndef M2C_SELF_func_020aa458
-void func_020aa458(void);
-#endif
-#ifndef M2C_SELF_func_020aa460
-void func_020aa460(void);
-#endif
-#ifndef M2C_SELF_func_020aa464
-void func_020aa464(void);
-#endif
-#ifndef M2C_SELF_func_020aa46c
-void func_020aa46c(void);
-#endif
-#ifndef M2C_SELF_func_020aa470
-void func_020aa470(void);
-#endif
-#ifndef M2C_SELF_func_020aa478
-void func_020aa478(void);
-#endif
-#ifndef M2C_SELF_func_020aa47c
-void func_020aa47c(void);
-#endif
-#ifndef M2C_SELF_func_020aa484
-void func_020aa484(void);
-#endif
-#ifndef M2C_SELF_func_020aa488
-void func_020aa488(void);
-#endif
-#ifndef M2C_SELF_func_020aa490
-void func_020aa490(void);
-#endif
-#ifndef M2C_SELF_func_020aa494
-void func_020aa494(void);
 #endif
 #ifndef M2C_SELF_func_020aa498
 M2C_UNK func_020aa498(void);
@@ -7119,26 +10572,11 @@ void func_020aa534(M2C_UNK);
 #ifndef M2C_SELF_func_020aa560
 void func_020aa560(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aa594
-void func_020aa594(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa5a8
-void func_020aa5a8(void);
-#endif
-#ifndef M2C_SELF_func_020aa5ac
-void func_020aa5ac(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020aa5d4
 void func_020aa5d4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aa610
-void func_020aa610(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020aa638
 void func_020aa638(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa674
-void func_020aa674(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020aa6ac
 void func_020aa6ac(M2C_UNK, M2C_UNK);
@@ -7146,20 +10584,8 @@ void func_020aa6ac(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020aa6f4
 void func_020aa6f4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aa740
-void func_020aa740(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa778
-void func_020aa778(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa7b0
-void func_020aa7b0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020aa7dc
 void func_020aa7dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa820
-void func_020aa820(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020aa854
 void func_020aa854(M2C_UNK);
@@ -7167,62 +10593,11 @@ void func_020aa854(M2C_UNK);
 #ifndef M2C_SELF_func_020aa884
 void func_020aa884(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aa8c8
-void func_020aa8c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa8fc
-void func_020aa8fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa930
-void func_020aa930(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020aa964
 void func_020aa964(void);
 #endif
-#ifndef M2C_SELF_func_020aa9a0
-void func_020aa9a0(void);
-#endif
-#ifndef M2C_SELF_func_020aa9cc
-void func_020aa9cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa9e8
-void func_020aa9e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aa9fc
-void func_020aa9fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aaa18
-void func_020aaa18(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aaa2c
-void func_020aaa2c(void);
-#endif
-#ifndef M2C_SELF_func_020aaa30
-void func_020aaa30(void);
-#endif
-#ifndef M2C_SELF_func_020aaa34
-void func_020aaa34(void);
-#endif
-#ifndef M2C_SELF_func_020aaa38
-void func_020aaa38(void);
-#endif
-#ifndef M2C_SELF_func_020aaa40
-void func_020aaa40(void);
-#endif
-#ifndef M2C_SELF_func_020aaa48
-void func_020aaa48(void);
-#endif
-#ifndef M2C_SELF_func_020aaa50
-void func_020aaa50(void);
-#endif
-#ifndef M2C_SELF_func_020aaa54
-M2C_UNK func_020aaa54(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020aaca8
-M2C_UNK func_020aaca8(void);
-#endif
-#ifndef M2C_SELF_func_020aae1c
-void func_020aae1c(void);
+void func_020aaca8(void);
 #endif
 #ifndef M2C_SELF_func_020aae40
 M2C_UNK func_020aae40(M2C_UNK);
@@ -7242,62 +10617,17 @@ M2C_UNK func_020aafe4(void);
 #ifndef M2C_SELF_func_020ab0ac
 M2C_UNK func_020ab0ac(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ab17c
-void func_020ab17c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab188
-void func_020ab188(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab194
-void func_020ab194(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab1a0
-void func_020ab1a0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab1d4
-void func_020ab1d4(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ab218
 M2C_UNK func_020ab218(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab304
-M2C_UNK func_020ab304(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab318
-M2C_UNK func_020ab318(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ab32c
 void func_020ab32c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ab490
-void func_020ab490(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab49c
-void func_020ab49c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab4a8
-void func_020ab4a8(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ab4b4
 void func_020ab4b4(void);
 #endif
-#ifndef M2C_SELF_func_020ab578
-M2C_UNK func_020ab578(void);
-#endif
-#ifndef M2C_SELF_func_020ab58c
-M2C_UNK func_020ab58c(void);
-#endif
 #ifndef M2C_SELF_func_020ab59c
 M2C_UNK func_020ab59c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ab6c0
-M2C_UNK func_020ab6c0(void);
-#endif
-#ifndef M2C_SELF_func_020ab78c
-M2C_UNK func_020ab78c(void);
-#endif
-#ifndef M2C_SELF_func_020ab7a0
-M2C_UNK func_020ab7a0(void);
 #endif
 #ifndef M2C_SELF_func_020ab860
 void func_020ab860(M2C_UNK, M2C_UNK);
@@ -7317,12 +10647,6 @@ M2C_UNK func_020ac0d4(M2C_UNK);
 #ifndef M2C_SELF_func_020ac304
 void func_020ac304(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ac4d0
-void func_020ac4d0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ac4e4
-M2C_UNK func_020ac4e4(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ac4f8
 M2C_UNK func_020ac4f8(M2C_UNK);
 #endif
@@ -7332,71 +10656,11 @@ M2C_UNK func_020ac57c(M2C_UNK);
 #ifndef M2C_SELF_func_020ac5fc
 M2C_UNK func_020ac5fc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ac66c
-M2C_UNK func_020ac66c(void);
-#endif
-#ifndef M2C_SELF_func_020ac678
-M2C_UNK func_020ac678(void);
-#endif
 #ifndef M2C_SELF_func_020ac6d0
 M2C_UNK func_020ac6d0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020acfac
-void func_020acfac(void);
-#endif
-#ifndef M2C_SELF_func_020acfb0
-void func_020acfb0(void);
-#endif
-#ifndef M2C_SELF_func_020acfb4
-void func_020acfb4(void);
-#endif
-#ifndef M2C_SELF_func_020acfb8
-void func_020acfb8(void);
-#endif
-#ifndef M2C_SELF_func_020acfbc
-void func_020acfbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020acfd0
-void func_020acfd0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020acfe4
-void func_020acfe4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020acff8
-void func_020acff8(void);
-#endif
-#ifndef M2C_SELF_func_020acffc
-void func_020acffc(void);
-#endif
-#ifndef M2C_SELF_func_020ad000
-void func_020ad000(void);
-#endif
-#ifndef M2C_SELF_func_020ad004
-void func_020ad004(void);
-#endif
-#ifndef M2C_SELF_func_020ad008
-void func_020ad008(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ad01c
-void func_020ad01c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ad030
-void func_020ad030(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ad044
-void func_020ad044(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ad058
-void func_020ad058(void);
-#endif
 #ifndef M2C_SELF_func_020ad05c
 void func_020ad05c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ad0b0
-void func_020ad0b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ad14c
-void func_020ad14c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ad1f0
 void func_020ad1f0(M2C_UNK);
@@ -7404,404 +10668,11 @@ void func_020ad1f0(M2C_UNK);
 #ifndef M2C_SELF_func_020ae25c
 void func_020ae25c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020aed24
-void func_020aed24(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed2c
-void func_020aed2c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed34
-void func_020aed34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed3c
-void func_020aed3c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed44
-void func_020aed44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed4c
-void func_020aed4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed54
-void func_020aed54(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed5c
-void func_020aed5c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed64
-void func_020aed64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed6c
-void func_020aed6c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed80
-void func_020aed80(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aed94
-void func_020aed94(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeda8
-void func_020aeda8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aedbc
-void func_020aedbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aedd0
-void func_020aedd0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aede4
-void func_020aede4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aedf8
-void func_020aedf8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee0c
-void func_020aee0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee20
-void func_020aee20(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee34
-void func_020aee34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee48
-void func_020aee48(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee5c
-void func_020aee5c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee70
-void func_020aee70(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee84
-void func_020aee84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aee98
-void func_020aee98(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeeac
-void func_020aeeac(void);
-#endif
-#ifndef M2C_SELF_func_020aeeb0
-void func_020aeeb0(void);
-#endif
-#ifndef M2C_SELF_func_020aeeb4
-void func_020aeeb4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeec8
-void func_020aeec8(void);
-#endif
-#ifndef M2C_SELF_func_020aeecc
-void func_020aeecc(void);
-#endif
-#ifndef M2C_SELF_func_020aeed4
-void func_020aeed4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeee0
-void func_020aeee0(void);
-#endif
-#ifndef M2C_SELF_func_020aeee8
-void func_020aeee8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeef0
-void func_020aeef0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeef8
-void func_020aeef8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef00
-void func_020aef00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef08
-void func_020aef08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef18
-void func_020aef18(void);
-#endif
-#ifndef M2C_SELF_func_020aef20
-void func_020aef20(void);
-#endif
-#ifndef M2C_SELF_func_020aef28
-void func_020aef28(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef30
-void func_020aef30(void);
-#endif
-#ifndef M2C_SELF_func_020aef38
-void func_020aef38(void);
-#endif
-#ifndef M2C_SELF_func_020aef40
-void func_020aef40(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef48
-void func_020aef48(void);
-#endif
-#ifndef M2C_SELF_func_020aef50
-void func_020aef50(void);
-#endif
-#ifndef M2C_SELF_func_020aef58
-void func_020aef58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef60
-void func_020aef60(void);
-#endif
-#ifndef M2C_SELF_func_020aef68
-void func_020aef68(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef74
-void func_020aef74(void);
-#endif
-#ifndef M2C_SELF_func_020aef7c
-void func_020aef7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef84
-void func_020aef84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef8c
-void func_020aef8c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef94
-void func_020aef94(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aef9c
-void func_020aef9c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aefac
-void func_020aefac(void);
-#endif
-#ifndef M2C_SELF_func_020aefb4
-void func_020aefb4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aefc0
-void func_020aefc0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aefcc
-void func_020aefcc(void);
-#endif
-#ifndef M2C_SELF_func_020aefd4
-void func_020aefd4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aefdc
-void func_020aefdc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aefe4
-void func_020aefe4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aefec
-void func_020aefec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020aeff4
-void func_020aeff4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af004
-void func_020af004(void);
-#endif
-#ifndef M2C_SELF_func_020af00c
-void func_020af00c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af018
-void func_020af018(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af024
-void func_020af024(void);
-#endif
-#ifndef M2C_SELF_func_020af02c
-void func_020af02c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af038
-void func_020af038(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af044
-void func_020af044(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af04c
-void func_020af04c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af054
-void func_020af054(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af064
-void func_020af064(void);
-#endif
-#ifndef M2C_SELF_func_020af06c
-void func_020af06c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af074
-void func_020af074(void);
-#endif
-#ifndef M2C_SELF_func_020af07c
-void func_020af07c(void);
-#endif
-#ifndef M2C_SELF_func_020af084
-void func_020af084(void);
-#endif
-#ifndef M2C_SELF_func_020af08c
-void func_020af08c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af094
-void func_020af094(void);
-#endif
-#ifndef M2C_SELF_func_020af09c
-void func_020af09c(void);
-#endif
-#ifndef M2C_SELF_func_020af0a4
-void func_020af0a4(void);
-#endif
-#ifndef M2C_SELF_func_020af0ac
-void func_020af0ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af0b4
-void func_020af0b4(void);
-#endif
-#ifndef M2C_SELF_func_020af0bc
-void func_020af0bc(void);
-#endif
-#ifndef M2C_SELF_func_020af0c4
-void func_020af0c4(void);
-#endif
-#ifndef M2C_SELF_func_020af0d0
-void func_020af0d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af0d8
-void func_020af0d8(void);
-#endif
-#ifndef M2C_SELF_func_020af0e4
-void func_020af0e4(void);
-#endif
-#ifndef M2C_SELF_func_020af0ec
-void func_020af0ec(void);
-#endif
-#ifndef M2C_SELF_func_020af0f4
-void func_020af0f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af0fc
-void func_020af0fc(void);
-#endif
-#ifndef M2C_SELF_func_020af104
-void func_020af104(void);
-#endif
-#ifndef M2C_SELF_func_020af10c
-void func_020af10c(void);
-#endif
-#ifndef M2C_SELF_func_020af114
-void func_020af114(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af11c
-void func_020af11c(void);
-#endif
-#ifndef M2C_SELF_func_020af124
-void func_020af124(void);
-#endif
-#ifndef M2C_SELF_func_020af12c
-void func_020af12c(void);
-#endif
-#ifndef M2C_SELF_func_020af134
-void func_020af134(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af13c
-void func_020af13c(void);
-#endif
-#ifndef M2C_SELF_func_020af144
-void func_020af144(void);
-#endif
-#ifndef M2C_SELF_func_020af14c
-void func_020af14c(void);
-#endif
-#ifndef M2C_SELF_func_020af154
-void func_020af154(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af15c
-void func_020af15c(void);
-#endif
-#ifndef M2C_SELF_func_020af164
-void func_020af164(void);
-#endif
-#ifndef M2C_SELF_func_020af16c
-void func_020af16c(void);
-#endif
-#ifndef M2C_SELF_func_020af174
-void func_020af174(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af17c
-void func_020af17c(void);
-#endif
-#ifndef M2C_SELF_func_020af184
-void func_020af184(void);
-#endif
 #ifndef M2C_SELF_func_020af18c
 void func_020af18c(void);
 #endif
-#ifndef M2C_SELF_func_020af1a0
-void func_020af1a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1bc
-void func_020af1bc(void);
-#endif
-#ifndef M2C_SELF_func_020af1c0
-void func_020af1c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1d4
-void func_020af1d4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1dc
-void func_020af1dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1e4
-void func_020af1e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1ec
-void func_020af1ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1f4
-void func_020af1f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af1fc
-void func_020af1fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af204
-void func_020af204(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af20c
-void func_020af20c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af214
-void func_020af214(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af21c
-void func_020af21c(void);
-#endif
-#ifndef M2C_SELF_func_020af220
-void func_020af220(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af234
-void func_020af234(void);
-#endif
-#ifndef M2C_SELF_func_020af238
-void func_020af238(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af24c
-void func_020af24c(void);
-#endif
-#ifndef M2C_SELF_func_020af250
-void func_020af250(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af264
-void func_020af264(void);
-#endif
-#ifndef M2C_SELF_func_020af268
-void func_020af268(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af27c
-void func_020af27c(void);
-#endif
 #ifndef M2C_SELF_func_020af280
 void func_020af280(void);
-#endif
-#ifndef M2C_SELF_func_020af294
-void func_020af294(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020af2a8
-void func_020af2a8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020af2cc
 void func_020af2cc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -7833,29 +10704,14 @@ void func_020b006c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020b00f0
 M2C_UNK func_020b00f0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b0174
-M2C_UNK func_020b0174(void);
-#endif
-#ifndef M2C_SELF_func_020b018c
-void func_020b018c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b01a4
 void func_020b01a4(void);
-#endif
-#ifndef M2C_SELF_func_020b01d0
-M2C_UNK func_020b01d0(void);
 #endif
 #ifndef M2C_SELF_func_020b0220
 M2C_UNK func_020b0220(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b025c
 void func_020b025c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b0280
-void func_020b0280(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b02b8
-M2C_UNK func_020b02b8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b02d4
 void func_020b02d4(M2C_UNK, M2C_UNK);
@@ -7866,9 +10722,6 @@ M2C_UNK func_020b032c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020b0394
 void func_020b0394(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b0440
-void func_020b0440(void);
-#endif
 #ifndef M2C_SELF_func_020b0490
 void func_020b0490(M2C_UNK);
 #endif
@@ -7878,14 +10731,8 @@ void func_020b0554(M2C_UNK);
 #ifndef M2C_SELF_func_020b07e0
 void func_020b07e0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b0ba4
-M2C_UNK func_020b0ba4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b0bf4
 void func_020b0bf4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b0d0c
-void func_020b0d0c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b0d58
 void func_020b0d58(M2C_UNK);
@@ -7920,29 +10767,14 @@ void func_020b1430(void);
 #ifndef M2C_SELF_func_020b1498
 void func_020b1498(void);
 #endif
-#ifndef M2C_SELF_func_020b1528
-void func_020b1528(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b1574
 void func_020b1574(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b15d4
-M2C_UNK func_020b15d4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b1620
-void func_020b1620(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b16a8
 M2C_UNK func_020b16a8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b1958
 void func_020b1958(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b1a34
-void func_020b1a34(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b1ab8
-void func_020b1ab8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b1b60
 M2C_UNK func_020b1b60(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -7953,9 +10785,6 @@ M2C_UNK func_020b21ec(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020b24c8
 M2C_UNK func_020b24c8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b25d0
-M2C_UNK func_020b25d0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b2670
 M2C_UNK func_020b2670(void);
 #endif
@@ -7964,12 +10793,6 @@ M2C_UNK func_020b26fc(void);
 #endif
 #ifndef M2C_SELF_func_020b2780
 void func_020b2780(void);
-#endif
-#ifndef M2C_SELF_func_020b289c
-M2C_UNK func_020b289c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b28b4
-M2C_UNK func_020b28b4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b28d8
 M2C_UNK func_020b28d8(M2C_UNK);
@@ -7986,23 +10809,11 @@ M2C_UNK func_020b2a54(M2C_UNK);
 #ifndef M2C_SELF_func_020b2ab0
 M2C_UNK func_020b2ab0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b2b08
-M2C_UNK func_020b2b08(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b2b50
 M2C_UNK func_020b2b50(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b2dc8
-M2C_UNK func_020b2dc8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b2e10
-M2C_UNK func_020b2e10(void);
-#endif
-#ifndef M2C_SELF_func_020b2e18
-M2C_UNK func_020b2e18(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b2f20
-M2C_UNK func_020b2f20(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_020b2f20(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b2f40
 M2C_UNK func_020b2f40(M2C_UNK);
@@ -8013,20 +10824,11 @@ M2C_UNK func_020b3428(M2C_UNK);
 #ifndef M2C_SELF_func_020b3454
 M2C_UNK func_020b3454(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b3480
-M2C_UNK func_020b3480(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b35a0
-M2C_UNK func_020b35a0(M2C_UNK);
+void func_020b35a0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b4c08
 void func_020b4c08(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b5190
-M2C_UNK func_020b5190(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b51f4
-M2C_UNK func_020b51f4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b5210
 M2C_UNK func_020b5210(M2C_UNK);
@@ -8036,9 +10838,6 @@ M2C_UNK func_020b524c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b5288
 M2C_UNK func_020b5288(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b52a0
-M2C_UNK func_020b52a0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b52b8
 M2C_UNK func_020b52b8(M2C_UNK);
@@ -8051,9 +10850,6 @@ M2C_UNK func_020b621c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b6960
 void func_020b6960(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b6a50
-void func_020b6a50(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b6a84
 void func_020b6a84(M2C_UNK);
@@ -8069,9 +10865,6 @@ void func_020b6b0c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b6b44
 void func_020b6b44(void);
-#endif
-#ifndef M2C_SELF_func_020b6b58
-void func_020b6b58(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b6b7c
 void func_020b6b7c(M2C_UNK);
@@ -8094,45 +10887,6 @@ void func_020b9200(M2C_UNK);
 #ifndef M2C_SELF_func_020b9744
 void func_020b9744(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b9784
-void func_020b9784(void);
-#endif
-#ifndef M2C_SELF_func_020b97b4
-void func_020b97b4(void);
-#endif
-#ifndef M2C_SELF_func_020b97e4
-M2C_UNK func_020b97e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9800
-void func_020b9800(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9850
-void func_020b9850(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9858
-M2C_UNK func_020b9858(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9868
-M2C_UNK func_020b9868(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9890
-M2C_UNK func_020b9890(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b98b8
-M2C_UNK func_020b98b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b98f0
-M2C_UNK func_020b98f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9928
-M2C_UNK func_020b9928(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9960
-M2C_UNK func_020b9960(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9990
-void func_020b9990(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020b99c8
 void func_020b99c8(M2C_UNK);
 #endif
@@ -8144,9 +10898,6 @@ M2C_UNK func_020b9b04(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b9b64
 void func_020b9b64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9be0
-void func_020b9be0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b9c70
 void func_020b9c70(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8160,59 +10911,14 @@ void func_020b9d14(M2C_UNK);
 #ifndef M2C_SELF_func_020b9d48
 void func_020b9d48(void);
 #endif
-#ifndef M2C_SELF_func_020b9d8c
-M2C_UNK func_020b9d8c(void);
-#endif
-#ifndef M2C_SELF_func_020b9dd0
-M2C_UNK func_020b9dd0(void);
-#endif
 #ifndef M2C_SELF_func_020b9de8
 void func_020b9de8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9e2c
-M2C_UNK func_020b9e2c(void);
 #endif
 #ifndef M2C_SELF_func_020b9e68
 void func_020b9e68(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020b9e9c
-void func_020b9e9c(void);
-#endif
 #ifndef M2C_SELF_func_020b9eb4
 void func_020b9eb4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b9fa0
-M2C_UNK func_020b9fa0(void);
-#endif
-#ifndef M2C_SELF_func_020b9fc0
-M2C_UNK func_020b9fc0(void);
-#endif
-#ifndef M2C_SELF_func_020b9ff0
-M2C_UNK func_020b9ff0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ba114
-void func_020ba114(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ba12c
-M2C_UNK func_020ba12c(void);
-#endif
-#ifndef M2C_SELF_func_020ba140
-M2C_UNK func_020ba140(void);
-#endif
-#ifndef M2C_SELF_func_020ba154
-void func_020ba154(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ba168
-M2C_UNK func_020ba168(void);
-#endif
-#ifndef M2C_SELF_func_020ba17c
-M2C_UNK func_020ba17c(void);
-#endif
-#ifndef M2C_SELF_func_020ba190
-M2C_UNK func_020ba190(void);
-#endif
-#ifndef M2C_SELF_func_020ba1a4
-M2C_UNK func_020ba1a4(void);
 #endif
 #ifndef M2C_SELF_func_020ba1b8
 void func_020ba1b8(M2C_UNK);
@@ -8220,26 +10926,8 @@ void func_020ba1b8(M2C_UNK);
 #ifndef M2C_SELF_func_020ba278
 void func_020ba278(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ba2a8
-void func_020ba2a8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ba2e4
 void func_020ba2e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ba308
-void func_020ba308(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ba324
-M2C_UNK func_020ba324(void);
-#endif
-#ifndef M2C_SELF_func_020ba338
-M2C_UNK func_020ba338(void);
-#endif
-#ifndef M2C_SELF_func_020ba34c
-M2C_UNK func_020ba34c(void);
-#endif
-#ifndef M2C_SELF_func_020ba360
-M2C_UNK func_020ba360(void);
 #endif
 #ifndef M2C_SELF_func_020ba374
 void func_020ba374(M2C_UNK);
@@ -8250,20 +10938,8 @@ void func_020ba3a8(M2C_UNK);
 #ifndef M2C_SELF_func_020ba3d8
 void func_020ba3d8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ba40c
-M2C_UNK func_020ba40c(void);
-#endif
 #ifndef M2C_SELF_func_020ba430
 void func_020ba430(void);
-#endif
-#ifndef M2C_SELF_func_020ba5cc
-void func_020ba5cc(void);
-#endif
-#ifndef M2C_SELF_func_020ba5ec
-void func_020ba5ec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ba608
-void func_020ba608(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ba628
 M2C_UNK func_020ba628(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8295,9 +10971,6 @@ M2C_UNK func_020bb9fc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020bbcb4
 void func_020bbcb4(void);
 #endif
-#ifndef M2C_SELF_func_020bbd64
-void func_020bbd64(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020bbe04
 void func_020bbe04(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -8313,9 +10986,6 @@ void func_020bc1cc(void);
 #ifndef M2C_SELF_func_020bc9f8
 void func_020bc9f8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020bcb74
-void func_020bcb74(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020bcc2c
 void func_020bcc2c(M2C_UNK);
 #endif
@@ -8330,9 +11000,6 @@ void func_020bd4f4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020bd60c
 M2C_UNK func_020bd60c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020bd73c
-void func_020bd73c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020bd7b0
 void func_020bd7b0(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8373,20 +11040,14 @@ M2C_UNK func_020be02c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020be0c8
 M2C_UNK func_020be0c8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020be260
-void func_020be260(void);
-#endif
 #ifndef M2C_SELF_func_020be2c0
 M2C_UNK func_020be2c0(void);
 #endif
 #ifndef M2C_SELF_func_020be378
-M2C_UNK func_020be378(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_020be378(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020be408
 M2C_UNK func_020be408(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020be620
-void func_020be620(void);
 #endif
 #ifndef M2C_SELF_func_020be680
 M2C_UNK func_020be680(void);
@@ -8397,20 +11058,11 @@ M2C_UNK func_020be7ac(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020be888
 M2C_UNK func_020be888(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020bea40
-void func_020bea40(void);
-#endif
 #ifndef M2C_SELF_func_020beaa0
 M2C_UNK func_020beaa0(void);
 #endif
 #ifndef M2C_SELF_func_020bebb4
 M2C_UNK func_020bebb4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020bec70
-void func_020bec70(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020bed1c
-M2C_UNK func_020bed1c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020beddc
 void func_020beddc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8418,23 +11070,14 @@ void func_020beddc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020beeac
 void func_020beeac(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020befcc
-void func_020befcc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020bf048
 void func_020bf048(void);
 #endif
 #ifndef M2C_SELF_func_020bf214
 M2C_UNK func_020bf214(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020bf270
-M2C_UNK func_020bf270(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020bf288
 M2C_UNK func_020bf288(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020bf2fc
-M2C_UNK func_020bf2fc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020bf330
 M2C_UNK func_020bf330(M2C_UNK);
@@ -8466,12 +11109,6 @@ M2C_UNK func_020bfb94(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020bfc80
 M2C_UNK func_020bfc80(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020bfd18
-M2C_UNK func_020bfd18(void);
-#endif
-#ifndef M2C_SELF_func_020bfd30
-M2C_UNK func_020bfd30(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020bfd54
 M2C_UNK func_020bfd54(M2C_UNK);
 #endif
@@ -8487,9 +11124,6 @@ void func_020c07ec(M2C_UNK);
 #ifndef M2C_SELF_func_020c0838
 M2C_UNK func_020c0838(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c0d24
-M2C_UNK func_020c0d24(void);
-#endif
 #ifndef M2C_SELF_func_020c0d6c
 void func_020c0d6c(M2C_UNK);
 #endif
@@ -8501,12 +11135,6 @@ void func_020c0e04(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c0e50
 void func_020c0e50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c0e94
-void func_020c0e94(void);
-#endif
-#ifndef M2C_SELF_func_020c0e98
-void func_020c0e98(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c0eac
 void func_020c0eac(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8520,32 +11148,11 @@ M2C_UNK func_020c0f30(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c1b78
 void func_020c1b78(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c27a8
-void func_020c27a8(void);
-#endif
 #ifndef M2C_SELF_func_020c27f8
 M2C_UNK func_020c27f8(void);
 #endif
-#ifndef M2C_SELF_func_020c2868
-void func_020c2868(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c28a8
-M2C_UNK func_020c28a8(void);
-#endif
 #ifndef M2C_SELF_func_020c28dc
 M2C_UNK func_020c28dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c2910
-void func_020c2910(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c2940
-void func_020c2940(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c2970
-void func_020c2970(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c29a4
-void func_020c29a4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c29d4
 M2C_UNK func_020c29d4(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8565,119 +11172,29 @@ M2C_UNK func_020c3058(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c30d8
 M2C_UNK func_020c30d8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c3158
-void func_020c3158(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c3194
 M2C_UNK func_020c3194(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c3200
-M2C_UNK func_020c3200(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c325c
-M2C_UNK func_020c325c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c332c
-M2C_UNK func_020c332c(void);
-#endif
-#ifndef M2C_SELF_func_020c3338
-void func_020c3338(M2C_UNK, M2C_UNK);
+void func_020c3200(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c3390
 void func_020c3390(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c3634
-M2C_UNK func_020c3634(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c368c
-M2C_UNK func_020c368c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c36e4
-M2C_UNK func_020c36e4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c373c
-M2C_UNK func_020c373c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3794
-void func_020c3794(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c3ab4
-M2C_UNK func_020c3ab4(M2C_UNK, M2C_UNK);
+void func_020c3ab4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c3be4
-M2C_UNK func_020c3be4(M2C_UNK, M2C_UNK);
+void func_020c3be4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c3d14
-M2C_UNK func_020c3d14(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3e44
-void func_020c3e44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3e58
-void func_020c3e58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3e6c
-void func_020c3e6c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3e80
-void func_020c3e80(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3e94
-void func_020c3e94(M2C_UNK);
+void func_020c3d14(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c3ea8
-M2C_UNK func_020c3ea8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c3f6c
-void func_020c3f6c(M2C_UNK, M2C_UNK);
+void func_020c3ea8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c3f80
-M2C_UNK func_020c3f80(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4044
-void func_020c4044(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4058
-void func_020c4058(void);
-#endif
-#ifndef M2C_SELF_func_020c405c
-void func_020c405c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4070
-void func_020c4070(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4084
-M2C_UNK func_020c4084(void);
-#endif
-#ifndef M2C_SELF_func_020c4090
-M2C_UNK func_020c4090(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c40ac
-M2C_UNK func_020c40ac(void);
-#endif
-#ifndef M2C_SELF_func_020c40b8
-M2C_UNK func_020c40b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c40dc
-void func_020c40dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c40fc
-void func_020c40fc(void);
-#endif
-#ifndef M2C_SELF_func_020c4118
-void func_020c4118(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4134
-void func_020c4134(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4154
-void func_020c4154(void);
-#endif
-#ifndef M2C_SELF_func_020c4170
-void func_020c4170(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c418c
-void func_020c418c(void);
+void func_020c3f80(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c4198
 M2C_UNK func_020c4198(M2C_UNK);
@@ -8694,29 +11211,14 @@ void func_020c446c(void);
 #ifndef M2C_SELF_func_020c4520
 M2C_UNK func_020c4520(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c4540
-void func_020c4540(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c4564
 void func_020c4564(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4738
-M2C_UNK func_020c4738(void);
-#endif
-#ifndef M2C_SELF_func_020c4744
-M2C_UNK func_020c4744(void);
-#endif
-#ifndef M2C_SELF_func_020c4750
-M2C_UNK func_020c4750(void);
 #endif
 #ifndef M2C_SELF_func_020c475c
 M2C_UNK func_020c475c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c4910
 M2C_UNK func_020c4910(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4964
-M2C_UNK func_020c4964(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c49a4
 void func_020c49a4(M2C_UNK, M2C_UNK);
@@ -8730,32 +11232,11 @@ void func_020c4a20(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c4a60
 M2C_UNK func_020c4a60(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c4a98
-M2C_UNK func_020c4a98(void);
-#endif
 #ifndef M2C_SELF_func_020c4ab0
-M2C_UNK func_020c4ab0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4ae8
-M2C_UNK func_020c4ae8(void);
-#endif
-#ifndef M2C_SELF_func_020c4b00
-M2C_UNK func_020c4b00(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4b38
-M2C_UNK func_020c4b38(void);
-#endif
-#ifndef M2C_SELF_func_020c4b50
-void func_020c4b50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+void func_020c4ab0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c4b94
 void func_020c4b94(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4bb8
-void func_020c4bb8(void);
-#endif
-#ifndef M2C_SELF_func_020c4bcc
-void func_020c4bcc(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c4bf0
 void func_020c4bf0(M2C_UNK);
@@ -8766,68 +11247,11 @@ void func_020c4c24(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c4c4c
 void func_020c4c4c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c4c80
-M2C_UNK func_020c4c80(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4c9c
-M2C_UNK func_020c4c9c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4cac
-void func_020c4cac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4cc0
-M2C_UNK func_020c4cc0(void);
-#endif
 #ifndef M2C_SELF_func_020c4ce0
 void func_020c4ce0(void);
 #endif
-#ifndef M2C_SELF_func_020c4d38
-M2C_UNK func_020c4d38(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4d58
-M2C_UNK func_020c4d58(void);
-#endif
-#ifndef M2C_SELF_func_020c4d78
-void func_020c4d78(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4d94
-void func_020c4d94(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4de4
-M2C_UNK func_020c4de4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4e08
-M2C_UNK func_020c4e08(void);
-#endif
-#ifndef M2C_SELF_func_020c4e28
-void func_020c4e28(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4e44
-void func_020c4e44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4e94
-M2C_UNK func_020c4e94(void);
-#endif
-#ifndef M2C_SELF_func_020c4eac
-M2C_UNK func_020c4eac(void);
-#endif
 #ifndef M2C_SELF_func_020c4ec4
 void func_020c4ec4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4f58
-void func_020c4f58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4f9c
-M2C_UNK func_020c4f9c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4fc0
-M2C_UNK func_020c4fc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c4fdc
-void func_020c4fdc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c5008
-void func_020c5008(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c505c
 M2C_UNK func_020c505c(M2C_UNK);
@@ -8838,17 +11262,8 @@ void func_020c512c(M2C_UNK);
 #ifndef M2C_SELF_func_020c52e4
 M2C_UNK func_020c52e4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c5368
-void func_020c5368(void);
-#endif
-#ifndef M2C_SELF_func_020c53f4
-void func_020c53f4(void);
-#endif
 #ifndef M2C_SELF_func_020c5568
 void func_020c5568(void);
-#endif
-#ifndef M2C_SELF_func_020c5794
-M2C_UNK func_020c5794(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c57c4
 void func_020c57c4(M2C_UNK);
@@ -8856,29 +11271,14 @@ void func_020c57c4(M2C_UNK);
 #ifndef M2C_SELF_func_020c57f4
 void func_020c57f4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c5828
-M2C_UNK func_020c5828(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c5844
-void func_020c5844(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c5860
 void func_020c5860(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c5894
 void func_020c5894(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c58c8
-M2C_UNK func_020c58c8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c58e4
 void func_020c58e4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c5928
-M2C_UNK func_020c5928(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c5944
-void func_020c5944(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c596c
 M2C_UNK func_020c596c(void);
@@ -8888,9 +11288,6 @@ void func_020c5998(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c59e8
 M2C_UNK func_020c59e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c5a4c
-M2C_UNK func_020c5a4c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c5b2c
 void func_020c5b2c(M2C_UNK);
@@ -8904,18 +11301,6 @@ void func_020c5cbc(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c5cfc
 M2C_UNK func_020c5cfc(void);
 #endif
-#ifndef M2C_SELF_func_020c5d38
-M2C_UNK func_020c5d38(void);
-#endif
-#ifndef M2C_SELF_func_020c5d4c
-M2C_UNK func_020c5d4c(void);
-#endif
-#ifndef M2C_SELF_func_020c5d60
-void func_020c5d60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c5d74
-void func_020c5d74(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c5d88
 void func_020c5d88(void);
 #endif
@@ -8924,12 +11309,6 @@ M2C_UNK func_020c5e10(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c61cc
 void func_020c61cc(void);
-#endif
-#ifndef M2C_SELF_func_020c6288
-M2C_UNK func_020c6288(void);
-#endif
-#ifndef M2C_SELF_func_020c62a8
-void func_020c62a8(void);
 #endif
 #ifndef M2C_SELF_func_020c62fc
 void func_020c62fc(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -8949,41 +11328,8 @@ void func_020c749c(void);
 #ifndef M2C_SELF_func_020c7660
 M2C_UNK func_020c7660(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c7680
-void func_020c7680(void);
-#endif
-#ifndef M2C_SELF_func_020c76b4
-void func_020c76b4(void);
-#endif
 #ifndef M2C_SELF_func_020c76d8
 void func_020c76d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7704
-M2C_UNK func_020c7704(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7724
-void func_020c7724(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7734
-void func_020c7734(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7770
-void func_020c7770(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c77ac
-void func_020c77ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c77ec
-M2C_UNK func_020c77ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c77fc
-void func_020c77fc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7850
-void func_020c7850(void);
-#endif
-#ifndef M2C_SELF_func_020c7864
-void func_020c7864(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c7880
 M2C_UNK func_020c7880(M2C_UNK);
@@ -8991,17 +11337,11 @@ M2C_UNK func_020c7880(M2C_UNK);
 #ifndef M2C_SELF_func_020c78fc
 M2C_UNK func_020c78fc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c796c
-void func_020c796c(void);
-#endif
 #ifndef M2C_SELF_func_020c7970
 void func_020c7970(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c79bc
 void func_020c79bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7aa4
-void func_020c7aa4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c7aec
 void func_020c7aec(M2C_UNK);
@@ -9012,29 +11352,8 @@ void func_020c7b28(M2C_UNK);
 #ifndef M2C_SELF_func_020c7b6c
 void func_020c7b6c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c7bc0
-void func_020c7bc0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7bcc
-void func_020c7bcc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7bd8
-M2C_UNK func_020c7bd8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7be8
-void func_020c7be8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7c14
-M2C_UNK func_020c7c14(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7c24
-void func_020c7c24(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c7c50
 M2C_UNK func_020c7c50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7c80
-M2C_UNK func_020c7c80(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c7cb0
 M2C_UNK func_020c7cb0(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -9042,32 +11361,11 @@ M2C_UNK func_020c7cb0(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c7d08
 void func_020c7d08(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c7f68
-M2C_UNK func_020c7f68(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c7f7c
-M2C_UNK func_020c7f7c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c7fd4
 void func_020c7fd4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c8258
-M2C_UNK func_020c8258(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c826c
-void func_020c826c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c8288
 void func_020c8288(void);
-#endif
-#ifndef M2C_SELF_func_020c829c
-void func_020c829c(void);
-#endif
-#ifndef M2C_SELF_func_020c82a0
-void func_020c82a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c82b4
-void func_020c82b4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c82c8
 void func_020c82c8(M2C_UNK);
@@ -9075,110 +11373,14 @@ void func_020c82c8(M2C_UNK);
 #ifndef M2C_SELF_func_020c830c
 void func_020c830c(void);
 #endif
-#ifndef M2C_SELF_func_020c8320
-void func_020c8320(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c8344
-void func_020c8344(void);
-#endif
-#ifndef M2C_SELF_func_020c8374
-void func_020c8374(void);
-#endif
 #ifndef M2C_SELF_func_020c83b0
 void func_020c83b0(void);
-#endif
-#ifndef M2C_SELF_func_020c863c
-void func_020c863c(void);
-#endif
-#ifndef M2C_SELF_func_020c866c
-void func_020c866c(void);
 #endif
 #ifndef M2C_SELF_func_020c8aa4
 void func_020c8aa4(void);
 #endif
-#ifndef M2C_SELF_func_020c8adc
-void func_020c8adc(void);
-#endif
-#ifndef M2C_SELF_func_020c8ae0
-void func_020c8ae0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c8afc
 void func_020c8afc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c8b1c
-M2C_UNK func_020c8b1c(void);
-#endif
-#ifndef M2C_SELF_func_020c8b28
-M2C_UNK func_020c8b28(void);
-#endif
-#ifndef M2C_SELF_func_020c8b34
-void func_020c8b34(void);
-#endif
-#ifndef M2C_SELF_func_020c8b40
-void func_020c8b40(void);
-#endif
-#ifndef M2C_SELF_func_020c8b4c
-void func_020c8b4c(void);
-#endif
-#ifndef M2C_SELF_func_020c8d08
-void func_020c8d08(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c8d94
-void func_020c8d94(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c8e20
-void func_020c8e20(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c8ec4
-void func_020c8ec4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c8f50
-void func_020c8f50(void);
-#endif
-#ifndef M2C_SELF_func_020c8fe0
-void func_020c8fe0(void);
-#endif
-#ifndef M2C_SELF_func_020c9074
-void func_020c9074(void);
-#endif
-#ifndef M2C_SELF_func_020c9170
-void func_020c9170(void);
-#endif
-#ifndef M2C_SELF_func_020c9224
-M2C_UNK func_020c9224(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c923c
-M2C_UNK func_020c923c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9254
-M2C_UNK func_020c9254(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c926c
-M2C_UNK func_020c926c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9284
-void func_020c9284(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c92a4
-void func_020c92a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c92c4
-void func_020c92c4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c92e4
-void func_020c92e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9304
-M2C_UNK func_020c9304(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c931c
-M2C_UNK func_020c931c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9334
-M2C_UNK func_020c9334(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c934c
-M2C_UNK func_020c934c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c9364
 void func_020c9364(M2C_UNK, M2C_UNK);
@@ -9189,12 +11391,6 @@ void func_020c93a0(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020c9410
 void func_020c9410(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c94f0
-void func_020c94f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9530
-void func_020c9530(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c9560
 void func_020c9560(M2C_UNK, M2C_UNK);
 #endif
@@ -9204,17 +11400,11 @@ void func_020c9624(M2C_UNK);
 #ifndef M2C_SELF_func_020c968c
 void func_020c968c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c96f4
-void func_020c96f4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c9764
 void func_020c9764(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c9880
 void func_020c9880(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9970
-void func_020c9970(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c99d8
 void func_020c99d8(M2C_UNK);
@@ -9228,23 +11418,11 @@ void func_020c9c4c(M2C_UNK);
 #ifndef M2C_SELF_func_020c9dbc
 void func_020c9dbc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020c9ea8
-void func_020c9ea8(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020c9ec4
 M2C_UNK func_020c9ec4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020c9eec
 M2C_UNK func_020c9eec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9f18
-M2C_UNK func_020c9f18(void);
-#endif
-#ifndef M2C_SELF_func_020c9f4c
-void func_020c9f4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9f5c
-M2C_UNK func_020c9f5c(void);
 #endif
 #ifndef M2C_SELF_func_020c9f74
 M2C_UNK func_020c9f74(M2C_UNK);
@@ -9252,89 +11430,17 @@ M2C_UNK func_020c9f74(M2C_UNK);
 #ifndef M2C_SELF_func_020c9f90
 M2C_UNK func_020c9f90(void);
 #endif
-#ifndef M2C_SELF_func_020c9fd8
-void func_020c9fd8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020c9fec
-M2C_UNK func_020c9fec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca00c
-void func_020ca00c(void);
-#endif
-#ifndef M2C_SELF_func_020ca040
-void func_020ca040(void);
-#endif
 #ifndef M2C_SELF_func_020ca04c
 void func_020ca04c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ca09c
 void func_020ca09c(void);
 #endif
-#ifndef M2C_SELF_func_020ca0c8
-void func_020ca0c8(void);
-#endif
-#ifndef M2C_SELF_func_020ca0d4
-void func_020ca0d4(void);
-#endif
-#ifndef M2C_SELF_func_020ca0f8
-void func_020ca0f8(void);
-#endif
-#ifndef M2C_SELF_func_020ca11c
-void func_020ca11c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca164
-void func_020ca164(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca1a0
-void func_020ca1a0(void);
-#endif
-#ifndef M2C_SELF_func_020ca1ac
-void func_020ca1ac(void);
-#endif
-#ifndef M2C_SELF_func_020ca1cc
-void func_020ca1cc(void);
-#endif
-#ifndef M2C_SELF_func_020ca1f4
-void func_020ca1f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca22c
-void func_020ca22c(void);
-#endif
-#ifndef M2C_SELF_func_020ca238
-void func_020ca238(void);
-#endif
-#ifndef M2C_SELF_func_020ca254
-void func_020ca254(void);
-#endif
 #ifndef M2C_SELF_func_020ca268
 void func_020ca268(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ca2ec
-void func_020ca2ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca314
-void func_020ca314(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca324
-void func_020ca324(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca344
-M2C_UNK func_020ca344(void);
-#endif
-#ifndef M2C_SELF_func_020ca354
-M2C_UNK func_020ca354(void);
-#endif
 #ifndef M2C_SELF_func_020ca364
 M2C_UNK func_020ca364(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca398
-M2C_UNK func_020ca398(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca3c0
-M2C_UNK func_020ca3c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ca3e8
-M2C_UNK func_020ca3e8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ca408
 void func_020ca408(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -9361,7 +11467,7 @@ void func_020ca728(M2C_UNK, M2C_UNK);
 void func_020ca748(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ca7b0
-M2C_UNK func_020ca7b0(M2C_UNK);
+void func_020ca7b0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ca7dc
 void func_020ca7dc(M2C_UNK);
@@ -9390,26 +11496,11 @@ void func_020cab2c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020cabb4
 void func_020cabb4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020cac34
-void func_020cac34(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cac4c
-void func_020cac4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cac60
-void func_020cac60(void);
-#endif
 #ifndef M2C_SELF_func_020cac64
 void func_020cac64(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020cacb0
 void func_020cacb0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cacf4
-void func_020cacf4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cad08
-void func_020cad08(void);
 #endif
 #ifndef M2C_SELF_func_020cad0c
 void func_020cad0c(M2C_UNK);
@@ -9423,38 +11514,14 @@ void func_020cad8c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020cadb4
 void func_020cadb4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020cae00
-void func_020cae00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cae14
-void func_020cae14(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cae1c
-void func_020cae1c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cae50
-void func_020cae50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020caf0c
-void func_020caf0c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020caf70
 void func_020caf70(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020cb094
 void func_020cb094(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020cb120
-void func_020cb120(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020cb16c
 void func_020cb16c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cb1ac
-void func_020cb1ac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020cb220
-M2C_UNK func_020cb220(void);
 #endif
 #ifndef M2C_SELF_func_020cb24c
 void func_020cb24c(void);
@@ -9483,27 +11550,6 @@ void func_020cc690(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020cca7c
 M2C_UNK func_020cca7c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ccaf4
-M2C_UNK func_020ccaf4(void);
-#endif
-#ifndef M2C_SELF_func_020ccb04
-M2C_UNK func_020ccb04(void);
-#endif
-#ifndef M2C_SELF_func_020ccb14
-M2C_UNK func_020ccb14(void);
-#endif
-#ifndef M2C_SELF_func_020ccb24
-M2C_UNK func_020ccb24(void);
-#endif
-#ifndef M2C_SELF_func_020ccb34
-M2C_UNK func_020ccb34(void);
-#endif
-#ifndef M2C_SELF_func_020ccb44
-void func_020ccb44(void);
-#endif
-#ifndef M2C_SELF_func_020ccb58
-M2C_UNK func_020ccb58(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ccb68
 void func_020ccb68(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -9513,59 +11559,11 @@ void func_020cdfe8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020cf470
 void func_020cf470(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d08f8
-void func_020d08f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d094c
-void func_020d094c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0974
-void func_020d0974(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d09a4
-void func_020d09a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d09b8
-void func_020d09b8(void);
-#endif
-#ifndef M2C_SELF_func_020d09c4
-void func_020d09c4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0a04
-void func_020d0a04(void);
-#endif
-#ifndef M2C_SELF_func_020d0a08
-void func_020d0a08(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0a50
-void func_020d0a50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0a6c
-void func_020d0a6c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0ab4
-void func_020d0ab4(void);
-#endif
-#ifndef M2C_SELF_func_020d0ab8
-void func_020d0ab8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0b2c
-void func_020d0b2c(void);
-#endif
 #ifndef M2C_SELF_func_020d0b30
 void func_020d0b30(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d0b4c
-void func_020d0b4c(void);
-#endif
 #ifndef M2C_SELF_func_020d0b50
 void func_020d0b50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d0b9c
-void func_020d0b9c(void);
-#endif
-#ifndef M2C_SELF_func_020d0ba0
-void func_020d0ba0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d0bdc
 M2C_UNK func_020d0bdc(void);
@@ -9579,29 +11577,14 @@ M2C_UNK func_020d0ff8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d1128
 void func_020d1128(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d116c
-void func_020d116c(void);
-#endif
-#ifndef M2C_SELF_func_020d1170
-void func_020d1170(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1194
-void func_020d1194(void);
-#endif
 #ifndef M2C_SELF_func_020d1198
 M2C_UNK func_020d1198(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d1288
 void func_020d1288(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d12a4
-void func_020d12a4(void);
-#endif
 #ifndef M2C_SELF_func_020d12a8
 M2C_UNK func_020d12a8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1300
-void func_020d1300(void);
 #endif
 #ifndef M2C_SELF_func_020d1308
 M2C_UNK func_020d1308(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -9609,17 +11592,11 @@ M2C_UNK func_020d1308(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d136c
 M2C_UNK func_020d136c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d13c4
-void func_020d13c4(void);
-#endif
 #ifndef M2C_SELF_func_020d13cc
 M2C_UNK func_020d13cc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d1430
 M2C_UNK func_020d1430(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1488
-void func_020d1488(void);
 #endif
 #ifndef M2C_SELF_func_020d1490
 M2C_UNK func_020d1490(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -9627,47 +11604,20 @@ M2C_UNK func_020d1490(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d14f4
 M2C_UNK func_020d14f4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d154c
-void func_020d154c(void);
-#endif
 #ifndef M2C_SELF_func_020d1554
 void func_020d1554(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1578
-void func_020d1578(void);
 #endif
 #ifndef M2C_SELF_func_020d157c
 void func_020d157c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d15a0
-void func_020d15a0(void);
-#endif
 #ifndef M2C_SELF_func_020d15a4
 void func_020d15a4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d15c8
-void func_020d15c8(void);
-#endif
-#ifndef M2C_SELF_func_020d15cc
-void func_020d15cc(void);
 #endif
 #ifndef M2C_SELF_func_020d15d0
 void func_020d15d0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d15f4
-void func_020d15f4(void);
-#endif
 #ifndef M2C_SELF_func_020d15f8
 void func_020d15f8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d161c
-void func_020d161c(void);
-#endif
-#ifndef M2C_SELF_func_020d1620
-M2C_UNK func_020d1620(void);
-#endif
-#ifndef M2C_SELF_func_020d163c
-M2C_UNK func_020d163c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d1660
 void func_020d1660(void);
@@ -9684,53 +11634,20 @@ void func_020d1814(M2C_UNK);
 #ifndef M2C_SELF_func_020d188c
 M2C_UNK func_020d188c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d1924
-void func_020d1924(void);
-#endif
-#ifndef M2C_SELF_func_020d1928
-void func_020d1928(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1964
-void func_020d1964(void);
-#endif
 #ifndef M2C_SELF_func_020d1968
 void func_020d1968(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d19bc
-void func_020d19bc(void);
 #endif
 #ifndef M2C_SELF_func_020d19c0
 void func_020d19c0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d1a50
-void func_020d1a50(void);
-#endif
 #ifndef M2C_SELF_func_020d1a54
 void func_020d1a54(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1a78
-void func_020d1a78(void);
 #endif
 #ifndef M2C_SELF_func_020d1a7c
 void func_020d1a7c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d1b34
-void func_020d1b34(void);
-#endif
 #ifndef M2C_SELF_func_020d1b3c
 void func_020d1b3c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1b74
-void func_020d1b74(void);
-#endif
-#ifndef M2C_SELF_func_020d1b78
-void func_020d1b78(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d1bac
-void func_020d1bac(void);
-#endif
-#ifndef M2C_SELF_func_020d1bb0
-M2C_UNK func_020d1bb0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d1c70
 void func_020d1c70(M2C_UNK, M2C_UNK);
@@ -9747,17 +11664,8 @@ void func_020d1f48(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d1fe4
 void func_020d1fe4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d205c
-void func_020d205c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d2080
-void func_020d2080(void);
-#endif
 #ifndef M2C_SELF_func_020d2084
 void func_020d2084(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d20b4
-void func_020d20b4(void);
 #endif
 #ifndef M2C_SELF_func_020d20b8
 M2C_UNK func_020d20b8(M2C_UNK);
@@ -9774,14 +11682,8 @@ M2C_UNK func_020d23e4(M2C_UNK);
 #ifndef M2C_SELF_func_020d24bc
 M2C_UNK func_020d24bc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d26dc
-void func_020d26dc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020d26f0
 M2C_UNK func_020d26f0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d284c
-void func_020d284c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d2880
 void func_020d2880(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -9789,26 +11691,8 @@ void func_020d2880(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d29dc
 M2C_UNK func_020d29dc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d2ba8
-void func_020d2ba8(void);
-#endif
 #ifndef M2C_SELF_func_020d2bac
 void func_020d2bac(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d2be8
-void func_020d2be8(void);
-#endif
-#ifndef M2C_SELF_func_020d2bec
-void func_020d2bec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d2bf8
-void func_020d2bf8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d2c34
-void func_020d2c34(void);
-#endif
-#ifndef M2C_SELF_func_020d2c38
-void func_020d2c38(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d2c44
 void func_020d2c44(M2C_UNK);
@@ -9822,14 +11706,8 @@ M2C_UNK func_020d2cec(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d2d70
 M2C_UNK func_020d2d70(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d2df4
-M2C_UNK func_020d2df4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020d2e24
 void func_020d2e24(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d2ffc
-void func_020d2ffc(void);
 #endif
 #ifndef M2C_SELF_func_020d3000
 void func_020d3000(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -9846,23 +11724,8 @@ void func_020d334c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d3418
 void func_020d3418(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d343c
-void func_020d343c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020d3450
 void func_020d3450(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d34a0
-void func_020d34a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d34c8
-M2C_UNK func_020d34c8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d34d8
-M2C_UNK func_020d34d8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d34e8
-M2C_UNK func_020d34e8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d3568
 void func_020d3568(M2C_UNK, M2C_UNK);
@@ -9878,12 +11741,6 @@ void func_020d3900(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d4564
 void func_020d4564(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d4850
-void func_020d4850(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d48c8
-M2C_UNK func_020d48c8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d48e0
 void func_020d48e0(M2C_UNK, M2C_UNK);
@@ -9903,14 +11760,8 @@ void func_020d5524(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d5828
 void func_020d5828(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d5ae4
-void func_020d5ae4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020d5b08
 void func_020d5b08(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d5c00
-void func_020d5c00(void);
 #endif
 #ifndef M2C_SELF_func_020d5c08
 void func_020d5c08(M2C_UNK);
@@ -9926,9 +11777,6 @@ void func_020d5de8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d5e70
 void func_020d5e70(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d5ea8
-void func_020d5ea8(void);
 #endif
 #ifndef M2C_SELF_func_020d5eac
 void func_020d5eac(M2C_UNK, M2C_UNK);
@@ -9972,9 +11820,6 @@ void func_020d7138(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d7dc8
 void func_020d7dc8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d80b4
-void func_020d80b4(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020d812c
 void func_020d812c(M2C_UNK, M2C_UNK);
 #endif
@@ -9996,12 +11841,6 @@ void func_020d8d60(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020d9064
 void func_020d9064(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020d92e8
-void func_020d92e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d930c
-void func_020d930c(void);
-#endif
 #ifndef M2C_SELF_func_020d9314
 void func_020d9314(M2C_UNK);
 #endif
@@ -10016,12 +11855,6 @@ void func_020d94fc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020d9578
 void func_020d9578(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020d9600
-void func_020d9600(void);
-#endif
-#ifndef M2C_SELF_func_020d9604
-void func_020d9604(void);
 #endif
 #ifndef M2C_SELF_func_020d9608
 void func_020d9608(M2C_UNK, M2C_UNK);
@@ -10077,9 +11910,6 @@ void func_020db550(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020db780
 void func_020db780(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020db860
-M2C_UNK func_020db860(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020db878
 void func_020db878(M2C_UNK, M2C_UNK);
 #endif
@@ -10089,50 +11919,20 @@ void func_020dbed4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020dc25c
 void func_020dc25c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020dc4dc
-void func_020dc4dc(void);
-#endif
 #ifndef M2C_SELF_func_020dc4e0
 void func_020dc4e0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020dc750
-void func_020dc750(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020dc774
-void func_020dc774(void);
-#endif
-#ifndef M2C_SELF_func_020dc77c
-void func_020dc77c(void);
-#endif
-#ifndef M2C_SELF_func_020dc784
-void func_020dc784(void);
 #endif
 #ifndef M2C_SELF_func_020dc78c
 void func_020dc78c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020dc82c
-void func_020dc82c(void);
-#endif
 #ifndef M2C_SELF_func_020dc830
 void func_020dc830(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020dc8b8
-void func_020dc8b8(void);
-#endif
-#ifndef M2C_SELF_func_020dc8bc
-void func_020dc8bc(void);
-#endif
-#ifndef M2C_SELF_func_020dc8c0
-void func_020dc8c0(void);
 #endif
 #ifndef M2C_SELF_func_020dc8c4
 void func_020dc8c4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020dc8fc
 void func_020dc8fc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020dcd50
-void func_020dcd50(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020dcd74
 void func_020dcd74(M2C_UNK, M2C_UNK);
@@ -10173,50 +11973,20 @@ void func_020ded94(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020df174
 void func_020df174(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020df420
-void func_020df420(void);
-#endif
 #ifndef M2C_SELF_func_020df424
 void func_020df424(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020df694
-void func_020df694(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020df6b8
-void func_020df6b8(void);
-#endif
-#ifndef M2C_SELF_func_020df6c0
-void func_020df6c0(void);
-#endif
-#ifndef M2C_SELF_func_020df6c8
-void func_020df6c8(void);
 #endif
 #ifndef M2C_SELF_func_020df6d0
 void func_020df6d0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020df770
-void func_020df770(void);
-#endif
 #ifndef M2C_SELF_func_020df774
 void func_020df774(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020df7fc
-void func_020df7fc(void);
-#endif
-#ifndef M2C_SELF_func_020df800
-void func_020df800(void);
-#endif
-#ifndef M2C_SELF_func_020df804
-void func_020df804(void);
 #endif
 #ifndef M2C_SELF_func_020df808
 void func_020df808(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020df840
 void func_020df840(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020dfd38
-void func_020dfd38(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020dfd5c
 void func_020dfd5c(M2C_UNK, M2C_UNK);
@@ -10230,110 +12000,23 @@ void func_020e00d4(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e01d4
 void func_020e01d4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e0250
-void func_020e0250(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e026c
-void func_020e026c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e0280
-void func_020e0280(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e029c
-void func_020e029c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e02b0
-void func_020e02b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e02cc
-void func_020e02cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e02e0
-void func_020e02e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e02fc
-void func_020e02fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e0310
-void func_020e0310(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e032c
-void func_020e032c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e0340
-void func_020e0340(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e035c
 void func_020e035c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e03c8
-void func_020e03c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e03d0
-void func_020e03d0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e03d8
-void func_020e03d8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e03e0
 void func_020e03e0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e041c
-void func_020e041c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e0424
-void func_020e0424(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e042c
-void func_020e042c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e0434
-void func_020e0434(void);
-#endif
-#ifndef M2C_SELF_func_020e0438
-void func_020e0438(void);
-#endif
-#ifndef M2C_SELF_func_020e043c
-void func_020e043c(void);
-#endif
 #ifndef M2C_SELF_func_020e0440
 void func_020e0440(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e047c
-void func_020e047c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e0484
-void func_020e0484(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e048c
-void func_020e048c(void);
-#endif
-#ifndef M2C_SELF_func_020e0490
-void func_020e0490(void);
-#endif
-#ifndef M2C_SELF_func_020e0494
-void func_020e0494(void);
-#endif
 #ifndef M2C_SELF_func_020e0498
 void func_020e0498(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e04d4
-void func_020e04d4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e04dc
-void func_020e04dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e04e4
-void func_020e04e4(void);
 #endif
 #ifndef M2C_SELF_func_020e04e8
 void func_020e04e8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e0520
 void func_020e0520(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e124c
-void func_020e124c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e1258
 void func_020e1258(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -10356,9 +12039,6 @@ void func_020e1828(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e19a4
 void func_020e19a4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e1c30
-void func_020e1c30(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e1c44
 M2C_UNK func_020e1c44(M2C_UNK);
 #endif
@@ -10374,23 +12054,14 @@ void func_020e2248(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e2288
 M2C_UNK func_020e2288(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e22c4
-void func_020e22c4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e22d0
 void func_020e22d0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e2308
 void func_020e2308(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e24b8
-void func_020e24b8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e24e0
-M2C_UNK func_020e24e0(void);
-#endif
-#ifndef M2C_SELF_func_020e2548
-void func_020e2548(void);
+void func_020e24e0(void);
 #endif
 #ifndef M2C_SELF_func_020e2608
 M2C_UNK func_020e2608(M2C_UNK, M2C_UNK);
@@ -10407,18 +12078,6 @@ void func_020e2990(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e2a74
 void func_020e2a74(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e2ca0
-void func_020e2ca0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e2cb8
-void func_020e2cb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e2cd0
-void func_020e2cd0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e2d10
-void func_020e2d10(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e2d2c
 M2C_UNK func_020e2d2c(void);
 #endif
@@ -10427,18 +12086,6 @@ M2C_UNK func_020e2f90(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e311c
 void func_020e311c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e3150
-void func_020e3150(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e3170
-void func_020e3170(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e3184
-void func_020e3184(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e31a0
-void func_020e31a0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e31e8
 void func_020e31e8(M2C_UNK);
@@ -10485,17 +12132,11 @@ M2C_UNK func_020e4638(M2C_UNK);
 #ifndef M2C_SELF_func_020e4710
 M2C_UNK func_020e4710(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e484c
-M2C_UNK func_020e484c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e49ac
 M2C_UNK func_020e49ac(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e4ad4
 void func_020e4ad4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e4c24
-void func_020e4c24(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e4c80
 void func_020e4c80(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -10503,29 +12144,14 @@ void func_020e4c80(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e4ef4
 void func_020e4ef4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e4f88
-M2C_UNK func_020e4f88(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e5008
-void func_020e5008(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e5030
 M2C_UNK func_020e5030(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e5068
-void func_020e5068(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e50d4
 void func_020e50d4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e51e8
 void func_020e51e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e530c
-M2C_UNK func_020e530c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e5344
-void func_020e5344(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e5354
 void func_020e5354(M2C_UNK);
@@ -10569,9 +12195,6 @@ void func_020e8948(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e8af8
 void func_020e8af8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e8c0c
-void func_020e8c0c(void);
-#endif
 #ifndef M2C_SELF_func_020e8c10
 void func_020e8c10(M2C_UNK);
 #endif
@@ -10590,17 +12213,8 @@ void func_020e9490(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e961c
 void func_020e961c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e9700
-void func_020e9700(void);
-#endif
 #ifndef M2C_SELF_func_020e9708
 void func_020e9708(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e9848
-void func_020e9848(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e9908
-void func_020e9908(void);
 #endif
 #ifndef M2C_SELF_func_020e990c
 void func_020e990c(M2C_UNK);
@@ -10623,26 +12237,11 @@ void func_020e9b74(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020e9bb0
 void func_020e9bb0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020e9bf8
-void func_020e9bf8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e9c04
-void func_020e9c04(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020e9c18
-M2C_UNK func_020e9c18(void);
+void func_020e9c18(void);
 #endif
 #ifndef M2C_SELF_func_020e9df0
 void func_020e9df0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e9f90
-void func_020e9f90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e9fa4
-void func_020e9fa4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020e9fc0
-void func_020e9fc0(void);
 #endif
 #ifndef M2C_SELF_func_020e9fc4
 void func_020e9fc4(M2C_UNK);
@@ -10650,35 +12249,8 @@ void func_020e9fc4(M2C_UNK);
 #ifndef M2C_SELF_func_020ea0cc
 void func_020ea0cc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ea13c
-void func_020ea13c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea2a0
-void func_020ea2a0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea424
-void func_020ea424(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea464
-void func_020ea464(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea488
-void func_020ea488(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea4a4
-void func_020ea4a4(void);
-#endif
-#ifndef M2C_SELF_func_020ea4b0
-void func_020ea4b0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ea684
 void func_020ea684(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea6b8
-void func_020ea6b8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ea700
-void func_020ea700(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ea73c
 void func_020ea73c(M2C_UNK);
@@ -10686,62 +12258,20 @@ void func_020ea73c(M2C_UNK);
 #ifndef M2C_SELF_func_020eb88c
 void func_020eb88c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020eb8c0
-void func_020eb8c0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020eb908
-void func_020eb908(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020eb950
 void func_020eb950(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020eb9c0
-void func_020eb9c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020eb9dc
-M2C_UNK func_020eb9dc(void);
 #endif
 #ifndef M2C_SELF_func_020eba28
 M2C_UNK func_020eba28(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020eba84
-void func_020eba84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020eba90
-void func_020eba90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebaa4
-void func_020ebaa4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebab8
-void func_020ebab8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebacc
-M2C_UNK func_020ebacc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebb4c
-M2C_UNK func_020ebb4c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebb5c
-void func_020ebb5c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ebc24
 void func_020ebc24(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebc48
-void func_020ebc48(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ebc5c
 void func_020ebc5c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ebc90
 void func_020ebc90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebcbc
-void func_020ebcbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ebcd8
-void func_020ebcd8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ebd54
 void func_020ebd54(M2C_UNK, M2C_UNK);
@@ -10752,14 +12282,8 @@ void func_020ec668(M2C_UNK);
 #ifndef M2C_SELF_func_020ec950
 void func_020ec950(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ecd00
-void func_020ecd00(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ecd58
 void func_020ecd58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ed178
-void func_020ed178(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ed190
 void func_020ed190(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -10770,56 +12294,8 @@ M2C_UNK func_020ed41c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020ed594
 M2C_UNK func_020ed594(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ed70c
-void func_020ed70c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ed728
-void func_020ed728(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ed73c
-void func_020ed73c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ed744
-void func_020ed744(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ed760
-void func_020ed760(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ed774
-void func_020ed774(void);
-#endif
-#ifndef M2C_SELF_func_020ed778
-void func_020ed778(void);
-#endif
-#ifndef M2C_SELF_func_020ed77c
-void func_020ed77c(void);
-#endif
-#ifndef M2C_SELF_func_020ed780
-void func_020ed780(void);
-#endif
-#ifndef M2C_SELF_func_020ed784
-void func_020ed784(void);
-#endif
-#ifndef M2C_SELF_func_020ed788
-void func_020ed788(void);
-#endif
-#ifndef M2C_SELF_func_020ed78c
-void func_020ed78c(void);
-#endif
-#ifndef M2C_SELF_func_020ed790
-void func_020ed790(void);
-#endif
-#ifndef M2C_SELF_func_020ed794
-void func_020ed794(void);
-#endif
-#ifndef M2C_SELF_func_020ed79c
-void func_020ed79c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ed7b8
 void func_020ed7b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020eda9c
-void func_020eda9c(void);
 #endif
 #ifndef M2C_SELF_func_020edad8
 void func_020edad8(void);
@@ -10827,17 +12303,8 @@ void func_020edad8(void);
 #ifndef M2C_SELF_func_020edc8c
 void func_020edc8c(void);
 #endif
-#ifndef M2C_SELF_func_020edfc8
-void func_020edfc8(void);
-#endif
 #ifndef M2C_SELF_func_020edff8
 M2C_UNK func_020edff8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ee128
-void func_020ee128(void);
-#endif
-#ifndef M2C_SELF_func_020ee1f8
-void func_020ee1f8(void);
 #endif
 #ifndef M2C_SELF_func_020ee204
 void func_020ee204(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -10887,9 +12354,6 @@ void func_020f0254(M2C_UNK);
 #ifndef M2C_SELF_func_020f0a7c
 void func_020f0a7c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f0e8c
-void func_020f0e8c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f0eb0
 M2C_UNK func_020f0eb0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -10898,9 +12362,6 @@ void func_020f0f98(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f1280
 void func_020f1280(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f133c
-void func_020f133c(void);
 #endif
 #ifndef M2C_SELF_func_020f1370
 void func_020f1370(M2C_UNK);
@@ -10913,30 +12374,6 @@ void func_020f1408(void);
 #endif
 #ifndef M2C_SELF_func_020f1448
 M2C_UNK func_020f1448(void);
-#endif
-#ifndef M2C_SELF_func_020f14cc
-void func_020f14cc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f14dc
-void func_020f14dc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f1504
-void func_020f1504(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f1564
-M2C_UNK func_020f1564(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f15cc
-void func_020f15cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f15dc
-M2C_UNK func_020f15dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f1620
-void func_020f1620(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f1630
-void func_020f1630(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f1640
 M2C_UNK func_020f1640(M2C_UNK);
@@ -10968,35 +12405,11 @@ M2C_UNK func_020f2950(M2C_UNK);
 #ifndef M2C_SELF_func_020f2990
 M2C_UNK func_020f2990(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f2ac0
-M2C_UNK func_020f2ac0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f2ad0
-M2C_UNK func_020f2ad0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f2ae4
-void func_020f2ae4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f2b7c
-void func_020f2b7c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f2bc8
 void func_020f2bc8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f2c50
-void func_020f2c50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f2d50
-M2C_UNK func_020f2d50(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f2e80
-void func_020f2e80(void);
-#endif
 #ifndef M2C_SELF_func_020f2e8c
 void func_020f2e8c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f2f1c
-void func_020f2f1c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f2f24
 M2C_UNK func_020f2f24(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11019,110 +12432,20 @@ M2C_UNK func_020f33d4(M2C_UNK);
 #ifndef M2C_SELF_func_020f3414
 void func_020f3414(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f35b0
-void func_020f35b0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f35f4
-void func_020f35f4(void);
-#endif
-#ifndef M2C_SELF_func_020f35f8
-void func_020f35f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f360c
-void func_020f360c(void);
-#endif
-#ifndef M2C_SELF_func_020f3610
-M2C_UNK func_020f3610(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3630
-M2C_UNK func_020f3630(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3650
-void func_020f3650(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f365c
-void func_020f365c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f368c
-void func_020f368c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f36c4
-void func_020f36c4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f36fc
-void func_020f36fc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3728
-void func_020f3728(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3754
-void func_020f3754(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f3778
 void func_020f3778(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f37cc
-void func_020f37cc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3830
-void func_020f3830(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f386c
-void func_020f386c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f38b4
-void func_020f38b4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f38f4
-void func_020f38f4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3930
-void func_020f3930(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f396c
-void func_020f396c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f39a8
-void func_020f39a8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f39e4
 void func_020f39e4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f3a94
-void func_020f3a94(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3b20
-void func_020f3b20(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f3bb8
 void func_020f3bb8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c14
-void func_020f3c14(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c1c
-void func_020f3c1c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c38
-void func_020f3c38(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c58
-void func_020f3c58(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c68
-void func_020f3c68(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c7c
-void func_020f3c7c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f3c84
-void func_020f3c84(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f3cc4
 void func_020f3cc4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f3cfc
-M2C_UNK func_020f3cfc(M2C_UNK);
+void func_020f3cfc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f3e94
 void func_020f3e94(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11133,35 +12456,14 @@ M2C_UNK func_020f3f00(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020f3f90
 M2C_UNK func_020f3f90(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f3fe0
-void func_020f3fe0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f4028
 void func_020f4028(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f4094
 void func_020f4094(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f41a0
-void func_020f41a0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f41b0
 void func_020f41b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f4210
-void func_020f4210(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f422c
-void func_020f422c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f4240
-void func_020f4240(void);
-#endif
-#ifndef M2C_SELF_func_020f4250
-void func_020f4250(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f427c
-void func_020f427c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f42f4
 M2C_UNK func_020f42f4(M2C_UNK);
@@ -11169,26 +12471,11 @@ M2C_UNK func_020f42f4(M2C_UNK);
 #ifndef M2C_SELF_func_020f43b0
 M2C_UNK func_020f43b0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f43f4
-void func_020f43f4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f4468
-void func_020f4468(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f44ac
-void func_020f44ac(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f4548
 void func_020f4548(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f45f8
 void func_020f45f8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f4660
-void func_020f4660(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f4724
-void func_020f4724(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f4744
 M2C_UNK func_020f4744(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11214,26 +12501,8 @@ void func_020f5310(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020f5340
 M2C_UNK func_020f5340(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f53d8
-void func_020f53d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f53f8
-void func_020f53f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f5418
-void func_020f5418(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f5440
 void func_020f5440(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f564c
-void func_020f564c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f5668
-void func_020f5668(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f56bc
-void func_020f56bc(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f56f8
 void func_020f56f8(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11262,12 +12531,6 @@ void func_020f5b34(M2C_UNK);
 #ifndef M2C_SELF_func_020f5b74
 void func_020f5b74(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f5bbc
-void func_020f5bbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f5bf0
-void func_020f5bf0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f5c24
 void func_020f5c24(M2C_UNK);
 #endif
@@ -11289,26 +12552,14 @@ void func_020f65ec(M2C_UNK);
 #ifndef M2C_SELF_func_020f6970
 void func_020f6970(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f69dc
-M2C_UNK func_020f69dc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f6a98
 void func_020f6a98(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f6bc0
 void func_020f6bc0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020f79cc
-void func_020f79cc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f7a08
-void func_020f7a08(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f7a30
 void func_020f7a30(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f7a7c
-M2C_UNK func_020f7a7c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f7abc
 M2C_UNK func_020f7abc(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11322,9 +12573,6 @@ void func_020f7b20(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020f7ba4
 void func_020f7ba4(void);
 #endif
-#ifndef M2C_SELF_func_020f7bd0
-M2C_UNK func_020f7bd0(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020f7bfc
 void func_020f7bfc(M2C_UNK, M2C_UNK);
 #endif
@@ -11333,9 +12581,6 @@ void func_020f7c54(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f7ca4
 void func_020f7ca4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020f7cf0
-void func_020f7cf0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020f7d40
 void func_020f7d40(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11364,35 +12609,8 @@ void func_020fa354(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020fa4cc
 void func_020fa4cc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020fa9a4
-void func_020fa9a4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020faa08
-void func_020faa08(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020faa20
-void func_020faa20(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020faa5c
-void func_020faa5c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020faa9c
 M2C_UNK func_020faa9c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020faac8
-M2C_UNK func_020faac8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fab20
-M2C_UNK func_020fab20(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fab44
-void func_020fab44(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fab70
-void func_020fab70(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020faba4
-void func_020faba4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fac6c
 void func_020fac6c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11400,23 +12618,11 @@ void func_020fac6c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020fade8
 void func_020fade8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020fb03c
-void func_020fb03c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fb0a0
-void func_020fb0a0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fb144
-void func_020fb144(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020fb15c
 void func_020fb15c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fb190
 M2C_UNK func_020fb190(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fb250
-void func_020fb250(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fb284
 void func_020fb284(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11427,32 +12633,14 @@ void func_020fb38c(M2C_UNK);
 #ifndef M2C_SELF_func_020fb3c8
 void func_020fb3c8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020fb424
-void func_020fb424(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020fb4d8
 void func_020fb4d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fb514
 void func_020fb514(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020fb600
-void func_020fb600(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fb624
-void func_020fb624(void);
-#endif
-#ifndef M2C_SELF_func_020fb630
-void func_020fb630(void);
-#endif
-#ifndef M2C_SELF_func_020fb644
-void func_020fb644(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020fb654
 void func_020fb654(void);
-#endif
-#ifndef M2C_SELF_func_020fb6b8
-M2C_UNK func_020fb6b8(void);
 #endif
 #ifndef M2C_SELF_func_020fb6e8
 void func_020fb6e8(M2C_UNK);
@@ -11474,12 +12662,6 @@ void func_020fbc30(void);
 #endif
 #ifndef M2C_SELF_func_020fbd1c
 void func_020fbd1c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fbe1c
-void func_020fbe1c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fbe70
-M2C_UNK func_020fbe70(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fbe8c
 M2C_UNK func_020fbe8c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11529,9 +12711,6 @@ void func_020fc9b8(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020fc9c8
 void func_020fc9c8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020fc9d8
-void func_020fc9d8(void);
-#endif
 #ifndef M2C_SELF_func_020fc9e8
 void func_020fc9e8(M2C_UNK, M2C_UNK);
 #endif
@@ -11546,15 +12725,6 @@ void func_020fca90(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fcc6c
 void func_020fcc6c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fcccc
-void func_020fcccc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fcce0
-void func_020fcce0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020fccfc
-void func_020fccfc(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020fcd58
 void func_020fcd58(M2C_UNK);
@@ -11583,29 +12753,17 @@ void func_020ff654(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_020ff6c0
 void func_020ff6c0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ff6dc
-void func_020ff6dc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ff704
 M2C_UNK func_020ff704(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020ff910
 M2C_UNK func_020ff910(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ffb50
-void func_020ffb50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ffbb8
 void func_020ffbb8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020ffc34
-M2C_UNK func_020ffc34(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020ffc48
 M2C_UNK func_020ffc48(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020ffc94
-void func_020ffc94(void);
 #endif
 #ifndef M2C_SELF_func_020ffcf0
 void func_020ffcf0(M2C_UNK);
@@ -11628,18 +12786,6 @@ void func_021007c0(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02100844
 void func_02100844(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02100a8c
-M2C_UNK func_02100a8c(void);
-#endif
-#ifndef M2C_SELF_func_02100aa4
-M2C_UNK func_02100aa4(void);
-#endif
-#ifndef M2C_SELF_func_02100abc
-void func_02100abc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02100ad4
-void func_02100ad4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02100aec
 M2C_UNK func_02100aec(M2C_UNK);
 #endif
@@ -11661,9 +12807,6 @@ M2C_UNK func_02100fa4(M2C_UNK);
 #ifndef M2C_SELF_func_021011f4
 void func_021011f4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02101378
-void func_02101378(void);
-#endif
 #ifndef M2C_SELF_func_0210138c
 void func_0210138c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -11673,26 +12816,8 @@ void func_021013e8(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02101448
 void func_02101448(void);
 #endif
-#ifndef M2C_SELF_func_021014c0
-void func_021014c0(void);
-#endif
-#ifndef M2C_SELF_func_02101504
-void func_02101504(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0210155c
 void func_0210155c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021015f4
-void func_021015f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02101608
-void func_02101608(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210161c
-void func_0210161c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02101630
-void func_02101630(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02101658
 void func_02101658(M2C_UNK);
@@ -11700,32 +12825,14 @@ void func_02101658(M2C_UNK);
 #ifndef M2C_SELF_func_0210169c
 void func_0210169c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021016e0
-void func_021016e0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02101718
-void func_02101718(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02101738
 void func_02101738(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021017d0
-void func_021017d0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021017e8
 void func_021017e8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0210186c
-void func_0210186c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02101880
-M2C_UNK func_02101880(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02101a2c
 void func_02101a2c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02101cd4
-void func_02101cd4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02101df0
 void func_02101df0(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11736,9 +12843,6 @@ void func_02102158(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021033b0
 void func_021033b0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021035e8
-void func_021035e8(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02103630
 void func_02103630(M2C_UNK);
 #endif
@@ -11747,12 +12851,6 @@ void func_02103894(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02103a5c
 void func_02103a5c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02103cf0
-void func_02103cf0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02103df4
-void func_02103df4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02103e60
 void func_02103e60(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11772,20 +12870,8 @@ void func_02105978(M2C_UNK);
 #ifndef M2C_SELF_func_02105bf4
 void func_02105bf4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02105e88
-void func_02105e88(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02105ee8
-void func_02105ee8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02105f1c
 void func_02105f1c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02105fd4
-void func_02105fd4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021060c8
-void func_021060c8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0210610c
 void func_0210610c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11796,9 +12882,6 @@ void func_02106468(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021070b8
 void func_021070b8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02107314
-void func_02107314(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0210735c
 void func_0210735c(M2C_UNK);
 #endif
@@ -11807,15 +12890,6 @@ void func_021075d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0210786c
 M2C_UNK func_0210786c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021079a0
-void func_021079a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021079bc
-void func_021079bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021079d8
-void func_021079d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021079f4
 void func_021079f4(M2C_UNK, M2C_UNK);
@@ -11829,44 +12903,11 @@ void func_02107c00(M2C_UNK);
 #ifndef M2C_SELF_func_02107c40
 void func_02107c40(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02107ef0
-void func_02107ef0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02108004
 void func_02108004(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0210f70c
-void func_0210f70c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f758
-M2C_UNK func_0210f758(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f764
-void func_0210f764(void);
-#endif
-#ifndef M2C_SELF_func_0210f774
-void func_0210f774(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f788
-M2C_UNK func_0210f788(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f790
-M2C_UNK func_0210f790(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f798
-void func_0210f798(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f7a0
-void func_0210f7a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210f7b0
-M2C_UNK func_0210f7b0(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0210f7c8
 void func_0210f7c8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0210fe88
-void func_0210fe88(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0210ffac
 void func_0210ffac(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -11874,29 +12915,14 @@ void func_0210ffac(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021119d8
 void func_021119d8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02111c58
-void func_02111c58(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02111c74
-void func_02111c74(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02111c84
 void func_02111c84(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02111c90
 void func_02111c90(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02111c9c
-void func_02111c9c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02111cbc
-void func_02111cbc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02111cf4
 void func_02111cf4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02111de4
-void func_02111de4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02111e00
 void func_02111e00(M2C_UNK);
@@ -11909,12 +12935,6 @@ M2C_UNK func_021122c8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021125b0
 M2C_UNK func_021125b0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02112718
-M2C_UNK func_02112718(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02112964
-M2C_UNK func_02112964(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02112a00
 M2C_UNK func_02112a00(M2C_UNK);
@@ -11930,9 +12950,6 @@ void func_02112ff8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211367c
 void func_0211367c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02113ca4
-void func_02113ca4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02113cc8
 void func_02113cc8(M2C_UNK);
@@ -11952,12 +12969,6 @@ M2C_UNK func_021142c4(M2C_UNK);
 #ifndef M2C_SELF_func_02114a4c
 void func_02114a4c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02114c24
-void func_02114c24(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02114c44
-void func_02114c44(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02114c60
 void func_02114c60(M2C_UNK);
 #endif
@@ -11972,9 +12983,6 @@ M2C_UNK func_0211577c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02115908
 void func_02115908(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02115ac4
-M2C_UNK func_02115ac4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02115afc
 M2C_UNK func_02115afc(M2C_UNK);
@@ -12003,23 +13011,8 @@ void func_0211756c(M2C_UNK);
 #ifndef M2C_SELF_func_021175f0
 void func_021175f0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021176b0
-void func_021176b0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02117770
 void func_02117770(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02117860
-void func_02117860(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211788c
-void func_0211788c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021178c4
-void func_021178c4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02117934
-void func_02117934(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02117a24
 void func_02117a24(M2C_UNK);
@@ -12027,32 +13020,14 @@ void func_02117a24(M2C_UNK);
 #ifndef M2C_SELF_func_02117b5c
 M2C_UNK func_02117b5c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02117cd8
-void func_02117cd8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02117d10
-void func_02117d10(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02117da0
-M2C_UNK func_02117da0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02117eb4
 void func_02117eb4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02117f48
-M2C_UNK func_02117f48(void);
 #endif
 #ifndef M2C_SELF_func_02117f68
 void func_02117f68(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02117fb0
-M2C_UNK func_02117fb0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021182d0
-void func_021182d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211831c
-void func_0211831c(M2C_UNK);
+void func_02117fb0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02118398
 M2C_UNK func_02118398(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -12069,26 +13044,11 @@ void func_021187dc(M2C_UNK);
 #ifndef M2C_SELF_func_02118848
 void func_02118848(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021188c8
-void func_021188c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02118910
-void func_02118910(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02118968
-void func_02118968(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02118c88
-void func_02118c88(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02118d00
 void func_02118d00(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02118eb4
 void func_02118eb4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211b808
-void func_0211b808(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211b840
 M2C_UNK func_0211b840(M2C_UNK, M2C_UNK);
@@ -12099,9 +13059,6 @@ void func_0211ba44(M2C_UNK);
 #ifndef M2C_SELF_func_0211bbbc
 void func_0211bbbc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0211c304
-void func_0211c304(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0211c3fc
 M2C_UNK func_0211c3fc(M2C_UNK);
 #endif
@@ -12110,9 +13067,6 @@ M2C_UNK func_0211c75c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211cd64
 M2C_UNK func_0211cd64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211cf08
-M2C_UNK func_0211cf08(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211cfac
 M2C_UNK func_0211cfac(M2C_UNK);
@@ -12123,38 +13077,11 @@ M2C_UNK func_0211d09c(M2C_UNK);
 #ifndef M2C_SELF_func_0211d13c
 M2C_UNK func_0211d13c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0211d514
-void func_0211d514(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211d550
-void func_0211d550(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211d5a0
-void func_0211d5a0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211d610
-void func_0211d610(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211d664
-void func_0211d664(void);
-#endif
 #ifndef M2C_SELF_func_0211d668
 void func_0211d668(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0211d74c
-void func_0211d74c(void);
-#endif
 #ifndef M2C_SELF_func_0211d794
 void func_0211d794(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211f15c
-M2C_UNK func_0211f15c(void);
-#endif
-#ifndef M2C_SELF_func_0211f20c
-M2C_UNK func_0211f20c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211f28c
-M2C_UNK func_0211f28c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211f2c0
 M2C_UNK func_0211f2c0(void);
@@ -12168,17 +13095,11 @@ M2C_UNK func_0211f3e4(void);
 #ifndef M2C_SELF_func_0211f4cc
 M2C_UNK func_0211f4cc(void);
 #endif
-#ifndef M2C_SELF_func_0211f57c
-M2C_UNK func_0211f57c(void);
-#endif
 #ifndef M2C_SELF_func_0211f5d8
 M2C_UNK func_0211f5d8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211f640
 void func_0211f640(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211f678
-void func_0211f678(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0211f6a4
 M2C_UNK func_0211f6a4(M2C_UNK);
@@ -12192,29 +13113,8 @@ M2C_UNK func_0211f74c(void);
 #ifndef M2C_SELF_func_0211f7a0
 M2C_UNK func_0211f7a0(void);
 #endif
-#ifndef M2C_SELF_func_0211f7cc
-void func_0211f7cc(void);
-#endif
 #ifndef M2C_SELF_func_0211f7d0
 void func_0211f7d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211fe78
-void func_0211fe78(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211fea0
-void func_0211fea0(void);
-#endif
-#ifndef M2C_SELF_func_0211fea4
-void func_0211fea4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211fed4
-void func_0211fed4(void);
-#endif
-#ifndef M2C_SELF_func_0211fed8
-void func_0211fed8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0211ffa4
-void func_0211ffa4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02120078
 void func_02120078(M2C_UNK);
@@ -12222,14 +13122,8 @@ void func_02120078(M2C_UNK);
 #ifndef M2C_SELF_func_02120934
 void func_02120934(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021209ec
-void func_021209ec(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02120a7c
 void func_02120a7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02120ab8
-void func_02120ab8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02120c00
 void func_02120c00(M2C_UNK);
@@ -12246,12 +13140,6 @@ M2C_UNK func_02121114(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02121150
 M2C_UNK func_02121150(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212118c
-M2C_UNK func_0212118c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02121198
-M2C_UNK func_02121198(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_021211a4
 M2C_UNK func_021211a4(M2C_UNK);
 #endif
@@ -12260,18 +13148,6 @@ M2C_UNK func_02121370(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021214ec
 M2C_UNK func_021214ec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02121618
-void func_02121618(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212162c
-void func_0212162c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212165c
-void func_0212165c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02121674
-void func_02121674(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02121688
 void func_02121688(M2C_UNK);
@@ -12287,18 +13163,6 @@ void func_021216b8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021216c8
 void func_021216c8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021216d8
-void func_021216d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02121700
-void func_02121700(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02121780
-M2C_UNK func_02121780(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02121794
-void func_02121794(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021217b0
 void func_021217b0(M2C_UNK);
@@ -12333,23 +13197,8 @@ void func_02127630(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021276e0
 void func_021276e0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021277f8
-M2C_UNK func_021277f8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_021278b8
 void func_021278b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212799c
-void func_0212799c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021279b0
-void func_021279b0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021279cc
-void func_021279cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021279f8
-void func_021279f8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02127a1c
 void func_02127a1c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -12357,17 +13206,11 @@ void func_02127a1c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02127b48
 void func_02127b48(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02127bac
-void func_02127bac(void);
-#endif
 #ifndef M2C_SELF_func_02127bb0
 void func_02127bb0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02128224
 void func_02128224(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021283e0
-void func_021283e0(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02128444
 void func_02128444(M2C_UNK);
@@ -12375,26 +13218,11 @@ void func_02128444(M2C_UNK);
 #ifndef M2C_SELF_func_02128658
 void func_02128658(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212882c
-void func_0212882c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02128848
-void func_02128848(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02128868
-void func_02128868(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02128874
-M2C_UNK func_02128874(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_021288f4
 M2C_UNK func_021288f4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02128b54
 void func_02128b54(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02128db8
-void func_02128db8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02128e14
 void func_02128e14(M2C_UNK);
@@ -12411,32 +13239,17 @@ void func_02128f5c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02129014
 void func_02129014(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021290d0
-void func_021290d0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02129130
-void func_02129130(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02129190
 M2C_UNK func_02129190(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021291c0
-M2C_UNK func_021291c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021291e8
-M2C_UNK func_021291e8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02129204
-void func_02129204(void);
+void func_021291c0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212923c
 void func_0212923c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021293ac
 void func_021293ac(void);
-#endif
-#ifndef M2C_SELF_func_02129458
-void func_02129458(void);
 #endif
 #ifndef M2C_SELF_func_02129464
 void func_02129464(void);
@@ -12447,9 +13260,6 @@ void func_02129654(void);
 #ifndef M2C_SELF_func_02129914
 void func_02129914(void);
 #endif
-#ifndef M2C_SELF_func_02129a3c
-void func_02129a3c(void);
-#endif
 #ifndef M2C_SELF_func_02129a5c
 void func_02129a5c(void);
 #endif
@@ -12458,9 +13268,6 @@ void func_02129bf0(void);
 #endif
 #ifndef M2C_SELF_func_02129c5c
 void func_02129c5c(void);
-#endif
-#ifndef M2C_SELF_func_02129e70
-M2C_UNK func_02129e70(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02129e94
 void func_02129e94(void);
@@ -12477,23 +13284,11 @@ void func_0212a0f0(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0212a134
 void func_0212a134(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212a1ac
-void func_0212a1ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212a1e4
-void func_0212a1e4(void);
-#endif
 #ifndef M2C_SELF_func_0212a220
 void func_0212a220(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212a2d8
 void func_0212a2d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212a3b8
-void func_0212a3b8(void);
-#endif
-#ifndef M2C_SELF_func_0212a3e0
-void func_0212a3e0(void);
 #endif
 #ifndef M2C_SELF_func_0212a414
 void func_0212a414(M2C_UNK);
@@ -12513,26 +13308,8 @@ M2C_UNK func_0212a690(void);
 #ifndef M2C_SELF_func_0212a718
 void func_0212a718(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212a8bc
-void func_0212a8bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212a8e0
-void func_0212a8e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212a8fc
-void func_0212a8fc(void);
-#endif
-#ifndef M2C_SELF_func_0212a908
-void func_0212a908(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212a920
 void func_0212a920(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212a954
-void func_0212a954(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212a99c
-void func_0212a99c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212a9d8
 void func_0212a9d8(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -12540,44 +13317,8 @@ void func_0212a9d8(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0212b0dc
 void func_0212b0dc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212b164
-void func_0212b164(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b1a0
-void func_0212b1a0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b1dc
-void func_0212b1dc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b224
-void func_0212b224(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b278
-void func_0212b278(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b284
-void func_0212b284(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b2f4
-void func_0212b2f4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b308
-void func_0212b308(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b31c
-M2C_UNK func_0212b31c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b39c
-M2C_UNK func_0212b39c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b3ac
-void func_0212b3ac(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212b47c
 void func_0212b47c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212b4a0
-void func_0212b4a0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212b4b4
 void func_0212b4b4(M2C_UNK);
@@ -12603,39 +13344,6 @@ void func_0212c3a8(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0212c8d0
 void func_0212c8d0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212cb4c
-void func_0212cb4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cb68
-void func_0212cb68(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cb7c
-void func_0212cb7c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cb98
-void func_0212cb98(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cbac
-void func_0212cbac(void);
-#endif
-#ifndef M2C_SELF_func_0212cbb0
-void func_0212cbb0(void);
-#endif
-#ifndef M2C_SELF_func_0212cbb4
-void func_0212cbb4(void);
-#endif
-#ifndef M2C_SELF_func_0212cbb8
-void func_0212cbb8(void);
-#endif
-#ifndef M2C_SELF_func_0212cbbc
-void func_0212cbbc(void);
-#endif
-#ifndef M2C_SELF_func_0212cbc0
-void func_0212cbc0(void);
-#endif
-#ifndef M2C_SELF_func_0212cbc4
-void func_0212cbc4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212cbe0
 void func_0212cbe0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -12648,47 +13356,23 @@ void func_0212cc58(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0212ccbc
 void func_0212ccbc(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212cd08
-void func_0212cd08(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212cd60
 M2C_UNK func_0212cd60(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cdf0
-void func_0212cdf0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212ce24
 void func_0212ce24(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212ce68
-M2C_UNK func_0212ce68(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cf44
-void func_0212cf44(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cf64
-void func_0212cf64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cf84
-void func_0212cf84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212cfac
-void func_0212cfac(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212cfc4
 void func_0212cfc4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212d030
-void func_0212d030(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212d064
 M2C_UNK func_0212d064(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212d1e4
-M2C_UNK func_0212d1e4(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_0212d1e4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212d288
-M2C_UNK func_0212d288(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_0212d288(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212d320
 M2C_UNK func_0212d320(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -12705,23 +13389,8 @@ void func_0212d4d4(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0212d568
 M2C_UNK func_0212d568(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212d628
-M2C_UNK func_0212d628(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212d65c
-void func_0212d65c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212d6d8
 void func_0212d6d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212d724
-void func_0212d724(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212d770
-void func_0212d770(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212d790
-void func_0212d790(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212d7e8
 void func_0212d7e8(M2C_UNK, M2C_UNK);
@@ -12741,23 +13410,11 @@ void func_0212ddb4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0212de10
 void func_0212de10(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212de6c
-void func_0212de6c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212dea4
 void func_0212dea4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212df10
-void func_0212df10(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212df34
-void func_0212df34(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212e01c
 void func_0212e01c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212e2bc
-void func_0212e2bc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212e2e8
 void func_0212e2e8(M2C_UNK);
@@ -12768,14 +13425,8 @@ void func_0212e600(M2C_UNK);
 #ifndef M2C_SELF_func_0212e774
 void func_0212e774(void);
 #endif
-#ifndef M2C_SELF_func_0212e9f4
-void func_0212e9f4(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212ea20
 void func_0212ea20(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212ea84
-void func_0212ea84(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212eaa0
 void func_0212eaa0(M2C_UNK, M2C_UNK);
@@ -12792,41 +13443,14 @@ void func_0212eb80(M2C_UNK);
 #ifndef M2C_SELF_func_0212ebc8
 void func_0212ebc8(void);
 #endif
-#ifndef M2C_SELF_func_0212ecb4
-void func_0212ecb4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212ed14
 void func_0212ed14(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212ed34
-void func_0212ed34(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212ed6c
-void func_0212ed6c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212edb8
 void func_0212edb8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212ee94
-void func_0212ee94(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212eee8
-void func_0212eee8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212ef6c
-void func_0212ef6c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212efbc
-void func_0212efbc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212f030
-void func_0212f030(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212f09c
 void func_0212f09c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212f0f4
-void func_0212f0f4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212f114
 void func_0212f114(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -12856,7 +13480,7 @@ void func_0212f540(M2C_UNK, M2C_UNK);
 void func_0212f56c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212f598
-M2C_UNK func_0212f598(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_0212f598(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212f728
 void func_0212f728(M2C_UNK);
@@ -12870,26 +13494,11 @@ void func_0212f810(void);
 #ifndef M2C_SELF_func_0212f86c
 void func_0212f86c(void);
 #endif
-#ifndef M2C_SELF_func_0212f8cc
-void func_0212f8cc(void);
-#endif
 #ifndef M2C_SELF_func_0212f92c
 void func_0212f92c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212f964
-void func_0212f964(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212f9a8
-void func_0212f9a8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212f9cc
-void func_0212f9cc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212f9f0
 void func_0212f9f0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212fa40
-void func_0212fa40(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0212fab4
 void func_0212fab4(void);
@@ -12903,44 +13512,17 @@ M2C_UNK func_0212fc60(M2C_UNK);
 #ifndef M2C_SELF_func_0212fdc0
 M2C_UNK func_0212fdc0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212fe00
-void func_0212fe00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212fe50
-void func_0212fe50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212fe64
-void func_0212fe64(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212fe80
-void func_0212fe80(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0212fe94
 void func_0212fe94(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0212ff5c
-void func_0212ff5c(void);
-#endif
 #ifndef M2C_SELF_func_0212ff60
 void func_0212ff60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0212ffc4
-void func_0212ffc4(void);
-#endif
-#ifndef M2C_SELF_func_0212ffc8
-M2C_UNK func_0212ffc8(void);
-#endif
-#ifndef M2C_SELF_func_0212ffe0
-void func_0212ffe0(void);
 #endif
 #ifndef M2C_SELF_func_0212fff0
 M2C_UNK func_0212fff0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02130010
 M2C_UNK func_02130010(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02130050
-void func_02130050(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02130070
 void func_02130070(M2C_UNK, M2C_UNK);
@@ -12990,32 +13572,8 @@ void func_02133b5c(M2C_UNK);
 #ifndef M2C_SELF_func_02133be0
 void func_02133be0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02133c64
-void func_02133c64(void);
-#endif
-#ifndef M2C_SELF_func_02133c68
-void func_02133c68(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02133c90
-void func_02133c90(void);
-#endif
-#ifndef M2C_SELF_func_02133c94
-void func_02133c94(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02133ca8
-void func_02133ca8(void);
-#endif
 #ifndef M2C_SELF_func_02133cac
 void func_02133cac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02133e90
-M2C_UNK func_02133e90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02133f18
-M2C_UNK func_02133f18(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02133f20
-void func_02133f20(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02133f2c
 M2C_UNK func_02133f2c(M2C_UNK);
@@ -13033,31 +13591,16 @@ void func_02133fac(M2C_UNK);
 void func_02133fec(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02134018
-M2C_UNK func_02134018(M2C_UNK);
+void func_02134018(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02134a48
 M2C_UNK func_02134a48(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02134a9c
-void func_02134a9c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02134ab0
 void func_02134ab0(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02135958
-void func_02135958(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02135984
-void func_02135984(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02135a20
-void func_02135a20(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02135ac4
 void func_02135ac4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02136164
-void func_02136164(void);
 #endif
 #ifndef M2C_SELF_func_021361c4
 void func_021361c4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -13083,9 +13626,6 @@ M2C_UNK func_02137c10(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02137ccc
 M2C_UNK func_02137ccc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02137f6c
-void func_02137f6c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02137fdc
 void func_02137fdc(M2C_UNK);
 #endif
@@ -13095,23 +13635,11 @@ void func_02138214(M2C_UNK);
 #ifndef M2C_SELF_func_021382b4
 void func_021382b4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02138600
-void func_02138600(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02138634
 void func_02138634(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02138644
 void func_02138644(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138654
-M2C_UNK func_02138654(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138668
-M2C_UNK func_02138668(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138680
-void func_02138680(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021386ec
 void func_021386ec(M2C_UNK, M2C_UNK);
@@ -13119,44 +13647,14 @@ void func_021386ec(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0213876c
 void func_0213876c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021387d0
-void func_021387d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138838
-void func_02138838(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138864
-void func_02138864(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213887c
-void func_0213887c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138898
-void func_02138898(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138928
-void func_02138928(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02138954
 M2C_UNK func_02138954(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021389c4
 void func_021389c4(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02138a20
-M2C_UNK func_02138a20(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138a78
-void func_02138a78(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02138ab8
-M2C_UNK func_02138ab8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138b00
-void func_02138b00(void);
-#endif
-#ifndef M2C_SELF_func_02138b0c
-M2C_UNK func_02138b0c(M2C_UNK, M2C_UNK);
+void func_02138ab8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02138b58
 void func_02138b58(M2C_UNK);
@@ -13168,205 +13666,31 @@ void func_02138b88(M2C_UNK);
 void func_02138ba0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02138c1c
-M2C_UNK func_02138c1c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138c9c
-void func_02138c9c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138cec
-void func_02138cec(void);
-#endif
-#ifndef M2C_SELF_func_02138cf8
-void func_02138cf8(void);
-#endif
-#ifndef M2C_SELF_func_02138d34
-void func_02138d34(void);
-#endif
-#ifndef M2C_SELF_func_02138d40
-void func_02138d40(void);
-#endif
-#ifndef M2C_SELF_func_02138d74
-void func_02138d74(void);
-#endif
-#ifndef M2C_SELF_func_02138e1c
-void func_02138e1c(void);
-#endif
-#ifndef M2C_SELF_func_02138e48
-void func_02138e48(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138e68
-M2C_UNK func_02138e68(void);
-#endif
-#ifndef M2C_SELF_func_02138eac
-void func_02138eac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138ec8
-void func_02138ec8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138f00
-M2C_UNK func_02138f00(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138f54
-void func_02138f54(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02138fb8
-void func_02138fb8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139014
-void func_02139014(M2C_UNK);
+void func_02138c1c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021390a4
-M2C_UNK func_021390a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139120
-void func_02139120(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213915c
-void func_0213915c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021391bc
-void func_021391bc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139218
-void func_02139218(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139264
-M2C_UNK func_02139264(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021392c0
-void func_021392c0(M2C_UNK, M2C_UNK);
+void func_021390a4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02139320
 void func_02139320(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213937c
-void func_0213937c(void);
-#endif
-#ifndef M2C_SELF_func_02139388
-M2C_UNK func_02139388(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02139444
 void func_02139444(void);
-#endif
-#ifndef M2C_SELF_func_021395b8
-void func_021395b8(void);
-#endif
-#ifndef M2C_SELF_func_02139670
-void func_02139670(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213968c
-void func_0213968c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021396bc
-void func_021396bc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021396ec
-void func_021396ec(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021396fc
-void func_021396fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139714
-void func_02139714(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02139720
 void func_02139720(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02139764
-void func_02139764(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139774
-M2C_UNK func_02139774(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139814
-void func_02139814(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213982c
-void func_0213982c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213984c
-void func_0213984c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021398c4
-void func_021398c4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02139918
 void func_02139918(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021399d0
-void func_021399d0(void);
-#endif
-#ifndef M2C_SELF_func_021399e0
-void func_021399e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139a14
-void func_02139a14(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139a94
-void func_02139a94(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139ad8
-void func_02139ad8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139b4c
-void func_02139b4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139b7c
-void func_02139b7c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02139bd8
 M2C_UNK func_02139bd8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02139da8
-void func_02139da8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139dd8
-M2C_UNK func_02139dd8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02139e3c
-void func_02139e3c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02139ec0
 void func_02139ec0(void);
 #endif
-#ifndef M2C_SELF_func_02139f60
-void func_02139f60(void);
-#endif
-#ifndef M2C_SELF_func_02139fc0
-void func_02139fc0(void);
-#endif
-#ifndef M2C_SELF_func_0213a0bc
-void func_0213a0bc(void);
-#endif
-#ifndef M2C_SELF_func_0213a16c
-void func_0213a16c(void);
-#endif
-#ifndef M2C_SELF_func_0213a18c
-void func_0213a18c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a198
-void func_0213a198(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a1a4
-void func_0213a1a4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a1b0
-void func_0213a1b0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a1cc
-M2C_UNK func_0213a1cc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213a1f4
 void func_0213a1f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a214
-M2C_UNK func_0213a214(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a298
-M2C_UNK func_0213a298(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a2c0
-M2C_UNK func_0213a2c0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213a2e8
 M2C_UNK func_0213a2e8(void);
@@ -13375,7 +13699,7 @@ M2C_UNK func_0213a2e8(void);
 M2C_UNK func_0213a34c(void);
 #endif
 #ifndef M2C_SELF_func_0213a3b0
-M2C_UNK func_0213a3b0(void);
+void func_0213a3b0(void);
 #endif
 #ifndef M2C_SELF_func_0213a414
 M2C_UNK func_0213a414(void);
@@ -13387,16 +13711,10 @@ M2C_UNK func_0213a478(void);
 M2C_UNK func_0213a4dc(void);
 #endif
 #ifndef M2C_SELF_func_0213a540
-M2C_UNK func_0213a540(void);
+void func_0213a540(void);
 #endif
 #ifndef M2C_SELF_func_0213a5a4
-M2C_UNK func_0213a5a4(void);
-#endif
-#ifndef M2C_SELF_func_0213a608
-M2C_UNK func_0213a608(void);
-#endif
-#ifndef M2C_SELF_func_0213a618
-M2C_UNK func_0213a618(M2C_UNK);
+void func_0213a5a4(void);
 #endif
 #ifndef M2C_SELF_func_0213a630
 M2C_UNK func_0213a630(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -13404,35 +13722,8 @@ M2C_UNK func_0213a630(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0213a84c
 void func_0213a84c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213a8d4
-void func_0213a8d4(void);
-#endif
-#ifndef M2C_SELF_func_0213a8f8
-M2C_UNK func_0213a8f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a948
-M2C_UNK func_0213a948(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213a988
-void func_0213a988(void);
-#endif
 #ifndef M2C_SELF_func_0213a998
 void func_0213a998(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213aa84
-M2C_UNK func_0213aa84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213aadc
-M2C_UNK func_0213aadc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ab4c
-void func_0213ab4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ac0c
-void func_0213ac0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ac28
-M2C_UNK func_0213ac28(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213acc4
 M2C_UNK func_0213acc4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -13440,101 +13731,26 @@ M2C_UNK func_0213acc4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0213ad94
 M2C_UNK func_0213ad94(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213ae88
-void func_0213ae88(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213aedc
-void func_0213aedc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213af00
-void func_0213af00(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213af3c
-void func_0213af3c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213af78
-void func_0213af78(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213afac
 void func_0213afac(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213b018
 void func_0213b018(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213b14c
-void func_0213b14c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b1c8
-M2C_UNK func_0213b1c8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b244
-M2C_UNK func_0213b244(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b2c0
-M2C_UNK func_0213b2c0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b33c
-M2C_UNK func_0213b33c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b3f0
-M2C_UNK func_0213b3f0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213b498
 M2C_UNK func_0213b498(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213b5f8
-M2C_UNK func_0213b5f8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b668
-M2C_UNK func_0213b668(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213b714
-M2C_UNK func_0213b714(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b854
-M2C_UNK func_0213b854(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213b88c
-M2C_UNK func_0213b88c(void);
+void func_0213b714(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213b8b0
 void func_0213b8b0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213b9bc
-M2C_UNK func_0213b9bc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ba10
-M2C_UNK func_0213ba10(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213bab8
 void func_0213bab8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213bb28
-void func_0213bb28(void);
-#endif
-#ifndef M2C_SELF_func_0213bb2c
-void func_0213bb2c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213bb4c
-void func_0213bb4c(void);
-#endif
-#ifndef M2C_SELF_func_0213bb50
-void func_0213bb50(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213bb80
-void func_0213bb80(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213bb90
-void func_0213bb90(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213bbcc
-void func_0213bbcc(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213bbdc
 void func_0213bbdc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213bc5c
-void func_0213bc5c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213bce4
 void func_0213bce4(M2C_UNK);
@@ -13545,44 +13761,11 @@ void func_0213c574(M2C_UNK);
 #ifndef M2C_SELF_func_0213c6d8
 void func_0213c6d8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213c82c
-void func_0213c82c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213c8d8
-void func_0213c8d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213c910
-M2C_UNK func_0213c910(void);
-#endif
-#ifndef M2C_SELF_func_0213c95c
-M2C_UNK func_0213c95c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213c9b0
-void func_0213c9b0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ca24
-void func_0213ca24(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ca9c
-void func_0213ca9c(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213cae4
 M2C_UNK func_0213cae4(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213cb24
-void func_0213cb24(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213cb98
-void func_0213cb98(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213cc3c
-void func_0213cc3c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213cca0
 void func_0213cca0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213cf40
-void func_0213cf40(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213cf7c
 M2C_UNK func_0213cf7c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -13590,26 +13773,8 @@ M2C_UNK func_0213cf7c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0213d024
 void func_0213d024(void);
 #endif
-#ifndef M2C_SELF_func_0213d13c
-void func_0213d13c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d154
-void func_0213d154(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213d160
 void func_0213d160(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d1ac
-void func_0213d1ac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d1d8
-M2C_UNK func_0213d1d8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d208
-void func_0213d208(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d220
-M2C_UNK func_0213d220(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213d288
 void func_0213d288(M2C_UNK);
@@ -13617,50 +13782,11 @@ void func_0213d288(M2C_UNK);
 #ifndef M2C_SELF_func_0213d364
 void func_0213d364(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213d468
-M2C_UNK func_0213d468(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d480
-void func_0213d480(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d498
-M2C_UNK func_0213d498(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d4d4
-void func_0213d4d4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d504
-void func_0213d504(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213d524
 void func_0213d524(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213d548
-M2C_UNK func_0213d548(void);
-#endif
-#ifndef M2C_SELF_func_0213d558
-void func_0213d558(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d58c
-void func_0213d58c(void);
-#endif
-#ifndef M2C_SELF_func_0213d5c4
-void func_0213d5c4(void);
-#endif
-#ifndef M2C_SELF_func_0213d5f0
-void func_0213d5f0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d618
-M2C_UNK func_0213d618(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213d7c0
 void func_0213d7c0(void);
-#endif
-#ifndef M2C_SELF_func_0213d90c
-void func_0213d90c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213d934
-void func_0213d934(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213d968
 void func_0213d968(void);
@@ -13671,125 +13797,11 @@ void func_0213d9a4(void);
 #ifndef M2C_SELF_func_0213d9ec
 void func_0213d9ec(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213da54
-void func_0213da54(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213da70
-void func_0213da70(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213da98
-void func_0213da98(void);
-#endif
-#ifndef M2C_SELF_func_0213daf8
-void func_0213daf8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213dbb0
-void func_0213dbb0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213de40
-void func_0213de40(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213df90
-void func_0213df90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e090
-void func_0213e090(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e13c
-void func_0213e13c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e15c
-void func_0213e15c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e204
-void func_0213e204(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e274
-void func_0213e274(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e2f4
-void func_0213e2f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e374
-void func_0213e374(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e3a8
-M2C_UNK func_0213e3a8(void);
-#endif
-#ifndef M2C_SELF_func_0213e3cc
-M2C_UNK func_0213e3cc(void);
-#endif
-#ifndef M2C_SELF_func_0213e3f0
-M2C_UNK func_0213e3f0(void);
-#endif
-#ifndef M2C_SELF_func_0213e418
-M2C_UNK func_0213e418(void);
-#endif
-#ifndef M2C_SELF_func_0213e440
-M2C_UNK func_0213e440(void);
-#endif
-#ifndef M2C_SELF_func_0213e474
-M2C_UNK func_0213e474(void);
-#endif
 #ifndef M2C_SELF_func_0213e494
 M2C_UNK func_0213e494(void);
 #endif
-#ifndef M2C_SELF_func_0213e4c8
-M2C_UNK func_0213e4c8(void);
-#endif
-#ifndef M2C_SELF_func_0213e4e8
-M2C_UNK func_0213e4e8(void);
-#endif
-#ifndef M2C_SELF_func_0213e56c
-M2C_UNK func_0213e56c(void);
-#endif
-#ifndef M2C_SELF_func_0213e5e0
-M2C_UNK func_0213e5e0(void);
-#endif
-#ifndef M2C_SELF_func_0213e664
-M2C_UNK func_0213e664(void);
-#endif
-#ifndef M2C_SELF_func_0213e6d8
-M2C_UNK func_0213e6d8(void);
-#endif
-#ifndef M2C_SELF_func_0213e70c
-M2C_UNK func_0213e70c(void);
-#endif
 #ifndef M2C_SELF_func_0213e72c
 M2C_UNK func_0213e72c(void);
-#endif
-#ifndef M2C_SELF_func_0213e760
-M2C_UNK func_0213e760(void);
-#endif
-#ifndef M2C_SELF_func_0213e780
-M2C_UNK func_0213e780(void);
-#endif
-#ifndef M2C_SELF_func_0213e7d0
-M2C_UNK func_0213e7d0(void);
-#endif
-#ifndef M2C_SELF_func_0213e810
-M2C_UNK func_0213e810(void);
-#endif
-#ifndef M2C_SELF_func_0213e868
-M2C_UNK func_0213e868(void);
-#endif
-#ifndef M2C_SELF_func_0213e8b0
-void func_0213e8b0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e8cc
-void func_0213e8cc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e8f4
-void func_0213e8f4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e93c
-void func_0213e93c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e980
-void func_0213e980(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213e9d4
-void func_0213e9d4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213ea2c
 void func_0213ea2c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -13797,125 +13809,29 @@ void func_0213ea2c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0213ea84
 void func_0213ea84(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213eadc
-void func_0213eadc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213eb3c
-void func_0213eb3c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213eb9c
-void func_0213eb9c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ebfc
-void func_0213ebfc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ec5c
-void func_0213ec5c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ecbc
-void func_0213ecbc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ed1c
-void func_0213ed1c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ed7c
-void func_0213ed7c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213eddc
-void func_0213eddc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ee3c
-void func_0213ee3c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ee9c
-void func_0213ee9c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213eefc
-void func_0213eefc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213ef5c
-void func_0213ef5c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213efbc
-void func_0213efbc(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213f01c
-void func_0213f01c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213f07c
-void func_0213f07c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213f0dc
 void func_0213f0dc(void);
 #endif
 #ifndef M2C_SELF_func_0213f17c
 void func_0213f17c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213f1ec
-void func_0213f1ec(void);
-#endif
-#ifndef M2C_SELF_func_0213f234
-void func_0213f234(void);
-#endif
 #ifndef M2C_SELF_func_0213f27c
 void func_0213f27c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213f2e8
-void func_0213f2e8(void);
-#endif
-#ifndef M2C_SELF_func_0213f32c
-void func_0213f32c(void);
 #endif
 #ifndef M2C_SELF_func_0213f344
 void func_0213f344(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213f3a8
-void func_0213f3a8(void);
-#endif
 #ifndef M2C_SELF_func_0213f3e8
 void func_0213f3e8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213f45c
-void func_0213f45c(void);
-#endif
 #ifndef M2C_SELF_func_0213f460
 void func_0213f460(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213f4e8
-void func_0213f4e8(void);
-#endif
-#ifndef M2C_SELF_func_0213f4f8
-void func_0213f4f8(void);
-#endif
-#ifndef M2C_SELF_func_0213f508
-void func_0213f508(void);
-#endif
-#ifndef M2C_SELF_func_0213f518
-void func_0213f518(void);
-#endif
-#ifndef M2C_SELF_func_0213f528
-void func_0213f528(void);
-#endif
-#ifndef M2C_SELF_func_0213f538
-void func_0213f538(void);
-#endif
-#ifndef M2C_SELF_func_0213f548
-void func_0213f548(void);
-#endif
-#ifndef M2C_SELF_func_0213f558
-void func_0213f558(void);
-#endif
-#ifndef M2C_SELF_func_0213f568
-void func_0213f568(void);
 #endif
 #ifndef M2C_SELF_func_0213f580
 void func_0213f580(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213f608
 M2C_UNK func_0213f608(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213f694
-void func_0213f694(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213f6dc
 void func_0213f6dc(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -13924,7 +13840,7 @@ void func_0213f6dc(M2C_UNK, M2C_UNK, M2C_UNK);
 M2C_UNK func_0213f724(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213f750
-M2C_UNK func_0213f750(M2C_UNK);
+void func_0213f750(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0213f780
 M2C_UNK func_0213f780(M2C_UNK);
@@ -13941,72 +13857,6 @@ void func_0213f810(void);
 #ifndef M2C_SELF_func_0213f8dc
 void func_0213f8dc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0213f928
-void func_0213f928(void);
-#endif
-#ifndef M2C_SELF_func_0213f938
-void func_0213f938(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213f9ac
-void func_0213f9ac(void);
-#endif
-#ifndef M2C_SELF_func_0213f9bc
-M2C_UNK func_0213f9bc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fa28
-void func_0213fa28(void);
-#endif
-#ifndef M2C_SELF_func_0213fa48
-void func_0213fa48(void);
-#endif
-#ifndef M2C_SELF_func_0213fa68
-void func_0213fa68(void);
-#endif
-#ifndef M2C_SELF_func_0213fa74
-M2C_UNK func_0213fa74(void);
-#endif
-#ifndef M2C_SELF_func_0213fa94
-void func_0213fa94(void);
-#endif
-#ifndef M2C_SELF_func_0213faac
-void func_0213faac(void);
-#endif
-#ifndef M2C_SELF_func_0213fac4
-void func_0213fac4(void);
-#endif
-#ifndef M2C_SELF_func_0213fae0
-void func_0213fae0(void);
-#endif
-#ifndef M2C_SELF_func_0213fafc
-void func_0213fafc(void);
-#endif
-#ifndef M2C_SELF_func_0213fb14
-void func_0213fb14(void);
-#endif
-#ifndef M2C_SELF_func_0213fb2c
-M2C_UNK func_0213fb2c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fb34
-M2C_UNK func_0213fb34(void);
-#endif
-#ifndef M2C_SELF_func_0213fb8c
-void func_0213fb8c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fbbc
-M2C_UNK func_0213fbbc(void);
-#endif
-#ifndef M2C_SELF_func_0213fbd4
-void func_0213fbd4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fc4c
-M2C_UNK func_0213fc4c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fc80
-void func_0213fc80(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fcd4
-M2C_UNK func_0213fcd4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0213fd04
 void func_0213fd04(void);
 #endif
@@ -14016,29 +13866,8 @@ void func_0213fd64(void);
 #ifndef M2C_SELF_func_0213fdac
 void func_0213fdac(void);
 #endif
-#ifndef M2C_SELF_func_0213ff00
-void func_0213ff00(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0213fffc
-void func_0213fffc(void);
-#endif
-#ifndef M2C_SELF_func_0214001c
-void func_0214001c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02140078
 void func_02140078(void);
-#endif
-#ifndef M2C_SELF_func_021400b0
-void func_021400b0(void);
-#endif
-#ifndef M2C_SELF_func_0214010c
-void func_0214010c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214015c
-void func_0214015c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021401c4
-void func_021401c4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021401ec
 M2C_UNK func_021401ec(void);
@@ -14052,119 +13881,26 @@ void func_021402e0(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02140388
 void func_02140388(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021403b0
-void func_021403b0(void);
-#endif
-#ifndef M2C_SELF_func_021403c0
-void func_021403c0(void);
-#endif
-#ifndef M2C_SELF_func_021403f4
-void func_021403f4(void);
-#endif
-#ifndef M2C_SELF_func_02140428
-void func_02140428(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02140430
 void func_02140430(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02140494
-M2C_UNK func_02140494(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021404e0
-void func_021404e0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140524
-M2C_UNK func_02140524(void);
-#endif
-#ifndef M2C_SELF_func_0214052c
-M2C_UNK func_0214052c(void);
-#endif
 #ifndef M2C_SELF_func_021405a0
-M2C_UNK func_021405a0(void);
+void func_021405a0(void);
 #endif
 #ifndef M2C_SELF_func_0214064c
-M2C_UNK func_0214064c(void);
-#endif
-#ifndef M2C_SELF_func_02140678
-M2C_UNK func_02140678(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214071c
-void func_0214071c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140734
-void func_02140734(M2C_UNK);
+void func_0214064c(void);
 #endif
 #ifndef M2C_SELF_func_021407b8
 void func_021407b8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02140814
-void func_02140814(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02140850
 M2C_UNK func_02140850(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021408c4
-void func_021408c4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021408e8
-void func_021408e8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214090c
-void func_0214090c(void);
-#endif
-#ifndef M2C_SELF_func_02140948
-void func_02140948(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140968
-void func_02140968(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140988
-void func_02140988(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021409b0
-void func_021409b0(void);
-#endif
-#ifndef M2C_SELF_func_021409bc
-void func_021409bc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021409dc
-void func_021409dc(void);
-#endif
-#ifndef M2C_SELF_func_02140a20
-void func_02140a20(void);
-#endif
-#ifndef M2C_SELF_func_02140b24
-void func_02140b24(void);
-#endif
-#ifndef M2C_SELF_func_02140b90
-M2C_UNK func_02140b90(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140ba4
-M2C_UNK func_02140ba4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02140bb8
-M2C_UNK func_02140bb8(M2C_UNK);
+void func_02140bb8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02140c9c
-M2C_UNK func_02140c9c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140d44
-void func_02140d44(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140d58
-void func_02140d58(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140d6c
-void func_02140d6c(void);
-#endif
-#ifndef M2C_SELF_func_02140d80
-void func_02140d80(void);
-#endif
-#ifndef M2C_SELF_func_02140d90
-void func_02140d90(void);
-#endif
-#ifndef M2C_SELF_func_02140da0
-void func_02140da0(void);
+void func_02140c9c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02140da8
 void func_02140da8(void);
@@ -14172,71 +13908,17 @@ void func_02140da8(void);
 #ifndef M2C_SELF_func_02140db0
 void func_02140db0(void);
 #endif
-#ifndef M2C_SELF_func_02140e34
-void func_02140e34(void);
-#endif
 #ifndef M2C_SELF_func_02140eb0
 void func_02140eb0(void);
 #endif
-#ifndef M2C_SELF_func_02140ec4
-void func_02140ec4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140f54
-void func_02140f54(void);
-#endif
-#ifndef M2C_SELF_func_02140fac
-void func_02140fac(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02140fc8
-void func_02140fc8(void);
-#endif
 #ifndef M2C_SELF_func_02141044
 void func_02141044(void);
-#endif
-#ifndef M2C_SELF_func_021410b4
-void func_021410b4(void);
-#endif
-#ifndef M2C_SELF_func_02141110
-void func_02141110(void);
-#endif
-#ifndef M2C_SELF_func_02141124
-M2C_UNK func_02141124(void);
-#endif
-#ifndef M2C_SELF_func_02141138
-void func_02141138(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141150
-void func_02141150(void);
-#endif
-#ifndef M2C_SELF_func_02141164
-void func_02141164(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214117c
-M2C_UNK func_0214117c(void);
 #endif
 #ifndef M2C_SELF_func_02141188
 void func_02141188(void);
 #endif
 #ifndef M2C_SELF_func_02141198
 void func_02141198(void);
-#endif
-#ifndef M2C_SELF_func_021411b4
-void func_021411b4(void);
-#endif
-#ifndef M2C_SELF_func_02141208
-void func_02141208(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214123c
-void func_0214123c(void);
-#endif
-#ifndef M2C_SELF_func_02141270
-void func_02141270(void);
-#endif
-#ifndef M2C_SELF_func_02141280
-void func_02141280(void);
-#endif
-#ifndef M2C_SELF_func_0214128c
-void func_0214128c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214129c
 void func_0214129c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -14250,20 +13932,8 @@ void func_0214138c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0214140c
 void func_0214140c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02141478
-void func_02141478(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02141510
 void func_02141510(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141578
-void func_02141578(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021415f4
-void func_021415f4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141678
-void func_02141678(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021416cc
 void func_021416cc(void);
@@ -14289,197 +13959,23 @@ void func_021417d0(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02141868
 void func_02141868(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021419a4
-M2C_UNK func_021419a4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021419ac
-void func_021419ac(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02141a4c
 void func_02141a4c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02141b30
 void func_02141b30(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02141ba4
-void func_02141ba4(void);
-#endif
-#ifndef M2C_SELF_func_02141bbc
-void func_02141bbc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141bdc
-void func_02141bdc(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141c04
-void func_02141c04(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141c24
-void func_02141c24(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141c3c
-void func_02141c3c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141c54
-void func_02141c54(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141c70
-void func_02141c70(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141c98
-void func_02141c98(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141cc0
-void func_02141cc0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141d24
-void func_02141d24(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141d64
-void func_02141d64(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141d84
-void func_02141d84(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141da4
-void func_02141da4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141dcc
-void func_02141dcc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141dec
-void func_02141dec(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141e38
-void func_02141e38(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141e58
-void func_02141e58(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141e78
-void func_02141e78(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141e98
-void func_02141e98(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141eb8
-void func_02141eb8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141ee0
-void func_02141ee0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141f08
-void func_02141f08(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141f30
-void func_02141f30(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02141f74
-void func_02141f74(void);
-#endif
-#ifndef M2C_SELF_func_02141fac
-void func_02141fac(void);
-#endif
-#ifndef M2C_SELF_func_02141fc0
-void func_02141fc0(void);
-#endif
 #ifndef M2C_SELF_func_02141fd4
 void func_02141fd4(void);
 #endif
 #ifndef M2C_SELF_func_021420e4
-M2C_UNK func_021420e4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214220c
-M2C_UNK func_0214220c(M2C_UNK);
+void func_021420e4(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02142294
 void func_02142294(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021422dc
 void func_021422dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142460
-void func_02142460(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021424cc
-M2C_UNK func_021424cc(void);
-#endif
-#ifndef M2C_SELF_func_02142504
-M2C_UNK func_02142504(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142554
-M2C_UNK func_02142554(void);
-#endif
-#ifndef M2C_SELF_func_02142590
-M2C_UNK func_02142590(void);
-#endif
-#ifndef M2C_SELF_func_021425cc
-M2C_UNK func_021425cc(void);
-#endif
-#ifndef M2C_SELF_func_021425e8
-void func_021425e8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214260c
-void func_0214260c(void);
-#endif
-#ifndef M2C_SELF_func_0214266c
-void func_0214266c(void);
-#endif
-#ifndef M2C_SELF_func_02142694
-M2C_UNK func_02142694(void);
-#endif
-#ifndef M2C_SELF_func_021426e4
-M2C_UNK func_021426e4(void);
-#endif
-#ifndef M2C_SELF_func_02142724
-void func_02142724(void);
-#endif
-#ifndef M2C_SELF_func_02142754
-void func_02142754(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142774
-M2C_UNK func_02142774(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021427a4
-void func_021427a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021427e8
-M2C_UNK func_021427e8(void);
-#endif
-#ifndef M2C_SELF_func_02142814
-M2C_UNK func_02142814(void);
-#endif
-#ifndef M2C_SELF_func_0214283c
-void func_0214283c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021428b8
-M2C_UNK func_021428b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142928
-void func_02142928(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021429f4
-void func_021429f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142a8c
-void func_02142a8c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142ad4
-void func_02142ad4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142af4
-M2C_UNK func_02142af4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142ca4
-M2C_UNK func_02142ca4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142cac
-void func_02142cac(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142ce0
-M2C_UNK func_02142ce0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02142d1c
-void func_02142d1c(void);
 #endif
 #ifndef M2C_SELF_func_02142d28
 void func_02142d28(void);
@@ -14505,20 +14001,8 @@ void func_02143044(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021430a0
 M2C_UNK func_021430a0(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02143230
-M2C_UNK func_02143230(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02143280
 M2C_UNK func_02143280(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143338
-void func_02143338(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214336c
-void func_0214336c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143398
-void func_02143398(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021433c4
 void func_021433c4(M2C_UNK);
@@ -14535,134 +14019,29 @@ void func_02143740(M2C_UNK);
 #ifndef M2C_SELF_func_02143aec
 void func_02143aec(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02143b60
-void func_02143b60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143b88
-void func_02143b88(void);
-#endif
-#ifndef M2C_SELF_func_02143b90
-M2C_UNK func_02143b90(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143be8
-void func_02143be8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143c04
-void func_02143c04(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143c24
-void func_02143c24(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02143c3c
 M2C_UNK func_02143c3c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02143e50
-void func_02143e50(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02143ee4
-void func_02143ee4(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02143f28
-M2C_UNK func_02143f28(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021440cc
-void func_021440cc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021440f8
-M2C_UNK func_021440f8(void);
-#endif
-#ifndef M2C_SELF_func_02144138
-void func_02144138(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021441f4
-void func_021441f4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144264
-void func_02144264(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144388
-void func_02144388(M2C_UNK, M2C_UNK, M2C_UNK);
+void func_02143f28(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021443a8
 void func_021443a8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214442c
-void func_0214442c(void);
-#endif
-#ifndef M2C_SELF_func_02144454
-void func_02144454(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214447c
-M2C_UNK func_0214447c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021445c0
-void func_021445c0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214463c
-M2C_UNK func_0214463c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214467c
-M2C_UNK func_0214467c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021446c4
-M2C_UNK func_021446c4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144734
-M2C_UNK func_02144734(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214477c
-M2C_UNK func_0214477c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021447b8
-M2C_UNK func_021447b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144878
-void func_02144878(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021448c0
-M2C_UNK func_021448c0(void);
-#endif
-#ifndef M2C_SELF_func_021448d0
-M2C_UNK func_021448d0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214493c
-void func_0214493c(void);
+void func_0214447c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214494c
 void func_0214494c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02144994
-void func_02144994(void);
-#endif
-#ifndef M2C_SELF_func_0214499c
-void func_0214499c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144a08
-void func_02144a08(void);
-#endif
-#ifndef M2C_SELF_func_02144a10
-void func_02144a10(void);
-#endif
 #ifndef M2C_SELF_func_02144a18
 void func_02144a18(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144b74
-M2C_UNK func_02144b74(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144b94
-void func_02144b94(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02144be8
-void func_02144be8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02144c34
 void func_02144c34(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02144eb4
-void func_02144eb4(void);
-#endif
 #ifndef M2C_SELF_func_02144f30
-M2C_UNK func_02144f30(void);
+void func_02144f30(void);
 #endif
 #ifndef M2C_SELF_func_02144fa4
 void func_02144fa4(M2C_UNK);
@@ -14670,29 +14049,14 @@ void func_02144fa4(M2C_UNK);
 #ifndef M2C_SELF_func_02145084
 void func_02145084(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02145184
-M2C_UNK func_02145184(void);
-#endif
 #ifndef M2C_SELF_func_02145194
 M2C_UNK func_02145194(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02145380
 void func_02145380(void);
 #endif
-#ifndef M2C_SELF_func_021454a0
-void func_021454a0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021454b8
-M2C_UNK func_021454b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021454cc
-M2C_UNK func_021454cc(void);
-#endif
 #ifndef M2C_SELF_func_02145508
 void func_02145508(void);
-#endif
-#ifndef M2C_SELF_func_02145520
-void func_02145520(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02145528
 void func_02145528(void);
@@ -14710,34 +14074,7 @@ M2C_UNK func_021456e4(M2C_UNK, M2C_UNK);
 void func_02145780(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_021457e0
-M2C_UNK func_021457e0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214584c
-M2C_UNK func_0214584c(void);
-#endif
-#ifndef M2C_SELF_func_02145874
-M2C_UNK func_02145874(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021458c8
-void func_021458c8(void);
-#endif
-#ifndef M2C_SELF_func_021458f0
-M2C_UNK func_021458f0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214596c
-void func_0214596c(void);
-#endif
-#ifndef M2C_SELF_func_02145994
-M2C_UNK func_02145994(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021459ac
-void func_021459ac(void);
-#endif
-#ifndef M2C_SELF_func_021459d4
-void func_021459d4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145a30
-void func_02145a30(M2C_UNK);
+void func_021457e0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02145a5c
 void func_02145a5c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -14745,104 +14082,17 @@ void func_02145a5c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02145c88
 void func_02145c88(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02145d5c
-M2C_UNK func_02145d5c(void);
-#endif
-#ifndef M2C_SELF_func_02145d78
-void func_02145d78(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145d8c
-void func_02145d8c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145dd8
-void func_02145dd8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145e20
-void func_02145e20(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145e48
-void func_02145e48(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145e60
-void func_02145e60(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145e78
-void func_02145e78(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145e90
-void func_02145e90(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02145ea8
 void func_02145ea8(void);
-#endif
-#ifndef M2C_SELF_func_02145f1c
-M2C_UNK func_02145f1c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02145f8c
-void func_02145f8c(void);
 #endif
 #ifndef M2C_SELF_func_02145fc4
 void func_02145fc4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02146514
-M2C_UNK func_02146514(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02146584
-void func_02146584(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02146594
 void func_02146594(void);
 #endif
-#ifndef M2C_SELF_func_021465b0
-M2C_UNK func_021465b0(void);
-#endif
-#ifndef M2C_SELF_func_021465c0
-M2C_UNK func_021465c0(void);
-#endif
-#ifndef M2C_SELF_func_021465d0
-void func_021465d0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021465f8
-M2C_UNK func_021465f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021466b4
-void func_021466b4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021466f0
-void func_021466f0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02146774
-void func_02146774(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02146800
 void func_02146800(void);
-#endif
-#ifndef M2C_SELF_func_02146904
-M2C_UNK func_02146904(void);
-#endif
-#ifndef M2C_SELF_func_02146914
-void func_02146914(void);
-#endif
-#ifndef M2C_SELF_func_0214692c
-void func_0214692c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214693c
-void func_0214693c(void);
-#endif
-#ifndef M2C_SELF_func_02146988
-M2C_UNK func_02146988(void);
-#endif
-#ifndef M2C_SELF_func_021469a4
-void func_021469a4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021469c0
-void func_021469c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021469dc
-void func_021469dc(void);
-#endif
-#ifndef M2C_SELF_func_021469ec
-void func_021469ec(void);
 #endif
 #ifndef M2C_SELF_func_021469fc
 void func_021469fc(M2C_UNK);
@@ -14853,17 +14103,11 @@ void func_02146bb8(M2C_UNK);
 #ifndef M2C_SELF_func_02146d50
 M2C_UNK func_02146d50(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02146e38
-M2C_UNK func_02146e38(void);
-#endif
 #ifndef M2C_SELF_func_02146e4c
 void func_02146e4c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02146f84
 M2C_UNK func_02146f84(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02147010
-void func_02147010(void);
 #endif
 #ifndef M2C_SELF_func_02147070
 void func_02147070(void);
@@ -14889,80 +14133,26 @@ void func_021474c0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021475b8
 void func_021475b8(void);
 #endif
-#ifndef M2C_SELF_func_02147620
-void func_02147620(void);
-#endif
-#ifndef M2C_SELF_func_0214762c
-M2C_UNK func_0214762c(void);
-#endif
-#ifndef M2C_SELF_func_02147638
-void func_02147638(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214766c
-void func_0214766c(void);
-#endif
-#ifndef M2C_SELF_func_021476c4
-M2C_UNK func_021476c4(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02147818
-void func_02147818(void);
-#endif
-#ifndef M2C_SELF_func_02147844
-void func_02147844(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02147894
-M2C_UNK func_02147894(void);
-#endif
-#ifndef M2C_SELF_func_021478a4
-void func_021478a4(void);
-#endif
-#ifndef M2C_SELF_func_021478d8
-void func_021478d8(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02147938
 void func_02147938(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02147988
 void func_02147988(void);
 #endif
-#ifndef M2C_SELF_func_021479bc
-M2C_UNK func_021479bc(void);
-#endif
-#ifndef M2C_SELF_func_021479e4
-M2C_UNK func_021479e4(void);
-#endif
-#ifndef M2C_SELF_func_02147a0c
-M2C_UNK func_02147a0c(void);
-#endif
-#ifndef M2C_SELF_func_02147a24
-M2C_UNK func_02147a24(void);
-#endif
 #ifndef M2C_SELF_func_02147a48
-M2C_UNK func_02147a48(void);
-#endif
-#ifndef M2C_SELF_func_02147a6c
-M2C_UNK func_02147a6c(void);
+void func_02147a48(void);
 #endif
 #ifndef M2C_SELF_func_02147a90
-M2C_UNK func_02147a90(void);
+void func_02147a90(void);
 #endif
 #ifndef M2C_SELF_func_02147ab4
-M2C_UNK func_02147ab4(void);
+void func_02147ab4(void);
 #endif
 #ifndef M2C_SELF_func_02147b00
 M2C_UNK func_02147b00(void);
 #endif
-#ifndef M2C_SELF_func_02147c0c
-void func_02147c0c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02147c54
-void func_02147c54(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02147c88
 void func_02147c88(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02147ce4
-void func_02147ce4(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02147d08
 void func_02147d08(M2C_UNK);
@@ -14973,89 +14163,14 @@ M2C_UNK func_02147d58(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02147db0
 void func_02147db0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02147eec
-M2C_UNK func_02147eec(void);
-#endif
-#ifndef M2C_SELF_func_02147efc
-void func_02147efc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02147f0c
-void func_02147f0c(void);
-#endif
-#ifndef M2C_SELF_func_02147f30
-void func_02147f30(void);
-#endif
 #ifndef M2C_SELF_func_02147fb4
 void func_02147fb4(void);
-#endif
-#ifndef M2C_SELF_func_02148168
-void func_02148168(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148194
-void func_02148194(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021481d8
-void func_021481d8(void);
-#endif
-#ifndef M2C_SELF_func_021481ec
-void func_021481ec(void);
-#endif
-#ifndef M2C_SELF_func_02148210
-void func_02148210(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214825c
 void func_0214825c(void);
 #endif
-#ifndef M2C_SELF_func_02148384
-void func_02148384(void);
-#endif
-#ifndef M2C_SELF_func_021483ec
-M2C_UNK func_021483ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021483f8
-M2C_UNK func_021483f8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148404
-void func_02148404(void);
-#endif
-#ifndef M2C_SELF_func_02148408
-void func_02148408(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148438
-M2C_UNK func_02148438(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021484c0
-M2C_UNK func_021484c0(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021485a8
-void func_021485a8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021485e0
-void func_021485e0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021485f4
-M2C_UNK func_021485f4(void);
-#endif
-#ifndef M2C_SELF_func_02148610
-M2C_UNK func_02148610(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148688
-void func_02148688(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_021486a8
 void func_021486a8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_021486f4
-void func_021486f4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148708
-M2C_UNK func_02148708(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148734
-M2C_UNK func_02148734(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02148774
-void func_02148774(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02148824
 M2C_UNK func_02148824(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -15069,77 +14184,23 @@ M2C_UNK func_02149000(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_021492e0
 M2C_UNK func_021492e0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_021497bc
-void func_021497bc(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_021498e0
 M2C_UNK func_021498e0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214a044
-M2C_UNK func_0214a044(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214a868
-void func_0214a868(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214a8ac
-void func_0214a8ac(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214a914
-void func_0214a914(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214a92c
-void func_0214a92c(void);
+void func_0214a044(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214a958
 void func_0214a958(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214aa88
-M2C_UNK func_0214aa88(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214aaa4
-void func_0214aaa4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214ab6c
-void func_0214ab6c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214abbc
-M2C_UNK func_0214abbc(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214acd0
-M2C_UNK func_0214acd0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214ad0c
-M2C_UNK func_0214ad0c(void);
-#endif
-#ifndef M2C_SELF_func_0214ad34
-M2C_UNK func_0214ad34(void);
-#endif
-#ifndef M2C_SELF_func_0214ad54
-M2C_UNK func_0214ad54(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214ae10
 void func_0214ae10(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214b05c
-M2C_UNK func_0214b05c(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214b0c8
 void func_0214b0c8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214b114
-void func_0214b114(void);
-#endif
-#ifndef M2C_SELF_func_0214b118
-void func_0214b118(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214b158
 void func_0214b158(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214b224
-void func_0214b224(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214b3a8
-void func_0214b3a8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214b444
 void func_0214b444(M2C_UNK, M2C_UNK);
@@ -15147,26 +14208,11 @@ void func_0214b444(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0214b7c8
 void func_0214b7c8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214b948
-void func_0214b948(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214b9f0
-M2C_UNK func_0214b9f0(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214ba84
-M2C_UNK func_0214ba84(void);
-#endif
-#ifndef M2C_SELF_func_0214ba98
-M2C_UNK func_0214ba98(void);
-#endif
 #ifndef M2C_SELF_func_0214bb08
 void func_0214bb08(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214be20
 M2C_UNK func_0214be20(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214beac
-M2C_UNK func_0214beac(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214c228
 M2C_UNK func_0214c228(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -15174,41 +14220,8 @@ M2C_UNK func_0214c228(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0214c5dc
 M2C_UNK func_0214c5dc(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214c7f8
-void func_0214c7f8(void);
-#endif
-#ifndef M2C_SELF_func_0214c800
-void func_0214c800(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214c884
-void func_0214c884(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214c8f8
-void func_0214c8f8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214c948
-void func_0214c948(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214c998
-void func_0214c998(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214c9fc
 M2C_UNK func_0214c9fc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214cdb4
-M2C_UNK func_0214cdb4(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214cde8
-M2C_UNK func_0214cde8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214ce28
-M2C_UNK func_0214ce28(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214ce70
-M2C_UNK func_0214ce70(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214ceb8
-M2C_UNK func_0214ceb8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214d0a4
 M2C_UNK func_0214d0a4(M2C_UNK, M2C_UNK);
@@ -15219,47 +14232,8 @@ void func_0214d31c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0214d4dc
 M2C_UNK func_0214d4dc(void);
 #endif
-#ifndef M2C_SELF_func_0214d524
-M2C_UNK func_0214d524(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214d730
 M2C_UNK func_0214d730(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214d914
-void func_0214d914(void);
-#endif
-#ifndef M2C_SELF_func_0214d918
-void func_0214d918(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214d92c
-M2C_UNK func_0214d92c(void);
-#endif
-#ifndef M2C_SELF_func_0214d940
-void func_0214d940(void);
-#endif
-#ifndef M2C_SELF_func_0214d950
-void func_0214d950(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214d9a0
-void func_0214d9a0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214d9d4
-void func_0214d9d4(void);
-#endif
-#ifndef M2C_SELF_func_0214d9dc
-M2C_UNK func_0214d9dc(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214da68
-M2C_UNK func_0214da68(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214daf4
-M2C_UNK func_0214daf4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214db58
-void func_0214db58(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214dc60
-void func_0214dc60(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214dc7c
 void func_0214dc7c(M2C_UNK);
@@ -15282,20 +14256,11 @@ void func_0214ea8c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0214eaec
 M2C_UNK func_0214eaec(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214ecc8
-void func_0214ecc8(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214ed24
 void func_0214ed24(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214ee10
-void func_0214ee10(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214ee38
 void func_0214ee38(void);
-#endif
-#ifndef M2C_SELF_func_0214ee64
-void func_0214ee64(void);
 #endif
 #ifndef M2C_SELF_func_0214eea8
 void func_0214eea8(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -15312,38 +14277,14 @@ void func_0214efb4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0214effc
 void func_0214effc(void);
 #endif
-#ifndef M2C_SELF_func_0214f010
-void func_0214f010(void);
-#endif
-#ifndef M2C_SELF_func_0214f01c
-void func_0214f01c(void);
-#endif
-#ifndef M2C_SELF_func_0214f028
-void func_0214f028(void);
-#endif
-#ifndef M2C_SELF_func_0214f040
-void func_0214f040(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214f060
 M2C_UNK func_0214f060(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214f210
-void func_0214f210(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0214f26c
 void func_0214f26c(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0214f32c
-void func_0214f32c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0214f35c
-void func_0214f35c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0214f38c
 void func_0214f38c(void);
-#endif
-#ifndef M2C_SELF_func_0214f3d8
-void func_0214f3d8(void);
 #endif
 
 #endif

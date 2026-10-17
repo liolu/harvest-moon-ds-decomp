@@ -1,0 +1,16 @@
+#include "m2c.h"
+
+u8 func_020f7ae4(void *arg0, u32 arg1, u32 arg2) {
+    u16 temp_ip;
+    u8 var_r0;
+
+    temp_ip = M2C_FIELD(arg0, u16 *, 0x14);
+    if ((arg1 < (u32) temp_ip) && (arg2 < (u32) M2C_FIELD(arg0, u16 *, 0x16))) {
+        var_r0 = *(s8 *) (arg1 + ((temp_ip * arg2) + M2C_FIELD(arg0, s32 *, 0xD8)));
+        if ((var_r0 & 0xF0) == 0x30) {
+            var_r0 &= ~1;
+        }
+        return var_r0;
+    }
+    return 0U;
+}
