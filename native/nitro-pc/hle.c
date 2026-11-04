@@ -31,7 +31,12 @@ void hle_frame(void) {
     if (auto_buf && auto_size && tp_callback) {
         /* comme l'ARM7 : un nouvel echantillon, puis TP_REQUEST_COMMAND_AUTO_SAMPLING (0x10), resultat 0, son indice */
         auto_latest = (auto_latest + 1) % auto_size;
+        /* "arm_stack" : le rappel tourne sur la pile des interruptions, comme irq_deliver, pas sous un cadre du jeu en cours */
+        extern u32 nds_sp;
+        u32 saved_sp = nds_sp;
+        nds_sp = nds_dtcm_base() + 0x3F80u;
         ((Fn)nds_call_target(tp_callback))(0x10, 0, auto_latest, 0);
+        nds_sp = saved_sp;
     }
 }
 

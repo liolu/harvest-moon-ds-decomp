@@ -121,6 +121,14 @@ u32 nds_eh_enter(u32 func, u32 size, u32 sp); void nds_eh_leave(u32 key); u32 nd
 #endif
 """
 # "shared_regs" (patches.json) : seulement dans lifted.c des jeux qui le demandent
+# "arm_stack" (patches.json) : l'appel ne passe que r0-r3 et sp (nds_sp, defini par le runtime), l'appele lit ses arguments
+# sur la vraie pile ARM, comme le mode NDS_EH de Pokemon Dash sans les exceptions. gcc compile ainsi 6 a 8 fois plus vite :
+# 14 a 36 arguments a chaque appel coutaient l'essentiel de l'allocation de registres. Ajoute apres PRELUDE, qui ne change pas.
+ARM_STACK_PRELUDE = """
+extern u32 nds_sp;
+#undef CALLF
+#define CALLF(f) do { nds_sp = sp; u64 _t = ((u64 (*)())(f))(r0, r1, r2, r3); r0 = (u32)_t; r1 = (u32)(_t >> 32); } while (0)
+"""
 XR_EXTRA = 1024  # mots de pile en plus sous sp : les fonctions partagees empilent dans le cadre de la premiere appelee
 XR_PRELUDE = """
 u32 nds_xr[14], nds_xr_in;
@@ -163,6 +171,7 @@ class Lifter:
         self.th = Cs(CS_ARCH_ARM, CS_MODE_THUMB)
         self.arm.detail = self.th.detail = True
         self.new_subs = {}
+        self.arm_stack = False  # "arm_stack" (patches.json) : sp = nds_sp, la vraie pile ARM ; pas de cadre stack_ ni de copie d'arguments (ARM_STACK_PRELUDE)
         self.shared_ranges = []  # [(debut, fin)] : assembleur ecrit a la main qui se passe r2-r12 d'une fonction a l'autre (XR_PRELUDE)
         self.sub_prefix = ""  # sous-routines d'un overlay ("overlays": "multi") : ovNNN_sub_...
         self.hooks = {}  # adresse -> fonction du runtime appelee a l'entree, avec r0
@@ -732,6 +741,9 @@ class Lifter:
             "  u32 r4=0,r5=0,r6=0,r7=0,r8=0,r9=0,r10=0,r11=0,r12=0,lr=MAGIC_LR,res=0,sh=0,pc_val=0; u32 n=0,z=0,c=0,v=0;",
             "  " + " ".join("stack_[%d]=a%d;" % (self.frame_words(out) + extra + i, i) for i in range(STACK_ARGS)),
         ]
+        if self.arm_stack and self.eh_end_catch is None:
+            head[1] = "  u32 sp = nds_sp;"
+            head[3] = ""
         if self.eh_end_catch is not None:
             head[1] = "  u32 sp = nds_sp;"
             head[2] = head[2].replace("lr=MAGIC_LR", "lr=nds_lr")

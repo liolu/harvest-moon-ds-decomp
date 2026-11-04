@@ -532,6 +532,7 @@ def main():
         lifter.eh_end_catch = int(patches["eh_end_catch"], 16)
     # assembleur ecrit a la main qui se passe des registres d'une fonction a l'autre : [[debut, fin], ...]
     lifter.shared_ranges = [(int(lo, 16), int(hi, 16)) for lo, hi in patches.get("shared_regs", [])]
+    lifter.arm_stack = bool(patches.get("arm_stack")) and lifter.eh_end_catch is None
     plan = overlay_plan(game) if multi else None
     protos = set()
     if multi:
@@ -561,27 +562,59 @@ def main():
         if not n.startswith("nds_"):
             protos.add(n)
     lift_c = ("#define NDS_EH 1\n" if lifter.eh_end_catch is not None else "") + arm2c.PRELUDE + "\n".join("extern u64 %s();" % p for p in sorted(protos)) + "\n\n" + "\n".join(bodies) + "\n" + lifter.hook_table()
+    if lifter.arm_stack:
+        lift_c = lift_c.replace(arm2c.PRELUDE, arm2c.PRELUDE + arm2c.ARM_STACK_PRELUDE, 1)
     if lifter.shared_ranges:
         lift_c = lift_c.replace(arm2c.PRELUDE, arm2c.PRELUDE + arm2c.xr_shared_macro(lifter.shared_ranges) + arm2c.XR_PRELUDE, 1)
     if multi:
         lift_c += ovsel_code(game, plan)
-    lift_path = out / "lift" / "lifted.c"
-    if not lift_path.exists() or lift_path.read_text() != lift_c:
-        lift_path.write_text(lift_c)
+    parts = int(patches.get("lift_parts", 1))
+    if parts > 1:
+        # "lift_parts" (patches.json) : un gros jeu en plusieurs fichiers, compiles en parallele avec bien moins de memoire
+        # (Heroes of Mana : 27 Mo de C, plus de 15 Go pour gcc 64 bits d'un seul bloc). Ce qui est partage entre les
+        # fonctions (drapeaux F_*, nds_xr) est defini dans le premier morceau et declare extern dans les autres.
+        head_len = len(lift_c) - len("\n".join(bodies) + "\n" + lifter.hook_table()) - (len(ovsel_code(game, plan)) if multi else 0)
+        head, tail = lift_c[:head_len], lift_c[head_len + len("\n".join(bodies)):]
+        flags_def = "static u32 F_N, F_Z, F_C, F_V;"
+        size = sum(len(b) for b in bodies) // parts + 1
+        chunks, cur, cur_len = [], [], 0
+        for b in bodies:
+            cur.append(b)
+            cur_len += len(b)
+            if cur_len >= size and len(chunks) < parts - 1:
+                chunks.append(cur)
+                cur, cur_len = [], 0
+        chunks.append(cur)
+        texts = []
+        for k, chunk in enumerate(chunks):
+            h = head.replace(flags_def, "u32 F_N, F_Z, F_C, F_V;" if k == 0 else "extern u32 F_N, F_Z, F_C, F_V;", 1)
+            if k:
+                h = h.replace("u32 nds_xr[14], nds_xr_in;", "extern u32 nds_xr[14], nds_xr_in;", 1)
+            texts.append(h + "\n".join(chunk) + (tail if k == len(chunks) - 1 else "\n"))
+        lift_paths = [out / "lift" / ("lifted_%d.c" % k) for k in range(len(texts))]
+    else:
+        texts, lift_paths = [lift_c], [out / "lift" / "lifted.c"]
+    for path, text in zip(lift_paths, texts):
+        if not path.exists() or path.read_text() != text:
+            path.write_text(text)
     print("fonctions traduites depuis l'ARM :", len(done), " instructions non gerees :", len(lifter.unhandled))
     (out / "unhandled.txt").write_text("\n".join(lifter.unhandled))
     # un seul gros fichier serait lent et fragile : gcc -O1 tient bien 2 Mo de C simple
-    lobj = out / "obj" / "lifted.o"
-    if not lobj.exists() or lobj.stat().st_mtime < lift_path.stat().st_mtime:
-        p = run([*CC, *LIFT_FLAGS, "-c", lift_path, "-o", lobj])
+    lobjs = [out / "obj" / (path.stem + ".o") for path in lift_paths]
+    todo = [(path, obj) for path, obj in zip(lift_paths, lobjs) if not obj.exists() or obj.stat().st_mtime < path.stat().st_mtime]
+    # morceaux ("lift_parts") : un par coeur, le launcher ne passe pas -j
+    jobs = max(a.j, min(os.cpu_count() or 4, len(todo))) if len(lift_paths) > 1 else a.j
+    with ThreadPoolExecutor(max(1, min(jobs, len(todo) or 1))) as e:
+        results = list(e.map(lambda po: (po[0], run([*CC, *LIFT_FLAGS, "-c", po[0], "-o", po[1]])), todo))
+    for path, p in results:
         if p.returncode:
             print(p.stderr[:5000])
-            sys.exit("lifted.c : erreur")
+            sys.exit("%s : erreur" % path.name)
 
     # 4. tables : adresse ARM -> fonction de l'hote (nds_call_target), entree, build_info.
     # La memoire DS garde les pointeurs de fonctions du jeu tels quels (adresses ARM), rien n'y est corrige.
     game_objs = [obj_for(out, s) for s in good]
-    defs = nm_defined(game_objs + [lobj], a.j)
+    defs = nm_defined(game_objs + lobjs, a.j)
     defined = {s[UNDERSCORE:]: t for syms in defs.values() for t, s in syms}
     defined.update({s: "T" for s in rt_defs})
     fn_names = {n for n in names.values() if n in defined}
@@ -671,7 +704,7 @@ def main():
             libs.append(lib)
         k32, w32, ws2 = libs
     exe = out / (code + EXE)
-    objs = rt_objs + game_objs + [lobj, gobj, aobj]
+    objs = rt_objs + game_objs + lobjs + [gobj, aobj]
     rsp = out / "link.rsp"
     def link(extra):
         rsp.write_text("\n".join('"%s"' % str(o).replace("\\", "/") for o in objs + extra))
