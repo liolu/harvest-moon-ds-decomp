@@ -1,0 +1,26 @@
+{
+ "ABCE": {
+  "data": {
+   "OSi_IrqThreadQueue": "0x027e0000",
+   "OSi_ThreadInfo": "0x022c6ed4"
+  },
+  "hooks": {
+   "0x02141270": "nds_hook_game_halt"
+  },
+  "names": {
+   "0x021401ec": "OS_SelectThread",
+   "0x02140430": "OS_InitContext",
+   "0x02140494": "OS_SaveContext",
+   "0x021404e0": "OS_LoadContext",
+   "0x0214494c": "FSi_ReadRomCallback",
+   "0x02144eb4": "TP_Init",
+   "0x02144f30": "TP_GetUserInfo",
+   "0x02145084": "TP_RequestAutoSamplingStartAsync",
+   "0x02145380": "TP_GetCalibratedPoint",
+   "0x021454a0": "TP_WaitBusy"
+  },
+  "values": {
+   "nds_long_args": "1"
+  }
+ }
+}
