@@ -1,5 +1,6 @@
 {
  "ABCE": {
+  "arm_stack": true,
   "data": {
    "OSi_IrqThreadQueue": "0x027e0000",
    "OSi_ThreadInfo": "0x022c6ed4"
@@ -7,6 +8,7 @@
   "hooks": {
    "0x02141270": "nds_hook_game_halt"
   },
+  "lift_parts": 4,
   "names": {
    "0x021401ec": "OS_SelectThread",
    "0x02140430": "OS_InitContext",
