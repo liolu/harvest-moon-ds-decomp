@@ -25,6 +25,7 @@ func_02000a88 kind:function(arm,size=0xe8) addr:0x02000a88
 func_02000b70 kind:function(arm,size=0x4) addr:0x02000b70
 func_02000b74 kind:function(arm,size=0x4) addr:0x02000b74
 BuildInfo kind:data(any) addr:0x02000b78
+_SDK_NintendoBackup kind:data(any) addr:0x02000b9c
 main kind:function(arm,size=0x220) addr:0x02000bb4
 func_02000dd4 kind:function(arm,size=0x44) addr:0x02000dd4
 func_02000e18 kind:function(arm,size=0x24) addr:0x02000e18
