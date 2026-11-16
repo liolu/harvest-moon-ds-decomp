@@ -217,3 +217,7 @@ src/auto/func_0214ecc8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0214ee64.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0214f210.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0214f35c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02032660.c 1.2/sp3
+src/auto/func_020b9d48.c 2.0/sp1p5 -O4,s
+src/auto/func_020c4910.c 1.2/sp3
+src/auto/func_020f5a5c.c 2.0/sp1p5 -O2,p

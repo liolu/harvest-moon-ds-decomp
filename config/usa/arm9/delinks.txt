@@ -10889,3 +10889,19 @@ src/auto/func_02147d08.c:
 src/auto/func_02147db0.c:
     complete
     .text       start:0x02147db0 end:0x02147eec
+
+src/auto/func_02032660.c:
+    complete
+    .text       start:0x02032660 end:0x020326b4
+
+src/auto/func_020b9d48.c:
+    complete
+    .text       start:0x020b9d48 end:0x020b9d8c
+
+src/auto/func_020c4910.c:
+    complete
+    .text       start:0x020c4910 end:0x020c4964
+
+src/auto/func_020f5a5c.c:
+    complete
+    .text       start:0x020f5a5c end:0x020f5b34
